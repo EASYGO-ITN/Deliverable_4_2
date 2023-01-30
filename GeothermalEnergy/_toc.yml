@@ -9,7 +9,4 @@ chapters:
 - file: production
 - file: issues_and_safety
 - file: utilisation
-
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: template
