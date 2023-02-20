@@ -42,8 +42,22 @@ This chapter is about the exploration and evaluation of geothermal resources
 - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
 - Resulting model that is given to reservoir modelers (production link)
 
-    When imaging a geothermal site, we usually start with a rough guess from a geological model, and try to find a model of the underground, such that it matches our recorded data. To verify, that our model is a good fit, we need to be able to simulate our geophysical technique using a computer. This is commonly referred to as forward modelling. To minimise the misfit between our recorded data and the predicted set of data, we then have to calculate the derivative of the function calculating the misfit. When having an analytic function, we would usually try to find the roots of the derivative, which would gives us the places, where the error between recorded and predicted data is minimal. Since this calculation is way to complex, we have to use a computer the calculate the derivative and we dont get a function for the derivative, to find the roots of. Nevertheless, the derivative tells us, how to update the model, such that we reduce the error, by following along into the direction of descent. This procedure is commonly called inverse modelling. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum, giving us the model, that explains our underground structure best. Once we are done, we hand over our best underground model to the reservoir engineers, to plan the layout of the geothermal power plant.
+    When imaging a geothermal site, we usually start with a rough guess from a geological model, and try to find a model of the underground, such that it matches our recorded data. To verify, that our model is a good fit, we need to be able to simulate our geophysical technique using a computer. This is commonly referred to as forward modelling. To minimise the misfit between our recorded data and the predicted set of data, we then have to calculate the derivative of the function calculating the misfit. When having an analytic function, we would usually try to find the roots of the derivative, which would gives us the places, where the error between recorded and predicted data is minimal. Since this calculation is way to complex, we have to use a computer the calculate the derivative and we dont get a function for the derivative, to find the roots of. Nevertheless, the derivative tells us, how to update the model, such that we reduce the error, by following along into the direction of descent. A little animation for this procedure can be found below. This procedure is commonly called inverse modelling. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum, giving us the model, that explains our underground structure best. Once we are done, we hand over our best underground model to the reservoir engineers, to plan the layout of the geothermal power plant.
 
 ```{code-cell}
-print(2 + 2)
+import jp_proxy_widget
+src = "https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"
+graphUrl = "https://www.desmos.com/calculator/qn5qqc4wtc?lang=de"
+
+widget = jp_proxy_widget.JSProxyWidget()
+widget.load_js_files([src])
+widget.js_init(
+    """
+    element.width(950).height(1000);
+    element.calculator = Desmos.Calculator(element[0]);
+    $.getJSON("https://www.desmos.com/calculator/qn5qqc4wtc").done(data => element.calculator.setState(data.state));
+    """
+)
+widget
+
 ```
