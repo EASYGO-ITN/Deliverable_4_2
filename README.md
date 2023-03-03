@@ -1,5 +1,7 @@
 # Deliverable_4_2
-The main repository for all Deliverable 4.2 content
+The main repository for all Deliverable 4.2 content.
+
+The website can be found here: [easygo-itn.github.io](https://easygo-itn.github.io/Deliverable_4_2/intro.html)
 
 # For ESRS that want to generate a local version of the website
 1. create and activate a conda environment
