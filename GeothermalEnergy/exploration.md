@@ -59,5 +59,4 @@ widget.js_init(
     """
 )
 widget
-
 ```
