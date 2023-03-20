@@ -50,10 +50,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Production of Geothermal Energy" href="production.html" />
-    <link rel="prev" title="The origins of geothermal energy" href="origins.html" />
+    <link rel="prev" title="Exploration of Geothermal Resources" href="exploration.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -117,6 +119,11 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="origins.html">
    The origins of geothermal energy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="exploration.html">
+   Exploration of Geothermal Resources
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -234,7 +241,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fexploration.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fexploration_test.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -262,7 +269,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/exploration.md"
+        <a href="_sources/exploration_test.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -273,7 +280,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -457,14 +464,11 @@ title="Print to PDF"
 <p>This chapter is about the exploration and evaluation of geothermal resources</p>
 <section id="explain-what-is-exploration-andrea">
 <h2>Explain what is exploration (&#64;Andrea)<a class="headerlink" href="#explain-what-is-exploration-andrea" title="Permalink to this headline">#</a></h2>
-<p>Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth’s crust is relatively thin, allowing heat from the Earth’s interior to be easily accessed. Some areas that are ideal for geothermal energy production include:</p>
 <ul class="simple">
-<li><p>Volcanic regions: Regions with active or dormant volcanoes are often good sites for geothermal energy production, as they have high levels of heat flow and permeable rock layers.</p></li>
-<li><p>Rift zones: Areas where the Earth’s crust is being pulled apart, such as along the Mid-Atlantic Ridge or the East African Rift, can provide access to hot rocks and geothermal reservoirs.</p></li>
-<li><p>Hot springs and geysers: These natural features indicate the presence of geothermal reservoirs close to the Earth’s surface, which can be used for geothermal energy production.</p></li>
-<li><p>Subduction zones: These are areas where tectonic plates are colliding, and one plate is being forced beneath another. This process can cause magma to rise to the surface and create hotspots for geothermal energy production.</p></li>
+<li><p>Targets</p></li>
+<li><p>What do we use to explore (prior geologic knowledge)
+which then ties in to “how”</p></li>
 </ul>
-<p>We use geologic evidence from the surface and analyze rock samples to understand the formation of these different zones. Once geophysicists have sufficient information about the geology, they proceed to use geophysical instruments to explore the specific location.</p>
 </section>
 <section id="how-we-explore">
 <h2>How we explore<a class="headerlink" href="#how-we-explore" title="Permalink to this headline">#</a></h2>
@@ -482,17 +486,17 @@ title="Print to PDF"
 <li><p>Talk about acquisition (include pictures)
 PICTURES: MRT/CT scanner / Acquisition picture?</p></li>
 </ul>
-<p>In geothermal exploration, our targets are usually located kilometres underground. Thus, direct exploration, as drilling exploratory wells, come with a high cost and only give good information in the vicinity of the borehole. This makes techniques that can image the underground from the surface highly attractive.</p>
-<p>Techniques for this application have been used for a long time, for example in medical imaging. For getting an image of the internal structure of the body without cutting it open, we use physical phenomena, like electro-magnetic waves, acoustical waves, or magnetic fields, to study the reaction of the body to these processes. The physical response of the body itself then gives us information about the internal structure. When getting an x-ray to check for broken bones, we send highly energetic radiation in form of electro-magnetic waves through the body part, which we want to examine. On the other side of the x-ray emitter, a receptor catches the amount of radiation, that has not been absorbed by the body. Since bones absorb a high amount of the radiation, whereas tissue does not, we can locate bones inside the body. Another technique from medical imaging, that is close to the seismic technique used in geothermal exploration, is ultrasound imaging. In ultrasound, we use very small compressions of air, to create an acoustic wave that travels through the body. When the wave hits an obstacle in the tissue, parts of the wave are reflected and are picked up by a receiver. Measuring the time, the wave needs to travel to the obstacle and back and knowing the velocity of the wave in the tissue, we can again locate the obstacle in the body.</p>
-<p>Medical applications nowadays allow us to get a very detailed picture of the body from the outside. This is also due to the fact, that we can place sources and receivers for our medical imager in all positions around the body. A prime example for this, are CT and MRT scanners. When imaging the underground, we don’t have this luxurious setting. In geothermal exploration, we usually have way to scarce data, to reconstruct every detail of the underground from measurements. By using very involved processing techniques, we can nevertheless get a very good image of the key features, like big faults in the reservoir. Imaging these faults from the surface allows us to locate fruitful targets to drill into.</p>
+<p>In geothermal exploration, our targets are usually located kilometres underground. Thus, direct exploration, as drilling exploratory wells, come with a high cost and only give good information in the vicinity of the borehole. This makes techniques that are able to image the underground from the surface highly attractive. Techniques similar to the ones used in geothermal exploration have been used for a long time, for example in medical imaging. For getting an image of the internal structure of the body without cutting it open, we use physical phenomena, like electro-magnetic waves, acoustical waves, or magnetic fields, to study the reaction of the body to these processes. The physical response of the body itself then gives us information about the internal structure.</p>
+<p>When getting an x-ray to check for broken bones, we send highly energetic radiation in form of electro-magnetic waves through the body part, which we want to examine. On the other side of the x-ray emitter, an receptor catches the amount of radiation, that has not been absorbed by the body. Since bones absorb a high amount of the radiation, whereas tissues does not, we can locate bones inside the body. Another technique, that is close to the seismic technique used in geothermal exploration and explained in the next paragraph, is ultrasound. In ultrasound, we use very small compressions of air, to create an acoustic wave that travels through the body. When the wave hits an obstacle in the tissue, parts of the wave are reflected and are picked up by a receiver. Measuring the time, the wave needs to travel to the obstacle and back and knowing the velocity of the wave in the tissue, we can again locate the obstacle in the body.</p>
+<p>Medical applications nowadays allow us to get a very detailed picture of the body from the outside. This is also due to the fact, that we can place sources and receivers for our medical imager in all positions around the body. A prime example for this, are CT and MRT scanners. When imaging the underground, we don’t have this luxurious setting. Therefore, we have to work with limited information, that we get from reflections or have to apply involved processing techniques, to get an adequate image out of the little data.</p>
 <section id="seismic-hagen">
 <h4>Seismic (&#64;Hagen)<a class="headerlink" href="#seismic-hagen" title="Permalink to this headline">#</a></h4>
 <p>PICTURES: Vibrotruck? / Geophones /  GIF with wavefield data</p>
 <ul class="simple">
 <li><p>Explain the method and make a gif with wave propagation</p></li>
 </ul>
-<p>One of the most important methods of imaging the earth are seismic waves. Seismic waves are waves of ground motion, that travel through the earth. Just like in ultrasound, these waves get reflected and refracted at obstacles and boundaries and carry lots of information about the underground structure. The field, that studies seismic waves, is called seismology and has traditionally investigated earthquakes, to understand the science behind earthquakes, learn about the structure of the earth and subsequently protect humankind from natural disasters.</p>
-<p>In exploration geophysics, we use the very same phenomena, to image a small, chosen part of the underground, to understand its structure. Since we cannot have earthquakes as a source of seismic waves at the spot, where we want to examine a geothermal site, we must generate seismic waves ourselves. For this, geophysicists use a variety of sources. For shallow experiments, a hammer with a metal plate is enough to generate a wave, that travels tens of meters. If you need the waves to travel deeper into the earth more energy is needed. Therefore, we either use explosives of vibration trucks to create stronger waves. To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.</p>
+<p>One of the most important methods used for imaging the earth, is by seismic waves. Seismic waves are basically waves of ground motion, that travel through the earth. Just like in ultrasound, these waves get reflected and refracted at obstacles and boundaries and give us a lot of information about the underground structure. The field, that studies seismic waves, is called seismology and has traditionally investigated earthquakes. To study earthquakes is not only important, to understand the processes of earthquakes, as well as warn and protect people living in exposed regions, but give us also the possibility to study the interior of the earth, as the earthquake are sending waves through the earth. Just like in ultrasound imaging, these waves get picked up at seismometers all around the world, allowing us to image the interior of the earth.</p>
+<p>When wanting to deliberately image the underground at a potential geothermal site, we must generate seismic waves ourselves. Seismic waves for exploration can use a variety of sources. For shallow experiments, you can use a hammer with a metal plate to generate a wave. If you need the waves to travel deeper into the earth more energy is needed, and we need to use explosive of vibration trucks to create strong waves. To record the seismic waves, so called geophones are used. These consist of a metal pin, that gets firmly put into the ground, and an accelerometer, that picks up the ground movement. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.</p>
 </section>
 <section id="multi-physics-em-gravity-magnetics-andrea">
 <h4>Multi-physics (EM, gravity, magnetics) (&#64;Andrea)<a class="headerlink" href="#multi-physics-em-gravity-magnetics-andrea" title="Permalink to this headline">#</a></h4>
@@ -517,11 +521,40 @@ PICTURES: MRT/CT scanner / Acquisition picture?</p></li>
 <li><p>Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent</p></li>
 <li><p>Resulting model that is given to reservoir modelers (production link)</p></li>
 </ul>
-<p>When investigating a geothermal site, we usually already have a rough idea about the subsurface from a geological model. However, there is often major differences, between our first geological model and reality. By the means of our geophysical survey, we aim to find a model of the underground, such that it matches our recorded data. To verify, that our model is a good fit, we need to be able to simulate our geophysical technique using a computer. This is commonly referred to as forward modelling and would mean to calculate the propagation of seismic waves in the case of a seismic survey. By simulating the wave propagation with respect to our first geological model, we can see, if our recorded data is already close to the one predicted by the simulation. We then try to find model variables, such that the misfit between simulated and recorded data is close to zero.</p>
-<p>When minimising an analytic function, we would usually try to find the roots of the derivative as possible candidates for the minima. This gives us the model parameters, where the error between recorded and simulated data is minimal. Since this calculation is way too complex for geophysical techniques, we must use a computer the calculate the derivative. This also means, we don’t get an analytic function for the derivative to find the roots of. Nevertheless, the derivative tells us, how to update the model, such that we reduce the error, by following along into the direction of descent. A little animation for this procedure can be found below. This procedure is commonly called inverse modelling. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum. This yields a model, that explains our underground structure as good as possible. Once we are done, we hand over our best underground model to the reservoir engineers, to plan the layout of the geothermal power plant.</p>
+<p>When imaging a geothermal site, we usually start with a rough guess from a geological model, and try to find a model of the underground, such that it matches our recorded data. To verify, that our model is a good fit, we need to be able to simulate our geophysical technique using a computer. This is commonly referred to as forward modelling. To minimise the misfit between our recorded data and the predicted set of data, we then have to calculate the derivative of the function calculating the misfit. When having an analytic function, we would usually try to find the roots of the derivative, which would gives us the places, where the error between recorded and predicted data is minimal. Since this calculation is way to complex, we have to use a computer the calculate the derivative and we dont get a function for the derivative, to find the roots of. Nevertheless, the derivative tells us, how to update the model, such that we reduce the error, by following along into the direction of descent. A little animation for this procedure can be found below. This procedure is commonly called inverse modelling. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum, giving us the model, that explains our underground structure best. Once we are done, we hand over our best underground model to the reservoir engineers, to plan the layout of the geothermal power plant.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jp_proxy_widget</span>
+<span class="n">src</span> <span class="o">=</span> <span class="s2">&quot;https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6&quot;</span>
+<span class="n">graphUrl</span> <span class="o">=</span> <span class="s2">&quot;https://www.desmos.com/calculator/qn5qqc4wtc?lang=de&quot;</span>
+
+<span class="n">widget</span> <span class="o">=</span> <span class="n">jp_proxy_widget</span><span class="o">.</span><span class="n">JSProxyWidget</span><span class="p">()</span>
+<span class="n">widget</span><span class="o">.</span><span class="n">load_js_files</span><span class="p">([</span><span class="n">src</span><span class="p">])</span>
+<span class="n">widget</span><span class="o">.</span><span class="n">js_init</span><span class="p">(</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    element.width(950).height(1000);</span>
+<span class="sd">    element.calculator = Desmos.Calculator(element[0]);</span>
+<span class="sd">    $.getJSON(&quot;https://www.desmos.com/calculator/qn5qqc4wtc&quot;).done(data =&gt; element.calculator.setState(data.state));</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="p">)</span>
+<span class="n">widget</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "2ece66d5d0ca49ca8187de44e7b0b2b5"}
+</script></div>
+</div>
 </section>
 </section>
 </section>
+
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"state": {"e57696c3348047408b1ab1828e8d858f": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "2ece66d5d0ca49ca8187de44e7b0b2b5": {"model_name": "JSProxyModel", "model_module": "jp_proxy_widget", "model_module_version": "^1.0.10", "state": {"_dom_classes": [], "_model_module": "jp_proxy_widget", "_model_module_version": "^1.0.10", "_model_name": "JSProxyModel", "_send_counter": 0, "_view_count": null, "_view_module": "jp_proxy_widget", "_view_module_version": "^1.0.10", "_view_name": "JSProxyView", "error_msg": "No error", "layout": "IPY_MODEL_e57696c3348047408b1ab1828e8d858f", "rendered": false, "status": "deferring flush until render"}}}, "version_major": 2, "version_minor": 0}
+</script>
+
 
     <script type="text/x-thebe-config">
     {
@@ -550,11 +583,11 @@ PICTURES: MRT/CT scanner / Acquisition picture?</p></li>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="origins.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="exploration.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">The origins of geothermal energy</p>
+            <p class="prev-next-title">Exploration of Geothermal Resources</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="production.html" title="next page">
