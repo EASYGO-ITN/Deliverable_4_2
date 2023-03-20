@@ -3,10 +3,18 @@
 This chapter is about the exploration and evaluation of geothermal resources
 
  ## Explain what is exploration (@Andrea)
- - Targets 
- - What do we use to explore (prior geologic knowledge) 
- which then ties in to "how"
- 
+ Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth's crust is relatively thin, allowing heat from the Earth's interior to be easily accessed. Some areas that are ideal for geothermal energy production include:
+
+* Volcanic regions: Regions with active or dormant volcanoes are often good sites for geothermal energy production, as they have high levels of heat flow and permeable rock layers.
+
+* Rift zones: Areas where the Earth's crust is being pulled apart, such as along the Mid-Atlantic Ridge or the East African Rift, can provide access to hot rocks and geothermal reservoirs.
+
+* Hot springs and geysers: These natural features indicate the presence of geothermal reservoirs close to the Earth's surface, which can be used for geothermal energy production.
+
+* Subduction zones: These are areas where tectonic plates are colliding, and one plate is being forced beneath another. This process can cause magma to rise to the surface and create hotspots for geothermal energy production.
+
+We use geologic evidence from the surface and analyze rock samples to understand the formation of these different zones. Once geophysicists have sufficient information about the geology, they proceed to use geophysical instruments to explore the specific location. 
+
  ## How we explore
  ### Exploratory well drilling (@Mahmoud)
 - Image of core logs (Bedretto core logs)
