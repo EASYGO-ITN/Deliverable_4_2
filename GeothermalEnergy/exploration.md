@@ -45,6 +45,7 @@ In exploration geophysics, we use the very same phenomena, to image a small, cho
  
 ## Modelling
  ### Geologic model (@Andrea)
+ - Add paragraph with explanation
  - Look for gempy model of utah forge existing site (granite wih some sedimentary layers on top)
  ### Inversion (@Hagen and Mahmoud)
 - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
