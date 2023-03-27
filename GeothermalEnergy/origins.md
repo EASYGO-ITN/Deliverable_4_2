@@ -8,7 +8,7 @@ The fact that there is heat stored in the Earth is typically evidenced by the in
 
 Now we know that heat flux exists across each square meter of the Earth's surface, and is attributed to various mechanisms such as conduction, convection, and radiation arising from its interior. The next question is, what is the origin of the heat? Before answering this question, it is worthwhile to introduce briefly the structure of our planet.
 
-![Earth](../Origin_pictures/Earth_structure.png)
+![Earth](../Origin_pictures/Earth_structure.jpg)
 
 The Earth has four parts, the inner core, the outer core, the mantle and the crust, shown in Fig.1.
  * inner core: composed of solid iron at the temperature of around 5200 degree C,  with a radius of 1221 km;
