@@ -1,9 +1,13 @@
 # Geothermal Energy Utilisation
 
 ## Introduction @Tristan
-* From the geothermal reservoir we receive a hot fluid at the surface carrying thermal energy. But how can we use this thermal energy?
-* We can use it directly to heat homes, offices and even greenhouses, or we can convert it to over forms of useful such as electricity.
-* 
+From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
+used to heat homes, offices and even greenhouses, which is particularly attractive in cold climates, where heating 
+represents a large portion of the total energy consumption.
+
+Where there is no demand for heating, for example in hot climates or during the summer months in cold climates, or
+where there is no consumer in the vicintiy of the geothermal reservoir, the thermal energy can also be converted to
+other forms of energy such as electricity. This can be transported more easily over long distances to the consumers.
 
 ## Role of Geothermal Energy @Lorenzo
 * depends where you are
@@ -17,13 +21,26 @@
 ### Heat Pumps @Arianna?
 
 ## Energy Conversion @Tristan
-* Converting one form of energy into another is associated with losses. Provide an example to build an intuition for irreversibility (e.g. fried fish) then relate back to energy conversion (i.e. easy to convert electricity to heat but reverse is difficult)
-* There are different techniques for converting heat to work, such as the Carnot or Rankine cycles. The former is a very idealised while the second is more practical to execute in the real world. Geothermal power plants use variations of the Rankine Cycle
+Converting from one form of energy to another is always associated with losses. The most familiar type of such losses 
+in our everyday life are frictional losses. For example an electric car converts electric potential energy into kinetic 
+energy, but the friction between the wheels and the road surface eventually brings the vehicle to a stand still once 
+the car's battery is empty. These kind of frictional losses are broadly described as mechanical losses.
 
-Have a separate page for the two power cycles Carnot and Rankine
-### Carnot
+Besides the aforementioned mechanical losses, conversion of thermal energy into more useful forms of energy like 
+mechanical energy (in turn this can easily be converted into rotational and then electrical potential energy via use of
+a turbine and generator). This is because the conversion is an irreversible process.
 
-### Rankine 
+A process is reversible if it takes but a small nudge to reverse the process, however when it take a significant effort 
+to reverse a process it is considered irreversible. Cooking is a great example of irreversible processes; it is simple 
+enough to fry some fish, but is it significantly more difficult to unfry the fish and return it to its original state.
+
+There are a number of processes for converting thermal energy to mechanical energy, these are often referred to as heat
+engines or power cycles.
+
+### Carnot Cycle
+
+
+### Rankine Cylce
 
 ## Power Plants
 
