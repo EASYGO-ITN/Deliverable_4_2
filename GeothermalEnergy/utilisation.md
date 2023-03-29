@@ -1,5 +1,7 @@
 # Geothermal Energy Utilisation
 
+This is a test {cite}`perez2011python`.
+
 ## Introduction @Tristan
 From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
 used to heat homes, offices and even greenhouses, which is particularly attractive in cold climates, where heating 
