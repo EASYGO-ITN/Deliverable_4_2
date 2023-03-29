@@ -39,8 +39,41 @@ engines or power cycles.
 
 ### Carnot Cycle
 
+Definitions:
+A thermal reservoir is a body at a constant temperature. No adding of thermal energy will change its temperature. For 
+example, adding a pot of boiling water to a lake will not measurably change the lake's average temperature.
+
+The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work (mechanical energy).
+The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.
+
+1. The initial state
+2. The boundary to the hot reservoir is opened to allow heat transfer. Then the system is slowly (reversibly) expanded,
+with the heat transfer from the hot reservoir maintaining it at a constant temperature
+3. The boundary to the hot reservoir is then closed isolating the cell. The fluid is then expanded until its temperature
+drops to that of the cold reservoir
+4. The boundary to the cold reservoir is opened to allow heat transfer. The fluid is then reversibly compressed,with
+heat transfer into the cold reservoir maintaining the fluid's temperature constant
+5. The boundary to the cold reservoir is then closed, isolating the cell. The fluid is then compressed until the 
+temperature reaches that of the hot reservoir.
+6. Repeat from 2.
+
+Insert some diagrams
+
+* something about net power and efficiency
+* how one could realise the various stages of the cycle
+  * isothermal heat addition with expansion - pure fluid phase change (from liquid to vapour)
+  * isentropic expansion - use a turbine, but liquid might drop out....
+  * isothermal heat removal with compression - pure fluid phase change (from vapour to liquid)
+  * ientropic compression - pump or compressor, but they dont like vapour/liquid respectively
 
 ### Rankine Cylce
+1. Compress a fluid to a higher pressure - e.g. using pump
+2. Use a heat source to heat and evaporate the fluid
+3. Use a turbine to expand the hot fluid to the starting pressure
+4. Use a heat sink to cool and condense the fluid to the starting pressure
+5. Repeat from 1.
+
+Insert diagram(s)
 
 ## Power Plants
 
