@@ -19,6 +19,21 @@ We use geologic evidence from the surface and analyze rock samples to understand
  ### Exploratory well drilling (@Mahmoud)
 - Image of core logs (Bedretto core logs)
 - Paragraph of different type of well data 
+Well logs refer to a set of measurements and data that are obtained during the exploration wells. These measurements are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the oil and gas industry, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
+
+Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
+
+Acoustic Logs: Acoustic logs measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. These logs can provide information on the lithology, porosity, permeability, and other properties of the formations.
+
+Nuclear Logs: Nuclear logs use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. These logs can provide information on the lithology, porosity, and fluid content of the formations.
+
+Imaging Logs: Imaging logs use various techniques to create images of the wellbore and the surrounding rock formations. These logs can provide information on the structure and orientation of the formations, as well as on the presence of fractures and other features.
+
+Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs, which measure various parameters related to temperature, pressure, and fluid flow in the wellbore and surrounding formations.
+
+Overall, the use of multiple types of well logs can provide a comprehensive understanding of the subsurface geology and rock properties, which is crucial for successful drilling and production operations in the geothermal operations.
+
+
  ### Geophysics (@Hagen)
 - Make analog to medical x-rays
 - Talk about acquisition (include pictures)
