@@ -14,11 +14,32 @@ other forms of energy such as electricity. This can be transported more easily o
 * Iceland is driven by geothermal but in a unique position
 * multipurpose tool - Munich area 
 
-## Direct Use
+## Direct Use @Wen
+The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure [data from {cite}`lund2021direct`] below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
 
-### District Heating @Phil?
+![Direct Utilisation](../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png)
 
-### Heat Pumps @Arianna?
+### Geothermal Heat Pumps
+
+So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria {cite}`heatflux1`.  GHPs take advantages of the fact that a few feet below Earth's surface, the temperatue of the ground remains relatively constant, ranging from 7 &deg;C - 25 &deg;C {cite}`DOE:2023`. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning {cite}`heatflux1`.
+
+### Space Heating
+Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m,, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
+
+### Bathing & Swimming
+
+### Greenhouse Heating
+
+### Industrial Use
+
+### Aquacultural Pond Heating
+
+### Agricultural Drying
+
+### Cooling/Snow Melting
+
+### Other
+
 
 ## Energy Conversion @Tristan
 Converting from one form of energy to another is always associated with losses. The most familiar type of such losses 
