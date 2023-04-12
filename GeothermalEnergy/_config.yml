@@ -22,7 +22,7 @@ bibtex_bibfiles:
 # Change in-line reference style to author_year !Wen
 sphinx:
   config:
-     bibtex_default_style: unsrt
+     bibtex_reference_style: author_year
 
 # Information about where the book exists on the web
 repository:
