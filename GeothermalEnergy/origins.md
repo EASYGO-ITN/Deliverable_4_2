@@ -8,7 +8,8 @@ The fact that there is heat stored in the Earth is typically evidenced by the in
 
 Now we know that heat flux exists across each square meter of the Earth's surface, and is attributed to various mechanisms such as conduction, convection, and radiation arising from its interior. The next question is, what is the origin of the heat? Before answering this question, it is worthwhile to introduce briefly the structure of our planet.
 
-![Earth](../Origin_pictures/Earth_structure.jpg)
+![Earth](../GeothermalEnergy/Origin_pictures/Earth_structure.png)
+
 
 The Earth has four parts, the inner core, the outer core, the mantle and the crust, shown in Fig.1.
  * inner core: composed of solid iron at the temperature of around 5200 degree C,  with a radius of 1221 km;
@@ -32,4 +33,7 @@ The amalgamation of these factors gave rise to a differentiated planet that feat
 ### Heat from radioactive decay of long-lived isotopes (@ Wen)
 Since the formation of the Earth, metal was redistributed, accompanied by density stratification. While the core is composed of iron, the mantle, which in contact with the outer core, mainly consists of silicate minerals, oxides and other high-density minerals whose atoms are relatively small, e.g. magnesium (Mg), titanium (Ti), calcium (Ca) and aluminum (Al){cite}`heatflux1`, resulting in low existence of radioactive elements. Directly formed from mantle (extruded magma), the oceanic crust  thus, the same with the mantle, havs a low abundance of radioactive elements {cite}`heatflux1`. In contrast, the continental crust, composed of minerals that was incompatible with the high-density minerals in the mantle, holds the largest global reservoir of radioactive elements, such as potassium (K), uranium (U) and thorium (Th). 
 
+![Crust](../GeothermalEnergy/Origin_pictures/crust.png)
+
 More specifically, considering the density profile of continental crust, three layers can be characterised: lower, middle and upper crust {cite}`heatflux1`, shown in Fig.2. The lower layer is mainly composed of igneous and metamorphic rock with low concentrations of radioactive elements, whereas the middle and upper crusts are more enriched in radioactive elements {cite}`heatflux1`. The heterogeneous distribution of radioactive elemtns and the largely varying thickness in the crust as a result of tectonic activity, which forms mountains and basins, result in substantial variation in heat flux on the surface {cite}`heatflux1`. Consequently, the geothermal gradient in the shallow crust can be quite unevenly.
+
