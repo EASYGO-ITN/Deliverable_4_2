@@ -1,0 +1,505 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Geothermal Energy Production and Operation &#8212; Geothermal Energy</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Issues and Safety of Geothermal Operations" href="issues_and_safety.html" />
+    <link rel="prev" title="Exploration of Geothermal Resources" href="exploration.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Geothermal Energy</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to Geothermal Energy
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="origins.html">
+   The origins of geothermal energy
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="exploration.html">
+   Exploration of Geothermal Resources
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Geothermal Energy Production and Operation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="issues_and_safety.html">
+   Issues and Safety of Geothermal Operations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="utilisation.html">
+   Geothermal Energy Utilisation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="template.html">
+   Syntax Template
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="bibliography.html">
+   Bibliography
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Geothermal Energy Production.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FGeothermal Energy Production.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/Geothermal Energy Production.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#geothermal-energy-production-and-system-types-nicolas">
+   Geothermal Energy Production and System Types (@Nicolas)
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Geothermal Energy Production and Operation</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#geothermal-energy-production-and-system-types-nicolas">
+   Geothermal Energy Production and System Types (@Nicolas)
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="geothermal-energy-production-and-operation">
+<h1>Geothermal Energy Production and Operation<a class="headerlink" href="#geothermal-energy-production-and-operation" title="Permalink to this headline">#</a></h1>
+<section id="geothermal-energy-production-and-system-types-nicolas">
+<h2>Geothermal Energy Production and System Types (&#64;Nicolas)<a class="headerlink" href="#geothermal-energy-production-and-system-types-nicolas" title="Permalink to this headline">#</a></h2>
+<p>Geothermal energy is a renewable energy resource that, in principle, is pervasively available “anywhere” due to the universal increase in temperature with depth that occurs within Earth’s subsurface. This unique feature distinguishes it from other forms of renewable energy such as wind, solar, biofuels, and hydropower, which derive their energy from sources above the Earth’s surface. Hence, the underground extraction of geothermal energy poses unique challenges, including technical complexities, economic risks, and uncertainties in resource estimation that are inherent to geothermal resources and are not typically encountered in other renewable energy sectors. As a result, geothermal energy production requires specialized knowledge, equipment, and investment which has restricted its development. To accelerate the widespread deployment of geothermal energy, numerous technical designs have been proposed over the past century to optimize the use of deep geothermal systems. These technologies vary in terms of their complexity, technological maturity, and commercial success. The following are the geothermal system types that are currently being used and/or investigated for commercial development:</p>
+<ul class="simple">
+<li><p>Conventional hydrothermal systems</p></li>
+</ul>
+<p>Conventional geothermal systems are characterized by the natural occurrence of specific geological conditions at depth. For instance, a conventional hydrothermal reservoir, as depicted in Figure 1, necessitates the confluence of multiple factors, including a high-temperature aquifer situated at shallow depths (i.e., less than 4 kilometers), adequate pore space filled with water or brine, and high in situ permeability (Tester et al., 2012). Consequently, these reservoirs are geographically constrained and typically found in regions with considerable volcanic or magmatic activity. Although hydrothermal resources offer substantial energy potential, their rarity has resulted in the identification and development of most known resources, thereby making it increasingly challenging to discover new sites.</p>
+<p>Furthermore, given the complex geological processes that underlie the formation hydrothermal reservoirs, a comprehensive understanding of the geological evolution of subsurface conditions is critical for identifying prospective locations. The factors influencing hydrothermal reservoir formation, such as the presence of a magmatic heat source, the availability of water or brine, and the permeability and porosity of the subsurface rocks, need to be thoroughly analyzed through various geophysical and geochemical techniques.</p>
+<p>Thus, while existing conventional hydrothermal systems continue to produce significant amount of renewable energy and potential new sites offer significant opportunities, the growing demand for renewable energy and the depletion of conventional resources necessitate the exploration of alternative geothermal systems.</p>
+<div>
+<img src="attachment:720324b8-285b-44e2-a08c-4d95ec1b3f79.png" width="600"/>
+</div><ul class="simple">
+<li><p>Enhanced geothermal systems</p></li>
+</ul>
+<p>Enhanced Geothermal Systems (EGS) refer to artificial reservoirs created by drilling wells into naturally impermeable rock formations, and then increasing their permeability through hydraulic stimulation techniques such as hydraulic fracturing and/or shearing (Figure 2). By stimulating the reservoir, the goal is to emulate the high productivity characteristics of hydrothermal systems. The concept of EGS was first proposed in the early 1970s by researchers at the Los Alamos National Laboratory in the United States (Armstead &amp; Tester, 1987; Brown, 2009). Since then, the technical feasibility of EGS has been demonstrated at several research sites worldwide (Brown, 2009; Breede et al., 2013; Fridleifsson et al., 2017; GTO, 2013). However, no commercially viable EGS site currently exists that can produce heat or electricity at a competitive Levelized Cost of Energy (LCOE).</p>
+<p>The development and deployment of EGS technology face significant challenges, including technical and environmental concerns such as clogging of the fracture network and induced seismicity (Breede et al., 2013; Olasolo, 2016; Lu, 2018; Kumari &amp; Ranjith, 2019; Ge &amp; Saar, 2022). These issues have impacted the cost-competitiveness of EGS which has limited the successful roll-out and operation of EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and reduced greenhouse gas emissions, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research efforts are aimed at improving the reservoir performance and cost-effectiveness of EGS systems, with the ultimate goal of achieving widespread commercial deployment.</p>
+<div>
+<img src="attachment:e6ee16a6-6e69-462e-8c92-0b3ce376f859.png" width="550"/>
+</div><ul class="simple">
+<li><p>Advanced Geothermal Systems</p></li>
+</ul>
+<p>Advanced Geothermal Systems (AGS) have emerged as a promising technology for extracting geothermal energy using a closed-loop system that is emplaced within the subsurface. Unlike Enhanced Geothermal Systems (EGS), where the working fluid
+interacts directly with the rock, AGS relies on the circulation of a working fluid through a closed wellbore that is isolated from the surrounding formation. The specific geological properties of the reservoir are therefore less important in AGS since the working fluid does not come into direct contact with the rock. Instead, AGS systems harvest heat from the rock through heat conduction (Figure 3). Interestingly, the concept of deep closed-loop geothermal systems was first proposed almost a century ago (Hodgson, 1927), but no commercial-scale system exists as of today. Since no AGS field data are available yet, it is still unclear if such an underground heat exchanger can sustain reasonable thermal output over the course of multiple decades at an affordable cost (Beckers et al., 2022; Malek et al., 2022).</p>
+<p>However, recent years have seen a surge of interest and investment in AGS technology from both industry and academic sectors. This has been spurred mainly by the advent of a handful of closed-loop geothermal startups in the United States, which have reignited the discussion on the potential of closed-loop systems to considerably increase geothermal energy production at a commercial scale while mitigating the concerns associated with EGS and conventional hydrothermal systems (CHS) operations. These concerns include induced seismicity, groundwater contamination, and fluid-rock chemical interactions, among others (Beckers et al., 2022).</p>
+<p>Despite the lack of commercial-scale AGS systems, ongoing research efforts aim to improve the understanding of AGS technology and address the technical and economic challenges that currently limit its deployment. Some of the research areas include improving the design and operation of closed-loop systems, optimizing drilling technologies, developing novel materials and technologies for subsurface heat exchangers, and assessing the environmental and social impacts of AGS projects (Higgins et al., 2019; Scherer et al., 2020). With continued research and development that would drive the cost of these systems down, AGS has the potential to become a key contributor to the global transition toward a low-carbon energy future.</p>
+<div>
+<img src="attachment:2088cf55-ea89-4d40-bfe6-9e2e6bf0a72f.png" width="600"/>
+</div><div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. Some short description following after  </div><ul class="simple">
+<li><p>CO2-based geothermal systems</p></li>
+</ul>
+<p>Geothermal energy extraction processes have traditionally relied on water as the subsurface working fluid, as described in the geothermal system types described above (Hodgson, 1927; Bodvarsson, 1974; Arsmtead &amp; Tester, 1987). However, recent theoretical and numerical studies conducted over the last two decades have demonstrated the potential of supercritical CO2 (sCO2) as a substitute for water, owing to its distinct chemical-, transport- and thermodynamic properties (e.g., Brown, 2000; Pruess, 2006; Randolph &amp; Saar, 2011a, 2011b; Zhang et al., 2014). Consequently, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO2 as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO2-Plume Geothermal (CPG) system, CO2-Enhanced Geothermal System (CO2-EGS), and CO2-Advanced Geothermal System (CO2-AGS), respectively. The use of sCO2 in geothermal energy extraction has several advantages over water, including its superior transport properties, which result in higher energy production rates from geothermal reservoirs, and the fact that it does not react chemically with the subsurface rocks or induce mineral scaling, which can reduce the lifespan of the well (Jenkins et al., 2020). However, there are also some technical and environmental challenges associated with sCO2-based geothermal systems, including the need for specialized materials and equipment, the need for a CO2 source close to the geothermal reservoir, the risk of CO2 leakage through the subsurface, among others (Jenkins et al., 2020; Kessler et al., 2021). Research in this field is ongoing, with the aim of developing and optimizing sCO2-based geothermal systems for commercial use in the near future.</p>
+<div>
+<img src="attachment:8e821a69-5af8-4303-af0a-a90179b68c4e.png" width="600"/>
+</div>  
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. Some short description following after  </div><p>Given the challenges and opportunities associated with geothermal energy, ongoing research and development efforts aim to optimize its use and overcome the limitations mentioned above. These efforts involve advancements in drilling technology, resource assessment, and innovative engineering designs that can improve the efficiency and cost-effectiveness of geothermal energy systems. In conclusion, the prospect of deploying geothermal energy globally presents a promising opportunity to meet energy demands in a sustainable and environmentally friendly manner, and ongoing research and development efforts are vital for realizing its full potential.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="exploration.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Exploration of Geothermal Resources</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="issues_and_safety.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Issues and Safety of Geothermal Operations</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By EASYGO ITN<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
