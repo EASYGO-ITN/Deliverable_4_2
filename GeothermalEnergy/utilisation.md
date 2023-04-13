@@ -122,9 +122,9 @@ A typical axial turbine for binary geothermal power plants is shown below: at it
 
 ![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
 
-The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually see two different types of heat exchangers: the shell and tube types and the fin and tube types.
+The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .
 
-The first ones can be used when there is no fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to generate the actual vapor that will eventually drive the turbine. Despite being of the same typology, they work in quite a different way.
+The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.
 
 ### Heat Exchanger
 
