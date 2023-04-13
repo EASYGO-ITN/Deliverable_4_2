@@ -12,15 +12,37 @@ where there is no consumer in the vicintiy of the geothermal reservoir, the ther
 other forms of energy such as electricity. This can be transported more easily over long distances to the consumers.
 
 ## Role of Geothermal Energy @Lorenzo
+
 * depends where you are
 * Iceland is driven by geothermal but in a unique position
 * multipurpose tool - Munich area 
 
-## Direct Use
+## Direct Use @Wen
+The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure [data from {cite}`lund2021direct`] below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
 
-### District Heating @Phil?
+![Direct Utilisation](../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png)
 
-### Heat Pumps @Arianna?
+### Geothermal Heat Pumps
+
+So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria {cite}`heatflux1`.  GHPs take advantages of the fact that a few feet below Earth's surface, the temperatue of the ground remains relatively constant, ranging from 7 &deg;C - 25 &deg;C {cite}`DOE:2023`. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning {cite}`heatflux1`.
+
+### Space Heating
+Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m,, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
+
+### Bathing & Swimming
+
+### Greenhouse Heating
+
+### Industrial Use
+
+### Aquacultural Pond Heating
+
+### Agricultural Drying
+
+### Cooling/Snow Melting
+
+### Other
+
 
 ## Energy Conversion @Tristan
 Converting from one form of energy to another is always associated with losses. The most familiar type of such losses 
@@ -48,16 +70,42 @@ example, adding a pot of boiling water to a lake will not measurably change the 
 The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work (mechanical energy).
 The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.
 
-1. The initial state
-2. The boundary to the hot reservoir is opened to allow heat transfer. Then the system is slowly (reversibly) expanded,
-with the heat transfer from the hot reservoir maintaining it at a constant temperature
-3. The boundary to the hot reservoir is then closed isolating the cell. The fluid is then expanded until its temperature
-drops to that of the cold reservoir
-4. The boundary to the cold reservoir is opened to allow heat transfer. The fluid is then reversibly compressed,with
-heat transfer into the cold reservoir maintaining the fluid's temperature constant
-5. The boundary to the cold reservoir is then closed, isolating the cell. The fluid is then compressed until the 
-temperature reaches that of the hot reservoir.
-6. Repeat from 2.
+0. **The initial state**
+    
+    Piston chamber is placed between two thermal reservoirs, one hot and one cold, the walls of the piston chamber currently do not permit transfer of mass or heat but can one at a time opened to heat transfer to/from one of the reservoirs. Piston chamber is filled with a fluid, which is of the same temperature as the hot reservoir, T<sub>Hot</sub>. The pressure-volume and temperature-entropy diagrams show the initial state of the fluid.
+    ![Stage 0](Utilisation_pictures/Stage0.svg)
+1. **Isothermal Heat Addition** 
+
+    The piston chamber wall in contact with the hot reservoir is opened to allow heat transfer between the hot reservoir and the piston chamber. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. The arrows in the pressure-volume and temperature-entropy diagrams illustrate the "journey" of the fluid from the initial to the current state. 
+    ![Stage 1](Utilisation_pictures/Stage1.svg)
+    The heat added to the fluid is given by:
+
+    $$ Q_{in} = T_{Hot} * (S_2 - S_1) $$
+2. **Isentropic Expansion**
+
+    The piston chamber is once again isolated from the two reservoirs. The piston is then moved upwards, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>.
+    ![Stage 2](Utilisation_pictures/Stage2.svg)
+3. **Isothermal Heat Removal**
+    
+    The previous processes are now reversed. The piston chamber wall in contact with the cold reservoir is opened to allow heat transfer between the cold and piston chamber. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir.
+    ![Stage 3](Utilisation_pictures/Stage3.svg)
+    The heat removed from the fluid is given by:
+
+    $$Q_{out} = T_{Cold} * (S_2 - S_1)$$
+4. **Isoentropic Compression**
+    
+    The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.
+    ![Stage 4](Utilisation_pictures/Stage4.svg)
+5. Repeat from 1.
+
+As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.
+
+$$W_{Net} = Q_{in} - Q_{out}$$
+
+The conversion efficiency is thus
+
+$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
+
 
 Insert some diagrams
 
@@ -89,10 +137,22 @@ Insert diagram(s)
 * flash temperature optimisation
 
 ### Binary @Lorenzo
-* low temperatures/vapour content
-* transfer heat to secondary fluid, which undergoes a classical rankine cycle
+
+Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
+
+The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
+
 
 ## Power Plant Equipment @Lorenzo
+All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
+
+A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft. By blowing the hot vapor on the blades, each one of them will generate some lift, and their combination will induce the rotation of the turbine.
+
+![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
+
+The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .
+
+The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.
 
 ### Heat Exchanger
 

@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Syntax Template" href="template.html" />
@@ -125,8 +127,8 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="production.html">
-   Production of Geothermal Energy
+  <a class="reference internal" href="Geothermal%20Energy%20Production.html">
+   Geothermal Energy Production and Operation
   </a>
  </li>
  <li class="toctree-l1">
@@ -337,18 +339,53 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#direct-use">
-   Direct Use
+  <a class="reference internal nav-link" href="#direct-use-wen">
+   Direct Use @Wen
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#district-heating-phil">
-     District Heating @Phil?
+    <a class="reference internal nav-link" href="#geothermal-heat-pumps">
+     Geothermal Heat Pumps
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#heat-pumps-arianna">
-     Heat Pumps @Arianna?
+    <a class="reference internal nav-link" href="#space-heating">
+     Space Heating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bathing-swimming">
+     Bathing &amp; Swimming
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#greenhouse-heating">
+     Greenhouse Heating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#industrial-use">
+     Industrial Use
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#aquacultural-pond-heating">
+     Aquacultural Pond Heating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#agricultural-drying">
+     Agricultural Drying
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cooling-snow-melting">
+     Cooling/Snow Melting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other">
+     Other
     </a>
    </li>
   </ul>
@@ -454,18 +491,53 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#direct-use">
-   Direct Use
+  <a class="reference internal nav-link" href="#direct-use-wen">
+   Direct Use @Wen
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#district-heating-phil">
-     District Heating @Phil?
+    <a class="reference internal nav-link" href="#geothermal-heat-pumps">
+     Geothermal Heat Pumps
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#heat-pumps-arianna">
-     Heat Pumps @Arianna?
+    <a class="reference internal nav-link" href="#space-heating">
+     Space Heating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bathing-swimming">
+     Bathing &amp; Swimming
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#greenhouse-heating">
+     Greenhouse Heating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#industrial-use">
+     Industrial Use
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#aquacultural-pond-heating">
+     Aquacultural Pond Heating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#agricultural-drying">
+     Agricultural Drying
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cooling-snow-melting">
+     Cooling/Snow Melting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other">
+     Other
     </a>
    </li>
   </ul>
@@ -553,7 +625,7 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="geothermal-energy-utilisation">
 <h1>Geothermal Energy Utilisation<a class="headerlink" href="#geothermal-energy-utilisation" title="Permalink to this headline">#</a></h1>
-<p>This is a test <span id="id1">[<a class="reference internal" href="bibliography.html#id13" title="Fernando Perez, Brian E Granger, and John D Hunter. Python: an ecosystem for scientific computing. Computing in Science \\&amp; Engineering, 13(2):13–21, 2011.">Perez <em>et al.</em>, 2011</a>]</span>.</p>
+<p>This is a test <span id="id1">[]</span>.</p>
 <section id="introduction-tristan">
 <h2>Introduction &#64;Tristan<a class="headerlink" href="#introduction-tristan" title="Permalink to this headline">#</a></h2>
 <p>From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
@@ -571,13 +643,38 @@ other forms of energy such as electricity. This can be transported more easily o
 <li><p>multipurpose tool - Munich area</p></li>
 </ul>
 </section>
-<section id="direct-use">
-<h2>Direct Use<a class="headerlink" href="#direct-use" title="Permalink to this headline">#</a></h2>
-<section id="district-heating-phil">
-<h3>District Heating &#64;Phil?<a class="headerlink" href="#district-heating-phil" title="Permalink to this headline">#</a></h3>
+<section id="direct-use-wen">
+<h2>Direct Use &#64;Wen<a class="headerlink" href="#direct-use-wen" title="Permalink to this headline">#</a></h2>
+<p>The versatile direct utilisations of geothermal fluids with a temperature between 10 °C - 150 °C <span id="id2">[<a class="reference internal" href="bibliography.html#id14" title="David Nöel Anderson and John W Lund. Direct utilization of geothermal energy: a technical handbook. Technical Report, Geothermal Resources Council, Davis, CA (USA); Oregon Inst. of Tech …, 1979.">Anderson and Lund, 1979</a>]</span> has been ducomented for over 2000 years <span id="id3">[<a class="reference internal" href="bibliography.html#id13" title="Ronald DiPippo. Stories from a heated earth-our geothermal heritage. edited by r. cataldi, sf hodgson and jw lund, published by the geothermal resources council and the international geothermal association, 1999, us 70.00, paperback. Geothermics, 29(3):431–437, 2000.">DiPippo, 2000</a>]</span>. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions <span id="id4">[<a class="reference internal" href="bibliography.html#id15" title="John W Lund and Aniko N Toth. Direct utilization of geothermal energy 2020 worldwide review. Geothermics, 90:101915, 2021.">Lund and Toth, 2021</a>]</span>.The figure [data from <span id="id5">[<a class="reference internal" href="bibliography.html#id15" title="John W Lund and Aniko N Toth. Direct utilization of geothermal energy 2020 worldwide review. Geothermics, 90:101915, 2021.">Lund and Toth, 2021</a>]</span>] below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing &amp; swimming, and space heating.</p>
+<p><img alt="Direct Utilisation" src="_images/Direct_utilisation.png" /></p>
+<section id="geothermal-heat-pumps">
+<h3>Geothermal Heat Pumps<a class="headerlink" href="#geothermal-heat-pumps" title="Permalink to this headline">#</a></h3>
+<p>So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria <span id="id6">[<a class="reference internal" href="bibliography.html#id4" title="K Harsh and Roy Sukanta. Geothermal Energy: An alternative resource for the 21st century. Elsevier Science, 2006.">Harsh and Sukanta, 2006</a>]</span>.  GHPs take advantages of the fact that a few feet below Earth’s surface, the temperatue of the ground remains relatively constant, ranging from 7 °C - 25 °C <span id="id7">[<a class="reference internal" href="bibliography.html#id16" title="Department of Energy, USA. Geothermal heat pumps. https://www.energy.gov/energysaver/geothermal-heat-pumps, March 2023.">Department of Energy, USA, 2023</a>]</span>. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning <span id="id8">[<a class="reference internal" href="bibliography.html#id4" title="K Harsh and Roy Sukanta. Geothermal Energy: An alternative resource for the 21st century. Elsevier Science, 2006.">Harsh and Sukanta, 2006</a>]</span>.</p>
 </section>
-<section id="heat-pumps-arianna">
-<h3>Heat Pumps &#64;Arianna?<a class="headerlink" href="#heat-pumps-arianna" title="Permalink to this headline">#</a></h3>
+<section id="space-heating">
+<h3>Space Heating<a class="headerlink" href="#space-heating" title="Permalink to this headline">#</a></h3>
+<p>Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today <span id="id9">[<a class="reference internal" href="bibliography.html#id17" title="R Gordon Bloomquist. Geothermal space heating. Geothermics, 32(4-6):513–526, 2003.">Bloomquist, 2003</a>]</span>. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 °C - 90 °C <span id="id10">[<a class="reference internal" href="bibliography.html#id18" title="Halldóra Gudmundsdóttir Carine Chatenay and Thorleikur Jóhannesson. Utilisation of geothemral resources for spacing heating. In Short Course VI on Utilization of Low- and Medium-Enthalpy Geothermal Resources and Financial Aspects of Utilization. Santa Tecla, El Salvador, 2014. United Nations University.">Carine Chatenay and Jóhannesson, 2014</a>]</span>. If high enough temperature can be reached at a depth of 20 m - 200 m,, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 <span id="id11">[<a class="reference internal" href="bibliography.html#id15" title="John W Lund and Aniko N Toth. Direct utilization of geothermal energy 2020 worldwide review. Geothermics, 90:101915, 2021.">Lund and Toth, 2021</a>]</span>.</p>
+</section>
+<section id="bathing-swimming">
+<h3>Bathing &amp; Swimming<a class="headerlink" href="#bathing-swimming" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="greenhouse-heating">
+<h3>Greenhouse Heating<a class="headerlink" href="#greenhouse-heating" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="industrial-use">
+<h3>Industrial Use<a class="headerlink" href="#industrial-use" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="aquacultural-pond-heating">
+<h3>Aquacultural Pond Heating<a class="headerlink" href="#aquacultural-pond-heating" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="agricultural-drying">
+<h3>Agricultural Drying<a class="headerlink" href="#agricultural-drying" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="cooling-snow-melting">
+<h3>Cooling/Snow Melting<a class="headerlink" href="#cooling-snow-melting" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="other">
+<h3>Other<a class="headerlink" href="#other" title="Permalink to this headline">#</a></h3>
 </section>
 </section>
 <section id="energy-conversion-tristan">
@@ -601,18 +698,41 @@ A thermal reservoir is a body at a constant temperature. No adding of thermal en
 example, adding a pot of boiling water to a lake will not measurably change the lake’s average temperature.</p>
 <p>The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work (mechanical energy).
 The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.</p>
-<ol class="simple">
-<li><p>The initial state</p></li>
-<li><p>The boundary to the hot reservoir is opened to allow heat transfer. Then the system is slowly (reversibly) expanded,
-with the heat transfer from the hot reservoir maintaining it at a constant temperature</p></li>
-<li><p>The boundary to the hot reservoir is then closed isolating the cell. The fluid is then expanded until its temperature
-drops to that of the cold reservoir</p></li>
-<li><p>The boundary to the cold reservoir is opened to allow heat transfer. The fluid is then reversibly compressed,with
-heat transfer into the cold reservoir maintaining the fluid’s temperature constant</p></li>
-<li><p>The boundary to the cold reservoir is then closed, isolating the cell. The fluid is then compressed until the
-temperature reaches that of the hot reservoir.</p></li>
-<li><p>Repeat from 2.</p></li>
+<ol>
+<li><p><strong>The initial state</strong></p>
+<p>Piston chamber is placed between two thermal reservoirs, one hot and one cold, the walls of the piston chamber currently do not permit transfer of mass or heat but can one at a time opened to heat transfer to/from one of the reservoirs. Piston chamber is filled with a fluid, which is of the same temperature as the hot reservoir, T<sub>Hot</sub>. The pressure-volume and temperature-entropy diagrams show the initial state of the fluid.
+<img alt="Stage 0" src="_images/Stage0.svg" /></p>
+</li>
+<li><p><strong>Isothermal Heat Addition</strong></p>
+<p>The piston chamber wall in contact with the hot reservoir is opened to allow heat transfer between the hot reservoir and the piston chamber. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. The arrows in the pressure-volume and temperature-entropy diagrams illustrate the “journey” of the fluid from the initial to the current state.
+<img alt="Stage 1" src="_images/Stage1.svg" />
+The heat added to the fluid is given by:</p>
+<div class="math notranslate nohighlight">
+\[ Q_{in} = T_{Hot} * (S_2 - S_1) \]</div>
+</li>
+<li><p><strong>Isentropic Expansion</strong></p>
+<p>The piston chamber is once again isolated from the two reservoirs. The piston is then moved upwards, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>.
+<img alt="Stage 2" src="_images/Stage2.svg" /></p>
+</li>
+<li><p><strong>Isothermal Heat Removal</strong></p>
+<p>The previous processes are now reversed. The piston chamber wall in contact with the cold reservoir is opened to allow heat transfer between the cold and piston chamber. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir.
+<img alt="Stage 3" src="_images/Stage3.svg" />
+The heat removed from the fluid is given by:</p>
+<div class="math notranslate nohighlight">
+\[Q_{out} = T_{Cold} * (S_2 - S_1)\]</div>
+</li>
+<li><p><strong>Isoentropic Compression</strong></p>
+<p>The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.
+<img alt="Stage 4" src="_images/Stage4.svg" /></p>
+</li>
+<li><p>Repeat from 1.</p></li>
 </ol>
+<p>As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.</p>
+<div class="math notranslate nohighlight">
+\[W_{Net} = Q_{in} - Q_{out}\]</div>
+<p>The conversion efficiency is thus</p>
+<div class="math notranslate nohighlight">
+\[\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}\]</div>
 <p>Insert some diagrams</p>
 <ul class="simple">
 <li><p>something about net power and efficiency</p></li>
@@ -657,14 +777,17 @@ temperature reaches that of the hot reservoir.</p></li>
 </section>
 <section id="binary-lorenzo">
 <h3>Binary &#64;Lorenzo<a class="headerlink" href="#binary-lorenzo" title="Permalink to this headline">#</a></h3>
-<ul class="simple">
-<li><p>low temperatures/vapour content</p></li>
-<li><p>transfer heat to secondary fluid, which undergoes a classical rankine cycle</p></li>
-</ul>
+<p>Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant.</p>
+<p>The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure.</p>
 </section>
 </section>
 <section id="power-plant-equipment-lorenzo">
 <h2>Power Plant Equipment &#64;Lorenzo<a class="headerlink" href="#power-plant-equipment-lorenzo" title="Permalink to this headline">#</a></h2>
+<p>All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.</p>
+<p>A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft. By blowing the hot vapor on the blades, each one of them will generate some lift, and their combination will induce the rotation of the turbine.</p>
+<p><img alt="Turboden Axial Turbine" src="_images/axialturbine.png" /></p>
+<p>The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .</p>
+<p>The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.</p>
 <section id="heat-exchanger">
 <h3>Heat Exchanger<a class="headerlink" href="#heat-exchanger" title="Permalink to this headline">#</a></h3>
 </section>

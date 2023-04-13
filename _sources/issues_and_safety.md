@@ -5,7 +5,7 @@ While geothermal energy offers many benefits as a renewable and sustainable ener
 `````{admonition} Recap on how geothermal energy works
 :class: tip
 Geothermal power plants harness the heat stored beneath the Earth's surface to generate electricity. This heat comes from hot water or steam found in underground reservoirs. To access this heat, operators drill (deep) wells into the Earth to extract the hot fluids. After the heat is extracted and used to generate electricity, the cooled fluids are often reinjected back into the reservoir to maintain pressure and sustain the resource.
-![Example image](issues_pictures/dapwell.jpg)
+![Example image](../GeothermalEnergy/issues_pictures/dapwell.jpg)
 Figure 1: Schematic representation of the DAP-well [click here for more details](https://www.tudelft.nl/en/delft-outlook/articles/campus-switching-to-geothermal-energy).
 
 `````
@@ -33,7 +33,7 @@ The drilling and injection of water into geothermal reservoirs may cause small-s
 
 - Fluid extraction: Removing fluids from the reservoir can also cause changes in pressure within the rock formations. These changes may lead to the movement of rocks, which can trigger tremors or earthquakes.
 
-![Example image](issues_pictures/doublet.png)\\
+![Example image](../GeothermalEnergy/issues_pictures/doublet.png)\\
 Figure 2: Schematic representation of a geothermal doublet.
 `````
 
@@ -79,7 +79,7 @@ One key issue that determines the success of reinjection, thus of the whole geot
 
 Based on the primary mechanisms, the clogging processes can be divided into three groups: a) physical processes, related to migration of particles; b) chemical processes, caused by chemical reactions; c) biological processes as a result of bacterial activity. 
 
-<div style="text-align:center"><img src="issues_pictures/doublet_schematic.jpg" width="500"></div>
+<div style="text-align:center"><img src="../GeothermalEnergy/issues_pictures/doublet_schematic.jpg" width="500"></div>
 
 As you can see from the schematic, sources of clogging occur all the way along the fluid path. 
 - From the start of production fluid can carry small particles, produced, for example, from poorly-consolidated sandstones. 

@@ -17,8 +17,10 @@ We use geologic evidence from the surface and analyze rock samples to understand
 
  ## How we explore
  ### Exploratory well drilling (@Mahmoud)
-- Image of core logs (Bedretto core logs)
-- Paragraph of different type of well data 
+<!-- - Image of core logs (Bedretto core logs)
+- Paragraph of different type of well data  -->
+
+<!-- maybe reorder to connect to andreas pargraph above? -->
 Well logs refer to a set of measurements and data that are obtained during the exploration wells. These measurements are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the oil and gas industry, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
 
 Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
@@ -31,7 +33,7 @@ Imaging Logs: Imaging logs use various techniques to create images of the wellbo
 
 Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs, which measure various parameters related to temperature, pressure, and fluid flow in the wellbore and surrounding formations.
 
-Overall, the use of multiple types of well logs can provide a comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
+Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
 In addition to identifying potential geothermal reservoirs, well log data can also be used to characterize the properties of the reservoir, such as its temperature, pressure, and fluid content. This information is critical for determining the feasibility and potential output of a geothermal power plant. For example, a high-temperature reservoir with a high fluid content and good permeability would be an ideal location for a geothermal power plant, as it would allow for the efficient extraction of heat from the reservoir and the generation of electricity.
 
@@ -41,24 +43,33 @@ In conclusion, well log data plays a critical role in geothermal exploration, pr
 
 
  ### Geophysics (@Hagen)
-- Make analog to medical x-rays
+<!-- - Make analog to medical x-rays
 - Talk about acquisition (include pictures)
-PICTURES: MRT/CT scanner / Acquisition picture?
+PICTURES: MRT/CT scanner / Acquisition picture? -->
 
-In geothermal exploration, our targets are usually located kilometres underground. Thus, direct exploration, as drilling exploratory wells, come with a high cost and only give good information in the vicinity of the borehole. This makes techniques that can image the underground from the surface highly attractive.
+In geothermal exploration, our targets are usually located kilometres underground. Thus, direct exploration, as drilling exploratory wells, comes with a high cost and only give good information in the vicinity of the borehole. This makes techniques that can image the underground from the surface highly attractive.
 
 Techniques for this application have been used for a long time, for example in medical imaging. For getting an image of the internal structure of the body without cutting it open, we use physical phenomena, like electro-magnetic waves, acoustical waves, or magnetic fields, to study the reaction of the body to these processes. The physical response of the body itself then gives us information about the internal structure. When getting an x-ray to check for broken bones, we send highly energetic radiation in form of electro-magnetic waves through the body part, which we want to examine. On the other side of the x-ray emitter, a receptor catches the amount of radiation, that has not been absorbed by the body. Since bones absorb a high amount of the radiation, whereas tissue does not, we can locate bones inside the body. Another technique from medical imaging, that is close to the seismic technique used in geothermal exploration, is ultrasound imaging. In ultrasound, we use very small compressions of air, to create an acoustic wave that travels through the body. When the wave hits an obstacle in the tissue, parts of the wave are reflected and are picked up by a receiver. Measuring the time, the wave needs to travel to the obstacle and back and knowing the velocity of the wave in the tissue, we can again locate the obstacle in the body.
 
 Medical applications nowadays allow us to get a very detailed picture of the body from the outside. This is also due to the fact, that we can place sources and receivers for our medical imager in all positions around the body. A prime example for this, are CT and MRT scanners. When imaging the underground, we don’t have this luxurious setting. In geothermal exploration, we usually have way to scarce data, to reconstruct every detail of the underground from measurements. By using very involved processing techniques, we can nevertheless get a very good image of the key features, like big faults in the reservoir. Imaging these faults from the surface allows us to locate fruitful targets to drill into.
 
+The most often used techniques for exploration of geothermal reservoirs are:
+ 
+ * Seismics: Using waves in form of ground motion, captures information of the subsurfaces where it passes throught. Using seismometers to record the movement at certain station thus gives us insight about the underground.
+
+ * Gravity: Rocks of different densities alter the gravitational field of the earth very slightly. Measuring the gravitational field at the surface of the earth allow us to detect areas with dense or less dense material.
+
+ * Electromagnetics: Simliar to Seismics, electromagnetic methods use electromagnetic waves travelling in the subsurface. These can be generated by human made sources, but also stem from the solar wind interatting with the earths magnetic field and lightnings.
+
  #### Seismic (@Hagen)
-PICTURES: Vibrotruck? / Geophones /  GIF with wavefield data
-- Explain the method and make a gif with wave propagation 
+<!-- PICTURES: Vibrotruck? / Geophones /  GIF with wavefield data
+- Explain the method and make a gif with wave propagation  -->
 
 One of the most important methods of imaging the earth are seismic waves. Seismic waves are waves of ground motion, that travel through the earth. Just like in ultrasound, these waves get reflected and refracted at obstacles and boundaries and carry lots of information about the underground structure. The field, that studies seismic waves, is called seismology and has traditionally investigated earthquakes, to understand the science behind earthquakes, learn about the structure of the earth and subsequently protect humankind from natural disasters.
 
 In exploration geophysics, we use the very same phenomena, to image a small, chosen part of the underground, to understand its structure. Since we cannot have earthquakes as a source of seismic waves at the spot, where we want to examine a geothermal site, we must generate seismic waves ourselves. For this, geophysicists use a variety of sources. For shallow experiments, a hammer with a metal plate is enough to generate a wave, that travels tens of meters. If you need the waves to travel deeper into the earth more energy is needed. Therefore, we either use explosives of vibration trucks to create stronger waves. To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.
 
+![A vibrotruck acquiring data in a seismic survey](../exploration_pictures/IMG_20220906_120542.jpg)
 
  #### Multi-physics (@Andrea)
  
@@ -69,7 +80,7 @@ Gravity is the force by which a planet or other body draws objects towards its c
 ##### Electromagnetic methods:
 Electromagnetic (EM) waves are waves of energy that travel through space and can be used to study the Earth's subsurface. In geophysics, EM methods involve sending EM waves into the ground and measuring their response. EM surveys can be conducted using different frequencies and techniques. When EM waves encounter different types of rocks and minerals in the subsurface, they can induce electrical currents to flow. By measuring these currents, we can create maps that show variations in the subsurface electrical properties. This can help identify areas with different rock types, especially areas that are conductive such as areas of high heat flow. A common method done under this realm of geophysical techniques is the magnetollueric method or MT. This method is used to study the electrical conductivity structure at a much deeper scale. It involves measuring the natural variations in the Earth's magnetic field and electric field at the Earth's surface, and using these measurements as the source. By analyzing the frequency-dependent variations in these fields, we can estimate the electrical resistivity of different rock layers and fluids in the subsurface which is of great importance in geothermal exploration. 
 
- - Explain the method and make a gif with wave propagation 
+ <!-- - Explain the method and make a gif with wave propagation  -->
  
 ## Modelling
  ### Geologic model (@Andrea)
