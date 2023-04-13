@@ -1,7 +1,5 @@
 # Geothermal Energy Utilisation
 
-This is a test {cite}`perez2011python`.
-
 ## Introduction @Tristan
 From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
 used to heat homes, offices and even greenhouses, which is particularly attractive in cold climates, where heating 
@@ -106,24 +104,40 @@ The conversion efficiency is thus
 
 $$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
 
+Unfortunately, it is difficult to translate such a cyclic process into the real world. A pure, single component
+fluid like water could be used to realise Stage 1 and Stage 3 (i.e. isothermal heat addition and isothermal heat 
+removal), since pure fluids undergo constant temperature phase changes. For example, adding heat to a saturated liquid 
+will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it 
+to condense at a constant temperature
 
-Insert some diagrams
-
-* something about net power and efficiency
-* how one could realise the various stages of the cycle
-  * isothermal heat addition with expansion - pure fluid phase change (from liquid to vapour)
-  * isentropic expansion - use a turbine, but liquid might drop out....
-  * isothermal heat removal with compression - pure fluid phase change (from vapour to liquid)
-  * ientropic compression - pump or compressor, but they dont like vapour/liquid respectively
+However, Stage 2 and Stage 4,are more difficult to realise. This is because the isentropic expansion and the isentropic 
+compression processes concern a two-phase fluid, and no currently available compression equipment are designed to be 
+able to handle high vapour or high liquid content. For example, pumps are used to pressurise liquids, but excessive 
+vapour fraction can lead to cavitation which can damage the equipment. Similarly, compressors are used to compress 
+vapours, but liquid droplets can wreak havoc on the compressor internals. 
+![Real Carnot Cycle](Utilisation_pictures/RealCarnotCycle.svg)
 
 ### Rankine Cylce
-1. Compress a fluid to a higher pressure - e.g. using pump
-2. Use a heat source to heat and evaporate the fluid
-3. Use a turbine to expand the hot fluid to the starting pressure
-4. Use a heat sink to cool and condense the fluid to the starting pressure
-5. Repeat from 1.
+The Rankine Cycle is an adaptation of Carnot Cycle aimed at overcoming some of the aforementioned difficulties with
+compressing/expanding fluids with existing equipment technologies. The Rankine Cycle is as follows:
 
-Insert diagram(s)
+0. **Initial State**
+
+    The cycle working fluid, e.g. water, is at a low pressure and saturated liquid state
+1. **Stage 1**
+
+    A pump is used to compress and pressurise the working fluid to a high pressure
+2. **Stage 2**
+
+    Heat is added to the fluid, raising its temperature until it reaches the boiling point. From hereon, heat addition results in subsequent vaporisation of the working fluid until it is fully vapourised.
+3. **Stage 3**
+
+    The high pressure vapour is expanded in a turbine, which converts the fluids thermal energy into rotational energy, and in turn drives a generator to produce electricity.
+4. **Stage 4**
+
+    The expanded low pressure vapour is cooled until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is wholly liquefied. This returns the fluid to its initial state can closes the cycle.
+
+![Rankine Cycle](Utilisation_pictures/Rankine Cycle.svg)
 
 ## Power Plants
 
