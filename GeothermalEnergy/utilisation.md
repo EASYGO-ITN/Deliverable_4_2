@@ -120,6 +120,7 @@ All the geothermal power plants convert the thermal energy into electricity by u
 
 A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft and the combination of their lift induces the rotational acceleration that spins the shaft.
 
+![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
 
 ### Heat Exchanger
 
