@@ -118,9 +118,13 @@ The standard rankine cycle for geothermal applications is called Organic Rankine
 ## Power Plant Equipment @Lorenzo
 All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
 
-A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft and the combination of their lift induces the rotational acceleration that spins the shaft.
+A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft. By blowing the hot vapor on the blades, each one of them will generate some lift, and their combination will induce the rotation of the turbine.
 
 ![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
+
+The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually see two different types of heat exchangers: the shell and tube types and the fin and tube types.
+
+The first ones can be used when there is no fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to generate the actual vapor that will eventually drive the turbine. Despite being of the same typology, they work in quite a different way.
 
 ### Heat Exchanger
 
