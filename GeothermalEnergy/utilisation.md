@@ -12,6 +12,7 @@ where there is no consumer in the vicintiy of the geothermal reservoir, the ther
 other forms of energy such as electricity. This can be transported more easily over long distances to the consumers.
 
 ## Role of Geothermal Energy @Lorenzo
+
 * depends where you are
 * Iceland is driven by geothermal but in a unique position
 * multipurpose tool - Munich area 
@@ -136,10 +137,22 @@ Insert diagram(s)
 * flash temperature optimisation
 
 ### Binary @Lorenzo
-* low temperatures/vapour content
-* transfer heat to secondary fluid, which undergoes a classical rankine cycle
+
+Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
+
+The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
+
 
 ## Power Plant Equipment @Lorenzo
+All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
+
+A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft. By blowing the hot vapor on the blades, each one of them will generate some lift, and their combination will induce the rotation of the turbine.
+
+![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
+
+The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .
+
+The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.
 
 ### Heat Exchanger
 
