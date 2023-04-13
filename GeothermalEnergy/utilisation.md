@@ -136,8 +136,7 @@ compressing/expanding fluids with existing equipment technologies. The Rankine C
 4. **Stage 4**
 
     The expanded low pressure vapour is cooled until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is wholly liquefied. This returns the fluid to its initial state can closes the cycle.
-
-![Rankine Cycle](Utilisation_pictures/Rankine Cycle.svg)
+    ![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
 
 ## Power Plants
 
