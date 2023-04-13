@@ -69,16 +69,42 @@ example, adding a pot of boiling water to a lake will not measurably change the 
 The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work (mechanical energy).
 The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.
 
-1. The initial state
-2. The boundary to the hot reservoir is opened to allow heat transfer. Then the system is slowly (reversibly) expanded,
-with the heat transfer from the hot reservoir maintaining it at a constant temperature
-3. The boundary to the hot reservoir is then closed isolating the cell. The fluid is then expanded until its temperature
-drops to that of the cold reservoir
-4. The boundary to the cold reservoir is opened to allow heat transfer. The fluid is then reversibly compressed,with
-heat transfer into the cold reservoir maintaining the fluid's temperature constant
-5. The boundary to the cold reservoir is then closed, isolating the cell. The fluid is then compressed until the 
-temperature reaches that of the hot reservoir.
-6. Repeat from 2.
+0. **The initial state**
+    
+    Piston chamber is placed between two thermal reservoirs, one hot and one cold, the walls of the piston chamber currently do not permit transfer of mass or heat but can one at a time opened to heat transfer to/from one of the reservoirs. Piston chamber is filled with a fluid, which is of the same temperature as the hot reservoir, T<sub>Hot</sub>. The pressure-volume and temperature-entropy diagrams show the initial state of the fluid.
+    ![Stage 0](Utilisation_pictures/Stage0.svg)
+1. **Isothermal Heat Addition** 
+
+    The piston chamber wall in contact with the hot reservoir is opened to allow heat transfer between the hot reservoir and the piston chamber. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. The arrows in the pressure-volume and temperature-entropy diagrams illustrate the "journey" of the fluid from the initial to the current state. 
+    ![Stage 1](Utilisation_pictures/Stage1.svg)
+    The heat added to the fluid is given by:
+
+    $$ Q_{in} = T_{Hot} * (S_2 - S_1) $$
+2. **Isentropic Expansion**
+
+    The piston chamber is once again isolated from the two reservoirs. The piston is then moved upwards, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>.
+    ![Stage 2](Utilisation_pictures/Stage2.svg)
+3. **Isothermal Heat Removal**
+    
+    The previous processes are now reversed. The piston chamber wall in contact with the cold reservoir is opened to allow heat transfer between the cold and piston chamber. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir.
+    ![Stage 3](Utilisation_pictures/Stage3.svg)
+    The heat removed from the fluid is given by:
+
+    $$Q_{out} = T_{Cold} * (S_2 - S_1)$$
+4. **Isoentropic Compression**
+    
+    The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.
+    ![Stage 4](Utilisation_pictures/Stage4.svg)
+5. Repeat from 1.
+
+As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.
+
+$$W_{Net} = Q_{in} - Q_{out}$$
+
+The conversion efficiency is thus
+
+$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
+
 
 Insert some diagrams
 
