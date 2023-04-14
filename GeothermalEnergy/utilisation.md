@@ -110,11 +110,10 @@ removal), since pure fluids undergo constant temperature phase changes. For exam
 will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it 
 to condense at a constant temperature
 
-However, Stage 2 and Stage 4,are more difficult to realise. This is because the isentropic expansion and the isentropic 
-compression processes concern a two-phase fluid, and no currently available compression equipment are designed to be 
-able to handle high vapour or high liquid content. For example, pumps are used to pressurise liquids, but excessive 
-vapour fraction can lead to cavitation which can damage the equipment. Similarly, compressors are used to compress 
-vapours, but liquid droplets can wreak havoc on the compressor internals. 
+However, Stage 2 and Stage 4,are more difficult to realise. This is because, while specific equipment exists for 
+compressing a liquid (i.e. a pump) or a vapour (i.e. a compressor), these struggle with two-phase fluids (i.e. liquid 
+and vapour). For example, excessive vapour in a pump can lead to cavitation, which damages the pump impeller; likewise 
+excessive in a compressor can damage the blades. 
 ![Real Carnot Cycle](Utilisation_pictures/RealCarnotCycle.svg)
 
 ### Rankine Cylce
@@ -139,15 +138,33 @@ compressing/expanding fluids with existing equipment technologies. The Rankine C
     ![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
 
 ## Power Plants
+Geothermal power plants convert the geothermal energy into electricity.
 
 ### Dry Steam @Tristan
-* Geofluid arrives as vapour is the easiest to handle because we can directly use it to drive a turbine
-* Link back to Rankine Cycle (reservoir is heat introduction)
+Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
+at temperatures as high as 250 &deg;C. 
+
+The hot high-pressure vapour is directly expanded in a turbine, thereby converting the thermal energy into work, turning
+the turbine and generating electricity. The low pressure vapour is then condensed, for example in a cooling tower, with
+the condensate being re-injected into the reservoir.
+![Dry Steam](Utilisation_pictures/DrySteam.svg)
+
+Although the cycle shown above does not appear to resemble the Rankine Cycle discussed above, the pressurisation and
+heating is not shown as it happens in the geothermal reservoir.
 
 ### Flash @Tristan
-* Geofluid is a mixture of liquid and vapour
-* only vapour portion can be utilised as liquid is incompressible
-* flash temperature optimisation
+Where the geofluid arriving at the surface is two-phase, i.e. liquid water and steam, a direct steam cycle with flash 
+can be used.
+
+The incoming geofluid is separated into a vapour and liquid stream in a flash column, which is also used to optimise the
+turbine net power, by adjusting the flash temperature/pressure at which the vapour is separated, thereby releasing more
+steam while sacrificing the specific turbine power output.
+
+The vapour is then expanded in a turbine to convert the thermal energy to work to drive a generator and produce 
+electricity.
+
+The low-pressure vapour is then condensed and reinjected alongwith the liquid from the flash column into the reservoir.
+![Flash Plant](Utilisation_pictures/FlashPlant.svg)
 
 ### Binary @Lorenzo
 
