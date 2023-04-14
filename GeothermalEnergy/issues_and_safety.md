@@ -1,10 +1,10 @@
 # Issues and Safety of Geothermal Operations
 
-While geothermal energy offers many benefits as a renewable and sustainable energy source, there are some potential risks and drawbacks associated with its use. During production of geothermal fluids, the change in pressure and temperature is unavoidable. It in its turn results in the change in fluid composition and properties. Depending on the initial properties of the fluid, these changes can significantly affect operation of the geothermal system and should, therefore, be carefully monitored. In the following section, we explain the environmental and operational risks/issues happening at different stages of production and consequent injection of geothermal fluids.
+While geothermal energy offers many benefits as a renewable and sustainable energy source, there are some potential risks and drawbacks associated with its use. During the production of geothermal fluids, the change in pressure and temperature is unavoidable. It, in turn, results in a change in fluid composition and properties. Depending on the initial properties of the fluid, these changes can significantly affect the operation of the geothermal system and should, therefore, be carefully monitored. In the following section, we explain the environmental and operational risks/issues happening at different stages of production and the consequent injection of geothermal fluids.
 
 `````{admonition} Recap on how geothermal energy works
 :class: tip
-Geothermal power plants harness the heat stored beneath the Earth's surface to generate electricity. This heat comes from hot water or steam found in underground reservoirs. To access this heat, operators drill (deep) wells into the Earth to extract the hot fluids. After the heat is extracted and used to generate electricity, the cooled fluids are often reinjected back into the reservoir to maintain pressure and sustain the resource.
+Geothermal power plants harness the heat stored beneath the Earth's surface to generate electricity. This heat comes from hot water or steam found in underground reservoirs. To access this heat, operators drill (deep) wells into the Earth to extract the hot fluids. After the heat is extracted and used to generate electricity, the cooled fluids are often reinjected into the reservoir to maintain pressure and sustain the resource.
 ![Example image](../GeothermalEnergy/issues_pictures/dapwell.jpg)
 Figure 1: Schematic representation of the DAP-well [click here for more details](https://www.tudelft.nl/en/delft-outlook/articles/campus-switching-to-geothermal-energy).
 
@@ -12,18 +12,18 @@ Figure 1: Schematic representation of the DAP-well [click here for more details]
 
 ## Environmental Impacts of Geothermal Operations
 
-Geothermal energy is often considered an environmentally friendly energy source due to its low greenhouse gas emissions and renewability. However, it is essential to consider the potential environmental impacts associated with geothermal operations to ensure sustainable development and minimize adverse effects on the surrounding ecosystem. In this section, we will discuss some of the key environmental concerns related to geothermal energy production, including greenhouse gas emissions, water pollution, and induced seismicity.
+Geothermal energy is often considered an environmentally friendly energy source due to its low greenhouse gas emissions and renewability. However, it is essential to consider the potential environmental impacts associated with geothermal operations to ensure sustainable development and minimize adverse effects on the surrounding ecosystem. This section will discuss some critical environmental concerns related to geothermal energy production, including greenhouse gas emissions, water pollution, and induced seismicity.
 
 ### Greenhouse Gas Emissions
-Geothermal power plants emit fewer greenhouse gases compared to conventional fossil fuel-based power plants. However, they do release some greenhouse gases, such as carbon dioxide (CO2) and methane (CH4), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
+Geothermal power plants emit fewer greenhouse gases than conventional fossil fuel-based power plants. However, they do release some greenhouse gases, such as carbon dioxide (CO2) and methane (CH4), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
 These emissions can contribute to climate change if not properly managed. It is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [reinjection](section:reinjection)).
 
 
 ### Water Pollution
 Geothermal fluids can contain dissolved minerals and gases that may pose a risk to water quality if not properly managed. Some of these substances, such as hydrogen sulfide, can be toxic and harmful to the environment. To prevent water pollution, it is essential to establish appropriate fluid management practices, such as treating and reinjecting geothermal fluids back into the reservoir or disposing of them in a safe and regulated manner.
 
-### Induced Seismicity
-The drilling and injection of water into geothermal reservoirs may cause small-scale earthquakes or tremors, known as induced seismicity. Although the risk of significant earthquakes is low, it is still a concern in some areas. Monitoring and managing induced seismicity is essential to ensure the safety of surrounding communities and infrastructure.
+### Induced seismicity
+The drilling and injection of water into geothermal reservoirs may cause small-scale earthquakes or tremors, known as induced seismicity. Although the risk of significant earthquakes is low, it is still a concern in some areas. Monitoring and managing induced seismicity are essential to ensure the safety of surrounding communities and infrastructure.
 
 `````{admonition} During geothermal operations, several activities can potentially cause induced seismicity:
 :class: tip
@@ -37,14 +37,14 @@ The drilling and injection of water into geothermal reservoirs may cause small-s
 Figure 2: Schematic representation of a geothermal doublet.
 `````
 
-It is essential to note that induced seismicity associated with geothermal operations is generally small in scale and often goes unnoticed by people living nearby. However, it is still important to monitor and manage this phenomenon to ensure the safety of surrounding communities and infrastructure. Geothermal operators can use advanced monitoring systems and adjust their operations as needed to minimize the risk of induced seismicity.
+It is essential to note that induced seismicity associated with geothermal operations is generally minor in scale and often goes unnoticed by people living nearby. However, monitoring and managing this phenomenon to ensure the safety of surrounding communities and infrastructure is still essential. Geothermal operators can use advanced monitoring systems and adjust their operations to minimize the risk of induced seismicity.
 
 # Operational risks and safety measures
 
 ## Processes during production (@Anna)
 
 ### Scaling
-As we already said, pressure and temperature go down as we extract geothermal fluid to the surface. This may lead to one of the major issues - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI) and when SI > 0, mineral is considered over-saturated and can precipitate out of the solution. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to the decreased tubes diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the system. 
+As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI) and when SI > 0, mineral is considered over-saturated and can precipitate out of the solution. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to the decreased tubes diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the system. 
 
 ### Corrosion
 
