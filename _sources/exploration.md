@@ -69,7 +69,7 @@ One of the most important methods of imaging the earth are seismic waves. Seismi
 
 In exploration geophysics, we use the very same phenomena, to image a small, chosen part of the underground, to understand its structure. Since we cannot have earthquakes as a source of seismic waves at the spot, where we want to examine a geothermal site, we must generate seismic waves ourselves. For this, geophysicists use a variety of sources. For shallow experiments, a hammer with a metal plate is enough to generate a wave, that travels tens of meters. If you need the waves to travel deeper into the earth more energy is needed. Therefore, we either use explosives of vibration trucks to create stronger waves. To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.
 
-![A vibrotruck acquiring data in a seismic survey](../exploration_pictures/IMG_20220906_120542.jpg)
+![A vibrotruck acquiring data in a seismic survey](/exploration_pictures/IMG_20220906_120542.jpg)
 
  #### Multi-physics (@Andrea)
  
@@ -85,7 +85,7 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 ## Modelling
  ### Geologic model (@Andrea)
  - Add paragraph with explanation
- - Look for gempy model of utah forge existing site (granite wih some sedimentary layers on top)
+ - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
  ### Inversion (@Hagen and Mahmoud)
 - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
 - Resulting model that is given to reservoir modelers (production link)
@@ -95,7 +95,7 @@ When investigating a geothermal site, we usually already have a rough idea about
 When minimising an analytic function, we would usually try to find the roots of the derivative as possible candidates for the minima. This gives us the model parameters, where the error between recorded and simulated data is minimal. Since this calculation is way too complex for geophysical techniques, we must use a computer the calculate the derivative. This also means, we don’t get an analytic function for the derivative to find the roots of. Nevertheless, the derivative tells us, how to update the model, such that we reduce the error, by following along into the direction of descent. A little animation for this procedure can be found below. This procedure is commonly called inverse modelling. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum. This yields a model, that explains our underground structure as good as possible. Once we are done, we hand over our best underground model to the reservoir engineers, to plan the layout of the geothermal power plant.
 
 
-```{code-cell} python3
+```{code-cell}
 import jp_proxy_widget
 src = "https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"
 graphUrl = "https://www.desmos.com/calculator/qn5qqc4wtc?lang=de"

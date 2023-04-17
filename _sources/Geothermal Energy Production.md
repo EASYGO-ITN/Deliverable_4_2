@@ -1,5 +1,3 @@
-<h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Geothermal-Energy-Production-and-Operation" data-toc-modified-id="Geothermal-Energy-Production-and-Operation-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Geothermal Energy Production and Operation</a></span><ul class="toc-item"><li><span><a href="#Geothermal-Energy-Production-and-System-Types-(@Nicolas)" data-toc-modified-id="Geothermal-Energy-Production-and-System-Types-(@Nicolas)-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Geothermal Energy Production and System Types (@Nicolas)</a></span></li></ul></li></ul></div>
 
 # Geothermal Energy Production and Operation 
 
