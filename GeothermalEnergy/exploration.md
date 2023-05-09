@@ -3,6 +3,10 @@
 This chapter is about the exploration and evaluation of geothermal resources
 
  ## Explain what is exploration (@Andrea)
+ 
+ Suggested definition of geothermal exploration(Mahmoud): 
+Geothermal exploration is the process of searching for and identifying areas of the Earth's crust that have the potential to host geothermal energy resources. It involves a comprehensive assessment of the geological and geophysical properties of the target area, including rock and fluid properties, temperature and pressure gradients, and the location and extent of heat sources. Geophysical surveys, such as gravity, magnetic, and electrical resistivity surveys, are used to gather more detailed information about the subsurface, and exploratory drilling is used to confirm the presence of geothermal resources and evaluate their feasibility for development. 
+ 
  Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth's crust is relatively thin, allowing heat from the Earth's interior to be easily accessed. Some areas that are ideal for geothermal energy production include:
 
 * Volcanic regions: Regions with active or dormant volcanoes are often good sites for geothermal energy production, as they have high levels of heat flow and permeable rock layers.
@@ -20,8 +24,18 @@ We use geologic evidence from the surface and analyze rock samples to understand
 <!-- - Image of core logs (Bedretto core logs)
 - Paragraph of different type of well data  -->
 
+This is a new comment
+
 <!-- maybe reorder to connect to andreas pargraph above? -->
-Well logs refer to a set of measurements and data that are obtained during the exploration wells. These measurements are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the oil and gas industry, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
+
+Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids, which are hot water or steam that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
+
+One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. This information is important for determining the optimal locations for production wells and designing the well field for a geothermal power plant. By understanding the subsurface geology and fluid flow properties, exploratory wells can help to identify the most productive zones for fluid extraction and ensure efficient and sustainable use of the geothermal resource.
+
+Another important role of exploratory wells is to assess the potential environmental impact of geothermal development. The fluids extracted from exploratory wells are analyzed for their chemistry and potential contaminants, such as heavy metals or gases like carbon dioxide. This information can help to evaluate the potential impact of geothermal development on groundwater quality, surface water, and air quality. In addition, exploratory wells can be used to monitor seismic activity and assess the risk of induced earthquakes associated with geothermal development.
+
+
+An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the exploration, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
 
 Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
 
