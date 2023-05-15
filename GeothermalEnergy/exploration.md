@@ -20,6 +20,10 @@ We use geologic evidence from the surface and analyze rock samples to understand
 <!-- - Image of core logs (Bedretto core logs)
 - Paragraph of different type of well data  -->
 
+![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
+
+![Core samples collected during drilling.](/exploration_pictures/cores5.jpg)(/exploration_pictures/cores3.jpg)
+
 <!-- maybe reorder to connect to andreas pargraph above? -->
 Well logs refer to a set of measurements and data that are obtained during the exploration wells. These measurements are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the oil and gas industry, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
 
