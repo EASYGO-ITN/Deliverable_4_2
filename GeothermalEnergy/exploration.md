@@ -32,9 +32,6 @@ Exploratory wells are drilled to explore the subsurface geology and determine th
 
 One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. This information is important for determining the optimal locations for production wells and designing the well field for a geothermal power plant. By understanding the subsurface geology and fluid flow properties, exploratory wells can help to identify the most productive zones for fluid extraction and ensure efficient and sustainable use of the geothermal resource.
 
-Another important role of exploratory wells is to assess the potential environmental impact of geothermal development. The fluids extracted from exploratory wells are analyzed for their chemistry and potential contaminants, such as heavy metals or gases like carbon dioxide. This information can help to evaluate the potential impact of geothermal development on groundwater quality, surface water, and air quality. In addition, exploratory wells can be used to monitor seismic activity and assess the risk of induced earthquakes associated with geothermal development.
-
-
 An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the exploration, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
 
 Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
@@ -54,6 +51,14 @@ In addition to identifying potential geothermal reservoirs, well log data can al
 Well log data is also used in geothermal reservoir modeling, which involves creating a three-dimensional representation of the subsurface geology and fluid flow within the reservoir. This modeling can help geologists and engineers better understand the behavior of the reservoir and optimize the design and operation of a geothermal power plant.
 
 In conclusion, well log data plays a critical role in geothermal exploration, providing valuable information on the subsurface geology and rock properties. This data is used to identify potential geothermal reservoirs, characterize their properties, and model their behavior. The use of well log data can help to reduce the risks and costs associated with geothermal exploration and increase the efficiency and output of geothermal power plants.
+
+Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
+
+### Geochemistry
+Rock samples obtained from these wells undergo geochemical analysis to understand the composition, mineralogy, and alteration patterns within the reservoir. This information aids in determining the permeability, porosity, and potential mineral reactions within the reservoir, which can influence fluid flow and heat transfer.  Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. These techniques determine the chemical composition of geothermal fluids, including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. Scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. 
+
+
+Geochemistry ivolves analysis of the fluids extracted for their potential contaminants, such as heavy metals or gases like carbon dioxide. Baseline concentration of these metals and gases is measured, and monitoring is conducted. Deviations caused by geothermal operations can be detected and mitigated. Geochemistry also aids in assessing the potential for induced seismicity. Geothermal energy production usually includes fluid injection into the subsurface, which can affect the stability of faults and trigger earthquakes. Geochemical studies can give insights into the fluid-rock interactions. Overall, geochemisty plays a vital role in understanding and assessing th environemental implications of geothermal operations.
 
 
  ### Geophysics (@Hagen)
