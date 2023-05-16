@@ -2,7 +2,7 @@
 
 This chapter is about the exploration and evaluation of geothermal resources
 
- ## Explain what is exploration (@Andrea)
+ ## What is exploration ?
  Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth's crust is relatively thin, allowing heat from the Earth's interior to be easily accessed. Some areas that are ideal for geothermal energy production include:
 
 * Volcanic regions: Regions with active or dormant volcanoes are often good sites for geothermal energy production, as they have high levels of heat flow and permeable rock layers.
@@ -15,38 +15,9 @@ This chapter is about the exploration and evaluation of geothermal resources
 
 We use geologic evidence from the surface and analyze rock samples to understand the formation of these different zones. Once geophysicists have sufficient information about the geology, they proceed to use geophysical instruments to explore the specific location. 
 
- ## How we explore
- ### Exploratory well drilling (@Mahmoud)
-<!-- - Image of core logs (Bedretto core logs)
-- Paragraph of different type of well data  -->
+## How do we explore the subsurface?
 
-![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
-
-![Core samples collected during drilling.](/exploration_pictures/cores5.jpg)(/exploration_pictures/cores3.jpg)
-
-<!-- maybe reorder to connect to andreas pargraph above? -->
-Well logs refer to a set of measurements and data that are obtained during the exploration wells. These measurements are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the oil and gas industry, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
-
-Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
-
-Acoustic Logs: Acoustic logs measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. These logs can provide information on the lithology, porosity, permeability, and other properties of the formations.
-
-Nuclear Logs: Nuclear logs use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. These logs can provide information on the lithology, porosity, and fluid content of the formations.
-
-Imaging Logs: Imaging logs use various techniques to create images of the wellbore and the surrounding rock formations. These logs can provide information on the structure and orientation of the formations, as well as on the presence of fractures and other features.
-
-Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs, which measure various parameters related to temperature, pressure, and fluid flow in the wellbore and surrounding formations.
-
-Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
-
-In addition to identifying potential geothermal reservoirs, well log data can also be used to characterize the properties of the reservoir, such as its temperature, pressure, and fluid content. This information is critical for determining the feasibility and potential output of a geothermal power plant. For example, a high-temperature reservoir with a high fluid content and good permeability would be an ideal location for a geothermal power plant, as it would allow for the efficient extraction of heat from the reservoir and the generation of electricity.
-
-Well log data is also used in geothermal reservoir modeling, which involves creating a three-dimensional representation of the subsurface geology and fluid flow within the reservoir. This modeling can help geologists and engineers better understand the behavior of the reservoir and optimize the design and operation of a geothermal power plant.
-
-In conclusion, well log data plays a critical role in geothermal exploration, providing valuable information on the subsurface geology and rock properties. This data is used to identify potential geothermal reservoirs, characterize their properties, and model their behavior. The use of well log data can help to reduce the risks and costs associated with geothermal exploration and increase the efficiency and output of geothermal power plants.
-
-
- ### Geophysics (@Hagen)
+### Geophysics (@Hagen)
 <!-- - Make analog to medical x-rays
 - Talk about acquisition (include pictures)
 PICTURES: MRT/CT scanner / Acquisition picture? -->
@@ -86,8 +57,37 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
  <!-- - Explain the method and make a gif with wave propagation  -->
  
+ 
+ ### Exploratory well drilling (@Mahmoud)
+
+![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
+
+![Core samples collected during drilling.](/exploration_pictures/cores5.jpg)(/exploration_pictures/cores3.jpg)
+
+<!-- maybe reorder to connect to andreas pargraph above? -->
+Well logs refer to a set of measurements and data that are obtained during the exploration wells. These measurements are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the oil and gas industry, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
+
+* Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
+
+* Acoustic Logs: Acoustic logs measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. These logs can provide information on the lithology, porosity, permeability, and other properties of the formations.
+
+* Nuclear Logs: Nuclear logs use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. These logs can provide information on the lithology, porosity, and fluid content of the formations.
+
+* Imaging Logs: Imaging logs use various techniques to create images of the wellbore and the surrounding rock formations. These logs can provide information on the structure and orientation of the formations, as well as on the presence of fractures and other features.
+
+* Other Logs: Other types of well logs include **temperature logs**, pressure logs, and production logs, which measure various parameters related to temperature, pressure, and fluid flow in the wellbore and surrounding formations.
+
+In addition to identifying potential geothermal reservoirs, well log data can also be used to characterize the properties of the reservoir, such as its temperature, pressure, and fluid content. This information is critical for determining the feasibility and potential output of a geothermal power plant. For example, a high-temperature reservoir with a high fluid content and good permeability would be an ideal location for a geothermal power plant, as it would allow for the efficient extraction of heat from the reservoir and the generation of electricity.
+
+In conclusion, well log data plays a critical role in geothermal exploration, providing valuable information on the subsurface geology and rock properties. This data is used to identify potential geothermal reservoirs, characterize their properties, and model their behavior. The use of well log data can help to reduce the risks and costs associated with geothermal exploration and increase the efficiency and output of geothermal power plants.
+
+### Geochemistry for exploration 
+Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. We can carry out experiments that include sampling geothermal fluids and laboratory testing. Geothermal fluids are water that is heated by the Earth's heat and comes up to the surface. By analyzing the chemical and isotopic composition of these fluids, geoscientists can determine the temperature, mineral content, and other properties of the geothermal reservoir. Geochemistry not only includes fluid sampling but gas experiments as well. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's surface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
+<!---maybe picture here ? --> 
+
 ## Modelling
  ### Geologic model (@Andrea)
+ 
  - Add paragraph with explanation
  - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
  ### Inversion (@Hagen and Mahmoud)
