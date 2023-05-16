@@ -24,8 +24,6 @@ We use geologic evidence from the surface and analyze rock samples to understand
 <!-- - Image of core logs (Bedretto core logs)
 - Paragraph of different type of well data  -->
 
-This is a new comment
-
 <!-- maybe reorder to connect to andreas pargraph above? -->
 
 Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids, which are hot water or steam that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
