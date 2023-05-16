@@ -1,4 +1,4 @@
-# Geothermal Energy Utilisation
+# Geothermal Energy Utilisation NEW
 
 ## Introduction @Tristan
 From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
@@ -41,6 +41,62 @@ Space heating, including individual space heating and district heating, dates ba
 
 ### Other
 
+## Power Plants
+Geothermal power plants convert the geothermal energy into electricity.
+
+### Dry Steam @Tristan
+Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
+at temperatures as high as 250 &deg;C. 
+
+The hot high-pressure vapour is directly expanded in a turbine, thereby converting the thermal energy into work, turning
+the turbine and generating electricity. The low pressure vapour is then condensed, for example in a cooling tower, with
+the condensate being re-injected into the reservoir.
+![Dry Steam](Utilisation_pictures/DrySteam.svg)
+
+Although the cycle shown above does not appear to resemble the Rankine Cycle discussed above, the pressurisation and
+heating is not shown as it happens in the geothermal reservoir.
+
+### Flash @Tristan
+Where the geofluid arriving at the surface is two-phase, i.e. liquid water and steam, a direct steam cycle with flash 
+can be used.
+
+The incoming geofluid is separated into a vapour and liquid stream in a flash column, which is also used to optimise the
+turbine net power, by adjusting the flash temperature/pressure at which the vapour is separated, thereby releasing more
+steam while sacrificing the specific turbine power output.
+
+The vapour is then expanded in a turbine to convert the thermal energy to work to drive a generator and produce 
+electricity.
+
+The low-pressure vapour is then condensed and reinjected alongwith the liquid from the flash column into the reservoir.
+![Flash Plant](Utilisation_pictures/FlashPlant.svg)
+
+### Binary @Lorenzo
+
+Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
+
+The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
+
+
+## Power Plant Equipment @Lorenzo
+All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
+
+A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft. By blowing the hot vapor on the blades, each one of them will generate some lift, and their combination will induce the rotation of the turbine.
+
+![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
+
+The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .
+
+The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.
+
+### Heat Exchanger
+
+### Pump
+
+### Turbine
+
+### Generator
+
+### Valve/Orifice
 
 ## Energy Conversion @Tristan
 Converting from one form of energy to another is always associated with losses. The most familiar type of such losses 
@@ -136,66 +192,3 @@ compressing/expanding fluids with existing equipment technologies. The Rankine C
 
     The expanded low pressure vapour is cooled until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is wholly liquefied. This returns the fluid to its initial state can closes the cycle.
     ![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
-
-## Power Plants
-Geothermal power plants convert the geothermal energy into electricity. The main working principle between all power 
-plant types is the same: a hot high-pressure vapour is expanded in a turbine, to convert the thermal energy into 
-mechanic rotational energy. In turn, this is used to drive a generator and induces an electrical current, which is 
-then fed into the electricity grid.
-
-Depending on the temperature and physical state (i.e. a vapour, a liquid, or a mixture thereof) of the geofluid arriving
-at surface. The main classes of geothermal power plants are:
-
-### Dry Steam @Tristan
-Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
-at temperatures as high as 250 &deg;C. 
-
-The hot high-pressure vapour is directly expanded in a turbine, thereby converting the thermal energy into work, turning
-the turbine and generating electricity. The low pressure vapour is then condensed, for example in a cooling tower, with
-the condensate being re-injected into the reservoir.
-![Dry Steam](Utilisation_pictures/DrySteam.svg)
-
-Although the cycle shown above does not appear to resemble the Rankine Cycle discussed above, the pressurisation and
-heating is not shown as it happens in the geothermal reservoir.
-
-### Flash @Tristan
-Where the geofluid arriving at the surface is two-phase, i.e. liquid water and steam, a direct steam cycle with flash 
-can be used.
-
-The incoming geofluid is separated into a vapour and liquid stream in a flash column, which is also used to optimise the
-turbine net power, by adjusting the flash temperature/pressure at which the vapour is separated, thereby releasing more
-steam while sacrificing the specific turbine power output.
-
-The vapour is then expanded in a turbine to convert the thermal energy to work to drive a generator and produce 
-electricity.
-
-The low-pressure vapour is then condensed and reinjected alongwith the liquid from the flash column into the reservoir.
-![Flash Plant](Utilisation_pictures/FlashPlant.svg)
-
-### Binary @Lorenzo
-
-Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
-
-The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
-
-
-## Power Plant Equipment @Lorenzo
-All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
-
-A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft. By blowing the hot vapor on the blades, each one of them will generate some lift, and their combination will induce the rotation of the turbine.
-
-![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
-
-The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .
-
-The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.
-
-### Heat Exchanger
-
-### Pump
-
-### Turbine
-
-### Generator
-
-### Valve/Orifice
