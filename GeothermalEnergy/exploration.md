@@ -85,12 +85,8 @@ In conclusion, well log data plays a critical role in geothermal exploration, pr
 Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. We can carry out experiments that include sampling geothermal fluids and laboratory testing. Geothermal fluids are water that is heated by the Earth's heat and comes up to the surface. By analyzing the chemical and isotopic composition of these fluids, geoscientists can determine the temperature, mineral content, and other properties of the geothermal reservoir. Geochemistry not only includes fluid sampling but gas experiments as well. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's surface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
 <!---maybe picture here ? --> 
 
-## Modelling
- ### Geologic model (@Andrea)
- 
- - Add paragraph with explanation
- - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
- ### Inversion (@Hagen and Mahmoud)
+
+ ## Inversion (@Hagen and Mahmoud)
 - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
 - Resulting model that is given to reservoir modelers (production link)
 
@@ -98,7 +94,16 @@ When investigating a geothermal site, we usually already have a rough idea about
 
 When minimising an analytic function, we would usually try to find the roots of the derivative as possible candidates for the minima. This gives us the model parameters, where the error between recorded and simulated data is minimal. Since this calculation is way too complex for geophysical techniques, we must use a computer the calculate the derivative. This also means, we don’t get an analytic function for the derivative to find the roots of. Nevertheless, the derivative tells us, how to update the model, such that we reduce the error, by following along into the direction of descent. A little animation for this procedure can be found below. This procedure is commonly called inverse modelling. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum. This yields a model, that explains our underground structure as good as possible. Once we are done, we hand over our best underground model to the reservoir engineers, to plan the layout of the geothermal power plant.
 
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. Andrea Balza Morales is integreating geophysics and geologic modeling by the means of inversion. [Learn more about her work](https://easygo-itn.eu/andrea-e-balza-morales/)
+ </div>
 
+## Modelling
+ ### Geologic model (@Andrea)
+Geological modelling is a critical component of geothermal exploration. Geothermal resources are often located in complex geological settings, making it essential to create a detailed model of the subsurface geology to identify potential geothermal reservoirs. Once the geophysical inversion has been completed, we use this data to create a geological model of the subsurface. The geological model incorporates data from the geophysical inversion with other geological data such as drill cores, well logs, and surface mapping. Geologists also create models of the different structural features present in the subsurface, such as faults and fractures. These models help to understand the subsurface geology and identify areas where geothermal fluids may accumulate. A wide range of computer software is used to create a 3D model of the subsurface geology which incorporates the different data types, allowing geologists to visualize the subsurface geology in three dimensions. Below is an example of a 3D geologic model of the Utah Forge geothermal test site. 
+
+- Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
+ - 
 ```{code-cell}
 import jp_proxy_widget
 src = "https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"
