@@ -3,10 +3,6 @@
 This chapter is about the exploration and evaluation of geothermal resources
 
  ## Explain what is exploration (@Andrea)
- 
- Suggested definition of geothermal exploration(Mahmoud): 
-Geothermal exploration is the process of searching for and identifying areas of the Earth's crust that have the potential to host geothermal energy resources. It involves a comprehensive assessment of the geological and geophysical properties of the target area, including rock and fluid properties, temperature and pressure gradients, and the location and extent of heat sources. Geophysical surveys, such as gravity, magnetic, and electrical resistivity surveys, are used to gather more detailed information about the subsurface, and exploratory drilling is used to confirm the presence of geothermal resources and evaluate their feasibility for development. 
- 
  Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth's crust is relatively thin, allowing heat from the Earth's interior to be easily accessed. Some areas that are ideal for geothermal energy production include:
 
 * Volcanic regions: Regions with active or dormant volcanoes are often good sites for geothermal energy production, as they have high levels of heat flow and permeable rock layers.
@@ -28,15 +24,7 @@ We use geologic evidence from the surface and analyze rock samples to understand
 - Paragraph of different type of well data  -->
 
 <!-- maybe reorder to connect to andreas pargraph above? -->
-
-Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids, which are hot water or steam that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
-
-One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. This information is important for determining the optimal locations for production wells and designing the well field for a geothermal power plant. By understanding the subsurface geology and fluid flow properties, exploratory wells can help to identify the most productive zones for fluid extraction and ensure efficient and sustainable use of the geothermal resource.
-
-Another important role of exploratory wells is to assess the potential environmental impact of geothermal development. The fluids extracted from exploratory wells are analyzed for their chemistry and potential contaminants, such as heavy metals or gases like carbon dioxide. This information can help to evaluate the potential impact of geothermal development on groundwater quality, surface water, and air quality. In addition, exploratory wells can be used to monitor seismic activity and assess the risk of induced earthquakes associated with geothermal development.
-
-
-An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the exploration, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
+Well logs refer to a set of measurements and data that are obtained during the exploration wells. These measurements are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the oil and gas industry, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
 
 Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
 
@@ -53,6 +41,11 @@ Other Logs: Other types of well logs include temperature logs, pressure logs, an
 
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
+In addition to identifying potential geothermal reservoirs, well log data can also be used to characterize the properties of the reservoir, such as its temperature, pressure, and fluid content. This information is critical for determining the feasibility and potential output of a geothermal power plant. For example, a high-temperature reservoir with a high fluid content and good permeability would be an ideal location for a geothermal power plant, as it would allow for the efficient extraction of heat from the reservoir and the generation of electricity.
+
+Well log data is also used in geothermal reservoir modeling, which involves creating a three-dimensional representation of the subsurface geology and fluid flow within the reservoir. This modeling can help geologists and engineers better understand the behavior of the reservoir and optimize the design and operation of a geothermal power plant.
+
+In conclusion, well log data plays a critical role in geothermal exploration, providing valuable information on the subsurface geology and rock properties. This data is used to identify potential geothermal reservoirs, characterize their properties, and model their behavior. The use of well log data can help to reduce the risks and costs associated with geothermal exploration and increase the efficiency and output of geothermal power plants.
 
 
  ### Geophysics (@Hagen)
