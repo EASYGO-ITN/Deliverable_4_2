@@ -81,18 +81,20 @@ Other Logs: Other types of well logs include temperature logs, pressure logs, an
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
 ![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
+
+<img align="right" width="100" height="1000" src="/exploration_pictures/cores5.jpg">
+
+<!-- ![Core samples collected during drilling.](/exploration_pictures/cores5.jpg) -->
+
+### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
 
-### Geochemistry (Mahmoud)
-Rock samples obtained from these wells undergo geochemical analysis to understand the composition, mineralogy, and alteration patterns within the reservoir. This information aids in determining the permeability, porosity, and potential mineral reactions within the reservoir, which can influence fluid flow and heat transfer.  Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. These techniques determine the chemical composition of geothermal fluids, including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. Scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. 
+Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's subsurface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
 
-
-Geochemistry ivolves analysis of the fluids extracted for their potential contaminants, such as heavy metals or gases like carbon dioxide. Baseline concentration of these metals and gases is measured, and monitoring is conducted. Deviations caused by geothermal operations can be detected and mitigated. Geochemistry also aids in assessing the potential for induced seismicity. Geothermal energy production usually includes fluid injection into the subsurface, which can affect the stability of faults and trigger earthquakes. Geochemical studies can give insights into the fluid-rock interactions. Overall, geochemisty plays a vital role in understanding and assessing th environemental implications of geothermal operations.
-![Core samples collected during drilling.](/exploration_pictures/cores5.jpg)
-
-### Geochemistry for exploration (Andrea)
-Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. We can carry out experiments that include sampling geothermal fluids and laboratory testing. Geothermal fluids are water that is heated by the Earth's heat and comes up to the surface. By analyzing the chemical and isotopic composition of these fluids, geoscientists can determine the temperature, mineral content, and other properties of the geothermal reservoir. Geochemistry not only includes fluid sampling but gas experiments as well. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's surface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
-<!---maybe picture here ? --> 
+`````{admonition} Geochemistry in geothermal production
+:class: tip
+Geochemical analysis is also used to monitor geothermal production. Geochemist use techniques to determine the chemical composition of geothermal fluids including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. This is important, since scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. For more information about the risks involved in these processes refer to [Issues and Safety of Geothermal Operations](https://easygo-itn.github.io/Deliverable_4_2/issues_and_safety.html)
+`````
 
 ## Inversion (@Hagen and Mahmoud)
 - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
