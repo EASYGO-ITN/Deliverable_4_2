@@ -49,11 +49,6 @@ Other Logs: Other types of well logs include temperature logs, pressure logs, an
 
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
-In addition to identifying potential geothermal reservoirs, well log data can also be used to characterize the properties of the reservoir, such as its temperature, pressure, and fluid content. This information is critical for determining the feasibility and potential output of a geothermal power plant. For example, a high-temperature reservoir with a high fluid content and good permeability would be an ideal location for a geothermal power plant, as it would allow for the efficient extraction of heat from the reservoir and the generation of electricity.
-
-Well log data is also used in geothermal reservoir modeling, which involves creating a three-dimensional representation of the subsurface geology and fluid flow within the reservoir. This modeling can help geologists and engineers better understand the behavior of the reservoir and optimize the design and operation of a geothermal power plant.
-
-In conclusion, well log data plays a critical role in geothermal exploration, providing valuable information on the subsurface geology and rock properties. This data is used to identify potential geothermal reservoirs, characterize their properties, and model their behavior. The use of well log data can help to reduce the risks and costs associated with geothermal exploration and increase the efficiency and output of geothermal power plants.
 
 
  ### Geophysics (@Hagen)
