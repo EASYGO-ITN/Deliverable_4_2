@@ -1,10 +1,10 @@
 # Exploration of Geothermal Resources
 
-This chapter is about the exploration and evaluation of geothermal resources
+This chapter is about the exploration and evaluation of geothermal resources.
 
  ## Explain what is exploration (@Andrea)
  
- Suggested definition of geothermal exploration(Mahmoud): 
+Suggested definition of geothermal exploration(Mahmoud): 
 Geothermal exploration is the process of searching for and identifying areas of the Earth's crust that have the potential to host geothermal energy resources. It involves a comprehensive assessment of the geological and geophysical properties of the target area, including rock and fluid properties, temperature and pressure gradients, and the location and extent of heat sources. Geophysical surveys, such as gravity, magnetic, and electrical resistivity surveys, are used to gather more detailed information about the subsurface, and exploratory drilling is used to confirm the presence of geothermal resources and evaluate their feasibility for development. 
  
  Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth's crust is relatively thin, allowing heat from the Earth's interior to be easily accessed. Some areas that are ideal for geothermal energy production include:
@@ -20,43 +20,6 @@ Geothermal exploration is the process of searching for and identifying areas of 
 We use geologic evidence from the surface and analyze rock samples to understand the formation of these different zones. Once geophysicists have sufficient information about the geology, they proceed to use geophysical instruments to explore the specific location. 
 
  ## How we explore
- ### Exploratory well drilling (@Mahmoud)
-<!-- - Image of core logs (Bedretto core logs)
-- Paragraph of different type of well data  -->
-
-<!-- maybe reorder to connect to andreas pargraph above? -->
-
-Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids, which are hot water or steam that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
-
-One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. This information is important for determining the optimal locations for production wells and designing the well field for a geothermal power plant. By understanding the subsurface geology and fluid flow properties, exploratory wells can help to identify the most productive zones for fluid extraction and ensure efficient and sustainable use of the geothermal resource.
-
-Another important role of exploratory wells is to assess the potential environmental impact of geothermal development. The fluids extracted from exploratory wells are analyzed for their chemistry and potential contaminants, such as heavy metals or gases like carbon dioxide. This information can help to evaluate the potential impact of geothermal development on groundwater quality, surface water, and air quality. In addition, exploratory wells can be used to monitor seismic activity and assess the risk of induced earthquakes associated with geothermal development.
-
-
-An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the exploration, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
-
-Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
-
-Acoustic Logs: Acoustic logs measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. These logs can provide information on the lithology, porosity, permeability, and other properties of the formations.
-
-Nuclear Logs: Nuclear logs use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. These logs can provide information on the lithology, porosity, and fluid content of the formations.
-
-Imaging Logs: Imaging logs use various techniques to create images of the wellbore and the surrounding rock formations. These logs can provide information on the structure and orientation of the formations, as well as on the presence of fractures and other features.
-
-Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs, which measure various parameters related to temperature, pressure, and fluid flow in the wellbore and surrounding formations.
-
-Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
-
-![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
-Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
-
-### Geochemistry
-Rock samples obtained from these wells undergo geochemical analysis to understand the composition, mineralogy, and alteration patterns within the reservoir. This information aids in determining the permeability, porosity, and potential mineral reactions within the reservoir, which can influence fluid flow and heat transfer.  Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. These techniques determine the chemical composition of geothermal fluids, including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. Scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. 
-
-
-Geochemistry ivolves analysis of the fluids extracted for their potential contaminants, such as heavy metals or gases like carbon dioxide. Baseline concentration of these metals and gases is measured, and monitoring is conducted. Deviations caused by geothermal operations can be detected and mitigated. Geochemistry also aids in assessing the potential for induced seismicity. Geothermal energy production usually includes fluid injection into the subsurface, which can affect the stability of faults and trigger earthquakes. Geochemical studies can give insights into the fluid-rock interactions. Overall, geochemisty plays a vital role in understanding and assessing th environemental implications of geothermal operations.
-![Core samples collected during drilling.](/exploration_pictures/cores5.jpg)
-
  ### Geophysics (@Hagen)
 <!-- - Make analog to medical x-rays
 - Talk about acquisition (include pictures)
@@ -97,11 +60,48 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
  <!-- - Explain the method and make a gif with wave propagation  -->
  
-## Modelling
- ### Geologic model (@Andrea)
- - Add paragraph with explanation
- - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
- ### Inversion (@Hagen and Mahmoud)
+### Exploratory well drilling (@Mahmoud)
+<!-- - Image of core logs (Bedretto core logs)
+- Paragraph of different type of well data  -->
+
+<!-- maybe reorder to connect to andreas pargraph above? -->
+
+Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids, which are hot water or steam that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
+
+One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. This information is important for determining the optimal locations for production wells and designing the well field for a geothermal power plant. By understanding the subsurface geology and fluid flow properties, exploratory wells can help to identify the most productive zones for fluid extraction and ensure efficient and sustainable use of the geothermal resource.
+
+Another important role of exploratory wells is to assess the potential environmental impact of geothermal development. The fluids extracted from exploratory wells are analyzed for their chemistry and potential contaminants, such as heavy metals or gases like carbon dioxide. This information can help to evaluate the potential impact of geothermal development on groundwater quality, surface water, and air quality. In addition, exploratory wells can be used to monitor seismic activity and assess the risk of induced earthquakes associated with geothermal development.
+
+
+An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. There are several types of well logs used in the exploration, each providing valuable information about the subsurface geology and rock properties encountered during drilling. Here are some of the most common types of well logs:
+
+Electrical Logs: Electrical logs measure the electrical properties of the rock formations encountered during drilling. The most commonly used electrical logs are the resistivity logs, which measure the resistance of the rock formations to the flow of electrical current. These logs can provide information on the lithology, porosity, and fluid content of the formations.
+
+Acoustic Logs: Acoustic logs measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. These logs can provide information on the lithology, porosity, permeability, and other properties of the formations.
+
+Nuclear Logs: Nuclear logs use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. These logs can provide information on the lithology, porosity, and fluid content of the formations.
+
+Imaging Logs: Imaging logs use various techniques to create images of the wellbore and the surrounding rock formations. These logs can provide information on the structure and orientation of the formations, as well as on the presence of fractures and other features.
+
+Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs, which measure various parameters related to temperature, pressure, and fluid flow in the wellbore and surrounding formations.
+
+Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
+
+![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
+Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
+
+### Geochemistry (Mahmoud)
+Rock samples obtained from these wells undergo geochemical analysis to understand the composition, mineralogy, and alteration patterns within the reservoir. This information aids in determining the permeability, porosity, and potential mineral reactions within the reservoir, which can influence fluid flow and heat transfer.  Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. These techniques determine the chemical composition of geothermal fluids, including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. Scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. 
+
+
+Geochemistry ivolves analysis of the fluids extracted for their potential contaminants, such as heavy metals or gases like carbon dioxide. Baseline concentration of these metals and gases is measured, and monitoring is conducted. Deviations caused by geothermal operations can be detected and mitigated. Geochemistry also aids in assessing the potential for induced seismicity. Geothermal energy production usually includes fluid injection into the subsurface, which can affect the stability of faults and trigger earthquakes. Geochemical studies can give insights into the fluid-rock interactions. Overall, geochemisty plays a vital role in understanding and assessing th environemental implications of geothermal operations.
+![Core samples collected during drilling.](/exploration_pictures/cores5.jpg)
+
+### Geochemistry for exploration (Andrea)
+Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. We can carry out experiments that include sampling geothermal fluids and laboratory testing. Geothermal fluids are water that is heated by the Earth's heat and comes up to the surface. By analyzing the chemical and isotopic composition of these fluids, geoscientists can determine the temperature, mineral content, and other properties of the geothermal reservoir. Geochemistry not only includes fluid sampling but gas experiments as well. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's surface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
+<!---maybe picture here ? --> 
+
+## Inversion (@Hagen and Mahmoud)
 - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
 - Resulting model that is given to reservoir modelers (production link)
 
@@ -109,20 +109,8 @@ When investigating a geothermal site, we usually already have a rough idea about
 
 When minimising an analytic function, we would usually try to find the roots of the derivative as possible candidates for the minima. This gives us the model parameters, where the error between recorded and simulated data is minimal. Since this calculation is way too complex for geophysical techniques, we must use a computer the calculate the derivative. This also means, we don’t get an analytic function for the derivative to find the roots of. Nevertheless, the derivative tells us, how to update the model, such that we reduce the error, by following along into the direction of descent. A little animation for this procedure can be found below. This procedure is commonly called inverse modelling. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum. This yields a model, that explains our underground structure as good as possible. Once we are done, we hand over our best underground model to the reservoir engineers, to plan the layout of the geothermal power plant.
 
+## Modelling
+ ### Geologic model (@Andrea)
+Geological modelling is a critical component of geothermal exploration. Geothermal resources are often located in complex geological settings, making it essential to create a detailed model of the subsurface geology to identify potential geothermal reservoirs. Once the geophysical inversion has been completed, we use this data to create a geological model of the subsurface. The geological model incorporates data from the geophysical inversion with other geological data such as drill cores, well logs, and surface mapping. Geologists also create models of the different structural features present in the subsurface, such as faults and fractures. These models help to understand the subsurface geology and identify areas where geothermal fluids may accumulate. A wide range of computer software is used to create a 3D model of the subsurface geology which incorporates the different data types, allowing geologists to visualize the subsurface geology in three dimensions. Below is an example of a 3D geologic model of the Utah Forge geothermal test site. 
 
-```{code-cell}
-import jp_proxy_widget
-src = "https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"
-graphUrl = "https://www.desmos.com/calculator/qn5qqc4wtc?lang=de"
-
-widget = jp_proxy_widget.JSProxyWidget()
-widget.load_js_files([src])
-widget.js_init(
-    """
-    element.width(950).height(1000);
-    element.calculator = Desmos.Calculator(element[0]);
-    $.getJSON("https://www.desmos.com/calculator/qn5qqc4wtc").done(data => element.calculator.setState(data.state));
-    """
-)
-widget
-```
+ - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
