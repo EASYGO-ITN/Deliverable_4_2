@@ -224,30 +224,25 @@ stages easier to implement with existing turbomachinery (i.e. turbines, pumps an
 * **Stage 4**: The expanded low pressure vapour is cooled at constant pressure until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is fully liquefied. This returns the fluid to its initial state and closes the cycle. 
 * Repeat from **Stage 1**
 
-
-
-
-
-
-Geothermal power plants convert the geothermal energy into electricity. The main working principle between all power 
-plant types is the same: a hot high-pressure vapour is expanded in a turbine, to convert the thermal energy into 
-mechanic rotational energy. In turn, this is used to drive a generator and induces an electrical current, which is 
-then fed into the electricity grid.
-
-Depending on the temperature and physical state (i.e. a vapour, a liquid, or a mixture thereof) of the geofluid arriving
-at surface. The main classes of geothermal power plants are:
+Depending on the temperature and physical state (i.e. vapour, liquid or a mixture of the two) of the geofluid arriving
+at surface, different types of geothermal power plants are:
 
 ### Dry Steam @Tristan
 Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
-at temperatures as high as 250 &deg;C. 
+at temperatures as high as 250 &deg;C.
 
-The hot high-pressure vapour is directly expanded in a turbine, thereby converting the thermal energy into work, turning
-the turbine and generating electricity. The low pressure vapour is then condensed, for example in a cooling tower, with
-the condensate being re-injected into the reservoir.
-![Dry Steam](Utilisation_pictures/DrySteam.svg)
+![Dry Steam](Utilisation_pictures/DrySteamPlant.svg)
 
-Although the cycle shown above does not appear to resemble the Rankine Cycle discussed above, the pressurisation and
-heating is not shown as it happens in the geothermal reservoir.
+* **Initial State**: High-pressure saturated steam arrives at the power plant
+*  **Stage 1**: The hot vapour is expanded in a turbine
+* **Stage 2**: The low-pressure vapour is condensed (e.g. using a cooling tower)
+* **Stage 3**: The low-pressure liquid is re-pressurised using a pump and re-injected into the reservoir
+
+There are some peculiarities compared to the Rankine Cycle we discussed earlier:
+* The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
+* The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
+
+This is also the reason why they are typically referred as being ***open-loop*** 
 
 ### Flash @Tristan
 Where the geofluid arriving at the surface is two-phase, i.e. liquid water and steam, a direct steam cycle with flash 
