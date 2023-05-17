@@ -95,6 +95,7 @@ The Carnot Cycle is the simplest, most efficient, but merely theoretical heat en
     The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.
     ![Stage 4](Utilisation_pictures/Stage4.svg)
 5. Repeat from 1.
+    ![GIF](Utilisation_pictures/CarnotAnimation.gif)
 
 As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.
 
@@ -138,7 +139,37 @@ compressing/expanding fluids with existing equipment technologies. The Rankine C
     ![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
 
 ## Power Plants
-Geothermal power plants convert the geothermal energy into electricity.
+Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working 
+principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from 
+other power plants types like coal-fired or nuclear plants.
+
+### Working Principle: The Rankine Cycle
+The Rankine Cyle is a heat engine, that converts thermal energy into mechanical work, which in turn can be used for 
+driving a turbine. It is based on the theoretical Carnot Cycle, with adaptations to make the expansion and compression 
+stages easier to implement with existing turbomachinery (i.e. turbines, pumps and compressors, see below).
+
+
+![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
+
+* **Initial State**: The cycle working fluid (e.g. water) is at a low pressure and saturated liquid state
+*  **Stage 1**: A pump is used to compress and pressurise the working fluid to a high pressure
+* **Stage 2**: Heat is added to the fluid at constant pressure, raising its temperature until it reaches the boiling point. From hereon, heat addition results in subsequent vaporisation of the working fluid until it is fully vapourised.
+* **Stage 3**: The high pressure vapour is expanded in a turbine, which converts the fluid's thermal energy into rotational energy, and in turn drives a generator to produce electricity.
+* **Stage 4**: The expanded low pressure vapour is cooled at constant pressure until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is fully liquefied. This returns the fluid to its initial state and closes the cycle. 
+* Repeat from **Stage 1**
+
+
+
+
+
+
+Geothermal power plants convert the geothermal energy into electricity. The main working principle between all power 
+plant types is the same: a hot high-pressure vapour is expanded in a turbine, to convert the thermal energy into 
+mechanic rotational energy. In turn, this is used to drive a generator and induces an electrical current, which is 
+then fed into the electricity grid.
+
+Depending on the temperature and physical state (i.e. a vapour, a liquid, or a mixture thereof) of the geofluid arriving
+at surface. The main classes of geothermal power plants are:
 
 ### Dry Steam @Tristan
 Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
