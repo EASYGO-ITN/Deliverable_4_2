@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Syntax Template" href="template.html" />
@@ -391,6 +393,11 @@ title="Print to PDF"
      Other
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#carnot-cycle">
+     Carnot Cycle
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -416,6 +423,11 @@ title="Print to PDF"
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#binary-lorenzo">
      Binary @Lorenzo
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#efficiency">
+     Efficiency
     </a>
    </li>
   </ul>
@@ -531,6 +543,11 @@ title="Print to PDF"
      Other
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#carnot-cycle">
+     Carnot Cycle
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -556,6 +573,11 @@ title="Print to PDF"
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#binary-lorenzo">
      Binary @Lorenzo
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#efficiency">
+     Efficiency
     </a>
    </li>
   </ul>
@@ -653,18 +675,68 @@ other forms of energy such as electricity. This can be transported more easily o
 </section>
 <section id="other">
 <h3>Other<a class="headerlink" href="#other" title="Permalink to this headline">#</a></h3>
+<p>Besides the aforementioned mechanical losses, conversion of thermal energy into more useful forms of energy like  mechanical energy (in turn this can easily be converted into rotational and then electrical potential energy via use of a turbine and generator). This is because the conversion is an irreversible process.</p>
+<p>A process is reversible if it takes but a small nudge to reverse the process, however when it take a significant effort to reverse a process it is considered irreversible. Cooking is a great example of irreversible processes; it is simple enough to fry some fish, but is it significantly more difficult to unfry the fish and return it to its original state.</p>
+<p>There are a number of processes for converting thermal energy to mechanical energy, these are often referred to as heat engines or power cycles.</p>
+</section>
+<section id="carnot-cycle">
+<h3>Carnot Cycle<a class="headerlink" href="#carnot-cycle" title="Permalink to this headline">#</a></h3>
+<p>Definitions:
+A thermal reservoir is a body at a constant temperature. No adding of thermal energy will change its temperature. For example, adding a pot of boiling water to a lake will not measurably change the lake’s average temperature.</p>
+<p>The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work (mechanical energy). The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.</p>
+<ol>
+<li><p><strong>The initial state</strong></p>
+<p>Piston chamber is placed between two thermal reservoirs, one hot and one cold, the walls of the piston chamber currently do not permit transfer of mass or heat but can one at a time opened to heat transfer to/from one of the reservoirs. Piston chamber is filled with a fluid, which is of the same temperature as the hot reservoir, T<sub>Hot</sub>. The pressure-volume and temperature-entropy diagrams show the initial state of the fluid.
+<img alt="Stage 0" src="_images/Stage0.svg" /></p>
+</li>
+<li><p><strong>Isothermal Heat Addition</strong></p>
+<p>The piston chamber wall in contact with the hot reservoir is opened to allow heat transfer between the hot reservoir and the piston chamber. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. The arrows in the pressure-volume and temperature-entropy diagrams illustrate the “journey” of the fluid from the initial to the current state.
+<img alt="Stage 1" src="_images/Stage1.svg" /></p>
+<p>The heat added to the fluid is given by:
+$<span class="math notranslate nohighlight">\( Q_{in} = T_{Hot} * (S_2 - S_1) \)</span>$</p>
+</li>
+<li><p><strong>Isentropic Expansion</strong></p>
+<p>The piston chamber is once again isolated from the two reservoirs. The piston is then moved upwards, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>.
+<img alt="Stage 2" src="_images/Stage2.svg" /></p>
+</li>
+<li><p><strong>Isothermal Heat Removal</strong></p>
+<p>The previous processes are now reversed. The piston chamber wall in contact with the cold reservoir is opened to allow heat transfer between the cold and piston chamber. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir.
+<img alt="Stage 3" src="_images/Stage3.svg" /></p>
+<p>The heat removed from the fluid is given by:
+$<span class="math notranslate nohighlight">\(Q_{out} = T_{Cold} * (S_2 - S_1)\)</span>$</p>
+</li>
+<li><p><strong>Isoentropic Compression</strong></p>
+<p>The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.
+<img alt="Stage 4" src="_images/Stage4.svg" /></p>
+</li>
+<li><p>Repeat from 1.</p>
+<p><img alt="GIF" src="_images/CarnotAnimation.gif" /></p>
+</li>
+</ol>
+<p>As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.</p>
+<div class="math notranslate nohighlight">
+\[W_{Net} = Q_{in} - Q_{out}\]</div>
+<p>The conversion efficiency is thus</p>
+<div class="math notranslate nohighlight">
+\[\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}\]</div>
+<p>Unfortunately, it is difficult to translate such a cyclic process into the real world. A pure, single component
+fluid like water could be used to realise Stage 1 and Stage 3 (i.e. isothermal heat addition and isothermal heat
+removal), since pure fluids undergo constant temperature phase changes. For example, adding heat to a saturated liquid
+will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it
+to condense at a constant temperature</p>
+<p>However, Stage 2 and Stage 4,are more difficult to realise. This is because, while specific equipment exists for
+compressing a liquid (i.e. a pump) or a vapour (i.e. a compressor), these struggle with two-phase fluids (i.e. liquid
+and vapour). For example, excessive vapour in a pump can lead to cavitation, which damages the pump impeller; likewise
+excessive in a compressor can damage the blades.
+<img alt="Real Carnot Cycle" src="_images/RealCarnotCycle.svg" /></p>
 </section>
 </section>
 <section id="power-plants">
 <h2>Power Plants<a class="headerlink" href="#power-plants" title="Permalink to this headline">#</a></h2>
-<p>Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working
-principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from
-other power plants types like coal-fired or nuclear plants.</p>
+<p>Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from other power plants types like coal-fired or nuclear plants.</p>
 <section id="working-principle-the-rankine-cycle">
 <h3>Working Principle: The Rankine Cycle<a class="headerlink" href="#working-principle-the-rankine-cycle" title="Permalink to this headline">#</a></h3>
-<p>The Rankine Cyle is a heat engine, that converts thermal energy into mechanical work, which in turn can be used for
-driving a turbine. It is based on the theoretical Carnot Cycle, with adaptations to make the expansion and compression
-stages easier to implement with existing turbomachinery (i.e. turbines, pumps and compressors, see below).</p>
+<p>The Rankine Cyle is a heat engine, that converts thermal energy into mechanical work, which in turn can be used for driving a turbine. It is based on the theoretical Carnot Cycle, with adaptations to make the expansion and compression stages easier to implement with existing turbomachinery (i.e. turbines, pumps and compressors, see below).</p>
 <p><img alt="Rankine Cycle" src="_images/RankineCycle.svg" /></p>
 <ul class="simple">
 <li><p><strong>Initial State</strong>: The cycle working fluid (e.g. water) is at a low pressure and saturated liquid state</p></li>
@@ -674,8 +746,7 @@ stages easier to implement with existing turbomachinery (i.e. turbines, pumps an
 <li><p><strong>Stage 4</strong>: The expanded low pressure vapour is cooled at constant pressure until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is fully liquefied. This returns the fluid to its initial state and closes the cycle.</p></li>
 <li><p>Repeat from <strong>Stage 1</strong></p></li>
 </ul>
-<p>Depending on the temperature and physical state (i.e. vapour, liquid or a mixture of the two) of the geofluid arriving
-at surface, different types of geothermal power plants are:</p>
+<p>Depending on the temperature and physical state (i.e. vapour, liquid or a mixture of the two) of the geofluid arriving at surface, different types of geothermal power plants are:</p>
 </section>
 <section id="dry-steam-tristan">
 <h3>Dry Steam &#64;Tristan<a class="headerlink" href="#dry-steam-tristan" title="Permalink to this headline">#</a></h3>
@@ -702,16 +773,14 @@ at temperatures as high as 250 °C.</p>
 <ul class="simple">
 <li><p><strong>Initial State</strong>: Hot high-pressure two-phase geofluid arrives at the power plant</p></li>
 <li><p><strong>Stage 1</strong>: The geofluid is “flashed” (i.e. reducing its pressure). This causes the fluid to partition into a liquid and vapour phase, see dashed lines.</p></li>
-</ul>
-<div class="tip admonition">
-<p class="admonition-title">Optimising Power Production</p>
-<p>Flashing the geofluid more, can produce more steam (good) but comes at the cost of lower specific power generated by the turbine (bad) so there is a trade-off.</p>
-</div>
-<ul class="simple">
 <li><p><strong>Stage 2</strong>: The hot and high-pressure vapour is exanded in a turbine</p></li>
 <li><p><strong>Stage 3</strong>: The low-pressure vapour is condensed (e.g. using a Cooling Tower)</p></li>
 <li><p><strong>Stage 4</strong>: The low pressure liquid is re-pressurised using a pump and re-injected into the reservoir alongside the liquid obtained from Stage 1</p></li>
 </ul>
+<div class="tip admonition">
+<p class="admonition-title">Hint</p>
+<p>Flashing the geofluid more, can produce more steam (good) but comes at the cost of lower specific power generated by the turbine (bad) so there is a trade-off.</p>
+</div>
 <p>There are some peculiarities compared to the Rankine Cycle we discussed earlier:</p>
 <ul class="simple">
 <li><p>The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram</p></li>
@@ -721,7 +790,37 @@ at temperatures as high as 250 °C.</p>
 <section id="binary-lorenzo">
 <h3>Binary &#64;Lorenzo<a class="headerlink" href="#binary-lorenzo" title="Permalink to this headline">#</a></h3>
 <p>Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant.</p>
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on widening the application range of binary ORC power plants to two-phase sources like those commonly associated with Flash or Dry Steam plants. Find out more <a href="https://easygo-itn.eu/lorenzo-galieti/">here</a> or <a href="https://www.researchgate.net/profile/Tristan-Merbecks">here</a>!</div>
 <p>The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure.</p>
+<p><img alt="Binary ORC" src="_images/OrganicRankineCycle.svg" /></p>
+<ul class="simple">
+<li><p><strong>Initial State</strong>: Hot geofluid arrives at the power plant</p></li>
+<li><p><strong>Stage 1</strong>: The cold low-pressure cycle working fluid is pressurised using a pump.</p></li>
+<li><p><strong>Stage 2</strong>: The hot geofluid heats and evaporates the cycle working fluid. The now cold geofluid is re-injected into the reservoir</p></li>
+<li><p><strong>Stage 3</strong>: The hot and high-pressure vapour is exanded in a turbine.</p></li>
+<li><p><strong>Stage 4</strong>: The low-pressure vapour is condensed</p></li>
+<li><p>Repeat from <strong>Stage 1</strong></p></li>
+</ul>
+<ul>
+<li><p>advantages of ORCs</p>
+<ul class="simple">
+<li><p>choice of WF - here we could then mention that you are doing research into this…</p></li>
+</ul>
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is investigating whether mixtures of organic fluids could improve the performance of binary ORCs powe plants. Find out more <a href="https://easygo-itn.eu/tristan-merbecks/">here</a> or <a href="https://www.researchgate.net/profile/Lorenzo-Galieti">here</a>!</div>
+* turbine size, cost, eff, durability
+* closed loop - reduced contact with geofluid
+</li>
+<li><p>disadvantages</p></li>
+</ul>
+</section>
+<section id="efficiency">
+<h3>Efficiency<a class="headerlink" href="#efficiency" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>First Law</p></li>
+<li><p>Second Law</p></li>
+</ul>
 </section>
 </section>
 <section id="power-plant-equipment-lorenzo">
