@@ -42,135 +42,229 @@ Space heating, including individual space heating and district heating, dates ba
 ### Other
 
 
-## Energy Conversion @Tristan
-Converting from one form of energy to another is always associated with losses. The most familiar type of such losses 
-in our everyday life are frictional losses. For example an electric car converts electric potential energy into kinetic 
-energy, but the friction between the wheels and the road surface eventually brings the vehicle to a stand still once 
-the car's battery is empty. These kind of frictional losses are broadly described as mechanical losses.
+[//]: # (## Energy Conversion @Tristan)
 
-Besides the aforementioned mechanical losses, conversion of thermal energy into more useful forms of energy like 
-mechanical energy (in turn this can easily be converted into rotational and then electrical potential energy via use of
-a turbine and generator). This is because the conversion is an irreversible process.
+[//]: # (Converting from one form of energy to another is always associated with losses. The most familiar type of such losses )
 
-A process is reversible if it takes but a small nudge to reverse the process, however when it take a significant effort 
-to reverse a process it is considered irreversible. Cooking is a great example of irreversible processes; it is simple 
-enough to fry some fish, but is it significantly more difficult to unfry the fish and return it to its original state.
+[//]: # (in our everyday life are frictional losses. For example an electric car converts electric potential energy into kinetic )
 
-There are a number of processes for converting thermal energy to mechanical energy, these are often referred to as heat
-engines or power cycles.
+[//]: # (energy, but the friction between the wheels and the road surface eventually brings the vehicle to a stand still once )
 
-### Carnot Cycle
+[//]: # (the car's battery is empty. These kind of frictional losses are broadly described as mechanical losses.)
 
-Definitions:
-A thermal reservoir is a body at a constant temperature. No adding of thermal energy will change its temperature. For 
-example, adding a pot of boiling water to a lake will not measurably change the lake's average temperature.
+[//]: # ()
+[//]: # (Besides the aforementioned mechanical losses, conversion of thermal energy into more useful forms of energy like )
 
-The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work (mechanical energy).
-The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.
+[//]: # (mechanical energy &#40;in turn this can easily be converted into rotational and then electrical potential energy via use of)
 
-0. **The initial state**
-    
-    Piston chamber is placed between two thermal reservoirs, one hot and one cold, the walls of the piston chamber currently do not permit transfer of mass or heat but can one at a time opened to heat transfer to/from one of the reservoirs. Piston chamber is filled with a fluid, which is of the same temperature as the hot reservoir, T<sub>Hot</sub>. The pressure-volume and temperature-entropy diagrams show the initial state of the fluid.
-    ![Stage 0](Utilisation_pictures/Stage0.svg)
-1. **Isothermal Heat Addition** 
+[//]: # (a turbine and generator&#41;. This is because the conversion is an irreversible process.)
 
-    The piston chamber wall in contact with the hot reservoir is opened to allow heat transfer between the hot reservoir and the piston chamber. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. The arrows in the pressure-volume and temperature-entropy diagrams illustrate the "journey" of the fluid from the initial to the current state. 
-    ![Stage 1](Utilisation_pictures/Stage1.svg)
-    The heat added to the fluid is given by:
+[//]: # ()
+[//]: # (A process is reversible if it takes but a small nudge to reverse the process, however when it take a significant effort )
 
-    $$ Q_{in} = T_{Hot} * (S_2 - S_1) $$
-2. **Isentropic Expansion**
+[//]: # (to reverse a process it is considered irreversible. Cooking is a great example of irreversible processes; it is simple )
 
-    The piston chamber is once again isolated from the two reservoirs. The piston is then moved upwards, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>.
-    ![Stage 2](Utilisation_pictures/Stage2.svg)
-3. **Isothermal Heat Removal**
-    
-    The previous processes are now reversed. The piston chamber wall in contact with the cold reservoir is opened to allow heat transfer between the cold and piston chamber. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir.
-    ![Stage 3](Utilisation_pictures/Stage3.svg)
-    The heat removed from the fluid is given by:
+[//]: # (enough to fry some fish, but is it significantly more difficult to unfry the fish and return it to its original state.)
 
-    $$Q_{out} = T_{Cold} * (S_2 - S_1)$$
-4. **Isoentropic Compression**
-    
-    The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.
-    ![Stage 4](Utilisation_pictures/Stage4.svg)
-5. Repeat from 1.
+[//]: # ()
+[//]: # (There are a number of processes for converting thermal energy to mechanical energy, these are often referred to as heat)
 
-As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.
+[//]: # (engines or power cycles.)
 
-$$W_{Net} = Q_{in} - Q_{out}$$
+[//]: # ()
+[//]: # (### Carnot Cycle)
 
-The conversion efficiency is thus
+[//]: # ()
+[//]: # (Definitions:)
 
-$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
+[//]: # (A thermal reservoir is a body at a constant temperature. No adding of thermal energy will change its temperature. For )
 
-Unfortunately, it is difficult to translate such a cyclic process into the real world. A pure, single component
-fluid like water could be used to realise Stage 1 and Stage 3 (i.e. isothermal heat addition and isothermal heat 
-removal), since pure fluids undergo constant temperature phase changes. For example, adding heat to a saturated liquid 
-will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it 
-to condense at a constant temperature
+[//]: # (example, adding a pot of boiling water to a lake will not measurably change the lake's average temperature.)
 
-However, Stage 2 and Stage 4,are more difficult to realise. This is because, while specific equipment exists for 
-compressing a liquid (i.e. a pump) or a vapour (i.e. a compressor), these struggle with two-phase fluids (i.e. liquid 
-and vapour). For example, excessive vapour in a pump can lead to cavitation, which damages the pump impeller; likewise 
-excessive in a compressor can damage the blades. 
-![Real Carnot Cycle](Utilisation_pictures/RealCarnotCycle.svg)
+[//]: # ()
+[//]: # (The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work &#40;mechanical energy&#41;.)
 
-### Rankine Cylce
-The Rankine Cycle is an adaptation of Carnot Cycle aimed at overcoming some of the aforementioned difficulties with
-compressing/expanding fluids with existing equipment technologies. The Rankine Cycle is as follows:
+[//]: # (The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.)
 
-0. **Initial State**
+[//]: # ()
+[//]: # (0. **The initial state**)
 
-    The cycle working fluid, e.g. water, is at a low pressure and saturated liquid state
-1. **Stage 1**
+[//]: # (    )
+[//]: # (    Piston chamber is placed between two thermal reservoirs, one hot and one cold, the walls of the piston chamber currently do not permit transfer of mass or heat but can one at a time opened to heat transfer to/from one of the reservoirs. Piston chamber is filled with a fluid, which is of the same temperature as the hot reservoir, T<sub>Hot</sub>. The pressure-volume and temperature-entropy diagrams show the initial state of the fluid.)
 
-    A pump is used to compress and pressurise the working fluid to a high pressure
-2. **Stage 2**
+[//]: # (    ![Stage 0]&#40;Utilisation_pictures/Stage0.svg&#41;)
 
-    Heat is added to the fluid, raising its temperature until it reaches the boiling point. From hereon, heat addition results in subsequent vaporisation of the working fluid until it is fully vapourised.
-3. **Stage 3**
+[//]: # (1. **Isothermal Heat Addition** )
 
-    The high pressure vapour is expanded in a turbine, which converts the fluids thermal energy into rotational energy, and in turn drives a generator to produce electricity.
-4. **Stage 4**
+[//]: # ()
+[//]: # (    The piston chamber wall in contact with the hot reservoir is opened to allow heat transfer between the hot reservoir and the piston chamber. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. The arrows in the pressure-volume and temperature-entropy diagrams illustrate the "journey" of the fluid from the initial to the current state. )
 
-    The expanded low pressure vapour is cooled until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is wholly liquefied. This returns the fluid to its initial state can closes the cycle.
-    ![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
+[//]: # (    ![Stage 1]&#40;Utilisation_pictures/Stage1.svg&#41;)
+
+[//]: # (    The heat added to the fluid is given by:)
+
+[//]: # ()
+[//]: # (    $$ Q_{in} = T_{Hot} * &#40;S_2 - S_1&#41; $$)
+
+[//]: # (2. **Isentropic Expansion**)
+
+[//]: # ()
+[//]: # (    The piston chamber is once again isolated from the two reservoirs. The piston is then moved upwards, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>.)
+
+[//]: # (    ![Stage 2]&#40;Utilisation_pictures/Stage2.svg&#41;)
+
+[//]: # (3. **Isothermal Heat Removal**)
+
+[//]: # (    )
+[//]: # (    The previous processes are now reversed. The piston chamber wall in contact with the cold reservoir is opened to allow heat transfer between the cold and piston chamber. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir.)
+
+[//]: # (    ![Stage 3]&#40;Utilisation_pictures/Stage3.svg&#41;)
+
+[//]: # (    The heat removed from the fluid is given by:)
+
+[//]: # ()
+[//]: # (    $$Q_{out} = T_{Cold} * &#40;S_2 - S_1&#41;$$)
+
+[//]: # (4. **Isoentropic Compression**)
+
+[//]: # (    )
+[//]: # (    The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.)
+
+[//]: # (    ![Stage 4]&#40;Utilisation_pictures/Stage4.svg&#41;)
+
+[//]: # (5. Repeat from 1.)
+
+[//]: # (    ![GIF]&#40;Utilisation_pictures/CarnotAnimation.gif&#41;)
+
+[//]: # ()
+[//]: # (As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.)
+
+[//]: # ()
+[//]: # ($$W_{Net} = Q_{in} - Q_{out}$$)
+
+[//]: # ()
+[//]: # (The conversion efficiency is thus)
+
+[//]: # ()
+[//]: # ($$\eta = \frac{W_{net}}{Q_{in}} = \frac{&#40;Q_{in} - Q_{out}&#41;}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$)
+
+[//]: # ()
+[//]: # (Unfortunately, it is difficult to translate such a cyclic process into the real world. A pure, single component)
+
+[//]: # (fluid like water could be used to realise Stage 1 and Stage 3 &#40;i.e. isothermal heat addition and isothermal heat )
+
+[//]: # (removal&#41;, since pure fluids undergo constant temperature phase changes. For example, adding heat to a saturated liquid )
+
+[//]: # (will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it )
+
+[//]: # (to condense at a constant temperature)
+
+[//]: # ()
+[//]: # (However, Stage 2 and Stage 4,are more difficult to realise. This is because, while specific equipment exists for )
+
+[//]: # (compressing a liquid &#40;i.e. a pump&#41; or a vapour &#40;i.e. a compressor&#41;, these struggle with two-phase fluids &#40;i.e. liquid )
+
+[//]: # (and vapour&#41;. For example, excessive vapour in a pump can lead to cavitation, which damages the pump impeller; likewise )
+
+[//]: # (excessive in a compressor can damage the blades. )
+
+[//]: # (![Real Carnot Cycle]&#40;Utilisation_pictures/RealCarnotCycle.svg&#41;)
+
+[//]: # (### Rankine Cylce)
+
+[//]: # (The Rankine Cycle is an adaptation of Carnot Cycle aimed at overcoming some of the aforementioned difficulties with)
+
+[//]: # (compressing/expanding fluids with existing equipment technologies. The Rankine Cycle is as follows:)
+
+[//]: # ()
+[//]: # (0. **Initial State**)
+
+[//]: # ()
+[//]: # (    The cycle working fluid, e.g. water, is at a low pressure and saturated liquid state)
+
+[//]: # (1. **Stage 1**)
+
+[//]: # ()
+[//]: # (    A pump is used to compress and pressurise the working fluid to a high pressure)
+
+[//]: # (2. **Stage 2**)
+
+[//]: # ()
+[//]: # (    Heat is added to the fluid, raising its temperature until it reaches the boiling point. From hereon, heat addition results in subsequent vaporisation of the working fluid until it is fully vapourised.)
+
+[//]: # (3. **Stage 3**)
+
+[//]: # ()
+[//]: # (    The high pressure vapour is expanded in a turbine, which converts the fluids thermal energy into rotational energy, and in turn drives a generator to produce electricity.)
+
+[//]: # (4. **Stage 4**)
+
+[//]: # ()
+[//]: # (    The expanded low pressure vapour is cooled until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is wholly liquefied. This returns the fluid to its initial state can closes the cycle.)
+
+[//]: # (    ![Rankine Cycle]&#40;Utilisation_pictures/RankineCycle.svg&#41;)
 
 ## Power Plants
-Geothermal power plants convert the geothermal energy into electricity. The main working principle between all power 
-plant types is the same: a hot high-pressure vapour is expanded in a turbine, to convert the thermal energy into 
-mechanic rotational energy. In turn, this is used to drive a generator and induces an electrical current, which is 
-then fed into the electricity grid.
+Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working 
+principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from 
+other power plants types like coal-fired or nuclear plants.
 
-Depending on the temperature and physical state (i.e. a vapour, a liquid, or a mixture thereof) of the geofluid arriving
-at surface. The main classes of geothermal power plants are:
+### Working Principle: The Rankine Cycle
+The Rankine Cyle is a heat engine, that converts thermal energy into mechanical work, which in turn can be used for 
+driving a turbine. It is based on the theoretical Carnot Cycle, with adaptations to make the expansion and compression 
+stages easier to implement with existing turbomachinery (i.e. turbines, pumps and compressors, see below).
+
+
+![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
+
+* **Initial State**: The cycle working fluid (e.g. water) is at a low pressure and saturated liquid state
+*  **Stage 1**: A pump is used to compress and pressurise the working fluid to a high pressure
+* **Stage 2**: Heat is added to the fluid at constant pressure, raising its temperature until it reaches the boiling point. From hereon, heat addition results in subsequent vaporisation of the working fluid until it is fully vapourised.
+* **Stage 3**: The high pressure vapour is expanded in a turbine, which converts the fluid's thermal energy into rotational energy, and in turn drives a generator to produce electricity.
+* **Stage 4**: The expanded low pressure vapour is cooled at constant pressure until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is fully liquefied. This returns the fluid to its initial state and closes the cycle. 
+* Repeat from **Stage 1**
+
+Depending on the temperature and physical state (i.e. vapour, liquid or a mixture of the two) of the geofluid arriving
+at surface, different types of geothermal power plants are:
 
 ### Dry Steam @Tristan
 Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
-at temperatures as high as 250 &deg;C. 
+at temperatures as high as 250 &deg;C.
 
-The hot high-pressure vapour is directly expanded in a turbine, thereby converting the thermal energy into work, turning
-the turbine and generating electricity. The low pressure vapour is then condensed, for example in a cooling tower, with
-the condensate being re-injected into the reservoir.
-![Dry Steam](Utilisation_pictures/DrySteam.svg)
+![Dry Steam](Utilisation_pictures/DrySteamPlant.svg)
 
-Although the cycle shown above does not appear to resemble the Rankine Cycle discussed above, the pressurisation and
-heating is not shown as it happens in the geothermal reservoir.
+* **Initial State**: High-pressure saturated steam arrives at the power plant
+*  **Stage 1**: The hot vapour is expanded in a turbine
+* **Stage 2**: The low-pressure vapour is condensed (e.g. using a cooling tower)
+* **Stage 3**: The low-pressure liquid is re-pressurised using a pump and re-injected into the reservoir
+
+There are some peculiarities compared to the Rankine Cycle we discussed earlier:
+* The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
+* The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
+
+This is also the reason why they are typically referred as being ***open-loop*** 
 
 ### Flash @Tristan
-Where the geofluid arriving at the surface is two-phase, i.e. liquid water and steam, a direct steam cycle with flash 
-can be used.
+Flash power plants operate on geothermal resources, where the geofluid arrives at surface as a steam-water mixture.
 
-The incoming geofluid is separated into a vapour and liquid stream in a flash column, which is also used to optimise the
-turbine net power, by adjusting the flash temperature/pressure at which the vapour is separated, thereby releasing more
-steam while sacrificing the specific turbine power output.
-
-The vapour is then expanded in a turbine to convert the thermal energy to work to drive a generator and produce 
-electricity.
-
-The low-pressure vapour is then condensed and reinjected alongwith the liquid from the flash column into the reservoir.
 ![Flash Plant](Utilisation_pictures/FlashPlant.svg)
+
+* **Initial State**: Hot high-pressure two-phase geofluid arrives at the power plant 
+*  **Stage 1**: The geofluid is "flashed" (i.e. reducing its pressure). This causes the fluid to partition into a liquid and vapour phase, see dashed lines.
+
+`````{admonition} Optimising Power Production
+:class: tip
+Flashing the geofluid more, can produce more steam (good) but comes at the cost of lower specific power generated by the turbine (bad) so there is a trade-off.
+
+`````
+
+*  **Stage 2**: The hot and high-pressure vapour is exanded in a turbine
+*  **Stage 3**: The low-pressure vapour is condensed (e.g. using a Cooling Tower)
+*  **Stage 4**: The low pressure liquid is re-pressurised using a pump and re-injected into the reservoir alongside the liquid obtained from Stage 1
+
+There are some peculiarities compared to the Rankine Cycle we discussed earlier:
+* The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
+* The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
 
 ### Binary @Lorenzo
 
