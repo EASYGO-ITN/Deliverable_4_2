@@ -245,18 +245,19 @@ There are some peculiarities compared to the Rankine Cycle we discussed earlier:
 This is also the reason why they are typically referred as being ***open-loop*** 
 
 ### Flash @Tristan
-Where the geofluid arriving at the surface is two-phase, i.e. liquid water and steam, a direct steam cycle with flash 
-can be used.
+Flash power plants operate on geothermal resources, where the geofluid arrives at surface as a steam-water mixture.
 
-The incoming geofluid is separated into a vapour and liquid stream in a flash column, which is also used to optimise the
-turbine net power, by adjusting the flash temperature/pressure at which the vapour is separated, thereby releasing more
-steam while sacrificing the specific turbine power output.
-
-The vapour is then expanded in a turbine to convert the thermal energy to work to drive a generator and produce 
-electricity.
-
-The low-pressure vapour is then condensed and reinjected alongwith the liquid from the flash column into the reservoir.
 ![Flash Plant](Utilisation_pictures/FlashPlant.svg)
+
+* **Initial State**: Hot high-pressure two-phase geofluid arrives at the power plant 
+*  **Stage 1**: The geofluid is "flashed" (i.e. reducing its pressure). This causes the fluid to partition into a liquid and vapour phase, see dashed lines.
+*  **Stage 2**: The hot and high-pressure vapour is exanded in a turbine
+*  **Stage 3**: The low-pressure vapour is condensed (e.g. using a Cooling Tower)
+*  **Stage 4**: The low pressure liquid is re-pressurised using a pump and re-injected into the reservoir alongside the liquid obtained from Stage 1
+
+There are some peculiarities compared to the Rankine Cycle we discussed earlier:
+* The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
+* The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
 
 ### Binary @Lorenzo
 
