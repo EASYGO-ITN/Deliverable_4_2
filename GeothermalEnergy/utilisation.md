@@ -214,10 +214,10 @@ The basic setup of a Carnot heat engine is as follows:
 A piston chamber is placed between two thermal reservoirs, one hot and one cold. The piston chamber walls do not permit heat or mass transfer, but one side at a time can be "opened" to allow heat transfer with the adjacent reservoir. A fluid is contained within the piston chamber.  
 
 * **Initial State**: The walls are closed to heat transfer and the fluid in the piston chamber is at the same temperature as the hot reservoir, T<sub>Hot</sub>.
-* **Stage 1**: The wall in contact with the hot reservoir is opened to allow heat transfer. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. This is also referred to as ***isothermal heat addition***.
-* **Stage 2**: The chamber is once again isolated from the two reservoirs. The piston is then raised, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>. This is referred to as ***isentropic expansion***.
-* **Stage 3**: The wall in contact with the cold reservoir is now opened to allow heat transfer. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir. This is referred to as ***isothermal heat removal***
-* **Stage 4**: The chamber is again isolated and then the piston is pushed down, reducing the volume until the temperature reaches that of the hot reservoir T<sub>Hot</sub>. This is referred to as ***isentropic heat removal***
+* **Stage 1**: The wall in contact with the hot reservoir is opened to allow heat transfer. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. This is also referred to as *isothermal heat addition*.
+* **Stage 2**: The chamber is once again isolated from the two reservoirs. The piston is then raised, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>. This is referred to as *isentropic expansion*.
+* **Stage 3**: The wall in contact with the cold reservoir is now opened to allow heat transfer. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir. This is referred to as *isothermal heat removal*
+* **Stage 4**: The chamber is again isolated and then the piston is pushed down, reducing the volume until the temperature reaches that of the hot reservoir T<sub>Hot</sub>. This is referred to as *isentropic heat removal*
 * Repeat from **Stage 1**
 
 ![GIF](Utilisation_pictures/CarnotAnimation.gif)
@@ -225,17 +225,20 @@ A piston chamber is placed between two thermal reservoirs, one hot and one cold.
 So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.
 
 The heat added to the fluid is given by:
+
 $$ Q_{in} = T_{Hot} * (S_2 - S_1) $$
 
 The heat removed from the fluid is given by:
+
 $$Q_{out} = T_{Cold} * (S_2 - S_1)$$
 
-Hence, the net work done is given by
+Hence, the net work done is given by:
+
 $$W_{Net} = Q_{in} - Q_{out}$$
 
 The conversion efficiency is thus
-$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
 
+$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
 
 ### Efficiency
 * First Law 
