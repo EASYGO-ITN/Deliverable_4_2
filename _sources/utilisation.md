@@ -41,78 +41,6 @@ Space heating, including individual space heating and district heating, dates ba
 
 ### Other
 
-
-[//]: # (## Energy Conversion @Tristan
-Converting from one form of energy to another is always associated with losses. The most familiar type of such losses in our everyday life are frictional losses. For example an electric car converts electric potential energy into kinetic energy, but the friction between the wheels and the road surface eventually brings the vehicle to a stand still once the car's battery is empty. These kind of frictional losses are broadly described as mechanical losses.)
-
-Besides the aforementioned mechanical losses, conversion of thermal energy into more useful forms of energy like  mechanical energy (in turn this can easily be converted into rotational and then electrical potential energy via use of a turbine and generator). This is because the conversion is an irreversible process.
-
-A process is reversible if it takes but a small nudge to reverse the process, however when it take a significant effort to reverse a process it is considered irreversible. Cooking is a great example of irreversible processes; it is simple enough to fry some fish, but is it significantly more difficult to unfry the fish and return it to its original state.
-
-There are a number of processes for converting thermal energy to mechanical energy, these are often referred to as heat engines or power cycles.
-
-### Carnot Cycle
-
-Definitions:
-A thermal reservoir is a body at a constant temperature. No adding of thermal energy will change its temperature. For example, adding a pot of boiling water to a lake will not measurably change the lake's average temperature.
-
-The Carnot Cycle converts the heat flow between two differently tempered thermal reservoirs into work (mechanical energy). The Carnot Cycle is the simplest, most efficient, but merely theoretical heat engine.
-
-0. **The initial state**
-    
-    Piston chamber is placed between two thermal reservoirs, one hot and one cold, the walls of the piston chamber currently do not permit transfer of mass or heat but can one at a time opened to heat transfer to/from one of the reservoirs. Piston chamber is filled with a fluid, which is of the same temperature as the hot reservoir, T<sub>Hot</sub>. The pressure-volume and temperature-entropy diagrams show the initial state of the fluid.
-    ![Stage 0](Utilisation_pictures/Stage0.svg)
-
-1. **Isothermal Heat Addition** 
-
-    The piston chamber wall in contact with the hot reservoir is opened to allow heat transfer between the hot reservoir and the piston chamber. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. The arrows in the pressure-volume and temperature-entropy diagrams illustrate the "journey" of the fluid from the initial to the current state.
-    ![Stage 1](Utilisation_pictures/Stage1.svg)
-
-    The heat added to the fluid is given by:
-    $$ Q_{in} = T_{Hot} * (S_2 - S_1) $$
-
-2. **Isentropic Expansion**
-
-    The piston chamber is once again isolated from the two reservoirs. The piston is then moved upwards, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>.
-    ![Stage 2](Utilisation_pictures/Stage2.svg)
-
-3. **Isothermal Heat Removal**
-    
-    The previous processes are now reversed. The piston chamber wall in contact with the cold reservoir is opened to allow heat transfer between the cold and piston chamber. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir.
-    ![Stage 3](Utilisation_pictures/Stage3.svg)
-
-    The heat removed from the fluid is given by:
-    $$Q_{out} = T_{Cold} * (S_2 - S_1)$$
-
-4. **Isoentropic Compression**
-
-    The piston chamber is once again isolated from the two reservoirs. The piston is then moved downwards, reducing the volume of the chamber until the fluid heats up to the temperature of the hot reservoir, T<sub>Hot</sub>. This returns the Carnot engine and the fluid in the piston chamber to their initial state.
-    ![Stage 4](Utilisation_pictures/Stage4.svg)
-
-5. Repeat from 1.
-
-    ![GIF](Utilisation_pictures/CarnotAnimation.gif)
-
-As the above is a cyclic process, the fluid returns to its initial state and no energy can have accumulated within the system. Therefore, the difference in heat added and removed has been converted into work, i.e. expanding or compressing the fluid in the piston chamber.
-
-$$W_{Net} = Q_{in} - Q_{out}$$
-
-The conversion efficiency is thus
-
-$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
-
-Unfortunately, it is difficult to translate such a cyclic process into the real world. A pure, single component
-fluid like water could be used to realise Stage 1 and Stage 3 (i.e. isothermal heat addition and isothermal heat
-removal), since pure fluids undergo constant temperature phase changes. For example, adding heat to a saturated liquid
-will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it
-to condense at a constant temperature
-
-However, Stage 2 and Stage 4,are more difficult to realise. This is because, while specific equipment exists for
-compressing a liquid (i.e. a pump) or a vapour (i.e. a compressor), these struggle with two-phase fluids (i.e. liquid
-and vapour). For example, excessive vapour in a pump can lead to cavitation, which damages the pump impeller; likewise
-excessive in a compressor can damage the blades.
-![Real Carnot Cycle](Utilisation_pictures/RealCarnotCycle.svg)
-
 ## Power Plants
 Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from other power plants types like coal-fired or nuclear plants.
 
@@ -195,10 +123,68 @@ The standard rankine cycle for geothermal applications is called Organic Rankine
   * closed loop - reduced contact with geofluid
 * disadvantages
 
-### Efficiency
+## Energy Conversion
+Converting between different forms of energy in reality is always associated with losses - the most common type of losses we experience in our everyday life is **friction**. For example, the friction between a wheel and the road surface with eventually bring the wheel to a stop. Such losses are broadly categorised as mechanical losses. 
 
+However, converting from thermal energy to more useful forms like rotational energy is more complicated. While mechanical losses could be eliminated by making the road surface smooth and frictionless, but for heat engines it is the conversion process itself that introduces losses because it is **irreversible**. 
+
+Reversible processes need but a small nudge to be reversed. Irreversible processes require a significant effort to reverse themselves. Cooking is a great example of an irreversible process; it is simple enough to fry an egg, but is it significantly more difficult to "unfry" the egg and return it to its original state.
+
+### Idealised Cycles
+Besides the [Rankine Cycle](#Working-Principle:-The-Rankine-Cycle) there are a number of other "power cycles" or "heat engines" that have been proposed. One of the most important of these is the Carnot Cycle; it is a theoretical heat engine for converting the heat flux between two reservoirs into mechanical energy. The Carnot Cycle provides a useful upper bound for the conversion efficiency of any heat engine.
+
+`````{admonition} Definition: Reservoir
+:class: tip
+In the thermodynamic sense, a **reservoir** is a body at constant temperature - no adding or removing of thermal energy will change its temperature. An imperfect real world example of this would be a lake, to which we add a droplet of hot water.
+`````
+
+The basic setup of a Carnot heat engine is as follows:
+A piston chamber is placed between two thermal reservoirs, one hot and one cold. The piston chamber walls do not permit heat or mass transfer, but one side at a time can be "opened" to allow heat transfer with the adjacent reservoir. A fluid is contained within the piston chamber.  
+
+* **Initial State**: The walls are closed to heat transfer and the fluid in the piston chamber is at the same temperature as the hot reservoir, T<sub>Hot</sub>.
+* **Stage 1**: The wall in contact with the hot reservoir is opened to allow heat transfer. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. This is also referred to as *isothermal heat addition*.
+* **Stage 2**: The chamber is once again isolated from the two reservoirs. The piston is then raised, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>. This is referred to as *isentropic expansion*.
+* **Stage 3**: The wall in contact with the cold reservoir is now opened to allow heat transfer. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir. This is referred to as *isothermal heat removal*
+* **Stage 4**: The chamber is again isolated and then the piston is pushed down, reducing the volume until the temperature reaches that of the hot reservoir T<sub>Hot</sub>. This is referred to as *isentropic heat removal*
+* Repeat from **Stage 1**
+
+![GIF](Utilisation_pictures/CarnotAnimation.gif)
+
+So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.
+
+The heat added to the fluid is given by:
+
+$$ Q_{in} = T_{Hot} * (S_2 - S_1) $$
+
+The heat removed from the fluid is given by:
+
+$$Q_{out} = T_{Cold} * (S_2 - S_1)$$
+
+Hence, the net work done is given by:
+
+$$W_{Net} = Q_{in} - Q_{out}$$
+
+The conversion efficiency is thus
+
+$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
+
+Unfortunately, it is difficult to translate such a cyclic process into the real world. A pure, single component
+fluid like water could be used to realise Stage 1 and Stage 3 (i.e. isothermal heat addition and isothermal heat
+removal), since pure fluids undergo constant temperature phase changes. For example, adding heat to a saturated liquid
+will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it
+to condense at a constant temperature
+
+However, Stage 2 and Stage 4,are more difficult to realise. This is because, while specific equipment exists for
+compressing a liquid (i.e. a pump) or a vapour (i.e. a compressor), these struggle with two-phase fluids (i.e. liquid
+and vapour). For example, excessive vapour in a pump can lead to cavitation, which damages the pump impeller; likewise
+excessive in a compressor can damage the blades.
+![Real Carnot Cycle](Utilisation_pictures/RealCarnotCycle.svg)
+
+
+### Efficiency
 * First Law 
 * Second Law
+
 
 ## Power Plant Equipment @Lorenzo
 All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
