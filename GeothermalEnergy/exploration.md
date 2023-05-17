@@ -1,13 +1,12 @@
 # Exploration of Geothermal Resources
 
-This chapter is about the exploration and evaluation of geothermal resources.
+Geothermal exploration is the process of searching for and identifying areas of the Earth's crust that have the potential to host geothermal energy resources. It involves a comprehensive assessment of the geological and geophysical properties of the target area, including rock and fluid properties, temperature and pressure gradients, and the location and extent of heat sources.
 
- ## What is exploration
- 
-Geothermal exploration is the process of searching for and identifying areas of the Earth's crust that have the potential to host geothermal energy resources. It involves a comprehensive assessment of the geological and geophysical properties of the target area, including rock and fluid properties, temperature and pressure gradients, and the location and extent of heat sources. Geophysical surveys, such as gravity, magnetic, and electrical resistivity surveys, are used to gather more detailed information about the subsurface, and exploratory drilling is used to confirm the presence of geothermal resources and evaluate their feasibility for development. 
- 
- Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth's crust is relatively thin, allowing heat from the Earth's interior to be easily accessed. Some areas that are ideal for geothermal energy production include:
-
+## Where do we explore?
+Geophysical exploration is the process of studying the subsurface of the Earth to locate areas that are likely to have high levels of geothermal energy. Geothermal energy production is possible in areas where the Earth's crust is relatively thin, allowing heat from the Earth's interior to be easily accessed. Some areas that are ideal for geothermal energy production include:
+`
+`````{admonition} Ideal areas for geothermal energy production
+:class: tip
 * Volcanic regions: Regions with active or dormant volcanoes are often good sites for geothermal energy production, as they have high levels of heat flow and permeable rock layers.
 
 * Rift zones: Areas where the Earth's crust is being pulled apart, such as along the Mid-Atlantic Ridge or the East African Rift, can provide access to hot rocks and geothermal reservoirs.
@@ -15,10 +14,10 @@ Geothermal exploration is the process of searching for and identifying areas of 
 * Hot springs and geysers: These natural features indicate the presence of geothermal reservoirs close to the Earth's surface, which can be used for geothermal energy production.
 
 * Subduction zones: These are areas where tectonic plates are colliding, and one plate is being forced beneath another. This process can cause magma to rise to the surface and create hotspots for geothermal energy production.
-
+`````
 We use geologic evidence from the surface and analyze rock samples to understand the formation of these different zones. Once geophysicists have sufficient information about the geology, they proceed to use geophysical instruments to explore the specific location. 
 
- ## How do we explore the subsurface
+ ## How do we explore the subsurface?
  ### Geophysics
 
 In geothermal exploration, our targets are usually located kilometres underground. Thus, direct exploration, as drilling exploratory wells, comes with a high cost and only give good information in the vicinity of the borehole. This makes techniques that can image the underground from the surface highly attractive.
@@ -27,13 +26,16 @@ Techniques for this application have been used for a long time, for example in m
 
 Medical applications nowadays allow us to get a very detailed picture of the body from the outside. This is also due to the fact, that we can place sources and receivers for our medical imager in all positions around the body. A prime example for this, are CT and MRT scanners. When imaging the underground, we don’t have this luxurious setting. In geothermal exploration, we usually have way to scarce data, to reconstruct every detail of the underground from measurements. By using very involved processing techniques, we can nevertheless get a very good image of the key features, like big faults in the reservoir. Imaging these faults from the surface allows us to locate fruitful targets to drill into.
 
-The most often used techniques for exploration of geothermal reservoirs are:
- 
+`
+`````{admonition} Techniques often used for geothermal exploration
+:class: note
  * Seismics: Using waves in form of ground motion, captures information of the subsurfaces where it passes throught. Using seismometers to record the movement at certain station thus gives us insight about the underground.
 
  * Gravity: Rocks of different densities alter the gravitational field of the earth very slightly. Measuring the gravitational field at the surface of the earth allow us to detect areas with dense or less dense material.
 
  * Electromagnetics: Simliar to Seismics, electromagnetic methods use electromagnetic waves travelling in the subsurface. These can be generated by human made sources, but also stem from the solar wind interatting with the earths magnetic field and lightnings.
+`````
+
 
  #### Seismic
 <!-- PICTURES: Vibrotruck? / Geophones /  GIF with wavefield data
@@ -81,18 +83,20 @@ Other Logs: Other types of well logs include temperature logs, pressure logs, an
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
 ![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
+
+<img align="right" width="100" height="1000" src="/exploration_pictures/cores5.jpg">
+
+<!-- ![Core samples collected during drilling.](/exploration_pictures/cores5.jpg) -->
+
+### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
 
-### Geochemistry (Mahmoud)
-Rock samples obtained from these wells undergo geochemical analysis to understand the composition, mineralogy, and alteration patterns within the reservoir. This information aids in determining the permeability, porosity, and potential mineral reactions within the reservoir, which can influence fluid flow and heat transfer.  Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. These techniques determine the chemical composition of geothermal fluids, including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. Scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. 
+Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's subsurface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
 
-
-Geochemistry ivolves analysis of the fluids extracted for their potential contaminants, such as heavy metals or gases like carbon dioxide. Baseline concentration of these metals and gases is measured, and monitoring is conducted. Deviations caused by geothermal operations can be detected and mitigated. Geochemistry also aids in assessing the potential for induced seismicity. Geothermal energy production usually includes fluid injection into the subsurface, which can affect the stability of faults and trigger earthquakes. Geochemical studies can give insights into the fluid-rock interactions. Overall, geochemisty plays a vital role in understanding and assessing th environemental implications of geothermal operations.
-![Core samples collected during drilling.](/exploration_pictures/cores5.jpg)
-
-### Geochemistry for exploration (Andrea)
-Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. We can carry out experiments that include sampling geothermal fluids and laboratory testing. Geothermal fluids are water that is heated by the Earth's heat and comes up to the surface. By analyzing the chemical and isotopic composition of these fluids, geoscientists can determine the temperature, mineral content, and other properties of the geothermal reservoir. Geochemistry not only includes fluid sampling but gas experiments as well. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's surface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
-<!---maybe picture here ? --> 
+`````{admonition} Geochemistry in geothermal production
+:class: tip
+Geochemical analysis is also used to monitor geothermal production. Geochemist use techniques to determine the chemical composition of geothermal fluids including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. This is important, since scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. For more information about the risks involved in these processes refer to [Issues and Safety of Geothermal Operations](https://easygo-itn.github.io/Deliverable_4_2/issues_and_safety.html)
+`````
 
 ## Inversion (@Hagen and Mahmoud)
 - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
