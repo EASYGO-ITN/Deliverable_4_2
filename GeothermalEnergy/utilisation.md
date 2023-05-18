@@ -192,7 +192,6 @@ All the geothermal power plants convert the thermal energy into electricity by u
 
 <img src="../GeothermalEnergy/Utilisation_pictures/Lift.svg" class="center" width="500">
 
-
 When the blade is attached to a shaft, such force will induce a torque that will consequently drive the rotation of the turbine. 
 
 <img src="../GeothermalEnergy/Utilisation_pictures/Rotation.svg" class="center" width="500">
@@ -203,7 +202,10 @@ A typical axial turbine for binary geothermal power plants is shown below (court
 <img src="../GeothermalEnergy/Utilisation_pictures/axialturbine.png" class="center" width="500">
 
 
-The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .
+The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types:  the fin and tube heat exchangers and the shell and tube heat exchangers.
+The first ones, as the name says, employ finned tubes to promote the heat exchange. They are usually required when there is one fluid in gaseous phase participating to the heat exchange process: this is because, normally, the tendency of a gas to exchange heat is usually quite low. A typical example of a finned tube is shown below: the gas flows outside the finned tube in a direction perpendicular to the plane of the image, and makes use of the increased heat exchange area provided by the fins to compensate for its low tendency to exchange heat. The other fluid flows instead inside the tube. This second fluid has to be either liquid or evaporating/condensating, and can be gaseous only for small portions of the heat exchanger. Instead, heat exchangers which would allow two gases to exchange heat are of a different kind, but are usually not necessary in geothermal applications.
+
+<img src="../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg" class="center" width="500">
 
 The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.
 
