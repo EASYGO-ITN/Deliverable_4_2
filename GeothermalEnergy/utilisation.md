@@ -203,6 +203,7 @@ A typical axial turbine for binary geothermal power plants is shown below (court
 
 
 The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types:  the fin and tube heat exchangers and the shell and tube heat exchangers.
+
 The first ones, as the name says, employ finned tubes to promote the heat exchange. They are usually required when there is one fluid in gaseous phase participating to the heat exchange process: this is because, normally, the tendency of a gas to exchange heat is usually quite low. A typical example of a finned tube is shown below: the gas flows outside the finned tube in a direction perpendicular to the plane of the image, and makes use of the increased heat exchange area provided by the fins to compensate for its low tendency to exchange heat. The other fluid flows instead inside the tube. This second fluid has to be either liquid or evaporating/condensating, and can be gaseous only for small portions of the heat exchanger. Instead, heat exchangers which would allow two gases to exchange heat are of a different kind, but are usually not necessary in geothermal applications.
 
 <img src="../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg" class="center" width="500">
