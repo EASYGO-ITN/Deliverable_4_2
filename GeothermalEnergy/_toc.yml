@@ -6,7 +6,9 @@ root: intro
 chapters:
 - file: origins
 - file: exploration
-- file: production
+- file: Geothermal Energy Production
 - file: issues_and_safety
 - file: utilisation
 - file: template
+- file: bibliography.md
+- file: glossary
