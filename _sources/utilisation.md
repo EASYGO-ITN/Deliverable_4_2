@@ -152,39 +152,39 @@ A piston chamber is placed between two thermal reservoirs, one hot and one cold.
 
 So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.
 
-The heat added to the fluid is given by:
+The heat added to the fluid is given by: $Q_{in} = T_{Hot} * (S_2 - S_1)$
 
-$$ Q_{in} = T_{Hot} * (S_2 - S_1) $$
+The heat removed from the fluid is given by: $Q_{out} = T_{Cold} * (S_2 - S_1)$
 
-The heat removed from the fluid is given by:
+Hence, the net work done is given by: $W_{Net} = Q_{in} - Q_{out}$
 
-$$Q_{out} = T_{Cold} * (S_2 - S_1)$$
+The conversion efficiency is thus: $\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$
 
-Hence, the net work done is given by:
+The Carnot Cycle represents the ideal heat engine, meaning it most efficiently converts thermal energy into work. Unfortunately, translating this conceptual cycle into a real-life heat engine is challenging and so far we lack the equipment to make all stages of the cycle work.
 
-$$W_{Net} = Q_{in} - Q_{out}$$
-
-The conversion efficiency is thus
-
-$$\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}$$
-
-Unfortunately, it is difficult to translate such a cyclic process into the real world. A pure, single component
-fluid like water could be used to realise Stage 1 and Stage 3 (i.e. isothermal heat addition and isothermal heat
-removal), since pure fluids undergo constant temperature phase changes. For example, adding heat to a saturated liquid
-will cause it to vapourise, but its temperature remains constant. Similarly, removing heat from a vapour will cause it
-to condense at a constant temperature
-
-However, Stage 2 and Stage 4,are more difficult to realise. This is because, while specific equipment exists for
-compressing a liquid (i.e. a pump) or a vapour (i.e. a compressor), these struggle with two-phase fluids (i.e. liquid
-and vapour). For example, excessive vapour in a pump can lead to cavitation, which damages the pump impeller; likewise
-excessive in a compressor can damage the blades.
+**Stage 1** and **Stage 3** (i.e. isothermal heat addition/removal) are relatively easy to realise. Here, one could take a pure fluid, e.g. water, and make it undergo a phase change, for example from liquid to vapour or vice versa, as phase changes for pure fluids occur at a constant temperature.
 ![Real Carnot Cycle](Utilisation_pictures/RealCarnotCycle.svg)
-
+However, this makes it more difficult to realise **Stage 2** and **Stage 4** (i.e. ientropic expansion/compression). This is because the machinery to expand/compress fluids are designed to either work on a vapour or liquid but struggle with two-phase mixtures. For example, a pump designed to pressurise a liquid, but significant vapour fraction causes cavitation and damages the internals. Similarly, turbines are designed to expand gases and significant liquid fraction can damage the blades.
 
 ### Efficiency
-* First Law 
-* Second Law
 
+The efficiency of heat engines and power plants can be investigated from different perspectives.
+
+When we would like to know how much of the thermal energy we brought to surface has been converted into work/electricity, etc. we speak of a ***First Law Efficiency***. This is commonly referred to as the thermal efficiency or the cycle efficiency.
+
+$$\eta_{I} = \frac{W_{Net}}{Q_{in}}$$
+
+Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***. This can come in different "flavours":
+
+* Utilisation Efficiency: 
+
+  $$\eta_{II, utilisation} = \frac{W_{Net}}{E_{in}}$$
+* Functional Efficiency: 
+
+  $$\eta_{II, functional} = \frac{W_{Net}}{E_{in}-E_{out}}$$
+* Utilisation Efficiency:
+
+  $$\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}$$
 
 ## Power Plant Equipment @Lorenzo
 All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
