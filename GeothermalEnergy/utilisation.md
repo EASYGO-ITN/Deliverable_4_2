@@ -33,19 +33,15 @@ Figure provided by Martine Bloemendal {cite}`martine`
 
 Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
 
-### Bathing & Swimming
-
-### Greenhouse Heating
-
-### Industrial Use
-
-### Aquacultural Pond Heating
-
-### Agricultural Drying
-
-### Cooling/Snow Melting
-
-### Other
+There are also many other direct applications for geothermal heat, such as:
+* Bathing & Swimming
+* Greenhouse heating
+* Industrial Use
+* Aquacultural pond heating
+* Agricultural drying
+* Snow Melting
+* Air conditioning
+* etc.
 
 ## Power Plants
 Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from other power plants types like coal-fired or nuclear plants.
@@ -120,7 +116,7 @@ The standard rankine cycle for geothermal applications is called Organic Rankine
 *  **Stage 4**: The low-pressure vapour is condensed
 * Repeat from **Stage 1**
 
-[//]: # (@Lorenzo maybe we should also talk about the following a bit more...)
+<!--- @Lorenzo maybe we should also talk about the following a bit more... -->
 * advantages of ORCs
   * choice of WF - here we could then mention that you are doing research into this...
   <div class="alert alert-block alert-info">
