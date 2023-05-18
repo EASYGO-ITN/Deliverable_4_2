@@ -170,11 +170,11 @@ However, this makes it more difficult to realise **Stage 2** and **Stage 4** (i.
 
 The efficiency of heat engines and power plants can be investigated from different perspectives.
 
-When we would like to know how much of the thermal energy we brought to surface has been converted into work/electricity, etc. we speak of a *First Law Efficiency*. This is commonly referred to as the thermal efficiency or the cycle efficiency.
+When we would like to know how much of the thermal energy we brought to surface has been converted into work/electricity, etc. we speak of a ***First Law Efficiency***. This is commonly referred to as the thermal efficiency or the cycle efficiency.
 
 $$\eta_{I} = \frac{W_{Net}}{Q_{in}}$$
 
-Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a *Second Law Efficiency*. This can come in different "flavours":
+Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***. This can come in different "flavours":
 
 * Utilisation Efficiency: 
 
