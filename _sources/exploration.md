@@ -19,9 +19,9 @@ We use geologic evidence from the surface and analyze rock samples to understand
 
 In geothermal exploration, our targets are usually located kilometres underground. Thus, direct exploration, as drilling exploratory wells, comes with a high cost and only give good information in the vicinity of the borehole. This makes techniques that can image the underground from the surface highly attractive.
 
-Techniques for this application have been used for a long time, for example in medical imaging. For getting an image of the internal structure of the body without cutting it open, we use physical phenomena, like electro-magnetic waves, acoustical waves, or magnetic fields, to study the reaction of the body to these processes. The physical response of the body itself then gives us information about the internal structure. When getting an x-ray to check for broken bones, we send highly energetic radiation in form of electro-magnetic waves through the body part, which we want to examine. On the other side of the x-ray emitter, a receptor catches the amount of radiation, that has not been absorbed by the body. Since bones absorb a high amount of the radiation, whereas tissue does not, we can locate bones inside the body. Another technique from medical imaging, that is close to the seismic technique used in geothermal exploration, is ultrasound imaging. In ultrasound, we use very small compressions of air, to create an acoustic wave that travels through the body. When the wave hits an obstacle in the tissue, parts of the wave are reflected and are picked up by a receiver. Measuring the time, the wave needs to travel to the obstacle and back and knowing the velocity of the wave in the tissue, we can again locate the obstacle in the body.
+When trying to understand geophysical imaging techniques, it helps to visualise a szenario, that is closer to our everyday life: When using ultrasound to image an organ in the body, an ultrasound source is placed on the body and emits a small soundwave. When this wave encounters denser parts of the body, an echo will be reflected. From the strength and the time between sending and receiving the echo, we can subsequently create an image of the organ. The same technique is used in seismic exploration, where sound waves are emitted into the geothermal reservoirs, again building an image from the echos.
 
-Medical applications nowadays allow us to get a very detailed picture of the body from the outside. This is also due to the fact, that we can place sources and receivers for our medical imager in all positions around the body. A prime example for this, are CT and MRT scanners. When imaging the underground, we don’t have this luxurious setting. In geothermal exploration, we usually have way to scarce data, to reconstruct every detail of the underground from measurements. By using very involved processing techniques, we can nevertheless get a very good image of the key features, like big faults in the reservoir. Imaging these faults from the surface allows us to locate fruitful targets to drill into.
+When imaging the underground for geothermal exploration, we can only deploy our sources and measurement devices on the surface. Thus we are usually very far (1-5km) from the geothermal reservoir, that we want to image. This is why we often look for key features like big faults in the reservoir, that are still visible by our geophysical equipment. Imaging these faults allows us to locate fruitful targets to drill into to further investigate the geothermal potential. Geophysicists employ a variety of techniques, to get the best picture of the underground:
 
 `
 `````{admonition} Techniques often used for geothermal exploration
@@ -43,6 +43,9 @@ One of the most important methods of imaging the earth are seismic waves. Seismi
 In exploration geophysics, we use the very same phenomena, to image a small, chosen part of the underground, to understand its structure. Since we cannot have earthquakes as a source of seismic waves at the spot, where we want to examine a geothermal site, we must generate seismic waves ourselves. For this, geophysicists use a variety of sources. For shallow experiments, a hammer with a metal plate is enough to generate a wave, that travels tens of meters. If you need the waves to travel deeper into the earth more energy is needed. Therefore, we either use explosives of vibration trucks to create stronger waves. To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.
 
 ![A vibrotruck acquiring data in a seismic survey](/exploration_pictures/IMG_20220906_120542.jpg)
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. Hagen Söding is is using high resolution seismic techniques to find and monitor CO_2, that has been stored in the underground. [Learn more about his work](https://easygo-itn.eu/hagen-soding/)
+</div>
 
  #### Multi-physics
  
@@ -55,6 +58,9 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
 ![Electromagnetic Survey in Pijnacker, Netherlands](/exploration_pictures/EM_survey_pijnacker.mp4)
 
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. Mahmoud Eltayieb is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. [Learn more about his work](https://easygo-itn.eu/mahmoud-eltayieb/)
+ </div>
  <!-- - Explain the method and make a gif with wave propagation  -->
  
 ### Exploratory well drilling
@@ -63,23 +69,30 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
 <!-- maybe reorder to connect to andreas pargraph above? -->
 
-Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids, which are hot water or steam that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
+Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids like water or steam, that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
 
-One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. This information is important for determining the optimal locations for production wells and designing the well field for a geothermal power plant, which ensure efficient and sustainable use of the geothermal resource.
+One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. Geothermal engineers use this information to determine optimal locations for production wells, which in turn ensures efficient and sustainable use of the geothermal resource.
 
-An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. Here are some of the most common types of well logs:
+An essential part of exploratory drilling is collecting well logs. For these logs specialized tools are lowered into the wellbore and record various physical properties of the rock formations in the borehole. Here are some of the most common types of well logs:
 
-Markup : * Electrical Logs: measure the electrical properties of the rock formations encountered during drilling. 
+`
+`````{admonition} Common types of well logs
+:class: note
 
-         * Acoustic Logs: measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. 
+* Electrical Logs: measure the electrical properties of the rock formations encountered during drilling. 
 
-         * Nuclear Logs: use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. 
+* Acoustic Logs: measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. 
 
-         * Imaging Logs: use various techniques to create images of the wellbore and the surrounding rock formations. 
-         
-         * Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs.
+* Nuclear Logs: use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. 
 
-Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
+* Imaging Logs: use various techniques to create images of the wellbore and the surrounding rock formations. 
+
+* Temperature Logs:measure the temperature and distribution within the borehole to learn about the heat flow.
+
+* Other Logs: Other types of well logs include e.g. pressure logs and production logs.
+`````
+
+Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties and assists to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations within the borehole can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
 ![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
 
@@ -97,20 +110,20 @@ Geochemistry is the study of the chemical and physical processes that occur in r
 Geochemical analysis is also used to monitor geothermal production. Geochemist use techniques to determine the chemical composition of geothermal fluids including the presence of dissolved gases, minerals, and trace elements to evaluate the potential for mineral scaling and corrosion. This is important, since scaling and corrosion can impact the efficiency and longevity of geothermal power plant operations. For more information about the risks involved in these processes refer to [Issues and Safety of Geothermal Operations](https://easygo-itn.github.io/Deliverable_4_2/issues_and_safety.html)
 `````
 
-## Inversion (@Hagen and Mahmoud)
-- Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
-- Resulting model that is given to reservoir modelers (production link)
+## Inversion
+When investigating a geothermal site, we usually have a simple geological model of the subsurface in advance, but the real subsurface is often way more complex. Once we collected sufficient data in a geophysical survey, we try to find a realistic model, that explains our measured data. Given our simple geological model, we can verify our model guess by simulating our geophysical method and comparing the simulated to the measured data. Calculating simulated data from a model and comparing it to our recorded data is commonly referred to as forward modelling.
 
-When investigating a geothermal site, we usually have a simple geological model of the subsurface in advance. There is often more complexity of the actual geological model. By means of our geophysical survey, we aim to find a model of the underground, such that explains recorded data. To verify that the model is a good fit, we simulate our geophysical technique using a computer. This is commonly referred to as forward modelling and means, for example in a seismic survey, to calculate the sesimic waveforms. By simulating the wave propagation with respect to an initial geological model, we can see if the calculated data is close to the recorded data. If not, we try to update model parameters, such that the misfit between simulated and recorded data is satisfactory.
+If we do not have a good match between the simulated data from our simple model and the recorded data, we update the model step by step, by including more details, until our model explains the recorded data. Therefore we would calculate, if increasing a model parameter leads improvment or worsening in the fit between our simulated and recorded data. If an slight increase leads to an improvement in the fit, we would then update the model accordingly and otherwise decrease the model value slightly. This stepwise procedure is called optimisation and the whole process of building a model from recorded data is referred to as inverse modelling.
 
-When minimising a misfit function, we would usually try to find the roots of the derivative as possible candidates for the minima. This gives us the model parameters, where the error between recorded and simulated data is minimal. Since this calculation is way too complex for geophysical techniques, we must use a computer to calculate the derivative. This also means that we don’t get an analytic function for the derivative to find the roots. Nevertheless, the derivative indicates how to update the model, such that we reduce the error, by following along into the direction of descent. This procedure is commonly called inverse modelling.  An animation for inverse modelling can be found below. By repeating the process of calculating the derivative and following along into the direction of descent, one approaches the minimum. This yields a model, that explains our underground structure as good as possible. At the end, we get an optimal subsurface model and deliver it to the reservoir engineers, to plan the layout of the geothermal power plant.
+![Forward modelling vs. inverse modelling.](/exploration_pictures/Inversion_loop.png)
+
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. Andrea Balza Morales is integreating geophysics and geologic modeling by the means of inversion. [Learn more about her work](https://easygo-itn.eu/andrea-e-balza-morales/)
  </div>
 
 ## Modelling
- ### Geologic model (@Andrea)
+ ### Geologic model
 Geological modelling is a critical component of geothermal exploration. Geothermal resources are often located in complex geological settings, making it essential to create a detailed model of the subsurface geology to identify potential geothermal reservoirs. Once the geophysical inversion has been completed, we use this data to create a geological model of the subsurface. The geological model incorporates data from the geophysical inversion with other geological data such as drill cores, well logs, and surface mapping. Geologists also create models of the different structural features present in the subsurface, such as faults and fractures. These models help to understand the subsurface geology and identify areas where geothermal fluids may accumulate. A wide range of computer software is used to create a 3D model of the subsurface geology which incorporates the different data types, allowing geologists to visualize the subsurface geology in three dimensions. Below is an example of a 3D geologic model of the Utah Forge geothermal test site. 
 
- - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
+ <!-- - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top) -->
