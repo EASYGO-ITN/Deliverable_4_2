@@ -55,6 +55,9 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
 ![Electromagnetic Survey in Pijnacker, Netherlands](/exploration_pictures/EM_survey_pijnacker.mp4)
 
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. Mahmoud Eltayieb is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. [Learn more about his work](https://easygo-itn.eu/andrea-e-balza-morales/)
+ </div>
  <!-- - Explain the method and make a gif with wave propagation  -->
  
 ### Exploratory well drilling
