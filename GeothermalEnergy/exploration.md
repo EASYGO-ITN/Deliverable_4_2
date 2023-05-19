@@ -63,15 +63,15 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
 <!-- maybe reorder to connect to andreas pargraph above? -->
 
-Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids, which are hot water or steam that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
+Exploratory wells are drilled to explore the subsurface geology and determine the presence and characteristics of geothermal reservoirs. They typically involve drilling deep into the earth's crust to access geothermal fluids like water or steam, that are heated by the earth's natural heat. The fluids are then pumped to the surface and analyzed for their temperature, pressure, chemistry, and other properties.
 
-One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. This information is important for determining the optimal locations for production wells and designing the well field for a geothermal power plant, which ensure efficient and sustainable use of the geothermal resource.
+One of the main purposes of exploratory wells is to determine the size and potential of a geothermal resource. This information is critical for assessing the feasibility of a geothermal power plant and estimating its potential power output. Exploratory wells can also help to identify the characteristics of a geothermal reservoir, such as its permeability, porosity, and fracture network. Geothermal engineers use this information to determine optimal locations for production wells, which in turn ensures efficient and sustainable use of the geothermal resource.
 
-An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. Here are some of the most common types of well logs:
+An essential part of exploratory drilling is collecting well logs. For these logs specialized tools are lowered into the wellbore and record various physical properties of the rock formations in the borehole. Here are some of the most common types of well logs:
 
 `
 `````{admonition} Common types of well logs
-:class: tip
+:class: note
 
 * Electrical Logs: measure the electrical properties of the rock formations encountered during drilling. 
 
@@ -83,11 +83,10 @@ An essential part of exploratory drilling is collecting well logs. These logs ar
 
 * Temperature Logs:measure the temperature and distribution within the borehole to learn about the heat flow.
 
-* Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs.
+* Other Logs: Other types of well logs include e.g. pressure logs and production logs.
 `````
 
-
-Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
+Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties and assists to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations within the borehole can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
 ![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
 
