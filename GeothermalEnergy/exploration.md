@@ -69,15 +69,23 @@ One of the main purposes of exploratory wells is to determine the size and poten
 
 An essential part of exploratory drilling is collecting well logs. These logs are taken using specialized tools that are lowered into the wellbore and record various physical properties of the rock formations encountered during drilling. Here are some of the most common types of well logs:
 
-Markup : * Electrical Logs: measure the electrical properties of the rock formations encountered during drilling. 
+`
+`````{admonition} Common types of well logs
+:class: tip
 
-         * Acoustic Logs: measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. 
+* Electrical Logs: measure the electrical properties of the rock formations encountered during drilling. 
 
-         * Nuclear Logs: use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. 
+* Acoustic Logs: measure the time it takes for sound waves to travel through the rock formations, as well as the amplitude and frequency of the waves. 
 
-         * Imaging Logs: use various techniques to create images of the wellbore and the surrounding rock formations. 
-         
-         * Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs.
+* Nuclear Logs: use radioactive sources to emit gamma rays or neutrons into the rock formations, and measure the radiation that is emitted back. 
+
+* Imaging Logs: use various techniques to create images of the wellbore and the surrounding rock formations. 
+
+* Temperature Logs:measure the temperature and distribution within the borehole to learn about the heat flow.
+
+* Other Logs: Other types of well logs include temperature logs, pressure logs, and production logs.
+`````
+
 
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties. This data is used to construct a detailed image of the subsurface geology and to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
