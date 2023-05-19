@@ -111,8 +111,8 @@ Geochemical analysis is also used to monitor geothermal production. Geochemist u
 `````
 
 ## Inversion
-- Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
-- Resulting model that is given to reservoir modelers (production link)
+<!-- - Forward and backward simulation (seismogram and gempy model connected with loopy thingy), desmos app for gradient descent
+- Resulting model that is given to reservoir modelers (production link) -->
 
 When investigating a geothermal site, we usually have a simple geological model of the subsurface in advance. There is often more complexity of the actual geological model. By means of our geophysical survey, we aim to find a model of the underground, such that explains recorded data. To verify that the model is a good fit, we simulate our geophysical technique using a computer. This is commonly referred to as forward modelling and means, for example in a seismic survey, to calculate the sesimic waveforms. By simulating the wave propagation with respect to an initial geological model, we can see if the calculated data is close to the recorded data. If not, we try to update model parameters, such that the misfit between simulated and recorded data is satisfactory.
 
@@ -126,4 +126,4 @@ When minimising a misfit function, we would usually try to find the roots of the
  ### Geologic model
 Geological modelling is a critical component of geothermal exploration. Geothermal resources are often located in complex geological settings, making it essential to create a detailed model of the subsurface geology to identify potential geothermal reservoirs. Once the geophysical inversion has been completed, we use this data to create a geological model of the subsurface. The geological model incorporates data from the geophysical inversion with other geological data such as drill cores, well logs, and surface mapping. Geologists also create models of the different structural features present in the subsurface, such as faults and fractures. These models help to understand the subsurface geology and identify areas where geothermal fluids may accumulate. A wide range of computer software is used to create a 3D model of the subsurface geology which incorporates the different data types, allowing geologists to visualize the subsurface geology in three dimensions. Below is an example of a 3D geologic model of the Utah Forge geothermal test site. 
 
- - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top)
+ <!-- - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top) -->
