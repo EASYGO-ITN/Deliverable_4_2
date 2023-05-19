@@ -96,9 +96,9 @@ Overall, the use of multiple types of well logs can provide comprehensive data a
 
 ![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
 
-<img align="right" width="100" height="1000" src="/exploration_pictures/cores5.jpg">
+<img align="right" width="100" height="1000" src="./exploration_pictures/cores5.jpg">
 
-<!-- ![Core samples collected during drilling.](/exploration_pictures/cores5.jpg) -->
+<!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
 
 ### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
