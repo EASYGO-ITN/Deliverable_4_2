@@ -55,7 +55,21 @@ Geothermal energy extraction processes have traditionally relied on water as the
 Given the challenges and opportunities associated with geothermal energy, ongoing research and development efforts aim to optimize its use and overcome the limitations mentioned above. These efforts involve advancements in drilling technology, resource assessment, and innovative engineering designs that can improve the efficiency and cost-effectiveness of geothermal energy systems. In conclusion, the prospect of deploying geothermal energy globally presents a promising opportunity to meet energy demands in a sustainable and environmentally friendly manner, and ongoing research and development efforts are vital for realizing its full potential.
 
 
+# Reservoir modeling
 
-```python
+## Reservoir simulation (@Ryan)
 
-```
+![Reservoir simulation](../GeothermalEnergy/Production_images/.png)
+
+Reservoir simulation is a calculation that is performed on a computer by solving a set of Partial Differential Equations (PDEs) utilizing a certain computer program, such as Python, C, etc., for mimicking and understanding the behavior of a reservoir system. These PDEs describe physical and chemical processes within the reservoir system, related to mass transport, heat transport, momentum transport, and reactive transport. Here, we recognize four fundamental processes that might happen within the reservoir system: 
+
+  - Thermal process (T): it describes propagation of thermal energy by conduction, convection, and advection 
+  - Hydraulic process (H): it describes fluid movement in the porous and/or fractured systems, following Darcy’s law
+  - Mechanical process (M): it describes solid deformation due to changes in pore pressure, thermal stress, and tectonic influences
+  - Chemical process (C): it describes chemical reaction between fluid and solid surface under certain pressure and temperature
+
+In nature, these fundamental processes always occur at the same time, leading to coupled/multi-physics simulation condition, e.g. thermo-hydro (TH) simulations, etc. The main ingredients to conduct reservoir simulation are 1) meshed geological model, 2) measurement data, and 3) PDE solver, contained in softwares such as TOUGH2, CMG, etc.   
+
+The main interest in many reservoir simulation is to know the production capacity of a reservoir system. Therefore, introducing producers and/or injectors is of interest to evaluate the amount of heat that can be produced. The most commonly considered  injection-production patterns for geothermal reservoir development are doublet and five-spot pattern.
+
+
