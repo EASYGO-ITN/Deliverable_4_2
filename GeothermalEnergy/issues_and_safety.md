@@ -104,7 +104,7 @@ So, you can see that at the end of this chain multiple processes can result in t
 </div>
 
 
-### Thermal fracturing at the well and hydro-shearing (@Joss)
+### Thermal fracturing at the well and hydro-shearing
 
 The injection of fluids into a reservoir can cause significant changes in temperature, which may lead to the opening or reopening of fractures. This thermal crack initiation and propagation can alter the injectivity and permeability of the well, ultimately affecting the economic viability of the reservoir. Additionally, the energy released by these thermal cracks may result in induced seismicity.
 It is important to note that excessive permeability can cause the reservoir to cool too quickly, which can negatively impact its long-term profitability. On the other hand, insufficient permeability can result in poor fluid exchange, leading to suboptimal economic performance.
