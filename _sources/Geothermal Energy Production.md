@@ -55,7 +55,9 @@ Geothermal energy extraction processes have traditionally relied on water as the
 Given the challenges and opportunities associated with geothermal energy, ongoing research and development efforts aim to optimize its use and overcome the limitations mentioned above. These efforts involve advancements in drilling technology, resource assessment, and innovative engineering designs that can improve the efficiency and cost-effectiveness of geothermal energy systems. In conclusion, the prospect of deploying geothermal energy globally presents a promising opportunity to meet energy demands in a sustainable and environmentally friendly manner, and ongoing research and development efforts are vital for realizing its full potential.
 
 
-# Reservoir simulation (@Ryan)
+## Reservoir simulation (@Ryan)
+
+![Numerical reservoir model, figure taken from wiki.seg.org](../GeothermalEnergy/Production_images/ressim_1.png)
 
 Reservoir simulation is a calculation that is performed on a computer by solving a set of Partial Differential Equations (PDEs) utilizing a certain computer program, such as Python, C, etc., for mimicking and understanding the behavior of a reservoir system. These PDEs describe physical and chemical processes within the reservoir system, related to mass transport, heat transport, momentum transport, and reactive transport (Kolditz et al., 2012). Here, we recognize four fundamental processes that might happen within the reservoir system: 
 
@@ -69,14 +71,24 @@ In nature, these fundamental processes always occur at the same time, leading to
 The main interest in many reservoir simulation is to know the production capacity of a reservoir system. Therefore, introducing producers and/or injectors is of interest to evaluate the amount of heat that can be produced. The most commonly considered  injection-production patterns for geothermal reservoir development are doublet and five-spot pattern (Grant and Bixley, 2011).
 
  - Doublet pattern
+
 Doublet pattern is a configuration consisting of a producer and an injector separated over a certain distance. It is the most commonly used pattern for geothermal energy extraction. Within the simulation, the setup is to inject cold water through injector and produce heated cold-water through producer. Here, we are interested in monitoring the advancement of cold water front. A fast arrival of cold water front at producer will cause cooling at the producer, hence, reduce the thermal output of the system.
 
  - Five-spot pattern
+
 Five-spot pattern is a configuration consisting of a producer with four injectors separated over a certain distance where the injectors encircle the producer. Here, the injection-production setup for the simulation is the same as in doublet pattern. The interest is to monitor the cold water front to avoid its fast arrival at producer. 
+
+![Probabilistic simulation for addressing uncertainties, figure taken from optiy.eu](../GeothermalEnergy/Production_images/ressim_2.jpeg)
 
 Since the amount of measurement data is often limited, it is critical to account uncertainties within our simulations. It is to estimate risk in any operations. The uncertainty quantification is always performed with probabilistic framework which demands numerous model runs. It is computationally expensive. An option to reduce this computational load is to use machine learning to accelerate the model run.
 
-Machine learning provides a low-dimensional representation from parameters to any quantity of interest. You might refer to the work of ESR-10 in our website! We need to carefully use and deploy this machine learning technique. We need to consider physics during its training.
+Machine learning provides a low-dimensional representation from parameters to any quantity of interest. However, we need to carefully use and deploy this machine learning technique by including physics during its training. It is to improve its intepretability and reliability.
+
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on physics-based machine learning technique that includes physical laws into the machine learning construction to improve machine learning interpretability and reliability. Find out more <a href="https://easygo-itn.eu/ryan-santoso/">here</a> or <a href="https://scholar.google.co.id/citations?user=abGVFp8AAAAJ&hl=de&oi=ao">here</a>!</div></div>
+
+![Physics-based machine learning for enabling uncertainty quantification](../GeothermalEnergy/Production_images/ressim_3.png)
+
 
 
 
