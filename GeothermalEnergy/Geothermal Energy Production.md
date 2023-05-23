@@ -82,9 +82,13 @@ Five-spot pattern is a configuration consisting of a producer with four injector
 
 Since the amount of measurement data is often limited, it is critical to account uncertainties within our simulations. It is to estimate risk in any operations. The uncertainty quantification is always performed with probabilistic framework which demands numerous model runs. It is computationally expensive. An option to reduce this computational load is to use machine learning to accelerate the model run.
 
+Machine learning provides a low-dimensional representation from parameters to any quantity of interest. However, we need to carefully use and deploy this machine learning technique by including physics during its training. It is to improve its intepretability and reliability.
+
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on physics-based machine learning technique that includes physical laws into the machine learning construction to improve machine learning interpretability and reliability. Find out more <a href="https://easygo-itn.eu/ryan-santoso/">here</a> or <a href="https://scholar.google.co.id/citations?user=abGVFp8AAAAJ&hl=de&oi=ao">here</a>!</div></div>
+
 ![Physics-based machine learning for enabling uncertainty quantification](../GeothermalEnergy/Production_images/ressim_3.png)
 
-Machine learning provides a low-dimensional representation from parameters to any quantity of interest. You might refer to the work of ESR-10 in our website! We need to carefully use and deploy this machine learning technique. We need to consider physics during its training.
 
 
 
