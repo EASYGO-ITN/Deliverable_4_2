@@ -110,10 +110,10 @@ The injection of fluids into a reservoir can cause significant changes in temper
 It is important to note that excessive permeability can cause the reservoir to cool too quickly, which can negatively impact its long-term profitability. On the other hand, insufficient permeability can result in poor fluid exchange, leading to suboptimal economic performance.
 In crystalline reservoirs, such as granite, fluid flow occurs primarily through fractures. To improve fracture permeability, a stimulation technique involving the injection of water at high pressure is employed. This process causes the fracture to slide and dilate, thereby creating a larger flow channel and improving the flow and heat exchange in the reservoir.
 
-```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.png
+```{figure} ../GeothermalEnergy/issues_pictures/hydroshearing.jpg
 ---
 width: 200px
 name: directive-fig
 ---
-Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}``.
+Difference between hydraulic fracturing (a) and hydraulic shearing (b) (Figure taken from {cite}`hischig`.
 ```
