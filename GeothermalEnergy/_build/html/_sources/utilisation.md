@@ -221,3 +221,9 @@ The first ones can be used when there is little fluid in gaseous phase contribut
 ### Generator
 
 ### Valve/Orifice
+```{image} ../GeothermalEnergy/Utilisation_pictures/test.svg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```

@@ -96,7 +96,9 @@ Overall, the use of multiple types of well logs can provide comprehensive data a
 
 ![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
 
-<img align="right" width="100" height="1000" src="./exploration_pictures/cores5.jpg">
+[//]: # (<img align="right" width="100" height="1000" src="./exploration_pictures/cores5.jpg">)
+
+<img align="right" width="100" height="1000" src="_images/cores5.jpg">
 
 <!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
 
