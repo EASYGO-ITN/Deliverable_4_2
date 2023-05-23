@@ -44,7 +44,7 @@ In exploration geophysics, we use the very same phenomena, to image a small, cho
 
 ![A vibrotruck acquiring data in a seismic survey](/exploration_pictures/IMG_20220906_120542.jpg)
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO_2, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
+<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO~2~, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
 </div>
 
  #### Multi-physics
