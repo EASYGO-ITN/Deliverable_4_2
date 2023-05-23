@@ -120,7 +120,7 @@ The standard rankine cycle for geothermal applications is called Organic Rankine
 * advantages of ORCs
   * choice of WF - here we could then mention that you are doing research into this...
   <div class="alert alert-block alert-info">
-  <b>By the way:</b> One of our researchers is investigating whether mixtures of organic fluids could improve the performance of binary ORCs powe plants. Find out more <a href="https://easygo-itn.eu/tristan-merbecks/">here</a> or <a href="https://www.researchgate.net/profile/Lorenzo-Galieti">here</a>!</div>
+  <b>By the way:</b> One of our researchers is investigating whether mixtures of organic fluids could improve the performance of binary ORCs powe plants. Find out more <a href="https://easygo-itn.eu/lorenzo-galieti/">here</a> or <a href="https://www.researchgate.net/profile/Lorenzo-Galieti">here</a>!</div>
   * turbine size, cost, eff, durability
   * closed loop - reduced contact with geofluid
 * disadvantages
@@ -221,3 +221,10 @@ The first ones can be used when there is little fluid in gaseous phase contribut
 ### Generator
 
 ### Valve/Orifice
+
+```{image} ../GeothermalEnergy/Utilisation_pictures/img.png
+:alt: fishy
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
