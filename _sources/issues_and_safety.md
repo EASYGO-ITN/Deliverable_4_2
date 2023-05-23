@@ -33,7 +33,7 @@ The drilling and injection of water into geothermal reservoirs may cause small-s
 
 - Fluid extraction: Removing fluids from the reservoir can also cause changes in pressure within the rock formations. These changes may lead to the movement of rocks, which can trigger tremors or earthquakes.
 
-![Example image](../GeothermalEnergy/issues_pictures/doublet.png)\\
+![Example image](../GeothermalEnergy/issues_pictures/doublet_schematic.jpg)\\
 Figure 2: Schematic representation of a geothermal doublet.
 `````
 
