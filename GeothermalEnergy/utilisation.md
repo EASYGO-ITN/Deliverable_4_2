@@ -216,11 +216,11 @@ The first ones, as the name says, employ finned tubes to promote the heat exchan
 
 Fin and tube heat exchangers are usually used in two different cases: either when the binary power plant uses a regenerator or if the the condenser is air-cooled. Such air-cooled condensers are usually very large, and in some cases constitute the only visible component of the power plant. One of this examples is shown below.
 
-<img src="../GeothermalEnergy/Utilisation_pictures/aircooler.svg" class="center" width="500">
+<img src="../GeothermalEnergy/Utilisation_pictures/aircooler.jpg" class="center" width="800">
 
 They are constituted by a series of fans drawing air from the bottom of the heat exchanger and pushing it against the finned tubes containing the condensing fluid. The fans can consume a significant portion of the power plant power output and, for this reason, when water cooling is available, it is generally much preferrable. However, in remote locations this is generally not a possibility. 
 
-<img src="../GeothermalEnergy/Utilisation_pictures/aircoolerschem.svg" class="center" width="500">
+<img src="../GeothermalEnergy/Utilisation_pictures/aircoolerschem.svg" class="center" width="800">
 
 
 
