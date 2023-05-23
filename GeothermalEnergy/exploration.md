@@ -44,7 +44,7 @@ In exploration geophysics, we use the very same phenomena, to image a small, cho
 
 ![A vibrotruck acquiring data in a seismic survey](/exploration_pictures/IMG_20220906_120542.jpg)
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Hagen Söding is is using high resolution seismic techniques to find and monitor CO_2, that has been stored in the underground. [Learn more about his work](https://easygo-itn.eu/hagen-soding/)
+<b>By the way:</b> One of our researchers is working on this topic. Hagen Söding is is using high resolution seismic techniques to find and monitor CO_2, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
 </div>
 
  #### Multi-physics
@@ -59,7 +59,7 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 ![Electromagnetic Survey in Pijnacker, Netherlands](/exploration_pictures/EM_survey_pijnacker.mp4)
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Mahmoud Eltayieb is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. [Learn more about his work](https://easygo-itn.eu/mahmoud-eltayieb/)
+<b>By the way:</b> One of our researchers is working on this topic. Mahmoud Eltayieb is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. <a href="https://easygo-itn.eu/mahmoud-eltayieb/">Learn more about his work</a>.
  </div>
  <!-- - Explain the method and make a gif with wave propagation  -->
  
@@ -119,7 +119,7 @@ If we do not have a good match between the simulated data from our simple model 
 
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Andrea Balza Morales is integreating geophysics and geologic modeling by the means of inversion. [Learn more about her work](https://easygo-itn.eu/andrea-e-balza-morales/)
+<b>By the way:</b> One of our researchers is working on this topic. Andrea Balza Morales is integreating geophysics and geologic modeling by the means of inversion. <a href="https://easygo-itn.eu/andrea-e-balza-morales/">Learn more about her work</a>.
  </div>
 
 ## Modelling
