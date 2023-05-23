@@ -242,6 +242,7 @@ Fin and tube heat exchangers are usually used in two different cases: either whe
 
 They are constituted by a series of fans drawing air from the bottom of the heat exchanger and pushing it against the finned tubes containing the condensing fluid. The fans can consume a significant portion of the power plant power output and, for this reason, when water cooling is available it is generally much preferrable. However, in remote locations this is usually not a possibility. 
 
+<img src="../GeothermalEnergy/Utilisation_pictures/aircoolerschem.svg" class="center" width="800">
 ```{image} ../GeothermalEnergy/Utilisation_pictures/aircoolerschem.svg"
 :alt: fishy
 :width: 700px
@@ -249,7 +250,7 @@ They are constituted by a series of fans drawing air from the bottom of the heat
 ```
 
 
-The shell and tube heat exchangers can instead be utilized when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. Here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. In addition, they are convenient if the condenser is water-cooled.
+The shell and tube heat exchangers can instead be utilized when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. Here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. In addition, they are convenient if the condenser can be water-cooled.
 
 
 ### Heat Exchanger
