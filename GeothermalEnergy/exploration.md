@@ -58,7 +58,7 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
 EM survey                                           |  Gravity survey
 :--------------------------------------------------:|:-----------------------------:
-![](/exploration_pictures/EM_survey_Pijnacker.gif)  |  ![](gravityacquisition.jpg)
+![](/exploration_pictures/EM_survey_Pijnacker.gif)  |  ![](/exploration_pictures/gravityacquisition.jpg)
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Mahmoud Eltayieb</b> is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. <a href="https://easygo-itn.eu/mahmoud-eltayieb/">Learn more about his work</a>.
@@ -96,13 +96,14 @@ An essential part of exploratory drilling is collecting well logs. For these log
 
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties and assists to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations within the borehole can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
-![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
+Drilling inside a tunnel                                                            |     Core samples
+:----------------------------------------------------------------------------------:|:---------------------------------------------:
+![](/exploration_pictures/tunnel_drilling.jpg)                                      |  [//]: # (<img align="right" width="100" height="400" src="./exploration_pictures/cores5.jpg">)
+                                                                                    |  <img align="right" width="100" height="400" src="_images/cores5.jpg">
+                                                                                    |  <!-- ![](../exploration_pictures/cores5.jpg) -->
 
-[//]: # (<img align="right" width="100" height="400" src="./exploration_pictures/cores5.jpg">)
 
-<img align="right" width="100" height="400" src="_images/cores5.jpg">
 
-<!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
 
 ### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
