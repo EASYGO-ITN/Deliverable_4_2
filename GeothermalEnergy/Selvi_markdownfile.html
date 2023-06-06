@@ -1,0 +1,606 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>The Heat Loss Effect in Geothermal Steam Production Well &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Selvi_markdownfile';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FSelvi_markdownfile.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Selvi_markdownfile.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>The Heat Loss Effect in Geothermal Steam Production Well</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">The Heat Loss Effect in Geothermal Steam Production Well</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#heat-loss-mechanisms">Heat Loss Mechanisms:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conduction">Conduction:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convection">Convection:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#radiation">Radiation:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-mitigate-the-heat-loss-effect-in-geothermal-steam-production-wells">How to mitigate the heat loss effect in geothermal steam production wells?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strategies-can-be-applied-as-following">Strategies can be applied as following:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#insulation"><em>Insulation</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#wellbore-integrity"><em>Wellbore Integrity</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#downhole-heat-exchangers"><em>Downhole Heat Exchangers</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-well-design"><em>Advanced Well Design</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#steam-separator-and-re-injection"><em>Steam Separator and Re-injection</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#surface-heat-recovery"><em>Surface Heat Recovery</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#monitoring-and-optimization"><em>Monitoring and Optimization</em>:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#well-performance-in-geothermal-systems">Well Performance in Geothermal Systems</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#well-inflow-performance">Well Inflow Performance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vertical-lift-performance-relationship-vlp">Vertical Lift Performance Relationship (VLP)</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="the-heat-loss-effect-in-geothermal-steam-production-well">
+<h1>The Heat Loss Effect in Geothermal Steam Production Well<a class="headerlink" href="#the-heat-loss-effect-in-geothermal-steam-production-well" title="Permalink to this heading">#</a></h1>
+<p><img alt="geothermal" src="_images/selvi_geothermal.png" /></p>
+<p>Courtesy of [<a class="reference external" href="https://indiaenergyportal.org/geothermal-energy/">https://indiaenergyportal.org/geothermal-energy/</a>]</p>
+<p>In geothermal power generation, the efficient extraction of steam from underground reservoirs is crucial for maximizing energy production. Geothermal steam is primarily obtained through production wells drilled into high-temperature reservoirs. However, during the extraction process, a significant amount of heat is lost from the steam due to various mechanisms. Understanding and minimizing this heat loss effect is essential for optimizing the overall efficiency of geothermal power plants.</p>
+<section id="heat-loss-mechanisms">
+<span id="section-label-1"></span><h2>Heat Loss Mechanisms:<a class="headerlink" href="#heat-loss-mechanisms" title="Permalink to this heading">#</a></h2>
+<p>Understanding the heat loss mechanisms is crucial for optimizing geothermal energy extraction and minimizing energy losses. The primary heat loss mechanisms in geothermal steam production wells include conduction, convection, radiation, and heat exchange with the surrounding formation.</p>
+<section id="conduction">
+<h3>Conduction:<a class="headerlink" href="#conduction" title="Permalink to this heading">#</a></h3>
+<p>Conduction is the transfer of heat through a solid medium. In the context of geothermal wells, heat loss through conduction occurs primarily through the well casing and the surrounding rock formations. The casing material, typically made of steel, has a finite thermal conductivity. As the hot geothermal steam flows through the wellbore, heat is conducted through the casing walls, resulting in heat loss to the environment. Similarly, heat can be conducted from the steam into the cooler surrounding formations, leading to a decrease in steam temperature.</p>
+</section>
+<section id="convection">
+<h3>Convection:<a class="headerlink" href="#convection" title="Permalink to this heading">#</a></h3>
+<p>Convection is the transfer of heat through the movement of fluids. In geothermal steam production wells, convection heat loss occurs when the rising steam comes into contact with cooler fluids or rock formations along the wellbore. This contact causes heat transfer from the steam to the surrounding medium, resulting in a reduction in steam temperature. Convection can also occur within the well itself, as fluid circulation patterns can lead to the mixing of hot and cooler fluids, further contributing to heat loss.</p>
+</section>
+<section id="radiation">
+<h3>Radiation:<a class="headerlink" href="#radiation" title="Permalink to this heading">#</a></h3>
+<p>Radiation is the transfer of heat through electromagnetic waves. In the case of geothermal steam production wells, radiation heat loss occurs as the steam interacts with the wellbore and the surrounding environment. The steam emits infrared radiation, which can escape through the wellbore and be absorbed by the surrounding formations or the atmosphere. This process leads to a loss of thermal energy from the steam, reducing its temperature.</p>
+<p>These heat loss mechanisms have a significant impact on the overall efficiency and productivity of geothermal steam production wells. The loss of heat from the steam results in a decrease in steam temperature, which affects the efficiency of power generation. Lower-temperature steam requires additional energy input for conversion into electricity, resulting in reduced power output and decreased overall plant efficiency.<span class="xref myst">Tester, J. W., et al. (2006).</span></p>
+</section>
+</section>
+<section id="how-to-mitigate-the-heat-loss-effect-in-geothermal-steam-production-wells">
+<h2>How to mitigate the heat loss effect in geothermal steam production wells?<a class="headerlink" href="#how-to-mitigate-the-heat-loss-effect-in-geothermal-steam-production-wells" title="Permalink to this heading">#</a></h2>
+<p>Mitigating the heat loss effect in geothermal steam production wells is crucial for optimizing energy efficiency and maximizing the power generation capacity. Here are several strategies and techniques that can be employed to minimize heat loss.</p>
+<section id="strategies-can-be-applied-as-following">
+<h3>Strategies can be applied as following:<a class="headerlink" href="#strategies-can-be-applied-as-following" title="Permalink to this heading">#</a></h3>
+<section id="insulation">
+<h4><em>Insulation</em>:<a class="headerlink" href="#insulation" title="Permalink to this heading">#</a></h4>
+<p>Applying insulation materials around the well casing can help reduce heat loss through conduction. Insulating materials with low thermal conductivity, such as fiberglass or ceramic fiber, can be installed to minimize heat transfer from the steam to the surrounding wellbore. Additionally, insulating the surface pipelines that transport the steam can prevent heat loss during transportation.</p>
+</section>
+<section id="wellbore-integrity">
+<h4><em>Wellbore Integrity</em>:<a class="headerlink" href="#wellbore-integrity" title="Permalink to this heading">#</a></h4>
+<p>Ensuring the integrity of the wellbore is essential for minimizing heat loss. Proper cementing techniques and wellbore construction can help create a barrier between the steam and the surrounding formations, reducing heat transfer through conduction and convection.</p>
+</section>
+<section id="downhole-heat-exchangers">
+<h4><em>Downhole Heat Exchangers</em>:<a class="headerlink" href="#downhole-heat-exchangers" title="Permalink to this heading">#</a></h4>
+<p>Implementing downhole heat exchangers can recover some of the lost heat. These devices allow for the transfer of heat from the geothermal steam to a working fluid, which can be utilized for power generation or other applications. By capturing and utilizing the heat that would otherwise be lost, the overall efficiency of the geothermal system is improved.</p>
+</section>
+<section id="advanced-well-design">
+<h4><em>Advanced Well Design</em>:<a class="headerlink" href="#advanced-well-design" title="Permalink to this heading">#</a></h4>
+<p>Optimized well designs, such as double-casing systems or thermal liners, can minimize heat loss by reducing the contact between the steam and cooler surroundings. These designs create a thermal barrier that improves the retention of thermal energy in the steam and reduces heat transfer.</p>
+</section>
+<section id="steam-separator-and-re-injection">
+<h4><em>Steam Separator and Re-injection</em>:<a class="headerlink" href="#steam-separator-and-re-injection" title="Permalink to this heading">#</a></h4>
+<p>Installing steam separators at the wellhead can help separate any non-condensable gases from the steam. These gases have a lower heat content and can be re-injected back into the reservoir, reducing the loss of valuable thermal energy.</p>
+</section>
+<section id="surface-heat-recovery">
+<h4><em>Surface Heat Recovery</em>:<a class="headerlink" href="#surface-heat-recovery" title="Permalink to this heading">#</a></h4>
+<p>Implementing heat recovery systems at the surface can capture waste heat from the geothermal steam. This recovered heat can be utilized for various purposes, such as space heating, industrial processes, or district heating, further improving the overall energy efficiency of the geothermal system.</p>
+</section>
+<section id="monitoring-and-optimization">
+<h4><em>Monitoring and Optimization</em>:<a class="headerlink" href="#monitoring-and-optimization" title="Permalink to this heading">#</a></h4>
+<p>Regular monitoring and optimization of the geothermal system can help identify and address any heat loss issues promptly. This includes monitoring well performance, steam quality, and temperature profiles to ensure efficient steam production and identify areas for improvement.</p>
+<p>In conclusion, the heat loss effect in geothermal steam production wells poses a significant challenge to efficient power generation. It is a critical factor that influences the efficiency and productivity of geothermal power plants. Understanding the mechanisms and implementing effective mitigation strategies can help maximize energy extraction, improve power generation efficiency, and extend the lifespan of geothermal reservoirs. It is worth noting that the specific mitigation strategies employed may vary depending on the geological characteristics of the geothermal resource, the well design, and the available technologies. Therefore, it is important to consider site-specific factors and consult with geothermal experts and engineers to implement the most suitable mitigation measures for a particular geothermal steam production well.</p>
+</section>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="well-performance-in-geothermal-systems">
+<h1>Well Performance in Geothermal Systems<a class="headerlink" href="#well-performance-in-geothermal-systems" title="Permalink to this heading">#</a></h1>
+<section id="well-inflow-performance">
+<h2>Well Inflow Performance<a class="headerlink" href="#well-inflow-performance" title="Permalink to this heading">#</a></h2>
+<p>Well Inflow Performance is a critical concept in geothermal systems that helps evaluate the performance of production wells and understand the relationship between the fluid flow rate and the pressure drawdown in the reservoir. The scientist Darcy was the first studied extensively the relationship between pressure and flow rate. The IPR provides insights into the productivity of the reservoir, enabling engineers to optimize the production and maximize energy extraction.</p>
+<p><img alt="inflow" src="_images/selvi_inflow1.png" /></p>
+<p>Courtesy of [<a class="reference external" href="https://production-technology.org/well-inflow-performance/">https://production-technology.org/well-inflow-performance/</a>]</p>
+<p>As a function of production rate, the well’s flowing bottom-hole pressure (Pwf) is referred to as the inflow performance relationship (IPR). It describes the reservoir’s flow. In the pressure range between the average reservoir pressure and atmospheric pressure, the Pwf is defined. The graph that follows shows a typical link between inflow performance and inflow.</p>
+<p><img alt="inflowgraph" src="_images/selvi_IPR.png" /></p>
+<p>Courtesy of [<a class="reference external" href="https://production-technology.org/well-inflow-performance/">https://production-technology.org/well-inflow-performance/</a>]</p>
+<p>The flow rate corresponding to a Pwf of zero is found at the point where the PI plot and x-axis connect. The Absolute Open Flow (AOF) potential of the well is represented by this location on the IPR plot.</p>
+</section>
+<section id="vertical-lift-performance-relationship-vlp">
+<h2>Vertical Lift Performance Relationship (VLP)<a class="headerlink" href="#vertical-lift-performance-relationship-vlp" title="Permalink to this heading">#</a></h2>
+<p>The bottom-hole pressure is described as a function of flow rate by the Vertical Lift Performance Relationship (VLP), also known as Outflow. Numerous variables, such as the fluid PVT characteristics, well depth, tubing size, surface pressure, water cut, and GOR, affect the VLP. It describes the flow from the wellhead to the well’s bottom hole.</p>
+<p><img alt="VLP" src="_images/selvi_VLP.png" /></p>
+<p>Courtesy of [<a class="reference external" href="https://production-technology.org/well-inflow-performance/">https://production-technology.org/well-inflow-performance/</a>]</p>
+<p>The wellbore flowing pressure is related to the surface production rate by both the Inflow Performance Relationship and the Vertical Lift Performance Relationship. While the IPR reflects what the reservoir can supply to the bottom hole, the VLP represents what the well can send to the surface.</p>
+<p><img alt="VLP2" src="_images/selvi_VLP2.png" /></p>
+<p>Courtesy of [<a class="reference external" href="https://production-technology.org/well-inflow-performance/">https://production-technology.org/well-inflow-performance/</a>]</p>
+<p>The well deliverability, which expresses what a well will actually produce for a specific operating condition (Pr, PI, WC, GOR, THP, tubing size…), is produced by the intersection of the IPR and the VLP, also known as the operational point.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">The Heat Loss Effect in Geothermal Steam Production Well</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#heat-loss-mechanisms">Heat Loss Mechanisms:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conduction">Conduction:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convection">Convection:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#radiation">Radiation:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-mitigate-the-heat-loss-effect-in-geothermal-steam-production-wells">How to mitigate the heat loss effect in geothermal steam production wells?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#strategies-can-be-applied-as-following">Strategies can be applied as following:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#insulation"><em>Insulation</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#wellbore-integrity"><em>Wellbore Integrity</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#downhole-heat-exchangers"><em>Downhole Heat Exchangers</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-well-design"><em>Advanced Well Design</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#steam-separator-and-re-injection"><em>Steam Separator and Re-injection</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#surface-heat-recovery"><em>Surface Heat Recovery</em>:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#monitoring-and-optimization"><em>Monitoring and Optimization</em>:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#well-performance-in-geothermal-systems">Well Performance in Geothermal Systems</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#well-inflow-performance">Well Inflow Performance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vertical-lift-performance-relationship-vlp">Vertical Lift Performance Relationship (VLP)</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
