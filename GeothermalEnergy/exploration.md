@@ -43,9 +43,17 @@ One of the most important methods of imaging the earth are seismic waves. Seismi
 
 In exploration geophysics, we use the very same phenomena, to image a small, chosen part of the underground, to understand its structure. Since we cannot have earthquakes as a source of seismic waves at the spot, where we want to examine a geothermal site, we must generate seismic waves ourselves. For this, geophysicists use a variety of sources. For shallow experiments, a hammer with a metal plate is enough to generate a wave, that travels tens of meters. If you need the waves to travel deeper into the earth more energy is needed. Therefore, we either use explosives of vibration trucks to create stronger waves. To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.
 
-![A vibrotruck acquiring data in a seismic survey](/exploration_pictures/IMG_20220906_120542.jpg)
+<!-- ![A vibrotruck acquiring data in a seismic survey](/exploration_pictures/IMG_20220906_120542.jpg) -->
+```{figure} ../GeothermalEnergy/exploration_pictures/IMG_20220906_120542.jpg
+---
+height: 600px
+name: IMG_20220906_120542.jpg
+---
+A vibrotruck acquiring data in a seismic survey.
+```
+
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO~2~, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
+<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO<sub>2<\sub>, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
 </div>
 
 ### Multi-physics
@@ -124,7 +132,14 @@ When investigating a geothermal site, we usually have a simple geological model 
 
 If we do not have a good match between the simulated data from our simple model and the recorded data, we update the model step by step, by including more details, until our model explains the recorded data. Therefore we would calculate, if increasing a model parameter leads improvment or worsening in the fit between our simulated and recorded data. If an slight increase leads to an improvement in the fit, we would then update the model accordingly and otherwise decrease the model value slightly. This stepwise procedure is called optimisation and the whole process of building a model from recorded data is referred to as inverse modelling.
 
-![Forward modelling vs. inverse modelling.](/exploration_pictures/Inversion_loop.png)
+```{figure} ./exploration_pictures/Inversion_loop.png
+---
+height: 150px
+name: Inversion_loop.png
+---
+Forward modelling vs. inverse modelling.
+```
+<!-- ![Forward modelling vs. inverse modelling.](/exploration_pictures/Inversion_loop.png) -->
 
 
 <div class="alert alert-block alert-info">
