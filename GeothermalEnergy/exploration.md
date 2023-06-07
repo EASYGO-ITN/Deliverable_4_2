@@ -53,7 +53,7 @@ A vibrotruck acquiring data in a seismic survey.
 ```
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO<sub>2<\sub>, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
+<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO<sub>2</sub>, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
 </div>
 
 ### Multi-physics
@@ -66,22 +66,22 @@ Gravity is the force by which a planet or other body draws objects towards its c
 Electromagnetic (EM) waves are waves of energy that travel through space and can be used to study the Earth's subsurface. In geophysics, EM methods involve sending EM waves into the ground and measuring their response. EM surveys can be conducted using different frequencies and techniques. When EM waves encounter different types of rocks and minerals in the subsurface, they can induce electrical currents to flow. By measuring these currents, we can create maps that show variations in the subsurface electrical properties. This can help identify areas with different rock types, especially areas that are conductive such as areas of high heat flow. A common method done under this realm of geophysical techniques is the magnetollueric method or MT. This method is used to study the electrical conductivity structure at a much deeper scale. It involves measuring the natural variations in the Earth's magnetic field and electric field at the Earth's surface, and using these measurements as the source. By analyzing the frequency-dependent variations in these fields, we can estimate the electrical resistivity of different rock layers and fluids in the subsurface which is of great importance in geothermal exploration. 
 
 
-<p align="center">
+
 ```{figure} ./exploration_pictures/EM_survey_Pijnacker.gif
 ---
-height: 600px
+height: 300px
 name: EM_survey_Pijnacker.gif
 ---
 Acquiring data in a EM survey.
 ```
 ```{figure} ./exploration_pictures/gravityacquisition.jpg
 ---
-height: 600px
+height: 300px
 name: gravityacquisition.jpg
 ---
 Aquiring gravity data in the field.
 ```
-</p>
+
 
 
 <div class="alert alert-block alert-info">
@@ -124,9 +124,11 @@ Overall, the use of multiple types of well logs can provide comprehensive data a
 
 [//]: # (<img align="right" width="100" height="400" src="./exploration_pictures/cores5.jpg">)
 
-<img align="right" width="100" height="400" src="_images/cores5.jpg">
+<!-- <img align="right" width="100" height="400" src="_images/cores5.jpg"> -->
 
 <!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
+
+![Core samples collected during drilling.](../exploration_pictures/cores5.jpg){float: right; }
 
 ### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
@@ -145,13 +147,11 @@ If we do not have a good match between the simulated data from our simple model 
 
 ```{figure} ./exploration_pictures/Inversion_loop.png
 ---
-height: 150px
+height: 600px
 name: Inversion_loop.png
 ---
 Forward modelling vs. inverse modelling.
 ```
-<!-- ![Forward modelling vs. inverse modelling.](/exploration_pictures/Inversion_loop.png) -->
-
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Andrea Balza Morales</b> is integreating geophysics and geologic modeling by the means of inversion. <a href="https://easygo-itn.eu/andrea-e-balza-morales/">Learn more about her work</a>.
