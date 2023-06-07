@@ -71,6 +71,7 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 ---
 height: 300px
 name: EM_survey_Pijnacker.gif
+align: left
 ---
 Acquiring data in a EM survey.
 ```
@@ -78,6 +79,7 @@ Acquiring data in a EM survey.
 ---
 height: 300px
 name: gravityacquisition.jpg
+align: right
 ---
 Aquiring gravity data in the field.
 ```
@@ -128,7 +130,14 @@ Overall, the use of multiple types of well logs can provide comprehensive data a
 
 <!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
 
-![Core samples collected during drilling.](../exploration_pictures/cores5.jpg){float: right; }
+```{figure} ./exploration_pictures/cores5.jpg
+---
+height: 400px
+name: cores4.jpg
+align: right
+---
+Core samples from the BULGG.
+```
 
 ### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
