@@ -82,13 +82,7 @@ name: gravityacquisition.jpg
 Aquiring gravity data in the field.
 ```
 </p>
-<!--
-EM survey                                           |  Gravity survey
-:--------------------------------------------------:|:-----------------------------:
-<!-- ![](/exploration_pictures/EM_survey_Pijnacker.gif)  |  ![](/exploration_pictures/gravityacquisition.jpg) -->
-<img align="left" height="400" src="./exploration_pictures/EM_survey_Pijnacker.gif"> |  <img align="right"  height="400" src="./exploration_pictures/gravityacquisition.jpg">
 
--->
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Mahmoud Eltayieb</b> is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. <a href="https://easygo-itn.eu/mahmoud-eltayieb/">Learn more about his work</a>.
