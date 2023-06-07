@@ -528,7 +528,7 @@ title="Print to PDF"
 </figcaption>
 </figure>
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO<sub>2<\sub>, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
+<b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO<sub>2</sub>, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
 </div>
 </section>
 <section id="multi-physics">
@@ -541,22 +541,18 @@ title="Print to PDF"
 <section id="electromagnetic-methods">
 <h4>Electromagnetic methods:<a class="headerlink" href="#electromagnetic-methods" title="Permalink to this headline">#</a></h4>
 <p>Electromagnetic (EM) waves are waves of energy that travel through space and can be used to study the Earth’s subsurface. In geophysics, EM methods involve sending EM waves into the ground and measuring their response. EM surveys can be conducted using different frequencies and techniques. When EM waves encounter different types of rocks and minerals in the subsurface, they can induce electrical currents to flow. By measuring these currents, we can create maps that show variations in the subsurface electrical properties. This can help identify areas with different rock types, especially areas that are conductive such as areas of high heat flow. A common method done under this realm of geophysical techniques is the magnetollueric method or MT. This method is used to study the electrical conductivity structure at a much deeper scale. It involves measuring the natural variations in the Earth’s magnetic field and electric field at the Earth’s surface, and using these measurements as the source. By analyzing the frequency-dependent variations in these fields, we can estimate the electrical resistivity of different rock layers and fluids in the subsurface which is of great importance in geothermal exploration.</p>
-<p align="center">
-```{figure} ./exploration_pictures/EM_survey_Pijnacker.gif
----
-height: 600px
-name: EM_survey_Pijnacker.gif
----
-Acquiring data in a EM survey.
-```
-```{figure} ./exploration_pictures/gravityacquisition.jpg
----
-height: 600px
-name: gravityacquisition.jpg
----
-Aquiring gravity data in the field.
-```
-</p>
+<figure class="align-default" id="em-survey-pijnacker-gif">
+<a class="reference internal image-reference" href="_images/EM_survey_Pijnacker.gif"><img alt="_images/EM_survey_Pijnacker.gif" src="_images/EM_survey_Pijnacker.gif" style="height: 300px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Acquiring data in a EM survey.</span><a class="headerlink" href="#em-survey-pijnacker-gif" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="gravityacquisition-jpg">
+<a class="reference internal image-reference" href="_images/gravityacquisition.jpg"><img alt="_images/gravityacquisition.jpg" src="_images/gravityacquisition.jpg" style="height: 300px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Aquiring gravity data in the field.</span><a class="headerlink" href="#gravityacquisition-jpg" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Mahmoud Eltayieb</b> is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. <a href="https://easygo-itn.eu/mahmoud-eltayieb/">Learn more about his work</a>.
  </div>
@@ -585,8 +581,9 @@ Aquiring gravity data in the field.
 </div>
 <p>Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties and assists to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations within the borehole can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.</p>
 <p><img alt="Drilling of wellbore inside a tunnel to explore for geothermal potential." src="_images/tunnel_drilling.jpg" /></p>
-<img align="right" width="100" height="400" src="_images/cores5.jpg">
+<!-- <img align="right" width="100" height="400" src="_images/cores5.jpg"> -->
 <!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
+<p><img alt="Core samples collected during drilling." src="../exploration_pictures/cores5.jpg" />{float: right; }</p>
 </section>
 <section id="geochemistry-for-exploration">
 <h3>Geochemistry for exploration<a class="headerlink" href="#geochemistry-for-exploration" title="Permalink to this headline">#</a></h3>
@@ -603,12 +600,11 @@ Aquiring gravity data in the field.
 <p>When investigating a geothermal site, we usually have a simple geological model of the subsurface in advance, but the real subsurface is often way more complex. Once we collected sufficient data in a geophysical survey, we try to find a realistic model, that explains our measured data. Given our simple geological model, we can verify our model guess by simulating our geophysical method and comparing the simulated to the measured data. Calculating simulated data from a model and comparing it to our recorded data is commonly referred to as forward modelling.</p>
 <p>If we do not have a good match between the simulated data from our simple model and the recorded data, we update the model step by step, by including more details, until our model explains the recorded data. Therefore we would calculate, if increasing a model parameter leads improvment or worsening in the fit between our simulated and recorded data. If an slight increase leads to an improvement in the fit, we would then update the model accordingly and otherwise decrease the model value slightly. This stepwise procedure is called optimisation and the whole process of building a model from recorded data is referred to as inverse modelling.</p>
 <figure class="align-default" id="inversion-loop-png">
-<a class="reference internal image-reference" href="_images/Inversion_loop.png"><img alt="_images/Inversion_loop.png" src="_images/Inversion_loop.png" style="height: 150px;" /></a>
+<a class="reference internal image-reference" href="_images/Inversion_loop.png"><img alt="_images/Inversion_loop.png" src="_images/Inversion_loop.png" style="height: 600px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Forward modelling vs. inverse modelling.</span><a class="headerlink" href="#inversion-loop-png" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Forward modelling vs. inverse modelling.</span><a class="headerlink" href="#inversion-loop-png" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<!-- ![Forward modelling vs. inverse modelling.](/exploration_pictures/Inversion_loop.png) -->
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Andrea Balza Morales</b> is integreating geophysics and geologic modeling by the means of inversion. <a href="https://easygo-itn.eu/andrea-e-balza-morales/">Learn more about her work</a>.
  </div>
