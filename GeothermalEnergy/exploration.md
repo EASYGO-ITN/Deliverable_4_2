@@ -67,24 +67,15 @@ Electromagnetic (EM) waves are waves of energy that travel through space and can
 
 
 
-```{figure} ./exploration_pictures/EM_survey_Pijnacker.gif
----
-height: 300px
-name: EM_survey_Pijnacker.gif
-align: left
----
-Acquiring data in a EM survey.
-```
-```{figure} ./exploration_pictures/gravityacquisition.jpg
----
-height: 300px
-name: gravityacquisition.jpg
-align: right
----
-Aquiring gravity data in the field.
-```
 
-
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="./exploration_pictures/EM_survey_Pijnacker.gif" width="400"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="./exploration_pictures/gravityacquisition.jpg" width="400"/>
+     </div>
+</div>
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Mahmoud Eltayieb</b> is is using controlled-source electromagnetic methods to track cold fronts in geothermal reservoirs. <a href="https://easygo-itn.eu/mahmoud-eltayieb/">Learn more about his work</a>.
