@@ -122,22 +122,7 @@ An essential part of exploratory drilling is collecting well logs. For these log
 
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties and assists to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations within the borehole can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
-![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
-
-[//]: # (<img align="right" width="100" height="400" src="./exploration_pictures/cores5.jpg">)
-
-<!-- <img align="right" width="100" height="400" src="_images/cores5.jpg"> -->
-
-<!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
-
-```{figure} ./exploration_pictures/cores5.jpg
----
-height: 400px
-name: cores4.jpg
-align: right
----
-Core samples from the BULGG.
-```
+<img class=""image-align-right" width="100" height="400" ![Core samples collected during drilling.] src="_images/cores5.jpg"/><img class="image-align-left" width="800" ![Drilling of wellbore inside a tunnel to explore for geothermal potential.] src="/exploration_pictures/tunnel_drilling.jpg"/>
 
 ### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
