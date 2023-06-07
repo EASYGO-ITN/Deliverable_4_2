@@ -124,9 +124,11 @@ Overall, the use of multiple types of well logs can provide comprehensive data a
 
 [//]: # (<img align="right" width="100" height="400" src="./exploration_pictures/cores5.jpg">)
 
-<img align="right" width="100" height="400" src="_images/cores5.jpg">
+<!-- <img align="right" width="100" height="400" src="_images/cores5.jpg"> -->
 
 <!-- ![Core samples collected during drilling.](../exploration_pictures/cores5.jpg) -->
+
+![Core samples collected during drilling.](../exploration_pictures/cores5.jpg){float: right; }
 
 ### Geochemistry for exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
@@ -145,13 +147,11 @@ If we do not have a good match between the simulated data from our simple model 
 
 ```{figure} ./exploration_pictures/Inversion_loop.png
 ---
-height: 150px
+height: 600px
 name: Inversion_loop.png
 ---
 Forward modelling vs. inverse modelling.
 ```
-<!-- ![Forward modelling vs. inverse modelling.](/exploration_pictures/Inversion_loop.png) -->
-
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Andrea Balza Morales</b> is integreating geophysics and geologic modeling by the means of inversion. <a href="https://easygo-itn.eu/andrea-e-balza-morales/">Learn more about her work</a>.
