@@ -215,7 +215,7 @@ A typical axial turbine for binary geothermal power plants is shown below (court
 :align: center
 ```
 
-### Heat Exchanger
+### Heat Exchangers
 
 The heat exchangers come in different models and are responsible for several different thermodynamic transformations. We can usually distinguish between two different types:  the fin and tube heat exchangers and the shell and tube heat exchangers.
 
@@ -236,6 +236,20 @@ They are constituted by a series of fans drawing air from the bottom of the heat
 ```
 
 The shell and tube heat exchangers can instead be utilized when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. Here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. In addition, they are convenient if the condenser can be water-cooled.
+
+The figure below shows the most classic type of shell and tube heat exchanger. It finds its use everywhere in the power plant, except (normally) when boiling the working fluid of the ranking cycle. Its principle of operation is as follows: one of the fluids flows straight inside the tubes, while the other one goes through the serpentine path in the shell. As also the tubes are inserted in the shell, the two fluids can exchange heat. 
+
+```{image} ../GeothermalEnergy/Utilisation_pictures/ShTuHEX.svg
+:width: 700px
+:align: center
+```
+When instead the rankine cycle fluid needs to be boiled after preheating, a special type of shell and tube heat exchanger, called kettle reboiler, is used. The shell of the heat exchanger in this case works like a cooking pot, that contains the rankine cycle fluid that needs to be boiled. However, in contrast to the pot, heat is not provided from below by a flame, but rather from the geofluid itself, that flows inside the tubes inserted in the shell. Once vapour is generated, it tends to go upwards, were it will exit the heat exchanger.
+
+```{image} ../GeothermalEnergy/Utilisation_pictures/KettleHEX.svg
+:width: 700px
+:align: center
+```
+
 
 ### Heat Exchanger
 
