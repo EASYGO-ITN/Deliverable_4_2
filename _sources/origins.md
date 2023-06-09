@@ -13,8 +13,10 @@ The fact that there is heat stored in the Earth is typically evidenced by the in
 Now we know that heat flux exists across each square meter of the Earth's surface, and is attributed to conduction and convection from the interior (See here). The next question is, what is the origin of the heat? Before answering this question, it is worthwhile to introduce briefly the structure of our planet.
 
 ```{figure} ../GeothermalEnergy/Origin_pictures/Earth_structure.png
-:align: center
-
+---
+width: 200px
+align: right
+---
 The structure of the Earth
 ```
 
@@ -35,8 +37,10 @@ The origin of this heat can be attributed to two sources: the residual heat from
 Since the formation of the Earth, metal was redistributed, accompanied by density stratification. While the core is composed of iron, the mantle, which in contact with the outer core, mainly consists of silicate minerals, oxides and other high-density minerals whose atoms are relatively small, e.g. magnesium (Mg), titanium (Ti), calcium (Ca) and aluminum (Al){cite}`heatflux1`, resulting in low existence of radioactive elements. Directly formed from mantle (extruded magma), the oceanic crust  thus, the same with the mantle, havs a low abundance of radioactive elements {cite}`heatflux1`. In contrast, the continental crust, composed of minerals that was incompatible with the high-density minerals in the mantle, holds the largest global reservoir of radioactive elements, such as potassium (K), uranium (U) and thorium (Th). 
 
 ```{figure} ../GeothermalEnergy/Origin_pictures/crust.png
-:align: center
-
+---
+width: 500px
+align: center
+---
 The structure of the crust
 ```
 
