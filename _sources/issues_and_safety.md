@@ -79,10 +79,9 @@ One key issue that determines the success of reinjection, thus of the whole geot
 
 Based on the primary mechanisms, the clogging processes can be divided into three groups: a) physical processes, related to migration of particles; b) chemical processes, caused by chemical reactions; c) biological processes as a result of bacterial activity. 
 
-```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.png
+```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.jpg
 ---
 width: 200px
-name: directive-fig
 ---
 A schematic of a geothermal doublet with potential sources of clogging shown.
 ```
@@ -113,7 +112,6 @@ In crystalline reservoirs, such as granite, fluid flow occurs primarily through 
 ```{figure} ../GeothermalEnergy/issues_pictures/hydroshearing.jpg
 ---
 width: 200px
-name: directive-fig
 ---
 Difference between hydraulic fracturing (a) and hydraulic shearing (b) (Figure taken from {cite}`hischig`.
 ```
