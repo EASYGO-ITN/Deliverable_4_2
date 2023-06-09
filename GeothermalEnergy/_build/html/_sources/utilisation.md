@@ -7,7 +7,11 @@ represents a large portion of the total energy consumption.
 
 Where there is no demand for heating, for example in hot climates or during the summer months in cold climates, or
 where there is no consumer in the vicintiy of the geothermal reservoir, the thermal energy can also be converted to
-other forms of energy such as electricity. This can be transported more easily over long distances to the consumers.
+other forms of energy such as electricity. This can be transported more easily over long distances to the consumers. The figure below illustrates the direct and indirect utilisations of geothermal energy with different in-situ temperatures.
+
+![overiew](../GeothermalEnergy/Utilisation_pictures/Martine-heating-powering.png)
+
+Figure provided by Martine Bloemendal {cite}`martine`.
 
 ## Role of Geothermal Energy @Lorenzo
 
@@ -16,30 +20,28 @@ other forms of energy such as electricity. This can be transported more easily o
 * multipurpose tool - Munich area 
 
 ## Direct Use @Wen
-The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure [data from {cite}`lund2021direct`] below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
+The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure (data from {cite}`lund2021direct`) below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
 
 ![Direct Utilisation](../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png)
 
-### Geothermal Heat Pumps
 
-So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria {cite}`heatflux1`.  GHPs take advantages of the fact that a few feet below Earth's surface, the temperatue of the ground remains relatively constant, ranging from 7 &deg;C - 25 &deg;C {cite}`DOE:2023`. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning {cite}`heatflux1`.
+So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria {cite}`heatflux1`.  GHPs take advantages of the fact that a few feet below Earth's surface, the temperatue of the ground remains relatively constant, ranging from 7 &deg;C - 25 &deg;C {cite}`DOE:2023`. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning {cite}`heatflux1`. As an example showing how GHP works, aquifer thermal energy storage system is illustrated below.
 
-### Space Heating
-Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m,, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
+![ATES](../GeothermalEnergy/Utilisation_pictures/Martine_GHP.jpg)
 
-### Bathing & Swimming
+Figure provided by Martine Bloemendal {cite}`martine`
 
-### Greenhouse Heating
+Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
 
-### Industrial Use
-
-### Aquacultural Pond Heating
-
-### Agricultural Drying
-
-### Cooling/Snow Melting
-
-### Other
+There are also many other direct applications for geothermal heat, such as:
+* Bathing & Swimming
+* Greenhouse heating
+* Industrial Use
+* Aquacultural pond heating
+* Agricultural drying
+* Snow Melting
+* Air conditioning
+* etc.
 
 ## Power Plants
 Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from other power plants types like coal-fired or nuclear plants.
@@ -114,7 +116,7 @@ The standard rankine cycle for geothermal applications is called Organic Rankine
 *  **Stage 4**: The low-pressure vapour is condensed
 * Repeat from **Stage 1**
 
-[//]: # (@Lorenzo maybe we should also talk about the following a bit more...)
+<!--- @Lorenzo maybe we should also talk about the following a bit more... -->
 * advantages of ORCs
   * choice of WF - here we could then mention that you are doing research into this...
   <div class="alert alert-block alert-info">
@@ -187,13 +189,26 @@ Whereas when we would like to know how our heat engine compares to an ideal heat
   $$\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}$$
 
 ## Power Plant Equipment @Lorenzo
-All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the vapor and convert it into mechanical energy.
 
-A typical axial turbine for binary geothermal power plants is shown below: at its simplest, it is composed of a shaft driven by a series of wing-like elements, called blades. The blades are radially disposed around the shaft. By blowing the hot vapor on the blades, each one of them will generate some lift, and their combination will induce the rotation of the turbine.
+All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most recurring component is the turbine: its scope is to extract the energy of the hot vapour and convert it into mechanical power. To do so, it relies on the force generated by elements called blades, whose working principle is briefly shown in the figure below. Because of the action-reaction principle, when the blade bends the vapour flow downwards, it experiences an opposite force pushing it upwards. A similar idea is used in many other engineering applications, such as aircraft wings, Formula 1 ailerons and boat hydrofoils.
 
-![Turboden Axial Turbine](../GeothermalEnergy/Utilisation_pictures/axialturbine.png)
+<img src="../GeothermalEnergy/Utilisation_pictures/Lift.svg" class="center" width="500">
 
-The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types: the shell and tube heat exchangers and the fin and tube heat exchangers .
+When the blade is attached to a shaft, such force will induce a torque that will consequently drive the rotation of the turbine. 
+
+<img src="../GeothermalEnergy/Utilisation_pictures/Rotation.svg" class="center" width="500">
+
+
+A typical axial turbine for binary geothermal power plants is shown below (courtesy of Turboden). 
+
+<img src="../GeothermalEnergy/Utilisation_pictures/axialturbine.png" class="center" width="500">
+
+
+The heat exchangers come in different models and are responsible for several different thermodynamic transformations. In the binary power plants, we can usually distinguish between two different types:  the fin and tube heat exchangers and the shell and tube heat exchangers.
+
+The first ones, as the name says, employ finned tubes to promote the heat exchange. They are usually required when there is one fluid in gaseous phase participating to the heat exchange process: this is because, normally, the tendency of a gas to exchange heat is usually quite low. A typical example of a finned tube is shown below: the gas flows outside the finned tube in a direction perpendicular to the plane of the image, and makes use of the increased heat exchange area provided by the fins to compensate for its low tendency to exchange heat. The other fluid flows instead inside the tube. This second fluid has to be either liquid or evaporating/condensating, and can be gaseous only for small portions of the heat exchanger. Instead, heat exchangers which would allow two gases to exchange heat are of a different kind, but are usually not necessary in geothermal applications.
+
+<img src="../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg" class="center" width="500">
 
 The first ones can be used when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. Despite being of the same typology, they work in quite a different way.
 
@@ -206,3 +221,9 @@ The first ones can be used when there is little fluid in gaseous phase contribut
 ### Generator
 
 ### Valve/Orifice
+```{image} ../GeothermalEnergy/Utilisation_pictures/test.svg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
