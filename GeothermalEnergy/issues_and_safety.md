@@ -79,12 +79,12 @@ One key issue that determines the success of reinjection, thus of the whole geot
 
 Based on the primary mechanisms, the clogging processes can be divided into three groups: a) physical processes, related to migration of particles; b) chemical processes, caused by chemical reactions; c) biological processes as a result of bacterial activity. 
 
-```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.png
+```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.jpg
 ---
-width: 200px
-name: directive-fig
+:width: 350px
+:align: center
 ---
-A schematic of a geothermal doublet with potential sources of clogging shown.
+Figure 3: Clogging processes happenning during geothermal operations.
 ```
 
 As you can see from the schematic, sources of clogging occur all the way along the fluid path. 
@@ -100,7 +100,7 @@ As you can see from the schematic, sources of clogging occur all the way along t
 So, you can see that at the end of this chain multiple processes can result in the reduction of rock porosity and permeability, which can seriously affect the whole process. There are various remediation methods for each of the described issues, however prediction of these processes is crucial for successul prevention.
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media with by recreating this process in the lab. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
+<b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media and its effect on rock permeability using laboratory experiments. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
 </div>
 
 
@@ -110,10 +110,10 @@ The injection of fluids into a reservoir can cause significant changes in temper
 It is important to note that excessive permeability can cause the reservoir to cool too quickly, which can negatively impact its long-term profitability. On the other hand, insufficient permeability can result in poor fluid exchange, leading to suboptimal economic performance.
 In crystalline reservoirs, such as granite, fluid flow occurs primarily through fractures. To improve fracture permeability, a stimulation technique involving the injection of water at high pressure is employed. This process causes the fracture to slide and dilate, thereby creating a larger flow channel and improving the flow and heat exchange in the reservoir.
 
-```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.png
+```{figure} ../GeothermalEnergy/issues_pictures/hydroshearing.jpg
 ---
-width: 200px
-name: directive-fig
+:width: 500px
+:align: center
 ---
-Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}``.
+Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}``.
 ```
