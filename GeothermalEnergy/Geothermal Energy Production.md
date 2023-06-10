@@ -21,7 +21,7 @@ Enhanced Geothermal Systems (EGS) refer to artificial reservoirs created by dril
 
 ![Enhanced Geothermal System](../GeothermalEnergy/Production_images/EGS.png)
 
-The development and deployment of EGS technology face significant challenges, including technical and environmental concerns such as clogging of the fracture network and induced seismicity {cite}`(Breede et al., 2013; Olasolo, 2016; Lu, 2018; Kumari & Ranjith, 2019; Ge & Saar, 2022). These issues have impacted the cost-competitiveness of EGS which has limited the successful roll-out and operation of EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and reduced greenhouse gas emissions, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research efforts are aimed at improving the reservoir performance and cost-effectiveness of EGS systems, with the ultimate goal of achieving widespread commercial deployment.
+The development and deployment of EGS technology face significant challenges, including technical and environmental concerns such as clogging of the fracture network and induced seismicity {cite}`Breede2013, Olasolo2016, Lu2018, Kumari2019, Ge2022`. These issues have impacted the cost-competitiveness of EGS which has limited the successful roll-out and operation of EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and reduced greenhouse gas emissions, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research efforts are aimed at improving the reservoir performance and cost-effectiveness of EGS systems, with the ultimate goal of achieving widespread commercial deployment.
 
 
 ### Advanced Geothermal Systems
@@ -29,12 +29,11 @@ The development and deployment of EGS technology face significant challenges, in
 Advanced Geothermal Systems (AGS) have emerged as a promising technology for extracting geothermal energy using a closed-loop system that is emplaced within the subsurface. Unlike Enhanced Geothermal Systems (EGS), where the working fluid 
 interacts directly with the rock, AGS relies on the circulation of a working fluid through a closed wellbore that is isolated from the surrounding formation. The specific geological properties of the reservoir are therefore less important in AGS since the working fluid does not come into direct contact with the rock. Instead, AGS systems harvest heat from the rock through heat conduction. Interestingly, the concept of deep closed-loop geothermal systems was first proposed almost a century ago (Hodgson, 1927), but no commercial-scale system exists as of today. Since no AGS field data are available yet, it is still unclear if such an underground heat exchanger can sustain reasonable thermal output over the course of multiple decades at an affordable cost {cite}`Beckers2022, Malek2022`.
 
+![Advanced Geothermal System](../GeothermalEnergy/Production_images/AGS.png)
+
 However, recent years have seen a surge of interest and investment in AGS technology from both industry and academic sectors. This has been spurred mainly by the advent of a handful of closed-loop geothermal startups in North America and Europe, which have reignited the discussion on the potential of closed-loop systems to considerably increase geothermal energy production at a commercial scale while mitigating the concerns associated with EGS and conventional hydrothermal systems (CHS) operations. These concerns include induced seismicity, groundwater contamination, and fluid-rock chemical interactions, among others{cite}`Beckers2022`.
 
 Despite the absence of commercial-scale AGS systems, ongoing research efforts aim to improve the understanding of AGS technology and address the technical and economic challenges that currently limit its deployment. Some of the research areas include improving the design and operation of closed-loop systems, optimizing drilling technologies, developing novel materials for subsurface heat exchangers, and assessing the environmental and social impacts of AGS projects. With continued research and development that would drive the cost of these systems down, AGS has the potential to become a key contributor to the global transition toward a low-carbon energy future.
-
-
-![Advanced Geothermal System](../GeothermalEnergy/Production_images/AGS.png)
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. Some short description following after  </div>
@@ -46,7 +45,7 @@ Geothermal energy extraction processes have traditionally relied on water as the
 ![Carbon Plume Geothermal System](../GeothermalEnergy/Production_images/CPG.png)
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is investigating the chemical performance of CO2-rich fluids in geothermal reservoirs and how this would influence their techno-echonomic viability. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
+<b>By the way:</b> One of our researchers is looking into the chemical behavior of CO2-rich fluids in subsurface reservoirs to assess the techno-economic viability of CO2-based geothermal energy. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
 
 Given the massive potential of geothermal energy, ongoing research and development efforts aim to optimize its use and overcome the limitations mentioned above. These efforts involve advancements in drilling technology, resource assessment, reservoir modeling, and innovative engineering designs that can improve the efficiency and cost-effectiveness of geothermal energy systems. In conclusion, the prospect of deploying geothermal energy scalably and globally presents a promising opportunity to meet energy demands in a sustainable and environmentally friendly manner, and academic research will be fundamental for realizing its full potential.
 
