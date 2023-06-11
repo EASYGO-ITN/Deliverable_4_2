@@ -168,6 +168,17 @@ Forward modelling vs. inverse modelling.
 
 ## Modelling
  ### Geologic model
-Geological modelling is a critical component of geothermal exploration. Geothermal resources are often located in complex geological settings, making it essential to create a detailed model of the subsurface geology to identify potential geothermal reservoirs. Once the geophysical inversion has been completed, we use this data to create a geological model of the subsurface. The geological model incorporates data from the geophysical inversion with other geological data such as drill cores, well logs, and surface mapping. Geologists also create models of the different structural features present in the subsurface, such as faults and fractures. These models help to understand the subsurface geology and identify areas where geothermal fluids may accumulate. A wide range of computer software is used to create a 3D model of the subsurface geology which incorporates the different data types, allowing geologists to visualize the subsurface geology in three dimensions. Below is an example of a 3D geologic model of the Utah Forge geothermal test site. 
+Geological modelling is a critical component of geothermal exploration. Geothermal resources are often located in complex geological settings, making it essential to create a detailed model of the subsurface geology to identify potential geothermal reservoirs. Once the geophysical inversion has been completed, we use this data to create a geological model of the subsurface. The geological model incorporates data from the geophysical inversion with other geological data such as drill cores, well logs, and surface mapping. Geologists also create models of the different structural features present in the subsurface, such as faults and fractures. These models help to understand the subsurface geology and identify areas where geothermal fluids may accumulate. A wide range of computer software is used to create a 3D model of the subsurface geology which incorporates the different data types, allowing geologists to visualize the subsurface geology in three dimensions. Below is an example of a 3D geologic model of the Utah Forge geothermal test site.
 
- <!-- - Look for gempy model of Utah forge existing site (granite wih some sedimentary layers on top) -->
+
+```{figure} ./exploration_pictures/smallmodel.gif
+---
+height: 300px
+name: smallmodel.gif
+align: center
+---
+The model shows the geologic map on top that was created with outcrop information. The geologic model has three main parts: the two main faults (purple and green planes) and the top of the granite layer (the gray plane). The temperature values were interpolated to create a temperature model which is very imporant when assessing geothermal potential of the area. 
+```
+
+The data is given by the Utah Forge Geothermal Database. {cite:p}`oedi_1034`
+Visualization is done by pyVista. {cite:p}`sullivan2019pyvista`

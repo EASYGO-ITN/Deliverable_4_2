@@ -1,7 +1,7 @@
 
 # Geothermal Energy Production and Operation 
 
-## Introduction and Geothermal System Types (@Nicolas)
+## Introduction and Geothermal System Types
 
 Geothermal energy is a renewable energy resource that, in principle, is available “anywhere" worldwide. This happens due to the universal increase in temperature with depth that occurs within Earth’s subsurface. This unique feature of geothermal energy distinguishes it from other forms of renewable energy such as wind, solar, biofuels, and hydropower, which derive their energy from sources above the Earth's surface. Hence, the underground exploration and extraction of geothermal energy poses unique challenges, including technical complexities, economic risks, and uncertainties in resource estimation that are inherent to geothermal resources and are not typically encountered in other renewable energy sectors. As a result, geothermal energy production requires specialized knowledge, equipment, and considerable financial investment which has restricted its development. To accelerate the widespread deployment of geothermal energy, numerous technical designs have been proposed over the past century to optimize the use of deep geothermal systems. These technologies vary in terms of their complexity, technological maturity, and commercial success. The following are the geothermal system types that are currently being used and/or investigated for commercial development:
 
@@ -50,7 +50,7 @@ Geothermal energy extraction processes have traditionally relied on water as the
 Given the massive potential of geothermal energy, ongoing research and development efforts aim to optimize its use and overcome the limitations mentioned above. These efforts involve advancements in drilling technology, resource assessment, reservoir modeling, and innovative engineering designs that can improve the efficiency and cost-effectiveness of geothermal energy systems. In conclusion, the prospect of deploying geothermal energy scalably and globally presents a promising opportunity to meet energy demands in a sustainable and environmentally friendly manner, and academic research will be fundamental for realizing its full potential.
 
 
-## Reservoir simulation (@Ryan)
+## Reservoir simulation
 
 ![Numerical reservoir model, figure taken from wiki.seg.org](../GeothermalEnergy/Production_images/ressim_1.png)
 

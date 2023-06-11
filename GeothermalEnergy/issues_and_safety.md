@@ -81,8 +81,8 @@ Based on the primary mechanisms, the clogging processes can be divided into thre
 
 ```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.jpg
 ---
-:width: 350px
-:align: center
+width: 350px
+align: center
 ---
 Figure 3: Clogging processes happenning during geothermal operations.
 ```
@@ -112,10 +112,8 @@ In crystalline reservoirs, such as granite, fluid flow occurs primarily through 
 
 ```{figure} ../GeothermalEnergy/issues_pictures/hydroshearing.jpg
 ---
-:width: 500px
-:align: center
+width: 500px
+align: center
 ---
-Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}``.
----
-Difference between hydraulic fracturing (a) and hydraulic shearing (b) (Figure taken from {cite}`hischig`.
+Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}`gischig`.
 ```

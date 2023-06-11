@@ -7,7 +7,7 @@ Geothermal energy, derived from the Greek words "geos" (Earth) and "thermos" (he
 Throughout history, humanity has harnessed geothermal energy in various ways. Hot springs and natural fumaroles provided sustenance, warmth, and therapeutic benefits to ancient civilizations. In 1904, the world witnessed a significant breakthrough at Larderello, Italy, where the first geothermal power plant illuminated a few light bulbs, marking a crucial milestone in the utilization of Earth's natural heat for electricity generation.
 
 
-## Where is the heat from ?
+## Where is the heat from?
 The fact that there is heat stored in the Earth is typically evidenced by the intrusion of magma at volcanic sites and widespread distribution of hot springs. Actually, heat flux exists on the every squar meter of the Earth surface, which on average is 87 mW/m<sup>2</sup>, with a total (integrating over the whole surface) amount of ~ 4.4 x 10<sup>13</sup> J/s {cite}`heatflux1, heatflux2`. The heat flux observed on the surface of the Earth is a result of conduction, convection from the inner part of the Earth. 
 
 Now we know that heat flux exists across each square meter of the Earth's surface, and is attributed to conduction and convection from the interior (See here). The next question is, what is the origin of the heat? Before answering this question, it is worthwhile to introduce briefly the structure of our planet.

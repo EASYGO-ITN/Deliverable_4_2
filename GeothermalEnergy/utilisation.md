@@ -1,6 +1,6 @@
 # Geothermal Energy Utilisation
 
-## Introduction @Tristan
+## Introduction
 From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
 used to heat homes, offices and even greenhouses, which is particularly attractive in cold climates, where heating 
 represents a large portion of the total energy consumption.
@@ -13,13 +13,13 @@ other forms of energy such as electricity. This can be transported more easily o
 
 Figure provided by Martine Bloemendal {cite}`martine`.
 
-## Role of Geothermal Energy @Lorenzo
+## Role of Geothermal Energy
 
 * depends where you are
 * Iceland is driven by geothermal but in a unique position
 * multipurpose tool - Munich area 
 
-## Direct Use @Wen
+## Direct Use
 The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure (data from {cite}`lund2021direct`) below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
 
 ![Direct Utilisation](../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png)
@@ -60,7 +60,7 @@ The Rankine Cyle is a heat engine, that converts thermal energy into mechanical 
 
 Depending on the temperature and physical state (i.e. vapour, liquid or a mixture of the two) of the geofluid arriving at surface, different types of geothermal power plants are:
 
-### Dry Steam @Tristan
+### Dry Steam
 Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
 at temperatures as high as 250 &deg;C.
 
@@ -77,7 +77,7 @@ There are some peculiarities compared to the Rankine Cycle we discussed earlier:
 
 This is also the reason why they are typically referred as being ***open-loop*** 
 
-### Flash @Tristan
+### Flash
 Flash power plants operate on geothermal resources, where the geofluid arrives at surface as a steam-water mixture.
 
 ![Flash Plant](Utilisation_pictures/FlashPlant.svg)
@@ -97,7 +97,7 @@ There are some peculiarities compared to the Rankine Cycle we discussed earlier:
 * The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
 * The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
 
-### Binary @Lorenzo
+### Binary
 
 Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
 
@@ -188,7 +188,7 @@ Whereas when we would like to know how our heat engine compares to an ideal heat
 
   $$\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}$$
 
-## Power Plant Equipment @Lorenzo
+## Power Plant Equipment
 
 
 ### Turbine

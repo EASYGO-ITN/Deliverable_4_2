@@ -9,6 +9,5 @@ chapters:
 - file: Geothermal Energy Production
 - file: issues_and_safety
 - file: utilisation
-- file: template
-- file: bibliography.md
 - file: glossary
+- file: bibliography.md
