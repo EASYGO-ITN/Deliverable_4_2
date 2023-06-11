@@ -1,6 +1,6 @@
 # Geothermal Energy Utilisation
 
-## Introduction @Tristan
+## Introduction
 From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
 used to heat homes, offices and even greenhouses, which is particularly attractive in cold climates, where heating 
 represents a large portion of the total energy consumption.
@@ -9,27 +9,37 @@ Where there is no demand for heating, for example in hot climates or during the 
 where there is no consumer in the vicintiy of the geothermal reservoir, the thermal energy can also be converted to
 other forms of energy such as electricity. This can be transported more easily over long distances to the consumers. The figure below illustrates the direct and indirect utilisations of geothermal energy with different in-situ temperatures.
 
-![overiew](../GeothermalEnergy/Utilisation_pictures/Martine-heating-powering.png)
+```{figure} ../GeothermalEnergy/Utilisation_pictures/Martine-heating-powering.png
+---
+align: center
+---
+The direct and indirect utilisations of geothermal energy with different in-situ temperatures. Figure provided by Martine Bloemendal {cite}`martine`.
+```
 
-Figure provided by Martine Bloemendal {cite}`martine`.
-
-## Role of Geothermal Energy @Lorenzo
+## Role of Geothermal Energy
 
 * depends where you are
 * Iceland is driven by geothermal but in a unique position
 * multipurpose tool - Munich area 
 
-## Direct Use @Wen
+## Direct Use
 The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure (data from {cite}`lund2021direct`) below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
 
-![Direct Utilisation](../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png)
-
+```{figure} ../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png
+---
+align: center
+---
+The main categories of direct utilisations of geothermal energy by year.
+```
 
 So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria {cite}`heatflux1`.  GHPs take advantages of the fact that a few feet below Earth's surface, the temperatue of the ground remains relatively constant, ranging from 7 &deg;C - 25 &deg;C {cite}`DOE:2023`. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning {cite}`heatflux1`. As an example showing how GHP works, aquifer thermal energy storage system is illustrated below.
 
-![ATES](../GeothermalEnergy/Utilisation_pictures/Martine_GHP.jpg)
-
-Figure provided by Martine Bloemendal {cite}`martine`
+```{figure} ../GeothermalEnergy/Utilisation_pictures/Martine_GHP.jpg
+---
+align: center
+---
+Schematics of a GHP and ATES system. Figure provided by Martine Bloemendal {cite}`martine`
+```
 
 Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
 
@@ -49,10 +59,15 @@ Geothermal power plants convert the thermal energy extracted from the sub-surfac
 ### Working Principle: The Rankine Cycle
 The Rankine Cyle is a heat engine, that converts thermal energy into mechanical work, which in turn can be used for driving a turbine. It is based on the theoretical Carnot Cycle, with adaptations to make the expansion and compression stages easier to implement with existing turbomachinery (i.e. turbines, pumps and compressors, see below).
 
-![Rankine Cycle](Utilisation_pictures/RankineCycle.svg)
+```{figure} ../GeothermalEnergy/Utilisation_pictures/RankineCycle.svg
+---
+align: center
+---
+Schematic of a typical Rankine cycle power plant 
+```
 
 * **Initial State**: The cycle working fluid (e.g. water) is at a low pressure and saturated liquid state
-*  **Stage 1**: A pump is used to compress and pressurise the working fluid to a high pressure
+* **Stage 1**: A pump is used to compress and pressurise the working fluid to a high pressure
 * **Stage 2**: Heat is added to the fluid at constant pressure, raising its temperature until it reaches the boiling point. From hereon, heat addition results in subsequent vaporisation of the working fluid until it is fully vapourised.
 * **Stage 3**: The high pressure vapour is expanded in a turbine, which converts the fluid's thermal energy into rotational energy, and in turn drives a generator to produce electricity.
 * **Stage 4**: The expanded low pressure vapour is cooled at constant pressure until it reaches its condensation point. From hereon, removal of heat results of subsequent condensation of the working fluid vapour until it is fully liquefied. This returns the fluid to its initial state and closes the cycle. 
@@ -60,14 +75,19 @@ The Rankine Cyle is a heat engine, that converts thermal energy into mechanical 
 
 Depending on the temperature and physical state (i.e. vapour, liquid or a mixture of the two) of the geofluid arriving at surface, different types of geothermal power plants are:
 
-### Dry Steam @Tristan
+### Dry Steam
 Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
 at temperatures as high as 250 &deg;C.
 
-![Dry Steam](Utilisation_pictures/DrySteamPlant.svg)
+```{figure} ../GeothermalEnergy/Utilisation_pictures/DrySteamPlant.svg
+---
+align: center
+---
+Schematic of a dry steam geothermal power plant
+```
 
 * **Initial State**: High-pressure saturated steam arrives at the power plant
-*  **Stage 1**: The hot vapour is expanded in a turbine
+* **Stage 1**: The hot vapour is expanded in a turbine
 * **Stage 2**: The low-pressure vapour is condensed (e.g. using a cooling tower)
 * **Stage 3**: The low-pressure liquid is re-pressurised using a pump and re-injected into the reservoir
 
@@ -77,16 +97,21 @@ There are some peculiarities compared to the Rankine Cycle we discussed earlier:
 
 This is also the reason why they are typically referred as being ***open-loop*** 
 
-### Flash @Tristan
+### Flash
 Flash power plants operate on geothermal resources, where the geofluid arrives at surface as a steam-water mixture.
 
-![Flash Plant](Utilisation_pictures/FlashPlant.svg)
+```{figure} ../GeothermalEnergy/Utilisation_pictures/FlashPlant.svg
+---
+align: center
+---
+Schematic of a flash geothermal power plant
+```
 
 * **Initial State**: Hot high-pressure two-phase geofluid arrives at the power plant 
-*  **Stage 1**: The geofluid is "flashed" (i.e. reducing its pressure). This causes the fluid to partition into a liquid and vapour phase, see dashed lines.
-*  **Stage 2**: The hot and high-pressure vapour is exanded in a turbine
-*  **Stage 3**: The low-pressure vapour is condensed (e.g. using a Cooling Tower)
-*  **Stage 4**: The low pressure liquid is re-pressurised using a pump and re-injected into the reservoir alongside the liquid obtained from Stage 1
+* **Stage 1**: The geofluid is "flashed" (i.e. reducing its pressure). This causes the fluid to partition into a liquid and vapour phase, see dashed lines.
+* **Stage 2**: The hot and high-pressure vapour is exanded in a turbine
+* **Stage 3**: The low-pressure vapour is condensed (e.g. using a Cooling Tower)
+* **Stage 4**: The low pressure liquid is re-pressurised using a pump and re-injected into the reservoir alongside the liquid obtained from Stage 1
 
 `````{admonition} Hint
 :class: tip
@@ -97,7 +122,7 @@ There are some peculiarities compared to the Rankine Cycle we discussed earlier:
 * The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
 * The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
 
-### Binary @Lorenzo
+### Binary
 
 Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
 
@@ -107,13 +132,18 @@ Historically speaking, the first geothermal resources that were exploited are th
 
 The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
 
-![Binary ORC](Utilisation_pictures/OrganicRankineCycle.svg)
+```{figure} ../GeothermalEnergy/Utilisation_pictures/OrganicRankineCycle.svg
+---
+align: center
+---
+Schematic of a binary ORC geothermal power plant
+```
 
 * **Initial State**: Hot geofluid arrives at the power plant 
-*  **Stage 1**: The cold low-pressure cycle working fluid is pressurised using a pump.
-*  **Stage 2**: The hot geofluid heats and evaporates the cycle working fluid. The now cold geofluid is re-injected into the reservoir
-*  **Stage 3**: The hot and high-pressure vapour is exanded in a turbine.
-*  **Stage 4**: The low-pressure vapour is condensed
+* **Stage 1**: The cold low-pressure cycle working fluid is pressurised using a pump.
+* **Stage 2**: The hot geofluid heats and evaporates the cycle working fluid. The now cold geofluid is re-injected into the reservoir
+* **Stage 3**: The hot and high-pressure vapour is exanded in a turbine.
+* **Stage 4**: The low-pressure vapour is condensed
 * Repeat from **Stage 1**
 
 <!--- @Lorenzo maybe we should also talk about the following a bit more... -->
@@ -152,6 +182,13 @@ A piston chamber is placed between two thermal reservoirs, one hot and one cold.
 
 ![GIF](Utilisation_pictures/CarnotAnimation.gif)
 
+```{figure} ../GeothermalEnergy/Utilisation_pictures/CarnotAnimation.gif
+---
+align: center
+---
+Operating principle of a Carnot heat engine
+```
+
 So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.
 
 The heat added to the fluid is given by: $Q_{in} = T_{Hot} * (S_2 - S_1)$
@@ -188,7 +225,7 @@ Whereas when we would like to know how our heat engine compares to an ideal heat
 
   $$\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}$$
 
-## Power Plant Equipment @Lorenzo
+## Power Plant Equipment
 
 
 ### Turbine
