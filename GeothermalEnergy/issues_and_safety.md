@@ -81,9 +81,10 @@ Based on the primary mechanisms, the clogging processes can be divided into thre
 
 ```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.jpg
 ---
-width: 200px
+:width: 350px
+:align: center
 ---
-A schematic of a geothermal doublet with potential sources of clogging shown.
+Figure 3: Clogging processes happenning during geothermal operations.
 ```
 
 As you can see from the schematic, sources of clogging occur all the way along the fluid path. 
@@ -99,7 +100,7 @@ As you can see from the schematic, sources of clogging occur all the way along t
 So, you can see that at the end of this chain multiple processes can result in the reduction of rock porosity and permeability, which can seriously affect the whole process. There are various remediation methods for each of the described issues, however prediction of these processes is crucial for successul prevention.
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media with by recreating this process in the lab. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
+<b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media and its effect on rock permeability using laboratory experiments. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
 </div>
 
 
@@ -111,7 +112,10 @@ In crystalline reservoirs, such as granite, fluid flow occurs primarily through 
 
 ```{figure} ../GeothermalEnergy/issues_pictures/hydroshearing.jpg
 ---
-width: 200px
+:width: 500px
+:align: center
+---
+Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}``.
 ---
 Difference between hydraulic fracturing (a) and hydraulic shearing (b) (Figure taken from {cite}`hischig`.
 ```
