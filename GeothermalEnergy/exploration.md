@@ -51,19 +51,28 @@ When imaging the underground for geothermal exploration, we can only deploy our 
 <!-- PICTURES: Vibrotruck? / Geophones /  GIF with wavefield data
 - Explain the method and make a gif with wave propagation  -->
 
-One of the most important methods of imaging the earth are seismic waves. Seismic waves are waves of ground motion, that travel through the earth. Just like in ultrasound, these waves get reflected and refracted at obstacles and boundaries and carry lots of information about the underground structure. The field that studies seismic waves is called seismology and has traditionally investigated earthquakes to understand the science behind earthquakes, learn about the structure of the earth and subsequently protect humankind from natural disasters.
+One of the most important methods of imaging the earth are seismic waves. Seismic waves are waves of ground motion, that travel through the earth. Just like in ultrasound, these waves get reflected and refracted at obstacles and boundaries and carry lots of information about the underground structure. The field that studies seismic waves is called seismology and has traditionally investigated earthquakes to among others understand the structure of the earth.
 
-In exploration geophysics, we use the very same phenomena, to image a small, chosen part of the underground, to understand its structure. Since we cannot have earthquakes as a source of seismic waves at the spot, where we want to examine a geothermal site, we must generate seismic waves ourselves. For this, geophysicists use a variety of sources. For shallow experiments, a hammer with a metal plate is enough to generate a wave, that travels tens of meters. If you need the waves to travel deeper into the earth more energy is needed. Therefore, we either use explosives or vibration trucks to create stronger waves.
+In exploration geophysics we also use seismic waves to image the shallow layers of the subsurface, to understand its structure. Therefore exploration seismolgist use a variety of techniques, to produce small, human-made earthquakes. For small depths, a hammer with a metal plate is enough to generate a wave, that travels tens of meters into the underground. If you need the waves to travel deeper into the earth, more energy is needed. Therefore, we either use explosives or vibration trucks to create stronger waves, that can travel kilometers deep into the earth crust.
 
-To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.
+To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced. From this image, scientist deduce the location and depth of important fault zones and layers to decide, where exploratory wells should be drilled.
 
-```{figure} ../GeothermalEnergy/exploration_pictures/IMG_20220906_120542.jpg
+```{figure} ./exploration_pictures/vibrotruck.gif
+---
+height: 500px
+name: vibrotruck.gif
+align: center
+---
+A vibrotruck is acquiring data in a seismic survey for the Einstein telescope.
+```
+
+<!-- ```{figure} ../GeothermalEnergy/exploration_pictures/IMG_20220906_120542.jpg
 ---
 height: 600px
 name: IMG_20220906_120542.jpg
 ---
 A vibrotruck acquiring data in a seismic survey.
-```
+``` -->
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO<sub>2</sub>, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
