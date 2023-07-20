@@ -44,7 +44,15 @@ It is essential to note that induced seismicity associated with geothermal opera
 ## Processes during production 
 
 ### Scaling
-As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp<sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system. 
+As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp<sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system.
+
+```{figure} ../GeothermalEnergy/issues_pictures/scaling.jpeg
+---
+width: 350px
+align: center
+---
+Example of scaling in a production pipe from the geothermal museum in Larderello.
+```
 
 ### Corrosion
 
