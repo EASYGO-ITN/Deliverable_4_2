@@ -138,7 +138,7 @@ align: right
 Core samples from the BULGG.
 ```
 
-### Geochemistry for exploration
+### Geochemistry for geothermal exploration
 Another important role of exploratory wells is to assess the potential output of geothermal resources by providing access to subsurface geothermal fluids and rocks. The sampled geothermal fluids and rocks can then be studied via geochemical techniques.
 
 Geochemistry is the study of the chemical and physical processes that occur in rocks, minerals, and fluids in the Earth's crust. To find geothermal resources, we use geochemistry to identify areas with high temperatures and to understand the nature of the fluids and rocks underground. Geochemical techniques, such as isotopic analysis, and mineralogical studies, help to assess the feasibility of developing a geothermal resource. Sometimes, gases like carbon dioxide, hydrogen sulfide, and methane are released from the Earth's subsurface, which can provide clues about the geothermal system below. By measuring the type and amount of gases, geoscientists can estimate the temperature and location of the geothermal reservoir. 
