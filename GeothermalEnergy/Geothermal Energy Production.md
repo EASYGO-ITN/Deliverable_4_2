@@ -86,9 +86,13 @@ Machine learning provides a low-dimensional representation from parameters to an
 
 ## The Heat Loss Effect in Geothermal Steam Production Well
 
+<!---
+
 ![geothermal](../GeothermalEnergy/Production_images/selvi_geothermal.png)
 
 Courtesy of [https://indiaenergyportal.org/geothermal-energy/]
+
+-->
 
 In geothermal power generation, the efficient extraction of steam from underground reservoirs is crucial for maximizing energy production. Geothermal steam is primarily obtained through production wells drilled into high-temperature reservoirs. However, during the extraction process, a significant amount of heat is lost from the steam due to various mechanisms. Understanding and minimizing this heat loss effect is essential for optimizing the overall efficiency of geothermal power plants.
 
@@ -154,29 +158,36 @@ In conclusion, the heat loss effect in geothermal steam production wells poses a
 
 Well Inflow Performance is a critical concept in geothermal systems that helps evaluate the performance of production wells and understand the relationship between the fluid flow rate and the pressure drawdown in the reservoir. The scientist Darcy was the first studied extensively the relationship between pressure and flow rate. The IPR provides insights into the productivity of the reservoir, enabling engineers to optimize the production and maximize energy extraction.
 
+<!---
 ![inflow](../GeothermalEnergy/Production_images/selvi_inflow1.png)
+-->
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
 As a function of production rate, the well's flowing bottom-hole pressure (Pwf) is referred to as the inflow performance relationship (IPR). It describes the reservoir's flow. In the pressure range between the average reservoir pressure and atmospheric pressure, the Pwf is defined. The graph that follows shows a typical link between inflow performance and inflow. 
 
+<!---
 ![inflowgraph](../GeothermalEnergy/Production_images/selvi_IPR.png)
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
+-->
 
 The flow rate corresponding to a Pwf of zero is found at the point where the PI plot and x-axis connect. The Absolute Open Flow (AOF) potential of the well is represented by this location on the IPR plot.
 
 ## Vertical Lift Performance Relationship (VLP)
 
 The bottom-hole pressure is described as a function of flow rate by the Vertical Lift Performance Relationship (VLP), also known as Outflow. Numerous variables, such as the fluid PVT characteristics, well depth, tubing size, surface pressure, water cut, and GOR, affect the VLP. It describes the flow from the wellhead to the well's bottom hole.
-
+<!---
 ![VLP](../GeothermalEnergy/Production_images/selvi_VLP.png)
+-->
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
 The wellbore flowing pressure is related to the surface production rate by both the Inflow Performance Relationship and the Vertical Lift Performance Relationship. While the IPR reflects what the reservoir can supply to the bottom hole, the VLP represents what the well can send to the surface. 
 
+<!---
 ![VLP2](../GeothermalEnergy/Production_images/selvi_VLP2.png)
+-->
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
