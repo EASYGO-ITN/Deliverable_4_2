@@ -11,10 +11,11 @@ Geophysical exploration is the study of the physical properties of the Earth. Ge
 
 * Rift zones: Areas where the Earth's crust is being pulled apart, such as the Mid-Atlantic Ridge or the East African Rift, can form geothermal reservoirs.
 
-* Hot springs and geysers: These natural features indicate the presence of geothermal reservoirs close to the Earth's surface, which can be used for geothermal energy production.
+* **Rift zones**: Areas where the Earth's crust is being pulled apart, such as along the Mid-Atlantic Ridge or the East African Rift, can provide access to hot rocks and geothermal reservoirs.
 
-* Subduction zones: These are areas where tectonic plates are colliding, and one plate is being forced beneath another. This process can cause magma to rise to the surface and create hotspots for geothermal energy production.
+* **Subduction zones**: These are areas where tectonic plates are colliding, and one plate is being forced beneath another. This process can cause magma to rise to the surface and create hotspots for geothermal energy production.
 `````
+
 Geologic evidence on the surface and rock samples are studied to understand the formation of these different zones. After geological information confirm a geothermal potential,  geophysicists proceed to use geophysical instruments to explore the subsurface of a specific location. 
 
 ## How do we explore by using geophysics?
@@ -39,29 +40,36 @@ When imaging the underground for geothermal exploration, we normally deploy our 
 <!-- PICTURES: Vibrotruck? / Geophones /  GIF with wavefield data
 - Explain the method and make a gif with wave propagation  -->
 
-One of the most important methods of imaging the earth are seismic waves. Seismic waves are waves of ground motion, that travel through the earth. Just like in ultrasound, these waves get reflected and refracted at obstacles and boundaries and carry lots of information about the underground structure. The field, that studies seismic waves, is called seismology and has traditionally investigated earthquakes, to understand the science behind earthquakes, learn about the structure of the earth and subsequently protect humankind from natural disasters.
+One of the most important methods of imaging the earth are seismic waves. Seismic waves are waves of ground motion, that travel through the earth. Just like in ultrasound, these waves get reflected and refracted at obstacles and boundaries and carry lots of information about the underground structure. The field that studies seismic waves is called seismology and has traditionally investigated earthquakes to among others understand the structure of the earth.
 
-In exploration geophysics, we use the very same phenomena, to image a small, chosen part of the underground, to understand its structure. Since we cannot have earthquakes as a source of seismic waves at the spot, where we want to examine a geothermal site, we must generate seismic waves ourselves. For this, geophysicists use a variety of sources. For shallow experiments, a hammer with a metal plate is enough to generate a wave, that travels tens of meters. If you need the waves to travel deeper into the earth more energy is needed. Therefore, we either use explosives of vibration trucks to create stronger waves. To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced.
+In exploration geophysics we also use seismic waves to image the shallow layers of the subsurface, to understand its structure. Therefore exploration seismolgist use a variety of techniques, to produce small, human-made earthquakes. For small depths, a hammer with a metal plate is enough to generate a wave, that travels tens of meters into the underground. If you need the waves to travel deeper into the earth, more energy is needed. Therefore, we either use explosives or vibration trucks to create stronger waves, that can travel kilometers deep into the earth crust.
 
-```{figure} ../GeothermalEnergy/exploration_pictures/IMG_20220906_120542.jpg
+To record the seismic waves, one uses so called geophones instead of seismometers. These consist of a metal pin, that gets firmly inserted into the ground. Attached to the metal pin is an accelerometer, that picks up the ground movement. For a seismic survey, a handful of geophones is laid out on the surface about the reservoir, that we want to image. After installing all the geophones, the sources get placed at different positions at the geothermal site, and at each site, an experiment is conducted. After all experiments at the source locations have been conducted, all the recorded data is collected and passed to a geophysicist for analysis. By analysing all the reflections picked up at the geophones, a detailed image of the underground can be produced. From this image, scientist deduce the location and depth of important fault zones and layers to decide, where exploratory wells should be drilled.
+
+```{figure} ./exploration_pictures/vibrotruck.gif
+---
+height: 500px
+name: vibrotruck.gif
+align: center
+---
+A vibrotruck is acquiring data in a seismic survey for the Einstein telescope.
+```
+
+<!-- ```{figure} ../GeothermalEnergy/exploration_pictures/IMG_20220906_120542.jpg
 ---
 height: 600px
 name: IMG_20220906_120542.jpg
 ---
 A vibrotruck acquiring data in a seismic survey.
-```
+``` -->
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. <b>Hagen Söding</b> is is using high resolution seismic techniques to find and monitor CO<sub>2</sub>, that has been stored in the underground. <a href="https://easygo-itn.eu/hagen-soding/">Learn more about his work</a>.
 </div>
 
-### Multi-physics
- 
-Apart from seismic methods which are considered more "active" methods, there are other more passive methods that look at different properties of the Earth. They are also useful for other application that need an image of the subsurface. 
-
-#### Gravity method:
+### Gravity method:
 Gravity is the force by which a planet or other body draws objects towards its center. In geophysics, gravity is used to study the distribution of mass in the Earth's subsurface. A gravity survey involves measuring the gravitational pull of the Earth at various locations on the surface. This changes due to the density or mass of the bodies that are within the Earth. Geophysicist use a device called a gravimeter to make these measurements. By measuring tiny changes in gravitational force, scientists can create maps that show areas where the Earth's subsurface contains more or less mass. This can help identify features associated to geothermal systems. 
-#### Electromagnetic methods:
+### Electromagnetic methods:
 Electromagnetic (EM) waves are waves of energy that travel through space and can be used to study the Earth's subsurface. In geophysics, EM methods involve sending EM waves into the ground and measuring their response. EM surveys can be conducted using different frequencies and techniques. When EM waves encounter different types of rocks and minerals in the subsurface, they can induce electrical currents to flow. By measuring these currents, we can create maps that show variations in the subsurface electrical properties. This can help identify areas with different rock types, especially areas that are conductive such as areas of high heat flow. A common method done under this realm of geophysical techniques is the magnetollueric method or MT. This method is used to study the electrical conductivity structure at a much deeper scale. It involves measuring the natural variations in the Earth's magnetic field and electric field at the Earth's surface, and using these measurements as the source. By analyzing the frequency-dependent variations in these fields, we can estimate the electrical resistivity of different rock layers and fluids in the subsurface which is of great importance in geothermal exploration. 
 
 
@@ -149,7 +157,7 @@ Geochemical analysis is also used to monitor geothermal production. Geochemists 
 `````
 
 ## From data to underground models - Geophysical Inversions
-When investigating a geothermal site, we usually have a simple geological model of the subsurface in advance, but the real subsurface is often way more complex. Once we collected sufficient data in a geophysical survey, we try to find a realistic model, that explains our measured data. Given our simple geological model, we can verify our model guess by simulating our geophysical method and comparing the simulated to the measured data. Calculating simulated data from a model and comparing it to our recorded data is commonly referred to as forward modelling.
+When investigating a geothermal site, we usually have a simple geological model of the subsurface in advance, but the real subsurface is often way more complex. Once we collected sufficient data in a geophysical survey, we build a realistic model, that explains our measured data. Given our simple geological model, we can validate our model guess by simulating our geophysical method and comparing the simulated to the measured data. Calculating simulated data from a model and comparing it to our recorded data is commonly referred to as forward modelling.
 
 If we do not have a good match between the simulated data from our simple model and the recorded data, we update the model step by step, by including more details, until our model explains the recorded data. Therefore we would calculate, if increasing a model parameter leads improvment or worsening in the fit between our simulated and recorded data. If an slight increase leads to an improvement in the fit, we would then update the model accordingly and otherwise decrease the model value slightly. This stepwise procedure is called optimisation and the whole process of building a model from recorded data is referred to as inverse modelling.
 

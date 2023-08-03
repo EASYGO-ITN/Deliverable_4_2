@@ -66,7 +66,7 @@ Reinjection of the produced geothermal fluid back into the reservoir is a common
 * Pressure compensation to account for fluid extraction and to prevent subsidence;
 * Enhancement of thermal extraction from over- and underlying formations.
 
-So, geothermal fluid reinjection has clear economical and technical advantages and is a key, and sometimes mandatory, process in a geothermal project. Therefore, its efficiency is very important and possible issues are constantly monitored to prevent them. Success of this process could be influenced by various processes during operations. Disturbances in temperature, pressure, stresses and compositions in geothermal reservoirs as a result of reinjection could trigger complex coupled processes that influence injectivity. Later we discuss these processes individually in more detail.
+So, geothermal fluid re-injection has clear economical and technical advantages and is a key, and sometimes mandatory, process in a geothermal project. Therefore, its efficiency is very important and possible issues are constantly monitored to prevent them. Success of this process could be influenced by various processes during operations. Disturbances in temperature, pressure, stresses and compositions in geothermal reservoirs as a result of reinjection could trigger complex coupled processes that influence injectivity. Later we discuss these processes individually in more detail.
 
 ### Cooling of the reservoir
 
