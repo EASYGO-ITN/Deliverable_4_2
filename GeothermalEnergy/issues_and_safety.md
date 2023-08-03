@@ -21,9 +21,9 @@ These emissions can contribute to climate change if not properly managed. For th
 `````{admonition} Are $CO_2$ emissions from solar energy lower than the ones from geothermal?
 :class: tip
 
-According to a study by [Chandrasekharam et al., (2020)](https://link.springer.com/article/10.1007/s40948-019-00135-y), geothermal energy has been found to exhibit the lowest greenhouse gas emissions when compared to solar PV (photovoltaic) and other energy sources. The reason for this is that solar PV energy, which converts sunlight into electricity, involves a substantial amount of energy and materials during the manufacturing process of solar cells, resulting in higher emissions throughout the cells' lifecycle. As a result, geothermal energy stands out as a more environmentally friendly option with lower CO2 emissions. 
+According to a study by [Chandrasekharam et al., (2020)](https://link.springer.com/article/10.1007/s40948-019-00135-y), geothermal energy exhibits the lower greenhouse gas emissions when compared to solar PV (photovoltaic). The reason for this is that solar PV energy, which converts sunlight into electricity, involves a substantial amount of energy and materials during the manufacturing process of solar cells, resulting in higher emissions throughout the cells' lifecycle. As a result, geothermal energy stands out as a more environmentally friendly option with lower CO2 emissions. 
 
-Although this might be the case for most geothermal operations, it is important to note that some regions may have higher emissions. For example, Turkish geothermal plants have shown Carbon dioxide ($CO_2$) emission factors significantly higher than the reported global average [(see Aksoy et al., 2015)](https://link.springer.com/article/10.1134/S0040601516050098).
+Although this might be the case for most geothermal operations, it is important to note that some regions may have higher emissions. For example, Turkish geothermal plants have shown $CO_2$ emission factors significantly higher than the reported global average [(see Aksoy et al., 2015)](https://link.springer.com/article/10.1134/S0040601516050098).
 `````
 
 ### Water Pollution
