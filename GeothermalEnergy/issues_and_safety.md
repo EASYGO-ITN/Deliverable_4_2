@@ -27,7 +27,7 @@ Although this might be the case for most geothermal operations, it is important 
 `````
 
 ### Water Pollution
-Geothermal fluids can contain dissolved minerals and gases that may pose a risk to water quality if not properly managed. Some of these substances, such as hydrogen sulfide, can be toxic and harmful to the environment. To prevent water pollution, it is essential to establish appropriate fluid management practices, such as treating and reinjecting geothermal fluids back into the reservoir or disposing of them in a safe and regulated manner.
+To prevent water pollution, it is essential to establish appropriate fluid management practices, such as treating and reinjecting geothermal fluids back into the reservoir or disposing of them in a safe and regulated manner. Geothermal fluids can contain dissolved minerals and gases that may pose a risk to water quality if not properly managed. Some of these substances, such as hydrogen sulfide, can be toxic and harmful to the environment. 
 
 ### Induced seismicity
 The drilling and injection of water into geothermal reservoirs may cause induced seismicity. Although the risk of significant earthquakes is low, it is still a concern in some areas. Monitoring and managing induced seismicity are essential to ensure the safety of surrounding communities and infrastructure.
