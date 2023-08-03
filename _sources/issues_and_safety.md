@@ -44,17 +44,24 @@ It is essential to note that induced seismicity associated with geothermal opera
 ## Processes during production 
 
 ### Scaling
-As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI) and when SI > 0, mineral is considered over-saturated and can precipitate out of the solution. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to the decreased tubes diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the system. 
+As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp<sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system.
+
+```{figure} ../GeothermalEnergy/issues_pictures/scaling.jpeg
+---
+width: 350px
+align: center
+---
+Example of scaling in a production pipe from the geothermal museum in Larderello.
+```
 
 ### Corrosion
 
-One of the major reasons for corrosion is contact of the geothermal fluid with oxygen at the different stages of operation, which leads to oxidation of ions, iron in particular. It has been observed that concentration of these oxidized ions increases as fluid passes from the production to the injection site {cite}`Brehme2018`.
+One of the major reasons for corrosion is contact of the geothermal fluid with oxygen at the different stages of operation, which leads to oxidation of ions, iron in particular. As a result of this process, metal tubing as well as other surface equipment can be damaged and will require a workover, resulting in the stop of all geothermal operations. Additionally, products of corrosion in the form of small particles can migrate further with the fluid flow. It has been observed that the concentration of oxidized ions increases as the fluid passes from the production to the injection site {cite}`Brehme2018`, showing that corrosion can occur at all stages of the system. Furthermore, if the particles are small enough to pass through the filters, they could migrate into the reservoir and cause pore blockage and decline of injectivity. 
 
 ### Control and prevention
 
-Various methods to control scaling and corrosion exist and are constantly being developed. One of the most common is usage of chemicals - scaling or corrosion inhibitors to prevent or, at least, slow down these processes.
-Additionally, to decrease scaling, increased pressure at the surface can be applied to keep gas in the dissolved state. 
-Development of chemical models to accurately predict system's behavior is another big research topic, receiving attention.
+Various methods to control scaling and corrosion exist and are constantly being developed. One of the most common is the usage of chemicals - scaling or corrosion inhibitors to prevent or, at least, slow down these processes. Additionally, to decrease scaling, increased pressure at the surface can be applied to keep gas in the dissolved state. Multiple filter systems are also installed at various stages of operation to prevent the products of scaling and corrosion from migrating further and clogging the reservoir.
+Another big topic, receiving attention now is the development of chemical models of geothermal brine. This will allow the operating companies to accurately predict the system's behavior, select suitable operational parameters and choose treatment methods if needed.
 
 (section:reinjection)=
 ## Processes during reinjection
@@ -66,7 +73,7 @@ Reinjection of the produced geothermal fluid back into the reservoir is a common
 * Pressure compensation to account for fluid extraction and to prevent subsidence;
 * Enhancement of thermal extraction from over- and underlying formations.
 
-So, geothermal fluid reinjection has clear economical and technical advantages and is a key, and sometimes mandatory, process in a geothermal project. Therefore, its efficiency is very important and possible issues are constantly monitored to prevent them. Success of this process could be influenced by various processes during operations. Disturbances in temperature, pressure, stresses and compositions in geothermal reservoirs as a result of reinjection could trigger complex coupled processes that influence injectivity. Later we discuss these processes individually in more detail.
+So, geothermal fluid reinjection has clear economic and technical advantages and is a key, and sometimes mandatory, process in a geothermal project. Therefore, its efficiency is very important and reinjection is constantly monitored to prevent possible issues. Various processes could influence the success of this process during operations. Disturbances in temperature, pressure, stresses and compositions in geothermal reservoirs as a result of cold brine reinjection could trigger complex coupled processes that influence injectivity. In the following sections we discuss these processes individually in more detail.
 
 ### Cooling of the reservoir
 
@@ -75,15 +82,19 @@ The reduction in temperature caused by the pumping of water has a direct impact 
 
 ### Injectivity decline
 
-One key issue that determines the success of reinjection, thus of the whole geothermal project, is to achieve and maintain injectivity at acceptable level. In many geothermal fields where reinjection has been applied, continuous decreases in injectivity have been recorded {cite}`Brehme2019, Birner2015`. In other words, as the time goes we are able to inject less and less fluid because of some blockages. In some extreme cases, poor injectivity performance has led to the shutdown of the whole geothermal project, such as the Klaipeda geothermal plant in Lithuania.
+One key issue that determines the success of reinjection, and thus of the whole geothermal project, is to achieve and maintain injectivity at an acceptable level. In many geothermal fields where reinjection has been implemented, continuous decreases in injectivity have been recorded {cite}`Brehme2019, Birner2015`. In other words, over time we are able to inject less and less fluid because of some blockages. In some extreme cases, poor injectivity performance has led to the shutdown of the whole geothermal project, such as the Klaipeda geothermal plant in Lithuania.
 
-Based on the primary mechanisms, the clogging processes can be divided into three groups: a) physical processes, related to migration of particles; b) chemical processes, caused by chemical reactions; c) biological processes as a result of bacterial activity. 
+Based on the primary mechanisms, the clogging processes can be divided into three groups: 
+* physical processes, related to the migration of particles;
+* chemical processes, caused by chemical reactions;
+* biological processes as a result of bacterial activity. 
 
 ```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.jpg
 ---
-width: 200px
+width: 350px
+align: center
 ---
-A schematic of a geothermal doublet with potential sources of clogging shown.
+Clogging processes happening during geothermal operations.
 ```
 
 As you can see from the schematic, sources of clogging occur all the way along the fluid path. 
@@ -99,7 +110,7 @@ As you can see from the schematic, sources of clogging occur all the way along t
 So, you can see that at the end of this chain multiple processes can result in the reduction of rock porosity and permeability, which can seriously affect the whole process. There are various remediation methods for each of the described issues, however prediction of these processes is crucial for successul prevention.
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media with by recreating this process in the lab. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
+<b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media and its effect on rock permeability using laboratory experiments. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
 </div>
 
 
@@ -111,7 +122,8 @@ In crystalline reservoirs, such as granite, fluid flow occurs primarily through 
 
 ```{figure} ../GeothermalEnergy/issues_pictures/hydroshearing.jpg
 ---
-width: 200px
+width: 500px
+align: center
 ---
-Difference between hydraulic fracturing (a) and hydraulic shearing (b) (Figure taken from {cite}`hischig`.
+Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}`gischig`.
 ```

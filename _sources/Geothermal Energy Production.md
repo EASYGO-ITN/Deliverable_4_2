@@ -1,7 +1,7 @@
 
 # Geothermal Energy Production and Operation 
 
-## Introduction and Geothermal System Types (@Nicolas)
+## Introduction and Geothermal System Types
 
 Geothermal energy is a renewable energy resource that, in principle, is available “anywhere" worldwide. This happens due to the universal increase in temperature with depth that occurs within Earth’s subsurface. This unique feature of geothermal energy distinguishes it from other forms of renewable energy such as wind, solar, biofuels, and hydropower, which derive their energy from sources above the Earth's surface. Hence, the underground exploration and extraction of geothermal energy poses unique challenges, including technical complexities, economic risks, and uncertainties in resource estimation that are inherent to geothermal resources and are not typically encountered in other renewable energy sectors. As a result, geothermal energy production requires specialized knowledge, equipment, and considerable financial investment which has restricted its development. To accelerate the widespread deployment of geothermal energy, numerous technical designs have been proposed over the past century to optimize the use of deep geothermal systems. These technologies vary in terms of their complexity, technological maturity, and commercial success. The following are the geothermal system types that are currently being used and/or investigated for commercial development:
 
@@ -21,7 +21,7 @@ Enhanced Geothermal Systems (EGS) refer to artificial reservoirs created by dril
 
 ![Enhanced Geothermal System](../GeothermalEnergy/Production_images/EGS.png)
 
-The development and deployment of EGS technology face significant challenges, including technical and environmental concerns such as clogging of the fracture network and induced seismicity {cite}`(Breede et al., 2013; Olasolo, 2016; Lu, 2018; Kumari & Ranjith, 2019; Ge & Saar, 2022). These issues have impacted the cost-competitiveness of EGS which has limited the successful roll-out and operation of EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and reduced greenhouse gas emissions, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research efforts are aimed at improving the reservoir performance and cost-effectiveness of EGS systems, with the ultimate goal of achieving widespread commercial deployment.
+The development and deployment of EGS technology face significant challenges, including technical and environmental concerns such as clogging of the fracture network and induced seismicity {cite}`Breede2013, Olasolo2016, Lu2018, Kumari2019, Ge2022`. These issues have impacted the cost-competitiveness of EGS which has limited the successful roll-out and operation of EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and reduced greenhouse gas emissions, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research efforts are aimed at improving the reservoir performance and cost-effectiveness of EGS systems, with the ultimate goal of achieving widespread commercial deployment.
 
 
 ### Advanced Geothermal Systems
@@ -29,12 +29,11 @@ The development and deployment of EGS technology face significant challenges, in
 Advanced Geothermal Systems (AGS) have emerged as a promising technology for extracting geothermal energy using a closed-loop system that is emplaced within the subsurface. Unlike Enhanced Geothermal Systems (EGS), where the working fluid 
 interacts directly with the rock, AGS relies on the circulation of a working fluid through a closed wellbore that is isolated from the surrounding formation. The specific geological properties of the reservoir are therefore less important in AGS since the working fluid does not come into direct contact with the rock. Instead, AGS systems harvest heat from the rock through heat conduction. Interestingly, the concept of deep closed-loop geothermal systems was first proposed almost a century ago (Hodgson, 1927), but no commercial-scale system exists as of today. Since no AGS field data are available yet, it is still unclear if such an underground heat exchanger can sustain reasonable thermal output over the course of multiple decades at an affordable cost {cite}`Beckers2022, Malek2022`.
 
+![Advanced Geothermal System](../GeothermalEnergy/Production_images/AGS.png)
+
 However, recent years have seen a surge of interest and investment in AGS technology from both industry and academic sectors. This has been spurred mainly by the advent of a handful of closed-loop geothermal startups in North America and Europe, which have reignited the discussion on the potential of closed-loop systems to considerably increase geothermal energy production at a commercial scale while mitigating the concerns associated with EGS and conventional hydrothermal systems (CHS) operations. These concerns include induced seismicity, groundwater contamination, and fluid-rock chemical interactions, among others{cite}`Beckers2022`.
 
 Despite the absence of commercial-scale AGS systems, ongoing research efforts aim to improve the understanding of AGS technology and address the technical and economic challenges that currently limit its deployment. Some of the research areas include improving the design and operation of closed-loop systems, optimizing drilling technologies, developing novel materials for subsurface heat exchangers, and assessing the environmental and social impacts of AGS projects. With continued research and development that would drive the cost of these systems down, AGS has the potential to become a key contributor to the global transition toward a low-carbon energy future.
-
-
-![Advanced Geothermal System](../GeothermalEnergy/Production_images/AGS.png)
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. Some short description following after  </div>
@@ -46,12 +45,12 @@ Geothermal energy extraction processes have traditionally relied on water as the
 ![Carbon Plume Geothermal System](../GeothermalEnergy/Production_images/CPG.png)
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is investigating the chemical performance of CO2-rich fluids in geothermal reservoirs and how this would influence their techno-echonomic viability. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
+<b>By the way:</b> One of our researchers is looking into the chemical behavior of CO2-rich fluids in subsurface reservoirs to assess the techno-economic viability of CO2-based geothermal energy. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
 
 Given the massive potential of geothermal energy, ongoing research and development efforts aim to optimize its use and overcome the limitations mentioned above. These efforts involve advancements in drilling technology, resource assessment, reservoir modeling, and innovative engineering designs that can improve the efficiency and cost-effectiveness of geothermal energy systems. In conclusion, the prospect of deploying geothermal energy scalably and globally presents a promising opportunity to meet energy demands in a sustainable and environmentally friendly manner, and academic research will be fundamental for realizing its full potential.
 
 
-## Reservoir simulation (@Ryan)
+## Reservoir simulation
 
 ![Numerical reservoir model, figure taken from wiki.seg.org](../GeothermalEnergy/Production_images/ressim_1.png)
 
@@ -87,9 +86,13 @@ Machine learning provides a low-dimensional representation from parameters to an
 
 ## The Heat Loss Effect in Geothermal Steam Production Well
 
+<!---
+
 ![geothermal](../GeothermalEnergy/Production_images/selvi_geothermal.png)
 
 Courtesy of [https://indiaenergyportal.org/geothermal-energy/]
+
+-->
 
 In geothermal power generation, the efficient extraction of steam from underground reservoirs is crucial for maximizing energy production. Geothermal steam is primarily obtained through production wells drilled into high-temperature reservoirs. However, during the extraction process, a significant amount of heat is lost from the steam due to various mechanisms. Understanding and minimizing this heat loss effect is essential for optimizing the overall efficiency of geothermal power plants.
 
@@ -155,29 +158,36 @@ In conclusion, the heat loss effect in geothermal steam production wells poses a
 
 Well Inflow Performance is a critical concept in geothermal systems that helps evaluate the performance of production wells and understand the relationship between the fluid flow rate and the pressure drawdown in the reservoir. The scientist Darcy was the first studied extensively the relationship between pressure and flow rate. The IPR provides insights into the productivity of the reservoir, enabling engineers to optimize the production and maximize energy extraction.
 
+<!---
 ![inflow](../GeothermalEnergy/Production_images/selvi_inflow1.png)
+-->
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
 As a function of production rate, the well's flowing bottom-hole pressure (Pwf) is referred to as the inflow performance relationship (IPR). It describes the reservoir's flow. In the pressure range between the average reservoir pressure and atmospheric pressure, the Pwf is defined. The graph that follows shows a typical link between inflow performance and inflow. 
 
+<!---
 ![inflowgraph](../GeothermalEnergy/Production_images/selvi_IPR.png)
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
+-->
 
 The flow rate corresponding to a Pwf of zero is found at the point where the PI plot and x-axis connect. The Absolute Open Flow (AOF) potential of the well is represented by this location on the IPR plot.
 
 ## Vertical Lift Performance Relationship (VLP)
 
 The bottom-hole pressure is described as a function of flow rate by the Vertical Lift Performance Relationship (VLP), also known as Outflow. Numerous variables, such as the fluid PVT characteristics, well depth, tubing size, surface pressure, water cut, and GOR, affect the VLP. It describes the flow from the wellhead to the well's bottom hole.
-
+<!---
 ![VLP](../GeothermalEnergy/Production_images/selvi_VLP.png)
+-->
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
 The wellbore flowing pressure is related to the surface production rate by both the Inflow Performance Relationship and the Vertical Lift Performance Relationship. While the IPR reflects what the reservoir can supply to the bottom hole, the VLP represents what the well can send to the surface. 
 
+<!---
 ![VLP2](../GeothermalEnergy/Production_images/selvi_VLP2.png)
+-->
 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
