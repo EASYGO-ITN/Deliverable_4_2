@@ -1,22 +1,24 @@
 # Geothermal Energy Utilisation
+<span style="font-size:0.6em;">Last edited: 2nd Aug 2023</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Lorenzo Galieti (TU Delft)</span> \
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Tristan Merbecks (Politecnico di Milano)</span> \
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Wen Luo (TU Delft)</span>
 
-## Introduction
-From the geothermal reservoir we can produce hot fluids carrying plenty of thermal energy. This thermal energy can be
-used to heat homes, offices and even greenhouses, which is particularly attractive in cold climates, where heating 
+The thermal energy produced from the reservoir can be used in a number of different applications. For example  to heat homes, offices and even greenhouses - this is particularly attractive in colder climates, where heating 
 represents a large portion of the total energy consumption.
 
-Where there is no demand for heating, for example in hot climates or during the summer months in cold climates, or
-where there is no consumer in the vicintiy of the geothermal reservoir, the thermal energy can also be converted to
-other forms of energy such as electricity. This can be transported more easily over long distances to the consumers. The figure below illustrates the direct and indirect utilisations of geothermal energy with different in-situ temperatures.
+In the summer months, already warm climates or where there are no consumers in the vicinity of the geothermal resource, the thermal energy can instead be used to generate electricity. This can be transported more easily over long distances to consumer. {numref}`applications` illustrates the direct and indirect utilisations of geothermal energy with different in-situ temperatures and other reservoir conditions.
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Martine-heating-powering.png
 ---
 align: center
+name: applications
 ---
 The direct and indirect utilisations of geothermal energy with different in-situ temperatures. Figure provided by Martine Bloemendal {cite}`martine`.
 ```
 
 ## Direct Use
+
 The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure (data from {cite}`lund2021direct`) below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png
@@ -48,10 +50,12 @@ There are also many other direct applications for geothermal heat, such as:
 * etc.
 
 ## Power Plants
-Geothermal power plants convert the thermal energy extracted from the sub-surface into electricity. The working principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from other power plants types like coal-fired or nuclear plants.
 
+Geothermal power plants convert the thermal energy extracted from the subsurface into electricity. The working principle behind converting the thermal energy to mechanical work (i.e. rotational energy) is not too different from other power plants types like coal-fired or nuclear plants.
+
+(RankineCycle)=
 ### Working Principle: The Rankine Cycle
-The Rankine Cyle is a heat engine, that converts thermal energy into mechanical work, which in turn can be used for driving a turbine. It is based on the theoretical Carnot Cycle, with adaptations to make the expansion and compression stages easier to implement with existing turbomachinery (i.e. turbines, pumps and compressors, see below).
+The Rankine Cycle is a heat engine, that converts thermal energy into mechanical work, which in turn can be used for driving a turbine. It is based on the theoretical Carnot Cycle, with adaptations to make the expansion and compression stages easier to implement with existing turbomachinery (i.e. turbines, pumps and compressors, see below).
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/RankineCycle.svg
 ---
@@ -69,6 +73,7 @@ Schematic of a typical Rankine cycle power plant
 
 Depending on the temperature and physical state (i.e. vapour, liquid or a mixture of the two) of the geofluid arriving at surface, different types of geothermal power plants are:
 
+(DrySteam)=
 ### Dry Steam
 Dry Steam power plants operate on the hottest geothermal resources, where the geofluid arrives at the surface as steam
 at temperatures as high as 250 &deg;C.
@@ -87,7 +92,7 @@ Schematic of a dry steam geothermal power plant
 
 There are some peculiarities compared to the Rankine Cycle we discussed earlier:
 * The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
-* The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
+* The [cooling tower](CoolingTower) "loses" a considerable amount of geofluid - the typical white clouds over a power station. 
 
 This is also the reason why they are typically referred as being ***open-loop*** 
 
@@ -103,26 +108,24 @@ Schematic of a flash geothermal power plant
 
 * **Initial State**: Hot high-pressure two-phase geofluid arrives at the power plant 
 * **Stage 1**: The geofluid is "flashed" (i.e. reducing its pressure). This causes the fluid to partition into a liquid and vapour phase, see dashed lines.
+
+`````{admonition} Hint
+:class: tip
+Flashing the geofluid more can produce more steam (good) but comes at the cost of lower specific power generated by the turbine (bad) as the pressure difference across the turbine is reduced. The design engineers optimise the flashing to maximise overall power production.
+`````
+
 * **Stage 2**: The hot and high-pressure vapour is exanded in a turbine
 * **Stage 3**: The low-pressure vapour is condensed (e.g. using a Cooling Tower)
 * **Stage 4**: The low pressure liquid is re-pressurised using a pump and re-injected into the reservoir alongside the liquid obtained from Stage 1
 
-`````{admonition} Hint
-:class: tip
-Flashing the geofluid more, can produce more steam (good) but comes at the cost of lower specific power generated by the turbine (bad) so there is a trade-off.
-`````
-
-There are some peculiarities compared to the Rankine Cycle we discussed earlier:
-* The stages do not close the loop - this is because the heating and re-boiling actually takes place in the geothermal reservoir and this not usually included in the diagram
-* The cooling tower "loses" a considerable amount of geofluid - the typical white clouds over a power station 
+Similarly to the [Dry Steam](DrySteam) plant, Flash plants are also considered "open loop".
 
 ### Binary
 
 Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
 
-[//]: # (@Lorenzo maybe we can put in a mention about my research here, since I am actually trying to revert that trend somewhat and to use ORCs for two phase sources. Something like:)
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on widening the application range of binary ORC power plants to two-phase sources like those commonly associated with Flash or Dry Steam plants. Find out more <a href="https://easygo-itn.eu/lorenzo-galieti/">here</a> or <a href="https://www.researchgate.net/profile/Tristan-Merbecks">here</a>!</div>
+<b>By the way:</b> Tristan Merbecks is working on investigating the application of binary ORC power plants to two-phase sources like those commonly associated with Flash or Dry Steam plants. Find out more <a href="https://easygo-itn.eu/tristan-merbecks/">here</a> or <a href="https://www.researchgate.net/profile/Tristan-Merbecks">here</a>!</div>
 
 The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
 
@@ -140,7 +143,7 @@ Schematic of a binary ORC geothermal power plant
 * **Stage 4**: The low-pressure vapour is condensed
 * Repeat from **Stage 1**
 
-<!--- @Lorenzo maybe we should also talk about the following a bit more... -->
+<!--- @Lorenzo maybe we should also talk about the following a bit more...
 * advantages of ORCs
   * choice of WF - here we could then mention that you are doing research into this...
   <div class="alert alert-block alert-info">
@@ -149,15 +152,22 @@ Schematic of a binary ORC geothermal power plant
   * closed loop - reduced contact with geofluid
 * disadvantages
 
+-->
+
+<div class="alert alert-block alert-info">
+<b>By the way:</b> Lorenzo Galieti is working on investigating the use of novel working fluid, like mixtures of organic fluids, could improve the performance of ORC power plants. Find out more <a href="https://easygo-itn.eu/lorenzo-galieti/">here</a> or <a href="https://www.researchgate.net/profile/Lorenzo-Galieti">here</a>!</div>
+
+
 ## Energy Conversion
+
 Converting between different forms of energy in reality is always associated with losses - the most common type of losses we experience in our everyday life is **friction**. For example, the friction between a wheel and the road surface with eventually bring the wheel to a stop. Such losses are broadly categorised as mechanical losses. 
 
-However, converting from thermal energy to more useful forms like rotational energy is more complicated. While mechanical losses could be eliminated by making the road surface smooth and frictionless, but for heat engines it is the conversion process itself that introduces losses because it is **irreversible**. 
+However, converting from thermal energy to more useful forms like rotational energy is more complicated. Mechanical losses could be eliminated by making the road surface smooth and frictionless, but for heat engines it is the conversion process itself that introduces losses because it is **irreversible**. 
 
 Reversible processes need but a small nudge to be reversed. Irreversible processes require a significant effort to reverse themselves. Cooking is a great example of an irreversible process; it is simple enough to fry an egg, but is it significantly more difficult to "unfry" the egg and return it to its original state.
 
 ### Idealised Cycles
-Besides the [Rankine Cycle](#Working-Principle:-The-Rankine-Cycle) there are a number of other "power cycles" or "heat engines" that have been proposed. One of the most important of these is the Carnot Cycle; it is a theoretical heat engine for converting the heat flux between two reservoirs into mechanical energy. The Carnot Cycle provides a useful upper bound for the conversion efficiency of any heat engine.
+Besides the [Rankine Cycle](RankineCycle) there are a number of other "power cycles" or "heat engines" that have been proposed. The most important of these is the Carnot Cycle; it is a theoretical heat engine for converting the heat flux between two reservoirs into mechanical energy. The Carnot Cycle provides a useful upper bound for the conversion efficiency of any heat engine.
 
 `````{admonition} Definition: Reservoir
 :class: tip
@@ -167,19 +177,19 @@ In the thermodynamic sense, a **reservoir** is a body at constant temperature - 
 The basic setup of a Carnot heat engine is as follows:
 A piston chamber is placed between two thermal reservoirs, one hot and one cold. The piston chamber walls do not permit heat or mass transfer, but one side at a time can be "opened" to allow heat transfer with the adjacent reservoir. A fluid is contained within the piston chamber.  
 
-* **Initial State**: The walls are closed to heat transfer and the fluid in the piston chamber is at the same temperature as the hot reservoir, T<sub>Hot</sub>.
-* **Stage 1**: The wall in contact with the hot reservoir is opened to allow heat transfer. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. This is also referred to as *isothermal heat addition*.
-* **Stage 2**: The chamber is once again isolated from the two reservoirs. The piston is then raised, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>. This is referred to as *isentropic expansion*.
-* **Stage 3**: The wall in contact with the cold reservoir is now opened to allow heat transfer. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir. This is referred to as *isothermal heat removal*
-* **Stage 4**: The chamber is again isolated and then the piston is pushed down, reducing the volume until the temperature reaches that of the hot reservoir T<sub>Hot</sub>. This is referred to as *isentropic heat removal*
-* Repeat from **Stage 1**
-
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/CarnotAnimation.gif
 ---
 align: center
 ---
 Operating principle of a Carnot heat engine
 ```
+
+* **Initial State**: The walls are closed to heat transfer and the fluid in the piston chamber is at the same temperature as the hot reservoir, T<sub>Hot</sub>
+* **Stage 1**: The wall in contact with the hot reservoir is opened to allow heat transfer. The piston is then slowly raised, increasing the volume of chamber. Meanwhile, the temperature of the cell remains at T<sub>Hot</sub> as heat moves from the hot reservoir into the cell. This is also referred to as *isothermal heat addition*
+* **Stage 2**: The chamber is once again isolated from the two reservoirs. The piston is then raised, increasing the volume of the chamber until the fluid cools to the temperature of the cold reservoir, T<sub>Cold</sub>. This is referred to as *isentropic expansion*
+* **Stage 3**: The wall in contact with the cold reservoir is now opened to allow heat transfer. The piston is then slowly pushed down, reducing the volume of the chamber. The temperature in the cell remains at T<sub>Cold</sub>, as the heat moves from the chamber into the cold reservoir. This is referred to as *isothermal heat removal*
+* **Stage 4**: The chamber is again isolated and then the piston is pushed down, reducing the volume until the temperature reaches that of the hot reservoir T<sub>Hot</sub>. This is referred to as *isentropic heat removal*
+* Repeat from **Stage 1**
 
 So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.
 
@@ -202,7 +212,7 @@ align: center
 Carnot cycle with a pure cycle working fluid
 ```
 
-However, this makes it more difficult to realise **Stage 2** and **Stage 4** (i.e. ientropic expansion/compression). This is because the machinery to expand/compress fluids are designed to either work on a vapour or liquid but struggle with two-phase mixtures. For example, a pump designed to pressurise a liquid, but significant vapour fraction causes cavitation and damages the internals. Similarly, turbines are designed to expand gases and significant liquid fraction can damage the blades.
+However, this makes it more difficult to realise **Stage 2** and **Stage 4** (i.e. isentropic expansion/compression). This is because the machinery to expand/compress fluids are designed to either work on a vapour or liquid but struggle with two-phase mixtures. For example, a pump designed to pressurise a liquid, but significant vapour fraction causes cavitation and damages the internals. Similarly, turbines are designed to expand gases and significant liquid fraction can damage the blades.
 
 ### Efficiency
 
@@ -212,7 +222,11 @@ When we would like to know how much of the thermal energy we brought to surface 
 
 $$\eta_{I} = \frac{W_{Net}}{Q_{in}}$$
 
-Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***. This can come in different "flavours":
+Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***. The **exergy** is a measure of the maximum amount of work that can be obtained from fluid at a given temperature and pressure.
+
+  $$E =h - h_{0} - T_{0}*(s - s_{0})$$
+
+The Second Law Efficiency can thus come in different "flavours", depending on what reference conditions are selected:
 
 * Utilisation Efficiency: 
 
@@ -225,6 +239,7 @@ Whereas when we would like to know how our heat engine compares to an ideal heat
   $$\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}$$
 
 ## Power Plant Equipment
+<span style="font-size:0.5em;">Lorenzo Galieti (TU Delft)</span>
 
 
 ### Turbine
@@ -250,7 +265,6 @@ width: 700px
 Rotation of the turbine shaft
 ```
 
-
 A typical axial turbine for binary geothermal power plants is shown below (courtesy of Turboden). 
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/axialturbine.png
@@ -259,6 +273,15 @@ align: center
 width: 700px
 ---
 A typical axial turbine (courtesy of Turboden)
+```
+### Pump
+
+The working principle of pumps in use in binary geothermal power plants is very similar to the one governing the rotation of the turbine. It once again relies on the lift generated by the blades. This time however, instead of allowing the lift drive the rotation, as it is done in the turbines, the machine is forced to rotate against such lift instead, thereby transferring energy to the fluid and increasing its pressure.
+
+
+```{image} ../GeothermalEnergy/Utilisation_pictures/turbvspump.svg
+:width: 700px
+:align: center
 ```
 
 ### Heat Exchangers
@@ -309,13 +332,17 @@ width: 700px
 Schematic of a kettle reboiler
 ```
 
+(CoolingTower)=
+### Cooling Tower
+In flash power plants the geofluid is usually condensed downstream of the tubine, by means of a machine called cooling tower. From the outside, this device appears as a conical tower, as shown in the figure below. The geofluid is sprayed by nozzles and part of it evaporates into the air raising from the bottom of the tower. The remaining part falls down, where it is collected and injected back into the reservoir. The principle if very similar to what happens when we mix too much sugar into coffee: some of it will dissolve in the liquid, giving it a sweeter taste, the rest will fall to the bottom of the cup. Nature tells us the process requires heat, hence the geofluid falling to the bottom of the tower will also cool down.
 
-### Heat Exchanger
+```{image} ../GeothermalEnergy/Utilisation_pictures/coolingtower.svg
+:width: 700px
+:align: center
+```
 
-### Pump
 
-### Turbine
 
-### Generator
 
-### Valve/Orifice
+
+
