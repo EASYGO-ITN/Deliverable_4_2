@@ -15,19 +15,26 @@ Figure 1: Schematic representation of the DAP-well [click here for more details]
 Geothermal energy is often considered an environmentally friendly energy source due to its low greenhouse gas emissions and renewability. However, it is essential to consider the potential environmental impacts associated with geothermal operations to ensure sustainable development and minimize adverse effects on the surrounding ecosystem. This section will discuss some critical environmental concerns related to geothermal energy production, including greenhouse gas emissions, water pollution, and induced seismicity.
 
 ### Greenhouse Gas Emissions
-Geothermal power plants emit fewer greenhouse gases than conventional fossil fuel-based power plants. However, they do release some greenhouse gases, such as carbon dioxide (CO2) and methane (CH4), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
-These emissions can contribute to climate change if not properly managed. It is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [reinjection](section:reinjection)).
+Geothermal power plants generally emit fewer greenhouse gases than conventional fossil fuel-based power plants. However, they do release greenhouse gases, such as carbon dioxide (CO2) and methane (CH4), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
+These emissions can contribute to climate change if not properly managed. For this reason, it is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [reinjection](section:reinjection)).
 
+`````{admonition} Are $CO_2$ emissions from solar energy lower than the ones from geothermal?
+:class: tip
+
+According to a study by [Chandrasekharam et al., (2020)](https://link.springer.com/article/10.1007/s40948-019-00135-y), geothermal energy has been found to exhibit the lowest greenhouse gas emissions when compared to solar PV (photovoltaic) and other energy sources. The reason for this is that solar PV energy, which converts sunlight into electricity, involves a substantial amount of energy and materials during the manufacturing process of solar cells, resulting in higher emissions throughout the cells' lifecycle. As a result, geothermal energy stands out as a more environmentally friendly option with lower CO2 emissions. 
+
+Although this might be the case for most geothermal operations, it is important to note that some regions may have higher emissions. For example, Turkish geothermal plants have shown Carbon dioxide ($CO_2$) emission factors significantly higher than the reported global average [(see Aksoy et al., 2015)](https://link.springer.com/article/10.1134/S0040601516050098).
+`````
 
 ### Water Pollution
 Geothermal fluids can contain dissolved minerals and gases that may pose a risk to water quality if not properly managed. Some of these substances, such as hydrogen sulfide, can be toxic and harmful to the environment. To prevent water pollution, it is essential to establish appropriate fluid management practices, such as treating and reinjecting geothermal fluids back into the reservoir or disposing of them in a safe and regulated manner.
 
 ### Induced seismicity
-The drilling and injection of water into geothermal reservoirs may cause small-scale earthquakes or tremors, known as induced seismicity. Although the risk of significant earthquakes is low, it is still a concern in some areas. Monitoring and managing induced seismicity are essential to ensure the safety of surrounding communities and infrastructure.
+The drilling and injection of water into geothermal reservoirs may cause induced seismicity. Although the risk of significant earthquakes is low, it is still a concern in some areas. Monitoring and managing induced seismicity are essential to ensure the safety of surrounding communities and infrastructure.
 
 `````{admonition} During geothermal operations, several activities can potentially cause induced seismicity:
 :class: tip
-- Drilling: The process of drilling deep wells into the Earth's crust can sometimes cause small movements in the surrounding rock layers. These movements may result in minor tremors or vibrations.
+- Drilling: The process of drilling deep wells into the Earth's crust can trigger seismicity. These movements may result in minor tremors or induced seismicity. 
 
 - Fluid injection: When the cooled fluids are reinjected back into the reservoir, they can increase the pressure in the underground rock formations. This increase in pressure can cause small shifts or fractures in the rocks, which may result in tremors or earthquakes.
 
