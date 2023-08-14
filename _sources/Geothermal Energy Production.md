@@ -2,7 +2,7 @@
 # Geothermal Energy Production and Operation 
 
 <span style="font-size:0.6em;">Last edited: 11 Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Nicolás Rangel Jurado (ETH Zürich, Switzerland - RWTH Aachen, Germany)</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Nicolás Rangel Jurado (ETH Zürich, Switzerland - RWTH Aachen, Germany)</span> 
 
 
 ## Introduction and Geothermal System Types
@@ -17,15 +17,13 @@ The following are the geothermal system types that are currently being actively 
 
 Conventional hydrothermal systems are unique in that they display what one might consider the most suitable geological characteristics to extract geothermal heat from the subsurface. This means that a conventional hydrothermal system is found when the following combination of factors coincides at depth: a high-temperature aquifer located at relatively shallow depths (less than 4 kilometers), enough pore space filled with water or brine, and a significant in situ permeability {cite}`Tester2012`. As a result of these requirements, these reservoirs are limited by geography and are usually located in areas with significant volcanic or magmatic activity. Although hydrothermal resources offer substantial energy potential, their rarity has resulted in that most high-potential resources have already been tapped. This has made it increasingly challenging or expensive to discover and develop new sites.
 
-![Conventional Hydrothermal System](../GeothermalEnergy/Production_images/CHS.png)
 
 
 ```{figure} ../GeothermalEnergy/Production_images/CHS.png
 ---
 align: center
-name: Schematic of an conventional geothermal system (CHS) 
 ---
-Schematic of a conventional geothermal system (CHS) displaying a naturally permeable reservoir being recharged by rainwater. The water percolates to deepert parts of the reservoir where it heats up and it is then being produced back to the surface by geothermal wells. 
+Schematic of a conventional geothermal system (CHS) displaying a naturally permeable reservoir being recharged by rainwater. The water percolates to deepert parts of the reservoir where it heats up and it is then being produced back to the surface by geothermal wells. Taken from Rangel-Jurado et al. (2022). 
 ```
 
 
@@ -41,9 +39,8 @@ Considering that "the deeper we go, the hotter it gets", usually temperature is 
 ```{figure} ../GeothermalEnergy/Production_images/EGS.png
 ---
 align: center
-name: Schematic of an enhanced geothermal system (EGS) 
 ---
-Schematic of an enhanced geothermal system (EGS) displaying a deviated wellpair (one injection well, one production well) drilled into an originally impermeable rock. The wellpair is now connected at depth by a fracture network. 
+Schematic of an enhanced geothermal system (EGS) displaying a deviated wellpair (one injection well, one production well) drilled into an originally impermeable rock. The wellpair is now connected at depth by a fracture network. Taken from Rangel-Jurado et al. (2022). 
 ```
 
 
@@ -60,9 +57,8 @@ In contrast to traditional hydrothermal or enhanced geothermal systems, where th
 ```{figure} ../GeothermalEnergy/Production_images/AGS.png
 ---
 align: center
-name: Schematic of an advanced geothermal system (AGS) 
 ---
-Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. 
+Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. Taken from Rangel-Jurado et al. (2022). 
 ```
 
 Interestingly, the idea of extracting energy from deep closed-loop geothermal systems was first proposed almost a century ago (Hodgson, 1927), but no commercial system exists as of today. Since very little AGS field data are available yet, it is still unclear if such an underground heat exchanger that requires a great amount of drilling can sustain reasonable thermal output over multiple decades at an affordable cost {cite}`Beckers2022, Malek2022`. However,  there has been a recent increase in interest and investment in AGS technology from both industry and academia. This interest has been driven largely by a few startups in North America and Europe that are actively and exclusively working on closed-loop geothermal systems. These startups have gained a lot of traction in the public space because they claim closed-loop systems could significantly boost geothermal energy production on a larger scale while avoiding some of the problems associated with other methods like CHS and EGS, such as induced seismicity, groundwater contamination, and unpredictable interactions between fluids and rocks. For more information regarding this, please see ### Note: Include tag to Issues section. 
@@ -71,29 +67,29 @@ Ongoing research efforts in AGS aim to improve the understanding of the commerci
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> Two of our researchers are looking into AGS systems. 
-    Nicolás is running numerical simulations of CHS, EGS and AGS to establish their techno-economic performance over a wide range of reservoir properties and operating conditions. While Ryan is _______. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a> or <a href="https://RYAN_RYAN">here</a>!</div>
+    Nicolás is running numerical simulations of CHS, EGS and AGS to establish their techno-economic performance over a wide range of reservoir properties and operating conditions. While Ryan is _______. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a> or <a href="https://google.com">here</a>!</div>
 
 ### CO2-based geothermal systems
 
-Traditionally, extracting geothermal energy has always involved using water or brine as the energy extraction fluid in the deep reservoir, as explained in the geothermal system types above.  However, in the past two decades, scientific studies – both theoretical and numerical – have highlighted the potential of using supercritical CO<sub>2<\sub> (sCO<sub>2<\sub>) instead of water. This is because sCO<sub>2<\sub> has unique chemical, transport, and thermodynamic properties that make it an attractive alternative for geothermal energy extraction {cite}`Brown2000, Pruess2006, Randolph2011, Zhang2014`. As a result, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO<sub>2<\sub> as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO<sub>2<\sub>-Plume Geothermal (CPG) system, CO<sub>2<\sub>-Enhanced Geothermal System (CO<sub>2<\sub>-EGS), and CO<sub>2<\sub>-Advanced Geothermal System (CO<sub>2<\sub>-AGS), respectively. 
-    
+Traditionally, extracting geothermal energy has always involved using water or brine as the energy extraction fluid in the deep reservoir, as explained in the geothermal system types above. However, in the past two decades, scientific studies – both theoretical and numerical – have highlighted the potential of using supercritical CO<sub>2</sub> (sCO<sub>2</sub>) instead of water. This is because sCO<sub>2</sub> has unique chemical, transport, and thermodynamic properties that make it an attractive alternative for geothermal energy extraction {cite}`Brown2000, Pruess2006, Randolph2011, Zhang2014`. As a result, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO<sub>2</sub> as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO<sub>2</sub>-Plume Geothermal (CPG) system, CO<sub>2</sub>-Enhanced Geothermal System (CO<sub>2</sub>-EGS), and CO<sub>2</sub>-Advanced Geothermal System (CO<sub>2</sub>-AGS), respectively.
+
 Using supercritical carbon dioxide (sCO<sub>2</sub>) instead of water for extracting geothermal energy offers two key advantages:
-    
-    1. **More energy production:** The excellent transport properties of CO<sub>2<\sub> theoretically lead to higher energy output from geothermal reservoirs. This is because sCO<sub>2</sub> has better transport properties than water. It moves more easily due to a higher fluid mobility. The fluid mobility (i.e., the ratio beween the fluid density and its dynamic viscosity) dictates how easily a fluid can flow through a matrix; and the fluid mobility of CO<sub>2<\sub> is much higher than that of water, for equivalent pressure and temperature conditions conditions. This is extremely important, both from a heat generation or electric power production perspective, because the higher the flow rate, the higher the energy production output. 
-    
-    Note: A noteworthy limitation of replacing water with CO<sub>2<\sub> is that the former has much better specific thermal properties than the latter. In simpler terms, if you had 1 kilogram of water and 1 kilogram of sCO<sub>2</sub>, the water would be better at moving heat around. Nonetheless, this tradeoff can easily be overcome considering that CO<sub>2<\sub> allows for much larger flow rates (i.e., many more kilograms per second coming out of the production well).     
-    
-    2. **Reduced chemical reactivity**: CO<sub>2<\sub> is not a powerful solvent for inorganic materials. This means that CO<sub>2<\sub> is not expected to significantly react with and dissolve the rock-forming minerals at depth, thus, avoiding issues related with mineral scaling (for more details about this, plase see the [Issues](Issues) section). Using CO<sub>2<\sub> as the subsurface working fluid can therefore extend the lifespan of the wells, reduce maintenance costs, and improve the system's reliability. 
-    
+
+1. **More energy production:** The excellent transport properties of CO<sub>2</sub> theoretically lead to higher energy output from geothermal reservoirs. This is because sCO<sub>2</sub> has better transport properties than water. It moves more easily due to a higher fluid mobility. The fluid mobility (i.e., the ratio between the fluid density and its dynamic viscosity) dictates how easily a fluid can flow through a matrix; and the fluid mobility of CO<sub>2</sub> is much higher than that of water, for equivalent pressure and temperature conditions. This is extremely important, both from a heat generation or electric power production perspective, because the higher the flow rate, the higher the energy production output.
+
+   Note: A noteworthy limitation of replacing water with CO<sub>2</sub> is that the former has much better specific thermal properties than the latter. In simpler terms, if you had 1 kilogram of water and 1 kilogram of sCO<sub>2</sub>, the water would be better at moving heat around. Nonetheless, this tradeoff can easily be overcome considering that CO<sub>2</sub> allows for much larger flow rates (i.e., many more kilograms per second coming out of the production well).
+
+2. **Reduced chemical reactivity:** CO<sub>2</sub> is not a powerful solvent for inorganic materials. This means that CO<sub>2</sub> is not expected to significantly react with and dissolve the rock-forming minerals at depth, thus avoiding issues related to mineral scaling (for more details about this, please see the [Issues](issues_and_safety) section). Using CO<sub>2</sub> as the subsurface working fluid can therefore extend the lifespan of the wells, reduce maintenance costs, and improve the system's reliability.
+
+
 ```{figure} ../GeothermalEnergy/Production_images/CPG.png
 ---
 align: center
-name: Schematic of a Carbon Plume Geothermal (CPG) system. 
 ---
-Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. 
+Schematic of an Carbon Plume Geothermal (CPG) system displaying constan injection of CO<sub>2</sub> from a source nearby. The CO<sub>2</sub> forms an underground plume in the reservoir and it is then produced back to the surface through a production well, and injected back through the injection well after passing through the surface facilities.
 ```
-    
-CO<sub>2<\sub>-based geothermal energy is still at a research and development stage as well. Some additional technical and environmental challenges that are being looked into include: the need for specialized materials and equipment, an overlap of a CO<sub>2<\sub> source relatively close to the geothermal reservoir, the risk of CO<sub>2<\sub> leakage through the subsurface, among others. Research in this field is ongoing, with the aim of getting sCO<sub>2<\sub>-based geothermal systems ready for commercial use in the near future.
+
+CO<sub>2</sub>-based geothermal energy is still at a research and development stage as well. Some additional technical and environmental challenges that are being looked into include: the need for specialized materials and equipment, an overlap of a CO<sub>2</sub> source relatively close to the geothermal reservoir, the risk of CO<sub>2</sub> leakage through the subsurface, among others. Research in this field is ongoing, with the aim of getting sCO<sub>2</sub>-based geothermal systems ready for commercial use in the near future.
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is looking into the chemical behavior of CO<sub>2<\sub>-rich fluids in subsurface reservoirs to assess the techno-economic viability of CO<sub>2<\sub>-based geothermal energy. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
@@ -251,8 +247,4 @@ The wellbore flowing pressure is related to the surface production rate by both 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
 The well deliverability, which expresses what a well will actually produce for a specific operating condition (Pr, PI, WC, GOR, THP, tubing size...), is produced by the intersection of the IPR and the VLP, also known as the operational point. 
-
-
-
-
 
