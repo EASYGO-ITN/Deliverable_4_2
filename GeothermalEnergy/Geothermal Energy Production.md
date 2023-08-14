@@ -98,7 +98,7 @@ Considering the vast and largely unexplored possibilities of geothermal energy, 
 # Reservoir simulation
 
 <span style="font-size:0.6em;">Last edited: XX Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Name Surname (University 1 - University 2)</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Ryan Santoso (University 1 - University 2)</span> \
 
 ![Numerical reservoir model, figure taken from wiki.seg.org](../GeothermalEnergy/Production_images/ressim_1.png)
 
@@ -137,7 +137,7 @@ Machine learning provides a low-dimensional representation from parameters to an
 # The Heat Loss Effect in Geothermal Steam Production Well
 
 <span style="font-size:0.6em;">Last edited: XX Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Name Surname (University 1 - University 2)</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Selvican Türkdoğan (University 1 - University 2)</span> \
 
 <!---
 
