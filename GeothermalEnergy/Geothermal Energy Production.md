@@ -22,13 +22,12 @@ Conventional hydrothermal systems are unique in that they display what one might
 ```{figure} ../GeothermalEnergy/Production_images/CHS.png
 ---
 align: center
-name: Schematic of an conventional geothermal system (CHS). Taken from Rangel-Jurado et al. (2022). 
 ---
-Schematic of a conventional geothermal system (CHS) displaying a naturally permeable reservoir being recharged by rainwater. The water percolates to deepert parts of the reservoir where it heats up and it is then being produced back to the surface by geothermal wells. 
+Schematic of a conventional geothermal system (CHS) displaying a naturally permeable reservoir being recharged by rainwater. The water percolates to deepert parts of the reservoir where it heats up and it is then being produced back to the surface by geothermal wells. Taken from Rangel-Jurado et al. (2022). 
 ```
 
 
-Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](Exploration) section.
+Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](exploration) section.
 
 While existing conventional hydrothermal systems continue to produce vast amounts of renewable energy and, although scarce, potential new sites offer enticing opportunities, the growing demand for renewable heat and power calls for the need of alternative geothermal systems! 
 
@@ -40,9 +39,8 @@ Considering that "the deeper we go, the hotter it gets", usually temperature is 
 ```{figure} ../GeothermalEnergy/Production_images/EGS.png
 ---
 align: center
-name: Schematic of an enhanced geothermal system (EGS). Taken from Rangel-Jurado et al. (2022). 
 ---
-Schematic of an enhanced geothermal system (EGS) displaying a deviated wellpair (one injection well, one production well) drilled into an originally impermeable rock. The wellpair is now connected at depth by a fracture network. 
+Schematic of an enhanced geothermal system (EGS) displaying a deviated wellpair (one injection well, one production well) drilled into an originally impermeable rock. The wellpair is now connected at depth by a fracture network. Taken from Rangel-Jurado et al. (2022). 
 ```
 
 
@@ -59,9 +57,8 @@ In contrast to traditional hydrothermal or enhanced geothermal systems, where th
 ```{figure} ../GeothermalEnergy/Production_images/AGS.png
 ---
 align: center
-name: Schematic of an advanced geothermal system (AGS). Taken from Rangel-Jurado et al. (2022). 
 ---
-Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. 
+Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. Taken from Rangel-Jurado et al. (2022). 
 ```
 
 Interestingly, the idea of extracting energy from deep closed-loop geothermal systems was first proposed almost a century ago (Hodgson, 1927), but no commercial system exists as of today. Since very little AGS field data are available yet, it is still unclear if such an underground heat exchanger that requires a great amount of drilling can sustain reasonable thermal output over multiple decades at an affordable cost {cite}`Beckers2022, Malek2022`. However,  there has been a recent increase in interest and investment in AGS technology from both industry and academia. This interest has been driven largely by a few startups in North America and Europe that are actively and exclusively working on closed-loop geothermal systems. These startups have gained a lot of traction in the public space because they claim closed-loop systems could significantly boost geothermal energy production on a larger scale while avoiding some of the problems associated with other methods like CHS and EGS, such as induced seismicity, groundwater contamination, and unpredictable interactions between fluids and rocks. For more information regarding this, please see ### Note: Include tag to Issues section. 
@@ -82,13 +79,12 @@ Using supercritical carbon dioxide (sCO<sub>2</sub>) instead of water for extrac
 
    Note: A noteworthy limitation of replacing water with CO<sub>2</sub> is that the former has much better specific thermal properties than the latter. In simpler terms, if you had 1 kilogram of water and 1 kilogram of sCO<sub>2</sub>, the water would be better at moving heat around. Nonetheless, this tradeoff can easily be overcome considering that CO<sub>2</sub> allows for much larger flow rates (i.e., many more kilograms per second coming out of the production well).
 
-2. **Reduced chemical reactivity:** CO<sub>2</sub> is not a powerful solvent for inorganic materials. This means that CO<sub>2</sub> is not expected to significantly react with and dissolve the rock-forming minerals at depth, thus avoiding issues related to mineral scaling (for more details about this, please see the [Issues](Issues) section). Using CO<sub>2</sub> as the subsurface working fluid can therefore extend the lifespan of the wells, reduce maintenance costs, and improve the system's reliability.
+2. **Reduced chemical reactivity:** CO<sub>2</sub> is not a powerful solvent for inorganic materials. This means that CO<sub>2</sub> is not expected to significantly react with and dissolve the rock-forming minerals at depth, thus avoiding issues related to mineral scaling (for more details about this, please see the [Issues](issues_and_safety) section). Using CO<sub>2</sub> as the subsurface working fluid can therefore extend the lifespan of the wells, reduce maintenance costs, and improve the system's reliability.
 
 
 ```{figure} ../GeothermalEnergy/Production_images/CPG.png
 ---
 align: center
-name: Schematic of a Carbon Plume Geothermal (CPG) system. 
 ---
 Schematic of an Carbon Plume Geothermal (CPG) system displaying constan injection of CO<sub>2</sub> from a source nearby. The CO<sub>2</sub> forms an underground plume in the reservoir and it is then produced back to the surface through a production well, and injected back through the injection well after passing through the surface facilities.
 ```
