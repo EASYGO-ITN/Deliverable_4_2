@@ -28,7 +28,7 @@ Schematic of a conventional geothermal system (CHS) displaying a naturally perme
 ```
 
 
-Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](exploration) section.
+Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](Exploration) section.
 
 While existing conventional hydrothermal systems continue to produce vast amounts of renewable energy and, although scarce, potential new sites offer enticing opportunities, the growing demand for renewable heat and power calls for the need of alternative geothermal systems! 
 
@@ -251,8 +251,4 @@ The wellbore flowing pressure is related to the surface production rate by both 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
 The well deliverability, which expresses what a well will actually produce for a specific operating condition (Pr, PI, WC, GOR, THP, tubing size...), is produced by the intersection of the IPR and the VLP, also known as the operational point. 
-
-
-
-
 
