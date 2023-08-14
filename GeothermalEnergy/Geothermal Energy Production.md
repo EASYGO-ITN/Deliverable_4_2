@@ -23,7 +23,7 @@ Conventional hydrothermal systems are unique in that they display what one might
 ```{figure} ../GeothermalEnergy/Production_images/CHS.png
 ---
 align: center
-name: Schematic of an conventional geothermal system (CHS) 
+name: Schematic of an conventional geothermal system (CHS). Taken from Rangel-Jurado et al. (2022). 
 ---
 Schematic of a conventional geothermal system (CHS) displaying a naturally permeable reservoir being recharged by rainwater. The water percolates to deepert parts of the reservoir where it heats up and it is then being produced back to the surface by geothermal wells. 
 ```
@@ -41,7 +41,7 @@ Considering that "the deeper we go, the hotter it gets", usually temperature is 
 ```{figure} ../GeothermalEnergy/Production_images/EGS.png
 ---
 align: center
-name: Schematic of an enhanced geothermal system (EGS) 
+name: Schematic of an enhanced geothermal system (EGS). Taken from Rangel-Jurado et al. (2022). 
 ---
 Schematic of an enhanced geothermal system (EGS) displaying a deviated wellpair (one injection well, one production well) drilled into an originally impermeable rock. The wellpair is now connected at depth by a fracture network. 
 ```
@@ -60,7 +60,7 @@ In contrast to traditional hydrothermal or enhanced geothermal systems, where th
 ```{figure} ../GeothermalEnergy/Production_images/AGS.png
 ---
 align: center
-name: Schematic of an advanced geothermal system (AGS) 
+name: Schematic of an advanced geothermal system (AGS). Taken from Rangel-Jurado et al. (2022). 
 ---
 Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. 
 ```
