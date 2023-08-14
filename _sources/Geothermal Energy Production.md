@@ -1,58 +1,114 @@
 
 # Geothermal Energy Production and Operation 
 
+<span style="font-size:0.6em;">Last edited: 11 Aug 2023</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Nicolás Rangel Jurado (ETH Zürich, Switzerland - RWTH Aachen, Germany)</span> \
+
+
 ## Introduction and Geothermal System Types
 
-Geothermal energy is a renewable energy resource that, in principle, is available “anywhere" worldwide. This happens due to the universal increase in temperature with depth that occurs within Earth’s subsurface. This unique feature of geothermal energy distinguishes it from other forms of renewable energy such as wind, solar, biofuels, and hydropower, which derive their energy from sources above the Earth's surface. Hence, the underground exploration and extraction of geothermal energy poses unique challenges, including technical complexities, economic risks, and uncertainties in resource estimation that are inherent to geothermal resources and are not typically encountered in other renewable energy sectors. As a result, geothermal energy production requires specialized knowledge, equipment, and considerable financial investment which has restricted its development. To accelerate the widespread deployment of geothermal energy, numerous technical designs have been proposed over the past century to optimize the use of deep geothermal systems. These technologies vary in terms of their complexity, technological maturity, and commercial success. The following are the geothermal system types that are currently being used and/or investigated for commercial development:
+Geothermal energy is a renewable energy resource that, in principle, can be tapped almost "anywhere" on Earth. This happens due to the universal increase in temperature with depth that occurs within Earth’s subsurface. _If you have heard people say "geothermal energy everywhere and anywhere" this is probably what they meant_. This is a unique characteristic of geothermal energy that sets it apart  from other forms of renewable energy such as wind, solar, biofuels, and hydropower, which derive their energy from sources that are found above the Earth's surface. Hence, the underground exploration and extraction of geothermal energy comes with its own set of technical and economic challenges that make it distinct from other forms of renewable energy. 
+
+The potential of geothermal energy is enormous but making an adequate use of it requires specialized knowledge, equipment, and considerable financial investment which has slowed down and restricted its progress. To accelerate the widespread deployment of geothermal energy, numerous technical designs have been proposed over the past century to optimize the use of deep geothermal systems. These technologies vary in terms of their complexity, technological maturity, and commercial success. 
+
+The following are the geothermal system types that are currently being actively used or studied for potential commercial use:
 
 ### Conventional hydrothermal systems
 
-Conventional geothermal systems are characterized by the natural occurrence of specific geological conditions at depth. For instance, a conventional hydrothermal reservoir necessitates the confluence of multiple factors, including a high-temperature aquifer situated at shallow depths (i.e., less than 4 kilometers), adequate amount of pore space filled with water or brine, and sufficiently high in situ permeability {cite}`Tester2012`. Consequently, these reservoirs are geographically constrained and typically found in regions with considerable volcanic or magmatic activity. Although hydrothermal resources offer substantial energy potential, their rarity has resulted in that high-potential resources have already been identified and developed, thereby making it increasingly challenging to discover new sites.
+Conventional hydrothermal systems are unique in that they display what one might consider the most suitable geological characteristics to extract geothermal heat from the subsurface. This means that a conventional hydrothermal system is found when the following combination of factors coincides at depth: a high-temperature aquifer located at relatively shallow depths (less than 4 kilometers), enough pore space filled with water or brine, and a significant in situ permeability {cite}`Tester2012`. As a result of these requirements, these reservoirs are limited by geography and are usually located in areas with significant volcanic or magmatic activity. Although hydrothermal resources offer substantial energy potential, their rarity has resulted in that most high-potential resources have already been tapped. This has made it increasingly challenging or expensive to discover and develop new sites.
 
 ![Conventional Hydrothermal System](../GeothermalEnergy/Production_images/CHS.png)
 
-Furthermore, given the complex geological processes that underlie the formation hydrothermal reservoirs, a comprehensive understanding of the geological evolution of subsurface conditions is critical for identifying prospective locations. The factors influencing hydrothermal reservoir formation, such as the presence of a magmatic heat source, the availability of water or brine, and the permeability and porosity of the subsurface rocks, need to be thoroughly analyzed through various geophysical and geochemical techniques. 
 
-Thus, while existing conventional hydrothermal systems continue to produce significant amount of renewable energy and, although scarce, potential new sites offer significant opportunities, the growing demand for renewable energy and the depletion of conventional resources necessitate the exploration of alternative geothermal systems. 
+```{figure} ../GeothermalEnergy/Production_images/CHS.png
+---
+align: center
+name: Schematic of an conventional geothermal system (CHS) 
+---
+Schematic of a conventional geothermal system (CHS) displaying a naturally permeable reservoir being recharged by rainwater. The water percolates to deepert parts of the reservoir where it heats up and it is then being produced back to the surface by geothermal wells. 
+```
+
+
+Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](exploration) section.
+
+While existing conventional hydrothermal systems continue to produce vast amounts of renewable energy and, although scarce, potential new sites offer enticing opportunities, the growing demand for renewable heat and power calls for the need of alternative geothermal systems! 
 
 ### Enhanced geothermal systems
 
-Enhanced Geothermal Systems (EGS) refer to artificial reservoirs created by drilling wells into naturally impermeable rock formations, and then increasing their permeability through hydraulic stimulation techniques such as hydraulic fracturing and/or shearing. By stimulating the reservoir, the goal is to emulate the high productivity characteristics of hydrothermal systems. The concept of EGS was first proposed in the early 1970s by researchers at the Los Alamos National Laboratory in the United States {cite}`Armstead1987`. Since then, the technical feasibility of EGS has been demonstrated at several research sites worldwide {cite}`Breede2013, GTO2014`. However, no commercially viable EGS site currently exists that can produce heat or electricity at a competitive Levelized Cost of Energy (LCOE).
+Considering that "the deeper we go, the hotter it gets", usually temperature is not the restricting variable for geothermal development. Permeability tends to be the most sought-after feature at great depths. When naturally-occurring permeability is not found, one can recurr to other ways of developing a geothermal reservoir.  Enhanced Geothermal Systems (EGS) refer to man-made reservoirs that are created by drilling wells into naturally impermeable rock formations, and then increasing their permeability through hydraulic stimulation techniques such as hydraulic fracturing (opening up new fractures in the rock) and/or hydro-shearing (displacing natural fractures in order to increase their conductivity). By stimulating the reservoir, the goal is to emulate the high productivity characteristics, meaning our ability to obtain high fluid flow rates, of hydrothermal systems. The concept of EGS was first proposed in the early 1970s by researchers at the Los Alamos National Laboratory in the United States {cite}`Armstead1987`. Since then, the technical feasibility of EGS has been demonstrated at several research sites worldwide {cite}`Breede2013, GTO2014`. However, no commercially viable EGS site currently exists that can produce heat or electricity at a competitive cost. 
 
-![Enhanced Geothermal System](../GeothermalEnergy/Production_images/EGS.png)
 
-The development and deployment of EGS technology face significant challenges, including technical and environmental concerns such as clogging of the fracture network and induced seismicity {cite}`Breede2013, Olasolo2016, Lu2018, Kumari2019, Ge2022`. These issues have impacted the cost-competitiveness of EGS which has limited the successful roll-out and operation of EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and reduced greenhouse gas emissions, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research efforts are aimed at improving the reservoir performance and cost-effectiveness of EGS systems, with the ultimate goal of achieving widespread commercial deployment.
+```{figure} ../GeothermalEnergy/Production_images/EGS.png
+---
+align: center
+name: Schematic of an enhanced geothermal system (EGS) 
+---
+Schematic of an enhanced geothermal system (EGS) displaying a deviated wellpair (one injection well, one production well) drilled into an originally impermeable rock. The wellpair is now connected at depth by a fracture network. 
+```
+
+
+Some of the challenges that EGS deployment must solve to overcome their techno-economic and environmental challenges are: insufficient fluid flow rate, clogging of the fracture network, preature thermal breakthrough, and induced seismicity {cite}`Breede2013, Olasolo2016, Lu2018, Kumari2019, Ge2022`. These issues have impacted the cost-competitiveness and public acceptance of EGS which has limited the successful roll-out and overall interest in EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and scalability, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research and commercial efforts are aimed at improving our understanding and reduce the cost of operating EGS.
 
 
 ### Advanced Geothermal Systems
 
-Advanced Geothermal Systems (AGS) have emerged as a promising technology for extracting geothermal energy using a closed-loop system that is emplaced within the subsurface. Unlike Enhanced Geothermal Systems (EGS), where the working fluid 
-interacts directly with the rock, AGS relies on the circulation of a working fluid through a closed wellbore that is isolated from the surrounding formation. The specific geological properties of the reservoir are therefore less important in AGS since the working fluid does not come into direct contact with the rock. Instead, AGS systems harvest heat from the rock through heat conduction. Interestingly, the concept of deep closed-loop geothermal systems was first proposed almost a century ago (Hodgson, 1927), but no commercial-scale system exists as of today. Since no AGS field data are available yet, it is still unclear if such an underground heat exchanger can sustain reasonable thermal output over the course of multiple decades at an affordable cost {cite}`Beckers2022, Malek2022`.
+As you can probably see by now, dealing with rocks that are buried several kilometers underground involves a great deal of uncertainty and complexity. A promising, yet controversial technology called Advanced Geothermal Systems (AGS) has emerged to extract geothermal energy while minimizing direct interaction with the rocks themselves. This is achieved by using a closed-loop system deep underground. 
 
-![Advanced Geothermal System](../GeothermalEnergy/Production_images/AGS.png)
+In contrast to traditional hydrothermal or enhanced geothermal systems, where the fluid used to extract energy directly moves through the rock, AGS operates by circulating a fluid through a closed wellbore that is kept separate from the surrounding rock. In AGS, the geological properties of the underground reservoir are therefore less important because the working fluid does not come into direct contact with the rock. AGS technologies being currently tested propose isolating this closed-loop setup either through mechanical means (emplacing a physical barrier between the fluid and rock) or chemically (adding a substance to make the rock impermeable). Like EGS, AGS also harnesses heat from the rock through conduction. However, the thermal performance of AGS largely depends on how many closed wellbores are created (or drilled) at depth. This translates to a very significant need for drilling when implementing AGS systems, which is usually the most expensive component of developing geothermal energy.
 
-However, recent years have seen a surge of interest and investment in AGS technology from both industry and academic sectors. This has been spurred mainly by the advent of a handful of closed-loop geothermal startups in North America and Europe, which have reignited the discussion on the potential of closed-loop systems to considerably increase geothermal energy production at a commercial scale while mitigating the concerns associated with EGS and conventional hydrothermal systems (CHS) operations. These concerns include induced seismicity, groundwater contamination, and fluid-rock chemical interactions, among others{cite}`Beckers2022`.
 
-Despite the absence of commercial-scale AGS systems, ongoing research efforts aim to improve the understanding of AGS technology and address the technical and economic challenges that currently limit its deployment. Some of the research areas include improving the design and operation of closed-loop systems, optimizing drilling technologies, developing novel materials for subsurface heat exchangers, and assessing the environmental and social impacts of AGS projects. With continued research and development that would drive the cost of these systems down, AGS has the potential to become a key contributor to the global transition toward a low-carbon energy future.
+```{figure} ../GeothermalEnergy/Production_images/AGS.png
+---
+align: center
+name: Schematic of an advanced geothermal system (AGS) 
+---
+Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. 
+```
+
+Interestingly, the idea of extracting energy from deep closed-loop geothermal systems was first proposed almost a century ago (Hodgson, 1927), but no commercial system exists as of today. Since very little AGS field data are available yet, it is still unclear if such an underground heat exchanger that requires a great amount of drilling can sustain reasonable thermal output over multiple decades at an affordable cost {cite}`Beckers2022, Malek2022`. However,  there has been a recent increase in interest and investment in AGS technology from both industry and academia. This interest has been driven largely by a few startups in North America and Europe that are actively and exclusively working on closed-loop geothermal systems. These startups have gained a lot of traction in the public space because they claim closed-loop systems could significantly boost geothermal energy production on a larger scale while avoiding some of the problems associated with other methods like CHS and EGS, such as induced seismicity, groundwater contamination, and unpredictable interactions between fluids and rocks. For more information regarding this, please see ### Note: Include tag to Issues section. 
+
+Ongoing research efforts in AGS aim to improve the understanding of the commercial viability of this technology and address the technical and economic challenges that currently limit its deployment. Some of the research areas include improving the design and operation of closed-loop systems, optimizing drilling technologies, developing novel materials for subsurface heat exchangers, and assessing the environmental and social impacts of AGS projects. With continued research and development that would drive the cost of these systems down, AGS has the potential to become a key contributor to the global transition toward a low-carbon energy future.
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Some short description following after  </div>
+<b>By the way:</b> Two of our researchers are looking into AGS systems. 
+    Nicolás is running numerical simulations of CHS, EGS and AGS to establish their techno-economic performance over a wide range of reservoir properties and operating conditions. While Ryan is _______. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a> or <a href="https://RYAN_RYAN">here</a>!</div>
 
 ### CO2-based geothermal systems
 
-Geothermal energy extraction processes have traditionally relied on water as the subsurface working fluid, as described in the geothermal system types above. However, recent theoretical and numerical studies conducted over the last two decades have demonstrated the potential of supercritical CO2 (sCO2) as a substitute for water, owing to its distinct chemical-, transport- and thermodynamic properties {cite}`Brown2000, Pruess2006, Randolph2011, Zhang2014`. Consequently, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO2 as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO2-Plume Geothermal (CPG) system, CO2-Enhanced Geothermal System (CO2-EGS), and CO2-Advanced Geothermal System (CO2-AGS), respectively. The use of sCO2 in geothermal energy extraction has several advantages over water, for example: 1) CO2's superior transport properties theoretically result in higher energy production rates from geothermal reservoirs, and 2) since CO2 does not significantly react with the subsurface rocks or induce mineral scaling, its use can extend the lifespan of the well and/or reduce maintenance costs. However, there are also some technical and environmental challenges associated with sCO2-based geothermal systems that must be considered. These envisioned challenges include the need for specialized materials and equipment, the need for a CO2 source relatively close to the geothermal reservoir, the risk of CO2 leakage through the subsurface, among others. Research in this field is ongoing, with the aim of getting sCO2-based geothermal systems ready for commercial use in the near future.
-
-![Carbon Plume Geothermal System](../GeothermalEnergy/Production_images/CPG.png)
+Traditionally, extracting geothermal energy has always involved using water or brine as the energy extraction fluid in the deep reservoir, as explained in the geothermal system types above.  However, in the past two decades, scientific studies – both theoretical and numerical – have highlighted the potential of using supercritical CO<sub>2<\sub> (sCO<sub>2<\sub>) instead of water. This is because sCO<sub>2<\sub> has unique chemical, transport, and thermodynamic properties that make it an attractive alternative for geothermal energy extraction {cite}`Brown2000, Pruess2006, Randolph2011, Zhang2014`. As a result, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO<sub>2<\sub> as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO<sub>2<\sub>-Plume Geothermal (CPG) system, CO<sub>2<\sub>-Enhanced Geothermal System (CO<sub>2<\sub>-EGS), and CO<sub>2<\sub>-Advanced Geothermal System (CO<sub>2<\sub>-AGS), respectively. 
+    
+Using supercritical carbon dioxide (sCO<sub>2</sub>) instead of water for extracting geothermal energy offers two key advantages:
+    
+    1. **More energy production:** The excellent transport properties of CO<sub>2<\sub> theoretically lead to higher energy output from geothermal reservoirs. This is because sCO<sub>2</sub> has better transport properties than water. It moves more easily due to a higher fluid mobility. The fluid mobility (i.e., the ratio beween the fluid density and its dynamic viscosity) dictates how easily a fluid can flow through a matrix; and the fluid mobility of CO<sub>2<\sub> is much higher than that of water, for equivalent pressure and temperature conditions conditions. This is extremely important, both from a heat generation or electric power production perspective, because the higher the flow rate, the higher the energy production output. 
+    
+    Note: A noteworthy limitation of replacing water with CO<sub>2<\sub> is that the former has much better specific thermal properties than the latter. In simpler terms, if you had 1 kilogram of water and 1 kilogram of sCO<sub>2</sub>, the water would be better at moving heat around. Nonetheless, this tradeoff can easily be overcome considering that CO<sub>2<\sub> allows for much larger flow rates (i.e., many more kilograms per second coming out of the production well).     
+    
+    2. **Reduced chemical reactivity**: CO<sub>2<\sub> is not a powerful solvent for inorganic materials. This means that CO<sub>2<\sub> is not expected to significantly react with and dissolve the rock-forming minerals at depth, thus, avoiding issues related with mineral scaling (for more details about this, plase see the [Issues](Issues) section). Using CO<sub>2<\sub> as the subsurface working fluid can therefore extend the lifespan of the wells, reduce maintenance costs, and improve the system's reliability. 
+    
+```{figure} ../GeothermalEnergy/Production_images/CPG.png
+---
+align: center
+name: Schematic of a Carbon Plume Geothermal (CPG) system. 
+---
+Schematic of an advanced geothermal system (EGS) displaying a vertical wellpair connected at depth by a single lateral. This kind of configuration is also referred to as a U-loop AGS. 
+```
+    
+CO<sub>2<\sub>-based geothermal energy is still at a research and development stage as well. Some additional technical and environmental challenges that are being looked into include: the need for specialized materials and equipment, an overlap of a CO<sub>2<\sub> source relatively close to the geothermal reservoir, the risk of CO<sub>2<\sub> leakage through the subsurface, among others. Research in this field is ongoing, with the aim of getting sCO<sub>2<\sub>-based geothermal systems ready for commercial use in the near future.
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is looking into the chemical behavior of CO2-rich fluids in subsurface reservoirs to assess the techno-economic viability of CO2-based geothermal energy. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
+<b>By the way:</b> One of our researchers is looking into the chemical behavior of CO<sub>2<\sub>-rich fluids in subsurface reservoirs to assess the techno-economic viability of CO<sub>2<\sub>-based geothermal energy. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
 
-Given the massive potential of geothermal energy, ongoing research and development efforts aim to optimize its use and overcome the limitations mentioned above. These efforts involve advancements in drilling technology, resource assessment, reservoir modeling, and innovative engineering designs that can improve the efficiency and cost-effectiveness of geothermal energy systems. In conclusion, the prospect of deploying geothermal energy scalably and globally presents a promising opportunity to meet energy demands in a sustainable and environmentally friendly manner, and academic research will be fundamental for realizing its full potential.
+Considering the vast and largely unexplored possibilities of geothermal energy, there has been a noticeable increase in research and development endeavors in recent times. The idea of effectively and extensively implementing geothermal energy worldwide is likely to involve a mix of various geothermal facilities, consisting of the different system types explained earlier. To fully unlock the potential of geothermal energy, it is crucial for industries and academic researchers to work together collaboratively. This partnership will play a fundamental role in making sure geothermal energy reaches its full potential.
 
 
-## Reservoir simulation
+# Reservoir simulation
+
+<span style="font-size:0.6em;">Last edited: XX Aug 2023</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Name Surname (University 1 - University 2)</span> \
 
 ![Numerical reservoir model, figure taken from wiki.seg.org](../GeothermalEnergy/Production_images/ressim_1.png)
+
+Once a geothermal target has been identified, an adequate development strategy is of paramount importance. Reservoir simulation is a great tool to estimate how much energy, whether this is thermal or electric energy, we can get out of a given reservoir. 
 
 Reservoir simulation is a calculation that is performed on a computer by solving a set of Partial Differential Equations (PDEs) utilizing a certain computer program, such as Python, C, etc., for mimicking and understanding the behavior of a reservoir system. These PDEs describe physical and chemical processes within the reservoir system, related to mass transport, heat transport, momentum transport, and reactive transport (Kolditz et al., 2012). Here, we recognize four fundamental processes that might happen within the reservoir system: 
 
@@ -84,7 +140,10 @@ Machine learning provides a low-dimensional representation from parameters to an
 
 ![Physics-based machine learning for enabling uncertainty quantification](../GeothermalEnergy/Production_images/ressim_3.png)
 
-## The Heat Loss Effect in Geothermal Steam Production Well
+# The Heat Loss Effect in Geothermal Steam Production Well
+
+<span style="font-size:0.6em;">Last edited: XX Aug 2023</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Name Surname (University 1 - University 2)</span> \
 
 <!---
 
@@ -192,7 +251,6 @@ The wellbore flowing pressure is related to the surface production rate by both 
 Courtesy of [https://production-technology.org/well-inflow-performance/]
 
 The well deliverability, which expresses what a well will actually produce for a specific operating condition (Pr, PI, WC, GOR, THP, tubing size...), is produced by the intersection of the IPR and the VLP, also known as the operational point. 
-
 
 
 
