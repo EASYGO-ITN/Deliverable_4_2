@@ -29,7 +29,7 @@ Schematic of a conventional geothermal system (CHS) displaying a naturally perme
 ```
 
 
-Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](Exploration) section.
+Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](exploration) section.
 
 While existing conventional hydrothermal systems continue to produce vast amounts of renewable energy and, although scarce, potential new sites offer enticing opportunities, the growing demand for renewable heat and power calls for the need of alternative geothermal systems! 
 
