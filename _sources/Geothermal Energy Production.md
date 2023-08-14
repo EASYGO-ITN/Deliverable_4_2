@@ -15,8 +15,7 @@ The following are the geothermal system types that are currently being actively 
 
 ### Conventional hydrothermal systems
 
-Conventional hydrothermal systems are unique in that they display what one might consider the most suitable geological characteristics to extract geothermal heat from the subsurface. This means that a conventional hydrothermal system is found when the following combination of factors coincides at depth: a high-temperature aquifer located at relatively shallow depths (less than 4 kilometers), enough pore space filled with water or brine, and a significant in situ permeability {cite}`Tester2012`. As a result of these requirements, these reservoirs are limited by geography and are usually located in areas with significant volcanic or magmatic activity. Although hydrothermal resources offer substantial energy potential, their rarity has resulted in that most high-potential resources have already been tapped. This has made it increasingly challenging or expensive to discover and develop new sites.
-
+Conventional hydrothermal systems are unique in that they display what one might consider the most suitable geological characteristics to extract geothermal heat from the subsurface. This means that a conventional hydrothermal system is found when the following combination of factors coincides at depth: a high-temperature aquifer located at relatively shallow depths (less than 4 kilometers), enough pore space filled with water or brine, and a significant in situ permeability {cite}`Tester2012`. As a result of these requirements, these reservoirs are limited by geography and are usually located in areas with significant volcanic or magmatic activity. Although hydrothermal resources offer substantial energy potential, their rarity has resulted in that most high-potential resources have already been tapped. This has made discovering and developing new sites increasingly challenging or expensive.
 
 
 ```{figure} ../GeothermalEnergy/Production_images/CHS.png
@@ -25,7 +24,6 @@ align: center
 ---
 Schematic of a conventional geothermal system (CHS) displaying a naturally permeable reservoir being recharged by rainwater. The water percolates to deepert parts of the reservoir where it heats up and it is then being produced back to the surface by geothermal wells. Taken from Rangel-Jurado et al. (2022). 
 ```
-
 
 Given that only an arguably rare combination of geological factors give rise to hydrothermal systems, a comprehensive understanding of the geological evolution of subsurface conditions is required. As such, exploration of this type of resources usually includes various geological, geophysical and geochemical techniques. For more information regarding this, please see the [Exploration](exploration) section.
 
@@ -71,7 +69,7 @@ Ongoing research efforts in AGS aim to improve the understanding of the commerci
 
 ### CO2-based geothermal systems
 
-Traditionally, extracting geothermal energy has always involved using water or brine as the energy extraction fluid in the deep reservoir, as explained in the geothermal system types above. However, in the past two decades, scientific studies – both theoretical and numerical – have highlighted the potential of using supercritical CO<sub>2</sub> (sCO<sub>2</sub>) instead of water. This is because sCO<sub>2</sub> has unique chemical, transport, and thermodynamic properties that make it an attractive alternative for geothermal energy extraction {cite}`Brown2000, Pruess2006, Randolph2011, Zhang2014`. As a result, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO<sub>2</sub> as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO<sub>2</sub>-Plume Geothermal (CPG) system, CO<sub>2</sub>-Enhanced Geothermal System (CO<sub>2</sub>-EGS), and CO<sub>2</sub>-Advanced Geothermal System (CO<sub>2</sub>-AGS), respectively.
+Traditionally, extracting geothermal energy has always involved using water or brine as the energy extraction fluid in the deep reservoir, as explained in the geothermal system types above. However, in the past two decades, scientific studies – both theoretical and numerical – have highlighted the potential of using supercritical CO<sub>2 </sub> (sCO<sub>2</sub>) instead of water. This is because sCO<sub>2</sub> has unique chemical, transport, and thermodynamic properties that make it an attractive alternative for geothermal energy extraction {cite}`Brown2000, Pruess2006, Randolph2011, Zhang2014`. As a result, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO<sub>2</sub> as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO<sub>2</sub>-Plume Geothermal (CPG) system, CO<sub>2</sub>-Enhanced Geothermal System (CO<sub>2</sub>-EGS), and CO<sub>2</sub>-Advanced Geothermal System (CO<sub>2</sub>-AGS), respectively.
 
 Using supercritical carbon dioxide (sCO<sub>2</sub>) instead of water for extracting geothermal energy offers two key advantages:
 
@@ -92,7 +90,7 @@ Schematic of an Carbon Plume Geothermal (CPG) system displaying constan injectio
 CO<sub>2</sub>-based geothermal energy is still at a research and development stage as well. Some additional technical and environmental challenges that are being looked into include: the need for specialized materials and equipment, an overlap of a CO<sub>2</sub> source relatively close to the geothermal reservoir, the risk of CO<sub>2</sub> leakage through the subsurface, among others. Research in this field is ongoing, with the aim of getting sCO<sub>2</sub>-based geothermal systems ready for commercial use in the near future.
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is looking into the chemical behavior of CO<sub>2<\sub>-rich fluids in subsurface reservoirs to assess the techno-economic viability of CO<sub>2<\sub>-based geothermal energy. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
+<b>By the way:</b> One of our researchers is looking into the chemical behavior of CO<sub>2</sub>-rich fluids in subsurface reservoirs to assess the techno-economic viability of CO<sub>2</sub>-based geothermal energy. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a>!</div>
 
 Considering the vast and largely unexplored possibilities of geothermal energy, there has been a noticeable increase in research and development endeavors in recent times. The idea of effectively and extensively implementing geothermal energy worldwide is likely to involve a mix of various geothermal facilities, consisting of the different system types explained earlier. To fully unlock the potential of geothermal energy, it is crucial for industries and academic researchers to work together collaboratively. This partnership will play a fundamental role in making sure geothermal energy reaches its full potential.
 
@@ -100,7 +98,7 @@ Considering the vast and largely unexplored possibilities of geothermal energy, 
 # Reservoir simulation
 
 <span style="font-size:0.6em;">Last edited: XX Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Name Surname (University 1 - University 2)</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Ryan Santoso (University 1 - University 2)</span> \
 
 ![Numerical reservoir model, figure taken from wiki.seg.org](../GeothermalEnergy/Production_images/ressim_1.png)
 
@@ -139,7 +137,7 @@ Machine learning provides a low-dimensional representation from parameters to an
 # The Heat Loss Effect in Geothermal Steam Production Well
 
 <span style="font-size:0.6em;">Last edited: XX Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Name Surname (University 1 - University 2)</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Selvican Türkdoğan (University 1 - University 2)</span> \
 
 <!---
 
