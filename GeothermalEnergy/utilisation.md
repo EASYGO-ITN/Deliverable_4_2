@@ -344,7 +344,6 @@ width: 700px
 Schematic of a kettle reboiler
 ```
 
-(CoolingTower)=
 ### Cooling Tower
 In flash power plants the geofluid is usually condensed downstream of the tubine, by means of a machine called cooling tower. From the outside, this device appears as a conical tower, as shown in the figure below. The geofluid is sprayed by nozzles and part of it evaporates into the air raising from the bottom of the tower. The remaining part falls down, where it is collected and injected back into the reservoir. 
 
