@@ -300,7 +300,7 @@ A typical example of a finned tube is shown below: the gas flows outside the fin
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg
 ---
 align: center
-width: 500px
+width: 400px
 ---
 Placeholder - pls fix
 ```
@@ -335,7 +335,7 @@ The figure below shows the most classic type of shell and tube heat exchanger. I
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/ShTuHEX.svg
 ---
 align: center
-width: 700px
+width: 600px
 ---
 Schematic of a shell and tube heat exchanger
 ```
@@ -345,7 +345,7 @@ When instead the rankine cycle fluid needs to be boiled after preheating, a spec
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/KettleHEX.svg
 ---
 align: center
-width: 700px
+width: 600px
 ---
 Schematic of a kettle reboiler
 ```
