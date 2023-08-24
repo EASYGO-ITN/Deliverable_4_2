@@ -258,7 +258,7 @@ When the blade is attached to a shaft, such force will induce a torque that will
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Rotation.svg
 ---
 align: center
-width: 500px
+width: 250px
 ---
 Rotation of the turbine shaft
 ```
