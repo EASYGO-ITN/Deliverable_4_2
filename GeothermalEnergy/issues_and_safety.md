@@ -16,7 +16,7 @@ Geothermal energy is often considered an environmentally friendly energy source 
 
 ### Greenhouse Gas Emissions
 Let's begin by examining a recognized environmental concern related to geothermal energy production: greenhouse gas emissions. Geothermal power plants generally emit fewer greenhouse gases than conventional fossil fuel-based power plants. However, they do release greenhouse gases, such as carbon dioxide (CO<sub>2</sub>) and methane (CH<sub>4</sub>), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
-While the volume of these emissions is relatively low compared to fossil fuel-based plants, they still pose a considerable concern. For this reason, it is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [reinjection](section:reinjection)).
+While the volume of these emissions is relatively low compared to fossil fuel-based plants, they still pose a considerable concern. For this reason, it is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [Processes during reinjection](section:reinjection)).
 
 `````{admonition} Are CO<sub>2</sub> emissions from solar energy lower than the ones from geothermal?
 :class: tip
@@ -42,7 +42,7 @@ In the context of geothermal operations, induced [light to moderate earthquakes]
 `````{admonition} Seismic hazard vs risk
 :class: tip
 
-Analysing the potential danger posed by earthquakes is not a trivial task. It is important to distinguish between hazard and risk. Hazard relates to the intrinsic natural occurrence of earthquakes and the resulting ground motion, whereas risk is the danger the hazard poses to life and property {cite}`stein2009introduction`. It is often said that "earthquakes do not kill people, but buildings do". For this reason, it is critical to quantify the potential for an earthquake to occur at particular geological sites due to fluid injection and study the risk it may pose. 
+Analyzing the potential danger posed by earthquakes is not a trivial task. It is important to distinguish between hazard and risk. Hazard relates to the intrinsic natural occurrence of earthquakes and the resulting ground motion, whereas risk is the danger the hazard poses to life and property {cite}`stein2009introduction`. It is often said that "earthquakes do not kill people, but buildings do". For this reason, it is critical to quantify the potential for an earthquake to occur at particular geological sites due to fluid injection and study the risk it may pose. 
 
 If you would like to learn about the destructive geothermal-induced 2017 Pohang Earthquake, you can check out the following articles by [Shapiro et al., (2021)(https://www.nature.com/articles/s41467-021-26679-w) or [Grigoli et al., (2018)](https://www.science.org/doi/10.1126/science.aat2010).
 `````
@@ -52,7 +52,7 @@ If you would like to learn about the destructive geothermal-induced 2017 Pohang 
 ## Processes during production 
 
 ### Scaling
-As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp<sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system.
+As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp</sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system.
 
 ```{figure} ../GeothermalEnergy/issues_pictures/scaling.jpeg
 ---
@@ -99,10 +99,10 @@ Based on the primary mechanisms, the clogging processes can be divided into thre
 
 ```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.jpg
 ---
-width: 350px
+width: 500px
 align: center
 ---
-Clogging processes happening during geothermal operations.
+Clogging processes at different stages of geothermal operations {cite}`Luo2023`.
 ```
 
 As you can see from the schematic, sources of clogging occur all the way along the fluid path. 
@@ -115,7 +115,7 @@ As you can see from the schematic, sources of clogging occur all the way along t
   - Changes in fluid salinity or pH can initiate migration of internal fines or swelling of clays;
   - Contamination of water as well as change of the temperature can promote bacterial activity, resulting in production of bio-polymers and pore space reduction.
 
-So, you can see that at the end of this chain multiple processes can result in the reduction of rock porosity and permeability, which can seriously affect the whole process. There are various remediation methods for each of the described issues, however prediction of these processes is crucial for successul prevention.
+So, you can see that at the end of this chain multiple processes can result in the reduction of rock porosity and permeability, which can seriously affect the whole process. There are various remediation methods for each of the described issues, however, prediction of these processes is crucial for successful prevention.
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media and its effect on rock permeability using laboratory experiments. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
@@ -136,5 +136,5 @@ align: center
 Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}`gischig`.
 ```
 <div class="alert alert-block alert-info">
-<b>By the way:</b> One of our researchers is working on this topic. Josselin is conducting numerical modelling  on fault instability due to reservoir contraction and hydro shearing stimulation. Learn more about his work <a href="https://easygo-itn.eu/josselin-ouf/">Learn more about his work</a> 
+<b>By the way:</b> One of our researchers is working on this topic. Josselin Ouf is conducting numerical modeling  on fault instability due to reservoir contraction and hydro-shearing stimulation. Learn more about his work <a href="https://easygo-itn.eu/josselin-ouf/">Learn more about his work</a> 
 </div>
