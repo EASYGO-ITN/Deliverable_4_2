@@ -249,7 +249,7 @@ All the geothermal power plants convert the thermal energy into electricity by u
 align: center
 width: 500px
 ---
-Forces acting on a turbine blade. The turbine rotation is driven by the lift.
+Forces acting on a turbine blade.
 ```
 
 
