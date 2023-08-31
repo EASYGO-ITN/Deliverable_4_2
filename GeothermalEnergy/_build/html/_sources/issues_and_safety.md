@@ -15,15 +15,15 @@ Figure 1: Schematic representation of the DAP-well [click here for more details]
 Geothermal energy is often considered an environmentally friendly energy source due to its low greenhouse gas emissions and renewability. However, it is essential to consider the potential environmental impacts associated with geothermal operations to ensure sustainable development and minimize adverse effects on the surrounding ecosystem. This section discusses some critical environmental concerns related to geothermal energy production, including greenhouse gas emissions, water pollution, and induced seismicity.
 
 ### Greenhouse Gas Emissions
-Let's begin by examining a recognized environmental concern related to geothermal energy production: greenhouse gas emissions. Geothermal power plants generally emit fewer greenhouse gases than conventional fossil fuel-based power plants. However, they do release greenhouse gases, such as carbon dioxide (CO2) and methane (CH4), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
-While the volume of these emissions is relatively low compared to fossil fuel-based plants, they still pose a considerable concern. For this reason, it is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [reinjection](section:reinjection)).
+Let's begin by examining a recognized environmental concern related to geothermal energy production: greenhouse gas emissions. Geothermal power plants generally emit fewer greenhouse gases than conventional fossil fuel-based power plants. However, they do release greenhouse gases, such as carbon dioxide (CO<sub>2</sub>) and methane (CH<sub>4</sub>), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
+While the volume of these emissions is relatively low compared to fossil fuel-based plants, they still pose a considerable concern. For this reason, it is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [Processes during reinjection](section:reinjection)).
 
-`````{admonition} Are $CO_2$ emissions from solar energy lower than the ones from geothermal?
+`````{admonition} Are CO<sub>2</sub> emissions from solar energy lower than the ones from geothermal?
 :class: tip
 
-According to a study by [Chandrasekharam et al., (2020)](https://link.springer.com/article/10.1007/s40948-019-00135-y), geothermal energy exhibits lower greenhouse gas emissions when compared to solar PV (photovoltaic). This is because solar PV energy, which converts sunlight into electricity, involves a substantial amount of energy and materials during the manufacturing process of solar cells, resulting in higher emissions throughout the cells' lifecycle. As a result, geothermal energy stands out as a more environmentally friendly option with lower CO2 emissions. 
+According to a study by [Chandrasekharam et al., (2020)](https://link.springer.com/article/10.1007/s40948-019-00135-y), geothermal energy exhibits lower greenhouse gas emissions when compared to solar PV (photovoltaic). This is because solar PV energy, which converts sunlight into electricity, involves a substantial amount of energy and materials during the manufacturing process of solar cells, resulting in higher emissions throughout the cells' lifecycle. As a result, geothermal energy stands out as a more environmentally friendly option with lower CO<sub>2</sub> emissions. 
 
-Although this might be the case for most geothermal operations, it is important to note that some regions may have higher emissions. For example, Turkish geothermal plants have shown $CO_2$ emission factors significantly higher than the reported global average [(see Aksoy et al., 2015)](https://link.springer.com/article/10.1134/S0040601516050098).
+Although this might be the case for most geothermal operations, it is important to note that some regions may have higher emissions. For example, Turkish geothermal plants have shown CO<sub>2</sub> emission factors significantly higher than the reported global average [(see Aksoy et al., 2015)](https://link.springer.com/article/10.1134/S0040601516050098).
 `````
 
 ### Water Pollution
@@ -42,7 +42,7 @@ In the context of geothermal operations, induced [light to moderate earthquakes]
 `````{admonition} Seismic hazard vs risk
 :class: tip
 
-Analysing the potential danger posed by earthquakes is not a trivial task. It is important to distinguish between hazard and risk. Hazard relates to the intrinsic natural occurrence of earthquakes and the resulting ground motion, whereas risk is the danger the hazard poses to life and property {cite}`stein2009introduction`. It is often said that "earthquakes do not kill people, but buildings do". For this reason, it is critical to quantify the potential for an earthquake to occur at particular geological sites due to fluid injection and study the risk it may pose. 
+Analyzing the potential danger posed by earthquakes is not a trivial task. It is important to distinguish between hazard and risk. Hazard relates to the intrinsic natural occurrence of earthquakes and the resulting ground motion, whereas risk is the danger the hazard poses to life and property {cite}`stein2009introduction`. It is often said that "earthquakes do not kill people, but buildings do". For this reason, it is critical to quantify the potential for an earthquake to occur at particular geological sites due to fluid injection and study the risk it may pose. 
 
 If you would like to learn about the destructive geothermal-induced 2017 Pohang Earthquake, you can check out the following articles by [Shapiro et al., (2021)(https://www.nature.com/articles/s41467-021-26679-w) or [Grigoli et al., (2018)](https://www.science.org/doi/10.1126/science.aat2010).
 `````
@@ -52,7 +52,7 @@ If you would like to learn about the destructive geothermal-induced 2017 Pohang 
 ## Processes during production 
 
 ### Scaling
-As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp<sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system.
+As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp</sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system.
 
 ```{figure} ../GeothermalEnergy/issues_pictures/scaling.jpeg
 ---
@@ -99,10 +99,10 @@ Based on the primary mechanisms, the clogging processes can be divided into thre
 
 ```{figure} ../GeothermalEnergy/issues_pictures/doublet_schematic.jpg
 ---
-width: 350px
+width: 500px
 align: center
 ---
-Clogging processes happening during geothermal operations.
+Clogging processes at different stages of geothermal operations {cite}`Luo2023`.
 ```
 
 As you can see from the schematic, sources of clogging occur all the way along the fluid path. 
@@ -115,7 +115,7 @@ As you can see from the schematic, sources of clogging occur all the way along t
   - Changes in fluid salinity or pH can initiate migration of internal fines or swelling of clays;
   - Contamination of water as well as change of the temperature can promote bacterial activity, resulting in production of bio-polymers and pore space reduction.
 
-So, you can see that at the end of this chain multiple processes can result in the reduction of rock porosity and permeability, which can seriously affect the whole process. There are various remediation methods for each of the described issues, however prediction of these processes is crucial for successul prevention.
+So, you can see that at the end of this chain multiple processes can result in the reduction of rock porosity and permeability, which can seriously affect the whole process. There are various remediation methods for each of the described issues, however, prediction of these processes is crucial for successful prevention.
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. Anna Kottsova is studying chemical precipitation in porous media and its effect on rock permeability using laboratory experiments. <a href="https://easygo-itn.eu/anna-kottsova/">Learn more about her work</a>
@@ -124,14 +124,17 @@ So, you can see that at the end of this chain multiple processes can result in t
 
 ### Thermal fracturing at the well and hydro-shearing
 
-The injection of fluids into a reservoir can cause significant changes in temperature, which may lead to the opening or reopening of fractures. This thermal crack initiation and propagation can alter the injectivity and permeability of the well, ultimately affecting the economic viability of the reservoir. Additionally, the energy released by these thermal cracks may result in induced seismicity.
-It is important to note that excessive permeability can cause the reservoir to cool too quickly, which can negatively impact its long-term profitability. On the other hand, insufficient permeability can result in poor fluid exchange, leading to suboptimal economic performance.
-In crystalline reservoirs, such as granite, fluid flow occurs primarily through fractures. To improve fracture permeability, a stimulation technique involving the injection of water at high pressure is employed. This process causes the fracture to slide and dilate, thereby creating a larger flow channel and improving the flow and heat exchange in the reservoir.
+
+The injection of fluids into a reservoir can cause significant changes in temperature, which may lead to the opening or reopening of fractures. This thermal crack initiation and propagation can alter the injectivity and permeability of the well, ultimately affecting the economic viability of the reservoir. Additionally, the energy released by these thermal cracks may result in induced seismicity. It is important to note that excessive permeability can cause the reservoir to cool too quickly, which can negatively impact its long-term profitability. On the other hand, insufficient permeability can result in poor fluid exchange, leading to suboptimal economic performance. In crystalline reservoirs, such as granite, fluid flow occurs primarily through fractures. To improve fracture permeability, a stimulation technique involving the injection of water at high pressure is employed. This process referred as hydro-shearing causes the fracture to slide and dilate, thereby creating a larger flow channel and improving the flow and heat exchange in the reservoir.
+
 
 ```{figure} ../GeothermalEnergy/issues_pictures/hydroshearing.jpg
 ---
-width: 500px
+width: 800px
 align: center
 ---
 Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}`gischig`.
 ```
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. Josselin Ouf is conducting numerical modeling  on fault instability due to reservoir contraction and hydro-shearing stimulation. Learn more about his work <a href="https://easygo-itn.eu/josselin-ouf/">Learn more about his work</a> 
+</div>
