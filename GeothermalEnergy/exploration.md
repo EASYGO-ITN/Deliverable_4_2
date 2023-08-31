@@ -28,7 +28,7 @@ height: 600px
 name: skullimage.jpg
 align: left
 ---
-An example of an experimental setup in the medical field. The blue dots are the sensors and the yellow dot is the source. This example replicates a full wavefield where the blue and red lines show  the transmitted energy through the skull and strong reflections. \{cite:p}`Guasch2020`
+An example of an experimental setup in the medical field. The blue dots are the sensors and the yellow dot is the source. This example replicates a full wavefield where the blue and red lines show  the transmitted energy through the skull and strong reflections. This image can be found in \{cite:p}`Guasch2020`
 ``` -->
 
 When trying to understand geophysical imaging, it helps to visualise a scenario that is close to our everyday life. For example, when using imaging an organ in the body, an ultrasound source is placed on the body and emits a soundwave. When this wave encounters different parts of the body, the sound wave will be refracted and/or reflected. From the amplitude and the time between sending and receiving the wave, we can create an image of the organ. The same concept is used in seismic exploration, where sound waves are emitted into the subsurface, again building an image of the geothermal reservoir from the refractions and reflections.
@@ -182,7 +182,7 @@ If we do not have a good match between the simulated data from our simple model 
 ```{figure} ./exploration_pictures/Inversion_loop2.png
 ---
 height: 600px
-name: Inversion_loop.png
+name: Inversion_loop2.png
 ---
 Forward modelling vs. inverse modelling.
 ```
