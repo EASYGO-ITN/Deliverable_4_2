@@ -249,7 +249,7 @@ All the geothermal power plants convert the thermal energy into electricity by u
 align: center
 width: 500px
 ---
-Forces acting on a turbine blade
+Forces acting on a turbine blade. The turbine rotation is driven by the lift.
 ```
 
 
@@ -284,6 +284,8 @@ The working principle of pumps in use in binary geothermal power plants is very 
 :width: 500px
 :align: center
 ```
+Pump working principle: the blade elements generate a lift just as in the turbine, but in this case, the pump rotates against the lift.
+```
 
 ### Heat Exchangers
 
@@ -298,6 +300,8 @@ A typical example of a finned tube is shown below: the gas flows outside the fin
 ```{image} ../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg
 :width: 500px
 :align: center
+```
+Example of a finned tube
 ```
 
 Fin and tube heat exchangers are usually used in two different cases: either when the binary power plant uses a regenerator or if the the condenser is air-cooled. Such air-cooled condensers are usually very large, and in some cases constitute the only visible component of the power plant. One of this examples is shown below (courtesy of Turboden).
@@ -319,7 +323,7 @@ They are constituted by a series of fans drawing air from the bottom of the heat
 align: center
 width: 700px
 ---
-Schematic of an aircooled condenser
+Schematic of an air cooled condenser
 ```
 #### Shell and Tube Heat Exchangers
 The shell and tube heat exchangers can instead be utilized when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. Here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. In addition, they are convenient if the condenser can be water-cooled.
