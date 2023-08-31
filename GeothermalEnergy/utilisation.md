@@ -283,7 +283,7 @@ The working principle of pumps in use in binary geothermal power plants is very 
 ```{image} ../GeothermalEnergy/Utilisation_pictures/turbvspump.svg
 :width: 500px
 :align: center
-```
+---
 Pump working principle: the blade elements generate a lift just as in the turbine, but in this case, the pump rotates against the lift.
 ```
 
@@ -300,7 +300,7 @@ A typical example of a finned tube is shown below: the gas flows outside the fin
 ```{image} ../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg
 :width: 500px
 :align: center
-```
+---
 Example of a finned tube
 ```
 
