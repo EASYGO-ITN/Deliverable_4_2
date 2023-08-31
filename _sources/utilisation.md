@@ -122,12 +122,12 @@ Similarly to the [Dry Steam](DrySteam) plant, Flash plants are also considered "
 
 ### Binary
 
-Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
+Historically speaking, the first geothermal resources that were exploited were those providing brine at high temperatures, sometimes even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach is to first use the geothermal brine to heat another secondary fluid, and then have this fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> Tristan Merbecks is working on investigating the application of binary ORC power plants to two-phase sources like those commonly associated with Flash or Dry Steam plants. Find out more <a href="https://easygo-itn.eu/tristan-merbecks/">here</a> or <a href="https://www.researchgate.net/profile/Tristan-Merbecks">here</a>!</div>
 
-The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
+The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. Howerver, such advantages come at the cost of an increased complexity of the power plant.
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/OrganicRankineCycle.svg
 ---
@@ -151,6 +151,7 @@ Schematic of a binary ORC geothermal power plant
   * turbine size, cost, eff, durability
   * closed loop - reduced contact with geofluid
 * disadvantages
+
 
 -->
 
@@ -249,7 +250,7 @@ All the geothermal power plants convert the thermal energy into electricity by u
 align: center
 width: 500px
 ---
-Forces acting on a turbine blade
+Forces acting on a turbine blade.
 ```
 
 
@@ -284,7 +285,7 @@ The working principle of pumps in use in binary geothermal power plants is very 
 align: center
 width: 500px
 ---
-Placeholder - pls fix
+Pump working principle: the blade elements generate a lift just as in the turbine, but in this case, the pump rotates against the lift.
 ```
 
 ### Heat Exchangers
@@ -297,12 +298,13 @@ The first ones, as the name says, employ finned tubes to promote the heat exchan
 
 A typical example of a finned tube is shown below: the gas flows outside the finned tube in a direction perpendicular to the plane of the image, and makes use of the increased heat exchange area provided by the fins to compensate for its low tendency to exchange heat. The other fluid flows instead inside the tube. This second fluid has to be either liquid or evaporating/condensating, and can be gaseous only for small portions of the heat exchanger. Instead, heat exchangers which allow two gases to exchange heat are of a different kind, but are usually not necessary in geothermal applications.
 
+
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg
 ---
 align: center
 width: 400px
 ---
-Placeholder - pls fix
+Example of a finned tube
 ```
 
 Fin and tube heat exchangers are usually used in two different cases: either when the binary power plant uses a regenerator or if the the condenser is air-cooled. Such air-cooled condensers are usually very large, and in some cases constitute the only visible component of the power plant. One of this examples is shown below (courtesy of Turboden).
@@ -324,7 +326,7 @@ They are constituted by a series of fans drawing air from the bottom of the heat
 align: center
 width: 700px
 ---
-Schematic of an aircooled condenser
+Schematic of an air cooled condenser
 ```
 
 #### Shell and Tube Heat Exchangers
