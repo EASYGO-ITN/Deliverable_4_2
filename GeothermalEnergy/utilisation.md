@@ -151,7 +151,7 @@ Schematic of a binary ORC geothermal power plant
   * turbine size, cost, eff, durability
   * closed loop - reduced contact with geofluid
 * disadvantages
-  * power plant complexity
+
 
 -->
 
