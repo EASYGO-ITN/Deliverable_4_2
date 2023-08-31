@@ -142,7 +142,7 @@ Machine learning provides a low-dimensional representation from parameters to an
 
 ![geothermal](../GeothermalEnergy/Production_images/selvi_geothermal.png)
 
-Courtesy of [https://indiaenergyportal.org/geothermal-energy/]
+Courtesy of [Indian Energy Portal](https://indiaenergyportal.org/geothermal-energy/)
 
 In geothermal power generation, the efficient extraction of steam from underground reservoirs is crucial for maximizing energy production. Geothermal steam is primarily obtained through production wells drilled into high-temperature reservoirs. However, during the extraction process, a significant amount of heat is lost from the steam due to various mechanisms. Understanding and minimizing this heat loss effect is essential for optimizing the overall efficiency of geothermal power plants.
 
