@@ -122,7 +122,7 @@ Similarly to the [Dry Steam](DrySteam) plant, Flash plants are also considered "
 
 ### Binary
 
-Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
+Historically speaking, the first geothermal resources that were exploited were those providing brine at high temperatures, sometimes even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach is to first use the geothermal brine to heat another secondary fluid, and then have this fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> Tristan Merbecks is working on investigating the application of binary ORC power plants to two-phase sources like those commonly associated with Flash or Dry Steam plants. Find out more <a href="https://easygo-itn.eu/tristan-merbecks/">here</a> or <a href="https://www.researchgate.net/profile/Tristan-Merbecks">here</a>!</div>
@@ -151,6 +151,7 @@ Schematic of a binary ORC geothermal power plant
   * turbine size, cost, eff, durability
   * closed loop - reduced contact with geofluid
 * disadvantages
+  * power plant complexity
 
 -->
 
