@@ -127,7 +127,7 @@ Historically speaking, the first geothermal resources that were exploited were t
 <div class="alert alert-block alert-info">
 <b>By the way:</b> Tristan Merbecks is working on investigating the application of binary ORC power plants to two-phase sources like those commonly associated with Flash or Dry Steam plants. Find out more <a href="https://easygo-itn.eu/tristan-merbecks/">here</a> or <a href="https://www.researchgate.net/profile/Tristan-Merbecks">here</a>!</div>
 
-The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
+The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. Howerver, such advantages come at the cost of an increased complexity of the power plant.
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/OrganicRankineCycle.svg
 ---
