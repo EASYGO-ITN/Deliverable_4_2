@@ -1,40 +1,33 @@
 # The origins of geothermal energy
 
-This chapter is about the origins/sources of geothermal energy
 ## What is geothermal energy
 
-Geothermal energy, derived from the Greek words "geos" (Earth) and "thermos" (heat), refers to the abundant heat energy within our planet. This report explores the historical significance, energy generation process, distribution, and future prospects of geothermal energy.
+Geothermal energy, derived from the Greek words "geos" (Earth) and "thermos" (heat), refers to the abundant thermal energy in the crust of our planet. This report explores the historical significance, energy generation process, distribution, and future prospects of geothermal energy.
 Throughout history, humanity has harnessed geothermal energy in various ways. Hot springs and natural fumaroles provided sustenance, warmth, and therapeutic benefits to ancient civilizations. In 1904, the world witnessed a significant breakthrough at Larderello, Italy, where the first geothermal power plant illuminated a few light bulbs, marking a crucial milestone in the utilization of Earth's natural heat for electricity generation.
 
 
-## Where is the heat from?
-The fact that there is heat stored in the Earth is typically evidenced by the intrusion of magma at volcanic sites and widespread distribution of hot springs. Actually, heat flux exists on the every squar meter of the Earth surface, which on average is 87 mW/m<sup>2</sup>, with a total (integrating over the whole surface) amount of ~ 4.4 x 10<sup>13</sup> J/s {cite}`heatflux1, heatflux2`. The heat flux observed on the surface of the Earth is a result of conduction, convection from the inner part of the Earth. 
+## Where is the geothermal energy from?
+The intrusion of magma at volcanic sites and widespread distribution of hot springs show us there is some kind of heat just under our feet. This heat has its origin in the interior of the Earth, reaching the Earth's surface via heat conduction, convection and radiatation. But, what is the interior of the Earth?
 
-Now we know that heat flux exists across each square meter of the Earth's surface, and is attributed to conduction and convection from the interior (See here). The next question is, what is the origin of the heat? Before answering this question, it is worthwhile to introduce briefly the structure of our planet.
+The Earth consists of four parts, the inner core, the outer core, the mantle and the crust, shown in Fig.1.
+ * **inner core**: composed of solid iron at the temperature of around 5200 &deg; C,  with a radius of 1221 km {cite}`heatflux1`;
+ * **outer core**: composed of liquid iron and nickel at the temperature between 4500 &deg; C ~ 5500 &deg; C, with a radius of 2200 km approimately {cite}`heatflux1`.
+ * **mantle**: composed of silicate minerals, oxides and other high-density minerals whose atoms are relatively small, e.g. magnesium (Mg), titanium (Ti), calcium (Ca) and aluminum (Al){cite}`heatflux1` at the temperature ranging from 1000 ~3700 &deg; C {cite}`geographic`, with a thickness of 2890 km approximately.
+ * **crust**: consists of oceanic (thickness between 6 ~ 10 km) and continental (30 ~ 60 km) crusts. Oceanic crust is composed mostly of mafic rock like basalt troctolite and gabbro, while continental crust is composed mostly of granites {cite}`geographic`.
 
 ```{figure} ../GeothermalEnergy/Origin_pictures/Earth_structure.png
 ---
-width: 200px
-align: right
+width: 400px
+align: center
 ---
 The structure of the Earth
 ```
 
-
-The Earth has four parts, the inner core, the outer core, the mantle and the crust, shown in Fig.1.
- * inner core: composed of solid iron at the temperature of around 5200 degree C,  with a radius of 1221 km;
- * outer core: composed of liquid iron and nickel at the temperature between 4500 ~ 5500 degree C, with a radius of 2200 km approimately.
- * mantle: composed of silicate minerals, oxides and other high-density minerals whose atoms are relatively small, e.g. magnesium (Mg), titanium (Ti), calcium (Ca) and aluminum (Al){cite}`heatflux1` at the temperature ranging from 1000 ~3700 degree C {cite}`geographic`, with a thickness of 2890 km approximately.
- * crust: consists of oceanic (thickness between 6 ~ 10 km) and continental (30 ~ 60 km) crusts. Oceanic crust is composed mostly of mafic rock like basalt troctolite and gabbro, while continental crust is composed mostly of granites {cite}`geographic`.
-
-
-Knowing the Earth structure, it is time to answer the question, what is the origin of the heat stroed in the Earth.
-
-The origin of this heat can be attributed to two sources: the residual heat from the early formation of the Earth's core and the heat generated from radioactive decay {cite}`heatflux1`. The prevailing consensus suggests that a proportion of the thermal energy harnessed through geothermal utilizations, approximately 40%, is derived from the residual heat associated with the early formation of the Earth's core, whereas the remaining 60% is sourced from the heat produced by the decay of long-lived isotopes {cite}`heatflux1`.
+The origin of the geothermal energy can be attributed to two sources: the residual heat from the early formation of the Earth's core and the heat generated from radioactive decay {cite}`heatflux1`. The prevailing consensus suggests that a proportion of the thermal energy harnessed through geothermal utilizations, approximately 40%, is derived from the residual heat associated with the early formation of the Earth's core, whereas the remaining 60% is sourced from the heat produced by the decay of long-lived isotopes {cite}`heatflux1`.
 
 
 ### How the heat is generated?
-Since the formation of the Earth, metal was redistributed, accompanied by density stratification. While the core is composed of iron, the mantle, which in contact with the outer core, mainly consists of silicate minerals, oxides and other high-density minerals whose atoms are relatively small, e.g. magnesium (Mg), titanium (Ti), calcium (Ca) and aluminum (Al){cite}`heatflux1`, resulting in low existence of radioactive elements. Directly formed from mantle (extruded magma), the oceanic crust  thus, the same with the mantle, havs a low abundance of radioactive elements {cite}`heatflux1`. In contrast, the continental crust, composed of minerals that was incompatible with the high-density minerals in the mantle, holds the largest global reservoir of radioactive elements, such as potassium (K), uranium (U) and thorium (Th). 
+Since the formation of the Earth, metal was redistributed, accompanied by density stratification. While the core is composed of iron, the mantle, which is in contact with the outer core, mainly consists of silicate minerals, oxides and other high-density minerals whose atoms are relatively small, e.g. magnesium (Mg), titanium (Ti), calcium (Ca) and aluminum (Al){cite}`heatflux1`, resulting in low existence of radioactive elements. Directly formed from mantle (extruded magma), the oceanic crust  thus have a low abundance of radioactive elements {cite}`heatflux1`. In contrast, the continental crust, composed of minerals that was incompatible with the high-density minerals in the mantle, holds the largest global reservoir of radioactive elements, such as potassium (K), uranium (U) and thorium (Th). 
 
 ```{figure} ../GeothermalEnergy/Origin_pictures/crust.png
 ---
@@ -44,14 +37,14 @@ align: center
 The structure of the crust
 ```
 
-More specifically, considering the density profile of continental crust, three layers can be characterised: lower, middle and upper crust {cite}`heatflux1`, shown in Fig.2. The lower layer is mainly composed of igneous and metamorphic rock with low concentrations of radioactive elements, whereas the middle and upper crusts are more enriched in radioactive elements {cite}`heatflux1`. The heterogeneous distribution of radioactive elemtns and the largely varying thickness in the crust as a result of tectonic activity, which forms mountains and basins, result in substantial variation in heat flux on the surface {cite}`heatflux1`. Consequently, the geothermal gradient in the shallow crust can be quite unevenly.
+More specifically, considering the density profile of continental crust, three layers can be characterised: lower, middle and upper crust {cite}`heatflux1`, shown in Fig.2. The lower layer is mainly composed of igneous and metamorphic rock with low concentrations of radioactive elements, whereas the middle and upper crusts are more enriched in radioactive elements {cite}`heatflux1`. The heterogeneous distribution of radioactive elemtns and the largely varying thickness in the crust result in substantial variation in heat flux on the surface {cite}`heatflux1`. Consequently, the geothermal gradient throughout the shallow crust is not uniform.
 
 
 `````{admonition} The geothermal heat source 
 :class: tip
-* Residual heat from the early formation of the Earth, is beleived to contribute 40% of the thermal energy harnessed through geothermal utilization.
+* Residual heat from the early formation of the Earth, is beleived to contribute 40% of the thermal energy harnessed through geothermal utilisation.
 
-* Heat from radioactive decay of long-lived isotropes, such as potassium (K), uranium (U) and thorium (Th) that are existing in the continental crust, accounts for 60% around of the thermal energy harnessed through geothermal utilization.
+* Heat from radioactive decay of long-lived isotopes, such as potassium (K), uranium (U) and thorium (Th) that exist in the continental crust, accounts for 60% around of the thermal energy harnessed through geothermal utilization.
 
 `````
 
