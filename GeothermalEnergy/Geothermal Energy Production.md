@@ -148,7 +148,7 @@ Five-spot pattern is a configuration consisting of a producer with four injector
 
 ## Uncertainty quantification
 
-```{figure} ../GeothermalEnergy/Production_images/ressim_2.png
+```{figure} ../GeothermalEnergy/Production_images/ressim_2.jpeg
 ---
 align: center
 ---

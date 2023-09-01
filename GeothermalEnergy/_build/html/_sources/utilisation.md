@@ -19,7 +19,7 @@ The direct and indirect utilisations of geothermal energy with different in-situ
 
 ## Direct Use
 
-The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` has been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure (data from {cite}`lund2021direct`) below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
+The versatile direct utilisations of geothermal fluids with a temperature between 10 &deg;C - 150 &deg;C {cite}`anderson1979direct` have been ducomented for over 2000 years {cite}`direct-2000`. By the end of 2019, the total annual energy consumption from direct geothermal use is 283,580 GW h worldwide, reported in 88 countries and/or regions {cite}`lund2021direct`.The figure (data from {cite}`lund2021direct`) below shows main categories of direct utilisations of geothermal energy, dominated by heat pumps, bathing & swimming, and space heating. 
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Direct_utilisation.png
 ---
@@ -28,13 +28,13 @@ align: center
 The main categories of direct utilisations of geothermal energy by year.
 ```
 
-So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria {cite}`heatflux1`.  GHPs take advantages of the fact that a few feet below Earth's surface, the temperatue of the ground remains relatively constant, ranging from 7 &deg;C - 25 &deg;C {cite}`DOE:2023`. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning {cite}`heatflux1`. As an example showing how GHP works, aquifer thermal energy storage system is illustrated below.
+So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have been the most popular way to directly utilise geo-fluids since its first use in 1850s in Austria {cite}`heatflux1`.  GHPs take advantage of the fact that a few meters below the Earth's surface, the temperatue of the ground remains relatively constant, ranging from 7 &deg;C - 25 &deg;C {cite}`DOE:2023`. In the winter, the ground is warmer than the air above it while, in the summer, colder. GHPs then acts like a refrigerator, transferring heat through geo-fluids for building heating, ventilation and air conditioning {cite}`heatflux1`. As an example showing how does a GHP work, aquifer thermal energy storage system is illustrated below.
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Martine_GHP.jpg
 ---
 align: center
 ---
-Schematics of a GHP and ATES system. Figure provided by Martine Bloemendal {cite}`martine`
+Schematics of a GHP and ATES system. In the summer, water with temperature from 5 &deg; C to 10 &deg; C is extracted to cool the buldings down and the heated water with temperature from 15 &deg; C to 18 &deg; C is reinjected into the shallow subsurface. Vice visa, in the winter, water with temperature from 15 &deg;C to 18 &deg; C is extracted to warm the building with the help of heat pumps, and cooled water is reinjected. Figure provided by Martine Bloemendal {cite}`martine`
 ```
 
 Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
@@ -122,12 +122,12 @@ Similarly to the [Dry Steam](DrySteam) plant, Flash plants are also considered "
 
 ### Binary
 
-Historically speaking, the first geothermal resources that were exploited were those providing brine at high temperatures, sometimes even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach is to first use the geothermal brine to heat another secondary fluid, and then have this fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
+Historically speaking, the first geothermal resources that were exploited are those providing brine at high temperatures, perhaps even in vapor state, as it is the case of Larderello in Italy. On the contrary, extracting energy from brines at lower temperatures is more challenging and the classical dry steam or flash power plant might not be profitable. In this case, the usual approach to first use the geothermal brine to heat another more suitable fluid, and have this secondary fluid undergo a rankine cycle. The cooled down brine is subsequently reinjected into the ground. This is the concept of Binary Geothermal Power Plant. 
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> Tristan Merbecks is working on investigating the application of binary ORC power plants to two-phase sources like those commonly associated with Flash or Dry Steam plants. Find out more <a href="https://easygo-itn.eu/tristan-merbecks/">here</a> or <a href="https://www.researchgate.net/profile/Tristan-Merbecks">here</a>!</div>
 
-The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. Howerver, such advantages come at the cost of an increased complexity of the power plant.
+The standard rankine cycle for geothermal applications is called Organic Rankine Cycle (ORC): this is because the fluid flowing inside the machinery (pump, heat exchangers, turbine) is usually an hydrocarbon, whose properties are selected to maximize the efficiency of the power plant. In particular, the boiling point is much lower than that of compressed water, allowing the generation of the vapor that drives the turbine without any need of a flashing procedure. 
 
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/OrganicRankineCycle.svg
 ---
@@ -151,7 +151,6 @@ Schematic of a binary ORC geothermal power plant
   * turbine size, cost, eff, durability
   * closed loop - reduced contact with geofluid
 * disadvantages
-
 
 -->
 
@@ -250,7 +249,7 @@ All the geothermal power plants convert the thermal energy into electricity by u
 align: center
 width: 500px
 ---
-Forces acting on a turbine blade.
+Forces acting on a turbine blade
 ```
 
 
@@ -285,7 +284,7 @@ The working principle of pumps in use in binary geothermal power plants is very 
 align: center
 width: 500px
 ---
-Pump working principle: the blade elements generate a lift just as in the turbine, but in this case, the pump rotates against the lift.
+Placeholder - pls fix
 ```
 
 ### Heat Exchangers
@@ -298,13 +297,12 @@ The first ones, as the name says, employ finned tubes to promote the heat exchan
 
 A typical example of a finned tube is shown below: the gas flows outside the finned tube in a direction perpendicular to the plane of the image, and makes use of the increased heat exchange area provided by the fins to compensate for its low tendency to exchange heat. The other fluid flows instead inside the tube. This second fluid has to be either liquid or evaporating/condensating, and can be gaseous only for small portions of the heat exchanger. Instead, heat exchangers which allow two gases to exchange heat are of a different kind, but are usually not necessary in geothermal applications.
 
-
 ```{figure} ../GeothermalEnergy/Utilisation_pictures/Finned_Tube.svg
 ---
 align: center
 width: 400px
 ---
-Example of a finned tube
+Placeholder - pls fix
 ```
 
 Fin and tube heat exchangers are usually used in two different cases: either when the binary power plant uses a regenerator or if the the condenser is air-cooled. Such air-cooled condensers are usually very large, and in some cases constitute the only visible component of the power plant. One of this examples is shown below (courtesy of Turboden).
@@ -326,7 +324,7 @@ They are constituted by a series of fans drawing air from the bottom of the heat
 align: center
 width: 700px
 ---
-Schematic of an air cooled condenser
+Schematic of an aircooled condenser
 ```
 
 #### Shell and Tube Heat Exchangers
@@ -366,9 +364,4 @@ Schematic of a cooling tower
 ```
 
 The principle if very similar to what happens when we mix too much sugar into coffee: some of it will dissolve in the liquid, giving it a sweeter taste, the rest will fall to the bottom of the cup. Nature tells us the process requires heat, hence the geofluid falling to the bottom of the tower will also cool down.
-
-
-
-
-
 
