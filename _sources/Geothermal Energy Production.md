@@ -39,7 +39,6 @@ align: center
 Schematic of an enhanced geothermal system (EGS) displaying a deviated wellpair (one injection well, one production well) drilled into an originally impermeable rock. The wellpair is now connected at depth by a fracture network. Taken from Rangel-Jurado et al. (2022). 
 ```
 
-
 Some of the challenges that EGS deployment must solve to overcome their techno-economic and environmental challenges are: insufficient fluid flow rate, clogging of the fracture network, preature thermal breakthrough, and induced seismicity {cite}`Breede2013, Olasolo2016, Lu2018, Kumari2019, Ge2022`. These issues have impacted the cost-competitiveness and public acceptance of EGS which has limited the successful roll-out and overall interest in EGS projects. Despite these challenges, the potential benefits of EGS, such as increased energy security and scalability, have attracted considerable interest from researchers, policymakers, and industry stakeholders. Ongoing research and commercial efforts are aimed at improving our understanding and reduce the cost of operating EGS.
 
 
@@ -62,8 +61,10 @@ Interestingly, the idea of extracting energy from deep closed-loop geothermal sy
 Ongoing research efforts in AGS aim to improve the understanding of the commercial viability of this technology and address the technical and economic challenges that currently limit its deployment. Some of the research areas include improving the design and operation of closed-loop systems, optimizing drilling technologies, developing novel materials for subsurface heat exchangers, and assessing the environmental and social impacts of AGS projects. With continued research and development that would drive the cost of these systems down, AGS has the potential to become a key contributor to the global transition toward a low-carbon energy future.
 
 <div class="alert alert-block alert-info">
-<b>By the way:</b> Two of our researchers are looking into some of the system types discussed above! 
-    Nicolás is running numerical simulations of CHS, EGS and AGS reservoirs to establish and compare their techno-economic performance over a wide range of reservoir properties and operating conditions. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a> or <a href="https://google.com">here</a>!</div>. While Ryan is working on optimization of coaxial borehole heat exchanger system in UK with a physics-based machine-learning method. Find out more <a href="https://easygo-itn.eu/ryan-santoso/">here</a> or <a href="https://scholar.google.co.id/citations?user=abGVFp8AAAAJ&hl=de&oi=ao">here</a>!</div></div>. 
+<b>By the way:</b> Two of our researchers are looking into some of the system types discussed above! <br>
+   Nicolás is running numerical simulations of CHS, EGS and AGS reservoirs to establish and compare their techno-economic performance over a wide range of reservoir properties and operating conditions. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a> or <a href="https://google.com">here</a>! <br>
+   Meanwhile Ryan is working on optimization of coaxial borehole heat exchanger system in UK with a physics-based machine-learning method. Find out more <a href="https://easygo-itn.eu/ryan-santoso/">here</a> or <a href="https://scholar.google.co.id/citations?user=abGVFp8AAAAJ&hl=de&oi=ao">here</a>!
+</div>
 
 ### CO2-based geothermal systems
 

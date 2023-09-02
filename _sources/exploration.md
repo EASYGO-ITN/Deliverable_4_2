@@ -116,7 +116,6 @@ Exploratory wells also help to determine the size and potential of a geothermal 
 
 Exploratory drilling is used for collecting well logs. For these logs, specialized tools are lowered into the wellbore and record various physical properties of the rock formations around the borehole. Here are some of the most common types of well logs:
 
-`
 `````{admonition} Common types of well logs
 :class: note
 

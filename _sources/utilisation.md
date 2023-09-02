@@ -211,11 +211,22 @@ When we would like to know how much of the thermal energy we brought to surface 
 
 $$\eta_{I} = \frac{W_{Net}}{Q_{in}}$$
 
-Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***. The **exergy** is a measure of the maximum amount of work that can be obtained from fluid at a given temperature and pressure.
-
-  $$E =h - h_{0} - T_{0}*(s - s_{0})$$
+Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***.
 
 The Second Law Efficiency can thus come in different "flavours", depending on what reference conditions are selected:
+
+`````{admonition} Definition: Enthalpy, Entropy and Exergy
+:class: tip
+The **enthalpy**, H, is a measure of the amount of energy required to create a system. This includes the energy contained within the chemical species, also known as the **internal energy**, U, and the pressure-volume work required to create space for the system.
+
+  $$H = U + PV$$
+
+The **entropy**, S,  is a measure of the amount of energy that is unavailble for conversion into work.
+
+The **exergy**, E, is a measure of the maximum amount of work that can be obtained from fluid at a given temperature and pressure.
+
+  $$E =H - H_{0} - T_{0}*(S - S_{0})$$
+`````
 
 * Utilisation Efficiency: 
 
