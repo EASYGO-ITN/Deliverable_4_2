@@ -65,7 +65,7 @@ Ongoing research efforts in AGS aim to improve the understanding of the commerci
 
 <div class="alert alert-block alert-info">
 <b>By the way:</b> Two of our researchers are looking into some of the system types discussed above! 
-    Nicolás is running numerical simulations of CHS, EGS and AGS reservoirs to establish and compare their techno-economic performance over a wide range of reservoir properties and operating conditions. While Ryan is _______. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a> or <a href="https://google.com">here</a>!</div>
+    Nicolás is running numerical simulations of CHS, EGS and AGS reservoirs to establish and compare their techno-economic performance over a wide range of reservoir properties and operating conditions. Find out more <a href="https://geg.ethz.ch/nicolas-rangel-jurado/">here</a> or <a href="https://google.com">here</a>!</div>. While Ryan is working on optimization of coaxial borehole heat exchanger system in UK with a physics-based machine-learning method. Find out more <a href="https://easygo-itn.eu/ryan-santoso/">here</a> or <a href="https://scholar.google.co.id/citations?user=abGVFp8AAAAJ&hl=de&oi=ao">here</a>!</div></div>. 
 
 ### CO2-based geothermal systems
 
@@ -98,7 +98,7 @@ Considering the vast and largely unexplored possibilities of geothermal energy, 
 # Reservoir simulation
 
 <span style="font-size:0.6em;">Last edited: 31 Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Ryan Santoso (ETHZ - RWTH)</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Ryan Santoso (RWTH Aachen, Germany - ETH Zürich, Switzerland)</span> \
 
 ```{figure} ../GeothermalEnergy/Production_images/ressim_1.png
 ---
