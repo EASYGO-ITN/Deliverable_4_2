@@ -182,6 +182,14 @@ Operating principle of a Carnot heat engine
 
 So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.
 
+```{figure} ../GeothermalEnergy/Utilisation_pictures/CarnotTQDiagram.svg
+---
+align: center
+width: 300px
+---
+Temperature-Entropy diagram of a Carnot heat engine
+```
+
 The heat added to the fluid is given by: $Q_{in} = T_{Hot} * (S_2 - S_1)$
 
 The heat removed from the fluid is given by: $Q_{out} = T_{Cold} * (S_2 - S_1)$

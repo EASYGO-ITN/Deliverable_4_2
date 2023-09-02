@@ -695,15 +695,21 @@ A piston chamber is placed between two thermal reservoirs, one hot and one cold.
 <li><p>Repeat from <strong>Stage 1</strong></p></li>
 </ul>
 <p>So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.</p>
+<figure class="align-center" id="id20">
+<a class="reference internal image-reference" href="_images/CarnotTQDiagram.svg"><img alt="_images/CarnotTQDiagram.svg" src="_images/CarnotTQDiagram.svg" width="300px" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Operating principle of a Carnot heat engine</span><a class="headerlink" href="#id20" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>The heat added to the fluid is given by: <span class="math notranslate nohighlight">\(Q_{in} = T_{Hot} * (S_2 - S_1)\)</span></p>
 <p>The heat removed from the fluid is given by: <span class="math notranslate nohighlight">\(Q_{out} = T_{Cold} * (S_2 - S_1)\)</span></p>
 <p>Hence, the net work done is given by: <span class="math notranslate nohighlight">\(W_{Net} = Q_{in} - Q_{out}\)</span></p>
 <p>The conversion efficiency is thus: <span class="math notranslate nohighlight">\(\eta = \frac{W_{net}}{Q_{in}} = \frac{(Q_{in} - Q_{out})}{Q_{in}} = 1 - \frac{T_{Cold}}{T_{Hot}}\)</span></p>
 <p>The Carnot Cycle represents the ideal heat engine, meaning it most efficiently converts thermal energy into work. Unfortunately, translating this conceptual cycle into a real-life heat engine is challenging and so far we lack the equipment to make all stages of the cycle work.</p>
 <p><strong>Stage 1</strong> and <strong>Stage 3</strong> (i.e. isothermal heat addition/removal) are relatively easy to realise. Here, one could take a pure fluid, e.g. water, and make it undergo a phase change, for example from liquid to vapour or vice versa, as phase changes for pure fluids occur at a constant temperature.</p>
-<figure class="align-center" id="id20">
+<figure class="align-center" id="id21">
 <img alt="_images/RealCarnotCycle.svg" src="_images/RealCarnotCycle.svg" /><figcaption>
-<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Carnot cycle with a pure cycle working fluid</span><a class="headerlink" href="#id20" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Carnot cycle with a pure cycle working fluid</span><a class="headerlink" href="#id21" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>However, this makes it more difficult to realise <strong>Stage 2</strong> and <strong>Stage 4</strong> (i.e. isentropic expansion/compression). This is because the machinery to expand/compress fluids are designed to either work on a vapour or liquid but struggle with two-phase mixtures. For example, a pump designed to pressurise a liquid, but significant vapour fraction causes cavitation and damages the internals. Similarly, turbines are designed to expand gases and significant liquid fraction can damage the blades.</p>
@@ -714,18 +720,7 @@ A piston chamber is placed between two thermal reservoirs, one hot and one cold.
 <p>When we would like to know how much of the thermal energy we brought to surface has been converted into work/electricity, etc. we speak of a <em><strong>First Law Efficiency</strong></em>. This is commonly referred to as the thermal efficiency or the cycle efficiency.</p>
 <div class="math notranslate nohighlight">
 \[\eta_{I} = \frac{W_{Net}}{Q_{in}}\]</div>
-<p>Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a <em><strong>Second Law Efficiency</strong></em>.</p>
-<p>The Second Law Efficiency can thus come in different “flavours”, depending on what reference conditions are selected:</p>
-<div class="tip admonition">
-<p class="admonition-title">Definition: Enthalpy, Entropy and Exergy</p>
-<p>The <strong>enthalpy</strong>, H, is a measure of the amount of energy required to create a system. This includes the energy contained within the chemical species, also known as the <strong>internal energy</strong>, U, and the pressure-volume work required to create space for the system.</p>
-<div class="math notranslate nohighlight">
-\[H = U + PV\]</div>
-<p>The <strong>entropy</strong>, S,  is a measure of the amount of energy that is unavailble for conversion into work.</p>
-<p>The <strong>exergy</strong>, E, is a measure of the maximum amount of work that can be obtained from fluid at a given temperature and pressure.</p>
-<div class="math notranslate nohighlight">
-\[E =H - H_{0} - T_{0}*(S - S_{0})\]</div>
-</div>
+<p>Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a <em><strong>Second Law Efficiency</strong></em>. The Second Law Efficiency can thus come in different “flavours”, depending on what reference conditions are selected:</p>
 <ul>
 <li><p>Utilisation Efficiency:</p>
 <div class="math notranslate nohighlight">
@@ -740,6 +735,16 @@ A piston chamber is placed between two thermal reservoirs, one hot and one cold.
 \[\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}\]</div>
 </li>
 </ul>
+<div class="tip admonition">
+<p class="admonition-title">Definition: Enthalpy, Entropy and Exergy</p>
+<p>The <strong>enthalpy</strong>, H, is a measure of the amount of energy required to create a system. This includes the energy contained within the chemical species, also known as the <strong>internal energy</strong>, U, and the pressure-volume work required to create space for the system.</p>
+<div class="math notranslate nohighlight">
+\[H = U + PV\]</div>
+<p>The <strong>entropy</strong>, S,  is a measure of the amount of energy that is unavailble for conversion into work.</p>
+<p>The <strong>exergy</strong>, E, is a measure of the maximum amount of work that can be obtained from fluid at a given temperature and pressure.</p>
+<div class="math notranslate nohighlight">
+\[E =H - H_{0} - T_{0}*(S - S_{0})\]</div>
+</div>
 </section>
 </section>
 <section id="power-plant-equipment">
@@ -747,17 +752,17 @@ A piston chamber is placed between two thermal reservoirs, one hot and one cold.
 <section id="turbine">
 <h3>Turbine<a class="headerlink" href="#turbine" title="Permalink to this headline">#</a></h3>
 <p>All the geothermal power plants convert the thermal energy into electricity by using several different machinery. In particular, the most well known component is the turbine: its scope is to extract the energy of the hot vapour and convert it into mechanical power. To do so, it relies on the force generated by elements called blades, whose working principle is briefly shown in the figure below. Because of the action-reaction principle, when the blade bends the vapour flow downwards, it experiences an opposite force pushing it upwards. A similar idea is used in many other engineering applications, such as aircraft wings, Formula 1 ailerons and boat hydrofoils.</p>
-<figure class="align-center" id="id21">
+<figure class="align-center" id="id22">
 <a class="reference internal image-reference" href="_images/Lift.svg"><img alt="_images/Lift.svg" src="_images/Lift.svg" width="500px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Forces acting on a turbine blade. The turbine rotation is driven by the lift.</span><a class="headerlink" href="#id21" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Forces acting on a turbine blade. The turbine rotation is driven by the lift.</span><a class="headerlink" href="#id22" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>When the blade is attached to a shaft, such force will induce a torque that will consequently drive the rotation of the turbine.</p>
-<figure class="align-center" id="id22">
+<figure class="align-center" id="id23">
 <a class="reference internal image-reference" href="_images/Rotation.svg"><img alt="_images/Rotation.svg" src="_images/Rotation.svg" width="250px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Rotation of the turbine shaft</span><a class="headerlink" href="#id22" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Rotation of the turbine shaft</span><a class="headerlink" href="#id23" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>A typical axial turbine for binary geothermal power plants is shown below (courtesy of Turboden).</p>
@@ -774,10 +779,10 @@ A typical axial turbine (courtesy of Turboden)
 <section id="pump">
 <h3>Pump<a class="headerlink" href="#pump" title="Permalink to this headline">#</a></h3>
 <p>The working principle of pumps in use in binary geothermal power plants is very similar to the one governing the rotation of the turbine. It once again relies on the lift generated by the blades. This time however, instead of allowing the lift drive the rotation, as it is done in the turbines, the machine is forced to rotate against such lift instead, thereby transferring energy to the fluid and increasing its pressure.</p>
-<figure class="align-center" id="id23">
+<figure class="align-center" id="id24">
 <a class="reference internal image-reference" href="_images/turbvspump.svg"><img alt="_images/turbvspump.svg" src="_images/turbvspump.svg" width="500px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Pump working principle: the blade elements generate a lift just as in the turbine, but in this case, the pump rotates against the lift.</span><a class="headerlink" href="#id23" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Pump working principle: the blade elements generate a lift just as in the turbine, but in this case, the pump rotates against the lift.</span><a class="headerlink" href="#id24" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -788,10 +793,10 @@ A typical axial turbine (courtesy of Turboden)
 <section id="fin-and-tube-heat-exchangers">
 <h4>Fin and Tube Heat Exchangers<a class="headerlink" href="#fin-and-tube-heat-exchangers" title="Permalink to this headline">#</a></h4>
 <p>A typical example of a finned tube is shown below: the gas flows outside the finned tube in a direction perpendicular to the plane of the image, and makes use of the increased heat exchange area provided by the fins to compensate for its low tendency to exchange heat. The other fluid flows instead inside the tube. This second fluid has to be either liquid or evaporating/condensating, and can be gaseous only for small portions of the heat exchanger. Instead, heat exchangers which allow two gases to exchange heat are of a different kind, but are usually not necessary in geothermal applications.</p>
-<figure class="align-center" id="id24">
+<figure class="align-center" id="id25">
 <a class="reference internal image-reference" href="_images/Finned_Tube.svg"><img alt="_images/Finned_Tube.svg" src="_images/Finned_Tube.svg" width="400px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Example of a finned tube</span><a class="headerlink" href="#id24" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 33 </span><span class="caption-text">Example of a finned tube</span><a class="headerlink" href="#id25" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Fin and tube heat exchangers are usually used in two different cases: either when the binary power plant uses a regenerator or if the the condenser is air-cooled. Such air-cooled condensers are usually very large, and in some cases constitute the only visible component of the power plant. One of this examples is shown below (courtesy of Turboden).</p>
@@ -805,10 +810,10 @@ An air cooled condenser (courtesy of Turboden)
 ```
 -->
 <p>They are constituted by a series of fans drawing air from the bottom of the heat exchanger and pushing it against the finned tubes containing the condensing fluid. The fans can consume a significant portion of the power plant power output and, for this reason, when water cooling is available it is generally much preferrable. However, in remote locations this is usually not a possibility.</p>
-<figure class="align-center" id="id25">
+<figure class="align-center" id="id26">
 <a class="reference internal image-reference" href="_images/aircoolerschem.svg"><img alt="_images/aircoolerschem.svg" src="_images/aircoolerschem.svg" width="700px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 33 </span><span class="caption-text">Schematic of an air cooled condenser</span><a class="headerlink" href="#id25" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 34 </span><span class="caption-text">Schematic of an air cooled condenser</span><a class="headerlink" href="#id26" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -816,17 +821,17 @@ An air cooled condenser (courtesy of Turboden)
 <h4>Shell and Tube Heat Exchangers<a class="headerlink" href="#shell-and-tube-heat-exchangers" title="Permalink to this headline">#</a></h4>
 <p>The shell and tube heat exchangers can instead be utilized when there is little fluid in gaseous phase contributing to the heat exchange process: their typical application is in the evaporator of the binary power plant, which is responsible of transferring heat from the geothermal brine to the working fluid undergoing the rankine cycle. Here, usually two different shell and tube heat exchangers are used: one to preheat the fluid and bring it on the verge of evaporation, and the other to promote the evaporation and eventually provide vapor to the turbine. In addition, they are convenient if the condenser can be water-cooled.</p>
 <p>The figure below shows the most classic type of shell and tube heat exchanger. It finds its use everywhere in the power plant, except (normally) when boiling the working fluid of the ranking cycle. Its principle of operation is as follows: one of the fluids flows straight inside the tubes, while the other one goes through the serpentine path in the shell. As also the tubes are inserted in the shell, the two fluids can exchange heat.</p>
-<figure class="align-center" id="id26">
+<figure class="align-center" id="id27">
 <a class="reference internal image-reference" href="_images/ShTuHEX.svg"><img alt="_images/ShTuHEX.svg" src="_images/ShTuHEX.svg" width="600px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 34 </span><span class="caption-text">Schematic of a shell and tube heat exchanger</span><a class="headerlink" href="#id26" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 35 </span><span class="caption-text">Schematic of a shell and tube heat exchanger</span><a class="headerlink" href="#id27" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>When instead the rankine cycle fluid needs to be boiled after preheating, a special type of shell and tube heat exchanger, called kettle reboiler, is used. The shell of the heat exchanger in this case works like a cooking pot, that contains the rankine cycle fluid that needs to be boiled. However, in contrast to the pot, heat is not provided from below by a flame, but rather from the geofluid itself, that flows inside the tubes inserted in the shell. Once vapour is generated, it tends to go upwards, were it will exit the heat exchanger. On the right, a little bit of space is left between the wall delimiting the tubes (and, thus, the evaporation zone) and the shell. This is done to allow such wall to rotate, so as to control the boiling fluid level in the heat exchanger. This in turn is one of the mechanisms to control the power plant.</p>
-<figure class="align-center" id="id27">
+<figure class="align-center" id="id28">
 <a class="reference internal image-reference" href="_images/KettleHEX.svg"><img alt="_images/KettleHEX.svg" src="_images/KettleHEX.svg" width="600px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 35 </span><span class="caption-text">Schematic of a kettle reboiler</span><a class="headerlink" href="#id27" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 36 </span><span class="caption-text">Schematic of a kettle reboiler</span><a class="headerlink" href="#id28" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -834,10 +839,10 @@ An air cooled condenser (courtesy of Turboden)
 <section id="cooling-tower">
 <span id="coolingtower"></span><h3>Cooling Tower<a class="headerlink" href="#cooling-tower" title="Permalink to this headline">#</a></h3>
 <p>In flash power plants the geofluid is usually condensed downstream of the tubine, by means of a machine called cooling tower. From the outside, this device appears as a conical tower, as shown in the figure below. The geofluid is sprayed by nozzles and part of it evaporates into the air raising from the bottom of the tower. The remaining part falls down, where it is collected and injected back into the reservoir.</p>
-<figure class="align-center" id="id28">
+<figure class="align-center" id="id29">
 <a class="reference internal image-reference" href="_images/coolingtower.svg"><img alt="_images/coolingtower.svg" src="_images/coolingtower.svg" width="600px" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 36 </span><span class="caption-text">Schematic of a cooling tower</span><a class="headerlink" href="#id28" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 37 </span><span class="caption-text">Schematic of a cooling tower</span><a class="headerlink" href="#id29" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>The principle if very similar to what happens when we mix too much sugar into coffee: some of it will dissolve in the liquid, giving it a sweeter taste, the rest will fall to the bottom of the cup. Nature tells us the process requires heat, hence the geofluid falling to the bottom of the tower will also cool down.</p>

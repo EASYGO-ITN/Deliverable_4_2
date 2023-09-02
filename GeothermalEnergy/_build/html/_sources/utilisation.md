@@ -182,6 +182,14 @@ Operating principle of a Carnot heat engine
 
 So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram, we can see that we put in a lot more heat than we remove (i.e. Q<sub>in</sub> vs. Q<sub>out</sub>). However as this is a cyclic process, and the fluid returns to its original state, there is no accumulation of energy in the system. Hence, it follows that the difference is the net work done.
 
+```{figure} ../GeothermalEnergy/Utilisation_pictures/CarnotTQDiagram.svg
+---
+align: center
+width: 300px
+---
+Operating principle of a Carnot heat engine
+```
+
 The heat added to the fluid is given by: $Q_{in} = T_{Hot} * (S_2 - S_1)$
 
 The heat removed from the fluid is given by: $Q_{out} = T_{Cold} * (S_2 - S_1)$
@@ -211,9 +219,17 @@ When we would like to know how much of the thermal energy we brought to surface 
 
 $$\eta_{I} = \frac{W_{Net}}{Q_{in}}$$
 
-Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***.
+Whereas when we would like to know how our heat engine compares to an ideal heat engine (e.g. the Carnot Cycle) we instead speak of a ***Second Law Efficiency***. The Second Law Efficiency can thus come in different "flavours", depending on what reference conditions are selected:
 
-The Second Law Efficiency can thus come in different "flavours", depending on what reference conditions are selected:
+* Utilisation Efficiency: 
+
+  $$\eta_{II, utilisation} = \frac{W_{Net}}{E_{in}}$$
+* Functional Efficiency: 
+
+  $$\eta_{II, functional} = \frac{W_{Net}}{E_{in}-E_{out}}$$
+* Utilisation Efficiency:
+
+  $$\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}$$
 
 `````{admonition} Definition: Enthalpy, Entropy and Exergy
 :class: tip
@@ -227,16 +243,6 @@ The **exergy**, E, is a measure of the maximum amount of work that can be obtain
 
   $$E =H - H_{0} - T_{0}*(S - S_{0})$$
 `````
-
-* Utilisation Efficiency: 
-
-  $$\eta_{II, utilisation} = \frac{W_{Net}}{E_{in}}$$
-* Functional Efficiency: 
-
-  $$\eta_{II, functional} = \frac{W_{Net}}{E_{in}-E_{out}}$$
-* Utilisation Efficiency:
-
-  $$\eta_{II, cycle} = \frac{W_{Net}^{real}}{W_{net}^{ideal}}$$
 
 ## Power Plant Equipment
 
