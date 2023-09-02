@@ -187,7 +187,7 @@ So, how does this generate work? Looking at the Temperature-Entropy (TS) diagram
 align: center
 width: 300px
 ---
-Operating principle of a Carnot heat engine
+Temperature-Entropy diagram of a Carnot heat engine
 ```
 
 The heat added to the fluid is given by: $Q_{in} = T_{Hot} * (S_2 - S_1)$
