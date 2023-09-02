@@ -171,7 +171,7 @@ Physics-based machine learning method for enabling robust uncertainty quantifica
 ## The Heat Loss Effect in Geothermal Steam Production Well
 
 <span style="font-size:0.6em;">Last edited: 30 Aug 2023</span> \
-<span style="font-size:0.6em;">Author:</span>&ensp; <span style="font-size:0.6em;">Selvican Türkdoğan (ETHZ - RWTHA)</span>
+<span style="font-size:0.6em;">Author:</span>&ensp; <span style="font-size:0.6em;">Selvican Türkdoğan (ETH Zurich, Switzerland - RWTH Aachen, Germany)</span>
 
 
 ![geothermal](../GeothermalEnergy/Production_images/selvi_geothermal.png)
