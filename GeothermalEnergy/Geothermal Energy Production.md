@@ -1,4 +1,3 @@
-
 # Geothermal Energy Production and Operation
 
 ## Introduction and Geothermal System Types
@@ -94,7 +93,7 @@ CO<sub>2</sub>-based geothermal energy is still at a research and development st
 Considering the vast and largely unexplored possibilities of geothermal energy, there has been a noticeable increase in research and development endeavors in recent times. The idea of effectively and extensively implementing geothermal energy worldwide is likely to involve a mix of various geothermal facilities, consisting of the different system types explained earlier. To fully unlock the potential of geothermal energy, it is crucial for industries and academic researchers to work together collaboratively. This partnership will play a fundamental role in making sure geothermal energy reaches its full potential.
 
 
-# Reservoir simulation
+## Reservoir simulation
 
 <span style="font-size:0.6em;">Last edited: 31 Aug 2023</span> \
 <span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Ryan Santoso (RWTH Aachen, Germany - ETH Zürich, Switzerland)</span> \
@@ -137,15 +136,15 @@ The steps are the following:
 
 As it is explained in the previous Section, extracting heat from a geothermal reservoir requires a fluid circulation. In order to mimic such process in a reservoir model, we need to add producers and/or injectors. It is also to evaluate the amount of heat that can be recovered from the reservoir. The most considered injection-production patterns for geothermal reservoir development are doublet and five-spot pattern {cite}`Grant2011`. 
 
- ## Doublet pattern
+ ### Doublet pattern
 
 A doublet pattern is a configuration consisting of a producer and an injector separated over a certain distance. It is the most used pattern for geothermal energy extraction. Within the simulation, cold water is injected through the injector and heated cold-water is produced through the producer. Here, we are interested in monitoring the advancement of the cold water-front. A fast arrival of cold water front at the producer will cause cooling at the producer, hence, reducing the thermal output of the system. 
 
- ## Five-spot pattern
+ ### Five-spot pattern
 
 Five-spot pattern is a configuration consisting of a producer with four injectors separated over a certain distance where the injectors encircle the producer. The interest is also to monitor the cold water front to avoid its fast arrival at producer. 
 
-## Uncertainty quantification
+### Uncertainty quantification
 
 ```{figure} ../GeothermalEnergy/Production_images/ressim_2.jpeg
 ---
