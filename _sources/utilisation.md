@@ -1,8 +1,8 @@
 # Geothermal Energy Utilisation
-<span style="font-size:0.6em;">Last edited: 2nd Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Lorenzo Galieti (TU Delft)</span> \
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Tristan Merbecks (Politecnico di Milano)</span> \
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Wen Luo (TU Delft)</span>
+<span style="font-size:0.6em;">Last edited: 01 Sep 2023</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Lorenzo Galieti (TU Delft, Netherlands - Politecnico di Milano, Italy)</span> \
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Tristan Merbecks (Politecnico di Milano, Italy - ETH Zurich, Switzerland)</span> \
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Wen Luo (TU Delft, Netherlands - RWTH Aachen, Germany)</span>
 
 The thermal energy produced from the reservoir can be used in a number of different applications. For example  to heat homes, offices and even greenhouses - this is particularly attractive in colder climates, where heating 
 represents a large portion of the total energy consumption.

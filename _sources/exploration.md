@@ -65,7 +65,8 @@ align: center
 A vibrotruck is acquiring data in a seismic survey for the Einstein telescope.
 ```
 
-<!-- ```{figure} ../GeothermalEnergy/exploration_pictures/IMG_20220906_120542.jpg
+<!--
+```{figure} ../GeothermalEnergy/exploration_pictures/IMG_20220906_120542.jpg
 ---
 height: 600px
 name: IMG_20220906_120542.jpg
@@ -80,33 +81,22 @@ A vibrotruck acquiring data in a seismic survey.
 ### Gravity method:
 Gravity is the force by which a planet or other body draws objects towards its center. In geophysics, gravity is used to study the distribution of mass in the Earth's subsurface. A gravity survey involves measuring the gravitational pull of the Earth at various locations on the surface. This changes due to the density or mass of the bodies that are within the Earth. Geophysicist use a device called a gravimeter to make these measurements. By measuring tiny changes in gravitational force, scientists can create maps that show areas where the Earth's subsurface contains more or less mass. This can help identify features associated to geothermal systems such as plumes, basement level, and granite volumes.
 
-### Electromagnetic methods:
-Electromagnetic (EM) waves are waves of energy that travel through space and can be used to study the Earth's subsurface. In geophysics, EM methods involve sending EM waves into the ground and measuring their response. EM surveys can be conducted using different frequencies and techniques. When EM waves encounter different types of rocks and minerals in the subsurface, they can induce electrical currents to flow. By measuring these currents, we can create maps that show variations in the subsurface electrical properties. This can help identify areas with different rock types, especially areas that are conductive such as areas of high heat flow. A common method done under this realm of geophysical techniques is the magnetollueric method or MT. This method is used to study the electrical conductivity structure at a much deeper scale. It involves measuring the natural variations in the Earth's magnetic field and electric field at the Earth's surface, and using these measurements as the source. By analyzing the frequency-dependent variations in these fields, we can estimate the electrical resistivity of different rock layers and fluids in the subsurface which is of great importance in geothermal exploration. 
-
-<p float="left">
-  <img src="./exploration_pictures/EM_survey_Pijnacker.gif" height="150" width="250" />
-  <img src="./exploration_pictures/gravityacquisition.jpg" height="150" width="250" />
-</p>
-
-
-<!--
-```{figure} ./exploration_pictures/EM_survey_Pijnacker.gif
+```{figure} ../GeothermalEnergy/exploration_pictures/gravityacquisition.jpg
 ---
 height: 300px
-name: EM_survey_Pijnacker.gif
-align: left
----
-Acquiring data in a EM survey.
-```
-```{figure} ./exploration_pictures/gravityacquisition.jpg
----
-height: 300px
-name: gravityacquisition.jpg
-align: right
 ---
 Aquiring gravity data in the field.
 ```
--->
+
+### Electromagnetic methods:
+Electromagnetic (EM) waves are waves of energy that travel through space and can be used to study the Earth's subsurface. In geophysics, EM methods involve sending EM waves into the ground and measuring their response. EM surveys can be conducted using different frequencies and techniques. When EM waves encounter different types of rocks and minerals in the subsurface, they can induce electrical currents to flow. By measuring these currents, we can create maps that show variations in the subsurface electrical properties. This can help identify areas with different rock types, especially areas that are conductive such as areas of high heat flow. A common method done under this realm of geophysical techniques is the magnetollueric method or MT. This method is used to study the electrical conductivity structure at a much deeper scale. It involves measuring the natural variations in the Earth's magnetic field and electric field at the Earth's surface, and using these measurements as the source. By analyzing the frequency-dependent variations in these fields, we can estimate the electrical resistivity of different rock layers and fluids in the subsurface which is of great importance in geothermal exploration.
+
+```{figure} ../GeothermalEnergy/exploration_pictures/EM_survey_Pijnacker.gif
+---
+height: 300px
+---
+Acquiring data in a EM survey.
+```
 
 
 <div class="alert alert-block alert-info">

@@ -1,11 +1,9 @@
 
-# Geothermal Energy Production and Operation 
-
-<span style="font-size:0.6em;">Last edited: 11 Aug 2023</span> \
-<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Nicolás Rangel Jurado (ETH Zürich, Switzerland - RWTH Aachen, Germany)</span> 
-
+# Geothermal Energy Production and Operation
 
 ## Introduction and Geothermal System Types
+<span style="font-size:0.6em;">Last edited: 11 Aug 2023</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Nicolás Rangel Jurado (ETH Zürich, Switzerland - RWTH Aachen, Germany)</span> 
 
 Geothermal energy is a renewable energy resource that, in principle, can be tapped almost "anywhere" on Earth. This happens due to the universal increase in temperature with depth that occurs within Earth’s subsurface. _If you have heard people say "geothermal energy everywhere and anywhere" this is probably what they meant_. This is a unique characteristic of geothermal energy that sets it apart  from other forms of renewable energy such as wind, solar, biofuels, and hydropower, which derive their energy from sources that are found above the Earth's surface. Hence, the underground exploration and extraction of geothermal energy comes with its own set of technical and economic challenges that make it distinct from other forms of renewable energy. 
 
