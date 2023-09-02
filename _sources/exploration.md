@@ -1,4 +1,9 @@
 # Exploration of Geothermal Resources
+<span style="font-size:0.6em;">Last edited: 01 Sep 2023</span> \
+<span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Andrea Balza (RWTH Aachen, Germany - ETH Zurich, Switzerland)</span> \
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Hagen Söding (ETH Zurich, Switzerland - RWTH Aachen, Germany)</span> \
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Mahmoud Eltayieb (TU Delft, Netherlands - ETH Zurich, Switzerland)</span>
+
 
 Geothermal exploration is the process of searching for and identifying areas in the Earth's crust that have the potential to host geothermal energy resources. It involves a comprehensive assessment of the geological and geophysical properties of the target area, including rock and fluid filling rock properties, temperature and pressure gradients, and the extent of heat sources.
 
