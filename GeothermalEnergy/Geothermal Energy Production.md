@@ -172,11 +172,6 @@ Physics-based machine learning method for enabling robust uncertainty quantifica
 <span style="font-size:0.6em;">Last edited: 30 Aug 2023</span> \
 <span style="font-size:0.6em;">Author:</span>&ensp; <span style="font-size:0.6em;">Selvican Türkdoğan (ETH Zurich, Switzerland - RWTH Aachen, Germany)</span>
 
-
-![geothermal](../GeothermalEnergy/Production_images/selvi_geothermal.png)
-
-Courtesy of [Indian Energy Portal](https://indiaenergyportal.org/geothermal-energy/)
-
 In geothermal power generation, the efficient extraction of steam from underground reservoirs is crucial for maximizing energy production. Geothermal steam is primarily obtained through production wells drilled into high-temperature reservoirs. However, during the extraction process, a significant amount of heat is lost from the steam due to various mechanisms. Understanding and minimizing this heat loss effect is essential for optimizing the overall efficiency of geothermal power plants.
 
 (HeatLossMechanisms)=
