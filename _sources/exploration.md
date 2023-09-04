@@ -1,4 +1,4 @@
-# Exploration of Geothermal Resources
+# Exploration
 <span style="font-size:0.6em;">Last edited: 01 Sep 2023</span> \
 <span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Andrea Balza (RWTH Aachen, Germany - ETH Zurich, Switzerland)</span> \
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Hagen Söding (ETH Zurich, Switzerland - RWTH Aachen, Germany)</span> \

@@ -1,4 +1,4 @@
-# Geothermal Energy Utilisation
+# Utilisation
 <span style="font-size:0.6em;">Last edited: 01 Sep 2023</span> \
 <span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Lorenzo Galieti (TU Delft, Netherlands - Politecnico di Milano, Italy)</span> \
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Tristan Merbecks (Politecnico di Milano, Italy - ETH Zurich, Switzerland)</span> \
@@ -371,3 +371,6 @@ Schematic of a cooling tower
 
 The principle if very similar to what happens when we mix too much sugar into coffee: some of it will dissolve in the liquid, giving it a sweeter taste, the rest will fall to the bottom of the cup. Nature tells us the process requires heat, hence the geofluid falling to the bottom of the tower will also cool down.
 
+## Further Reading
+* "*Geothermal Power Plants*" for further information on geothermal power plants {cite}`DiPippo2016`
+* "*Thermodynamics: Foundations and Applications*" for the underlying thermodynamical principles {cite}`Gyftopoulos2005`
