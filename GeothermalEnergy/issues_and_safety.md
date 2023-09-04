@@ -52,6 +52,10 @@ Analyzing the potential danger posed by earthquakes is not a trivial task. It is
 If you would like to learn about the destructive geothermal-induced 2017 Pohang Earthquake, you can check out the following articles by [Shapiro et al., (2021)(https://www.nature.com/articles/s41467-021-26679-w) or [Grigoli et al., (2018)](https://www.science.org/doi/10.1126/science.aat2010).
 `````
 
+<div class="alert alert-block alert-info">
+<b>By the way:</b> One of our researchers is working on this topic. David Naranjo is studying how to monitor induced seismicity in geothermal contexts. <a href="https://easygo-itn.eu/david-naranjo/">Learn more about his work</a>
+</div>
+
 # Operational risks and safety measures
 
 ## Processes during production 
