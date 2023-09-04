@@ -56,11 +56,11 @@ If you would like to learn about the destructive geothermal-induced 2017 Pohang 
 <b>By the way:</b> One of our researchers is working on this topic. David Naranjo is studying how to monitor induced seismicity in geothermal contexts. <a href="https://easygo-itn.eu/david-naranjo/">Learn more about his work</a>
 </div>
 
-# Operational risks and safety measures
+## Operational risks and safety measures
 
-## Processes during production 
+### Processes during production 
 
-### Scaling
+#### Scaling
 As we already said, pressure and temperature decrease as we extract geothermal fluid from the surface. This may lead to one of the major issues of geothermal operations - scaling. As temperature drops and gases exsolve from the fluid, solubility of the minerals initially contained in the fluid also drops. It is mainly controlled by the saturation index (SI), which is defined as the ratio of ion activity product (IAP) to the solubility product or equilibrium constant (K<sub>sp</sub>): $SI = \frac{IAP}{K_{sp}}$ {cite}`Deng2021`. When SI > 0, solution is considered over-saturated and the mineral can precipitate. What this means to us, is that there is a risk of scaling in the production tubings, heat exchanger and other surface facilities. Scaling leads to decreased tube diameter and, consequently, lower productivity. It can also promote corrosion of metal surfaces and compromise the whole system.
 
 ```{figure} ../GeothermalEnergy/issues_pictures/scaling.jpeg
@@ -71,17 +71,17 @@ align: center
 Example of scaling in a production pipe from the geothermal museum in Larderello.
 ```
 
-### Corrosion
+#### Corrosion
 
 One of the major reasons for corrosion is contact of the geothermal fluid with oxygen at the different stages of operation, which leads to oxidation of ions, iron in particular. As a result of this process, metal tubing as well as other surface equipment can be damaged and will require a workover, resulting in the stop of all geothermal operations. Additionally, products of corrosion in the form of small particles can migrate further with the fluid flow. It has been observed that the concentration of oxidized ions increases as the fluid passes from the production to the injection site {cite}`Brehme2018`, showing that corrosion can occur at all stages of the system. Furthermore, if the particles are small enough to pass through the filters, they could migrate into the reservoir and cause pore blockage and decline of injectivity. 
 
-### Control and prevention
+#### Control and prevention
 
 Various methods to control scaling and corrosion exist and are constantly being developed. One of the most common is the usage of chemicals - scaling or corrosion inhibitors to prevent or, at least, slow down these processes. Additionally, to decrease scaling, increased pressure at the surface can be applied to keep gas in the dissolved state. Multiple filter systems are also installed at various stages of operation to prevent the products of scaling and corrosion from migrating further and clogging the reservoir.
 Another big topic, receiving attention now is the development of chemical models of geothermal brine. This will allow the operating companies to accurately predict the system's behavior, select suitable operational parameters and choose treatment methods if needed.
 
 (section:reinjection)=
-## Processes during reinjection
+### Processes during reinjection
 
 Reinjection of the produced geothermal fluid back into the reservoir is a common practice, widely applied at fields around the world {cite}`Kaya2011, Stefansson1997`. There is a number of reasons for using this technology {cite}`Axelsson2012, Kaya2011`:
 
@@ -92,12 +92,12 @@ Reinjection of the produced geothermal fluid back into the reservoir is a common
 
 So, geothermal fluid reinjection has clear economic and technical advantages and is a key, and sometimes mandatory, process in a geothermal project. Therefore, its efficiency is very important and reinjection is constantly monitored to prevent possible issues. Various processes could influence the success of this process during operations. Disturbances in temperature, pressure, stresses and compositions in geothermal reservoirs as a result of cold brine reinjection could trigger complex coupled processes that influence injectivity. In the following sections we discuss these processes individually in more detail.
 
-### Cooling of the reservoir
+#### Cooling of the reservoir
 
 As we said before, the water injected into the geothermal reservoir has a lower temperature than that of the reservoir itself. As a result, heat flows from the rock towards the fluid, causing the temperature of the production well water to be higher than that of the injected water. However, in a closed geothermal reservoir, the extracted heat cannot be replenished, and the total amount of heat available for extraction is finite. This can be likened to the depletion of a water tank as water is pumped out; similarly, the extraction of heat leads to a reduction in the total amount of heat available, which in turn affects the reservoir's temperature.
 The reduction in temperature caused by the pumping of water has a direct impact on the productivity of the reservoir. As the temperature decreases, the economic viability of further exploitation also declines. Additionally, the temperature changes can trigger faults located in the cooling regime of the reservoir.
 
-### Injectivity decline
+#### Injectivity decline
 
 One key issue that determines the success of reinjection, and thus of the whole geothermal project, is to achieve and maintain injectivity at an acceptable level. In many geothermal fields where reinjection has been implemented, continuous decreases in injectivity have been recorded {cite}`Brehme2019, Birner2015`. In other words, over time we are able to inject less and less fluid because of some blockages. In some extreme cases, poor injectivity performance has led to the shutdown of the whole geothermal project, such as the Klaipeda geothermal plant in Lithuania.
 
@@ -131,7 +131,7 @@ So, you can see that at the end of this chain multiple processes can result in t
 </div>
 
 
-### Thermal fracturing at the well and hydro-shearing
+#### Thermal fracturing at the well and hydro-shearing
 
 
 The injection of fluids into a reservoir can cause significant changes in temperature, which may lead to the opening or reopening of fractures. This thermal crack initiation and propagation can alter the injectivity and permeability of the well, ultimately affecting the economic viability of the reservoir. Additionally, the energy released by these thermal cracks may result in induced seismicity. It is important to note that excessive permeability can cause the reservoir to cool too quickly, which can negatively impact its long-term profitability. On the other hand, insufficient permeability can result in poor fluid exchange, leading to suboptimal economic performance. In crystalline reservoirs, such as granite, fluid flow occurs primarily through fractures. To improve fracture permeability, a stimulation technique involving the injection of water at high pressure is employed. This process referred as hydro-shearing causes the fracture to slide and dilate, thereby creating a larger flow channel and improving the flow and heat exchange in the reservoir.
