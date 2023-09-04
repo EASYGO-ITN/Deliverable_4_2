@@ -64,7 +64,7 @@ height: 500px
 name: vibrotruck.gif
 align: center
 ---
-A vibrotruck is acquiring data in a seismic survey for the Einstein telescope.
+A vibrotruck is acquiring data in a seismic survey for the Einstein telescope. The metal plate vibrates thereby creating seismic waves used for exploration.
 ```
 
 <!--
@@ -87,7 +87,7 @@ Gravity is the force by which a planet or other body draws objects towards its c
 ---
 height: 300px
 ---
-Aquiring gravity data in the field.
+Acquiring gravity data in the field.
 ```
 
 ### Electromagnetic methods:
@@ -136,9 +136,18 @@ Exploratory drilling is used for collecting well logs. For these logs, specializ
 
 Overall, the use of multiple types of well logs can provide comprehensive data about the subsurface geology and rock properties and assists to identify potential geothermal reservoirs. For example, the presence of high porosity and permeability in certain rock formations within the borehole can indicate the presence of a geothermal reservoir, as these properties are important for the storage and movement of hot fluids.
 
-![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg)
+```{figure} ./exploration_pictures/tunnel_drilling.jpg
+---
+height: 400px
+name: tunnel_drilling.jpg
+align: center
+---
+A tunnel rig in the Bedretto Underground Laboratory drilling boreholes for hydraulic stimulations.
+```
 
-[//]: # (<img align="right" width="100" height="400" src="./exploration_pictures/cores5.jpg">)
+<!-- ![Drilling of wellbore inside a tunnel to explore for geothermal potential.](/exploration_pictures/tunnel_drilling.jpg) -->
+
+<!-- [//]: # (<img align="center" width="100" height="400" src="./exploration_pictures/cores5.jpg">) -->
 
 <!-- <img align="right" width="100" height="400" src="_images/cores5.jpg"> -->
 
@@ -148,7 +157,7 @@ Overall, the use of multiple types of well logs can provide comprehensive data a
 ---
 height: 400px
 name: cores4.jpg
-align: right
+align: center
 ---
 Core samples from the BULGG.
 ```
