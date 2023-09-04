@@ -1,6 +1,6 @@
 # Bibliography
 
-The following sources may make for good further reading:
+The following sources may make for good further reading: 
 
 ```{bibliography}
 ```
