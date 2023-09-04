@@ -1,4 +1,4 @@
-# The origins of geothermal energy
+# Origins
 <span style="font-size:0.6em;">Last edited: 01 Sep 2023</span> \
 <span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;"> Esteban Gomez (RWTH Aachen, Germany - ETH Zurich, Switzerland)</span> \
 <span>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Wen Luo (TU Delft, Netherlands - RWTH Aachen, Germany)</span>

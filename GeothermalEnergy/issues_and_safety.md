@@ -1,4 +1,4 @@
-# Issues and Safety of Geothermal Operations
+# Issues and Safety
 
 <span style="font-size:0.6em;">Last edited: 01 Sep 2023</span> \
 <span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Anna Kottsova (ETH Zurich, Switzerland - TU Delft, Netherlands)</span> \

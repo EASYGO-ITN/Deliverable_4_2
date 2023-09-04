@@ -1,4 +1,4 @@
-# Geothermal Energy Utilisation
+# Utilisation
 <span style="font-size:0.6em;">Last edited: 01 Sep 2023</span> \
 <span style="font-size:0.6em;">Author(s): </span>&ensp; <span style="font-size:0.6em;">Lorenzo Galieti (TU Delft, Netherlands - Politecnico di Milano, Italy)</span> \
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span style="font-size:0.6em;">Tristan Merbecks (Politecnico di Milano, Italy - ETH Zurich, Switzerland)</span> \

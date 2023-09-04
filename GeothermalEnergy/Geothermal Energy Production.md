@@ -1,4 +1,4 @@
-# Geothermal Energy Production and Operation
+# Production and Operation
 
 ## Introduction and Geothermal System Types
 <span style="font-size:0.6em;">Last edited: 11 Aug 2023</span> \
