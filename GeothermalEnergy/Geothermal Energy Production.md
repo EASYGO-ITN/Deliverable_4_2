@@ -255,3 +255,9 @@ The wellbore flowing pressure is related to the surface production rate by both 
 ![VLP2](../GeothermalEnergy/Production_images/selvi_VLP2_exp.png)
 
 The well deliverability, which expresses what a well will actually produce for a specific operating condition (Pr, PI, WC, GOR, THP, tubing size...), is produced by the intersection of the IPR and the VLP, also known as the operational point. 
+
+## Further Reading
+* "*Geothermal reservoir engineering*" {cite}`Grant2011`
+* "*Sustainable energy: choosing among options*" {cite}`Tester2012`
+* "*CO2 Plume Geothermal (CPG)*" {cite}`geg2021`
+* "*Closed-loop geothermal*" {cite}`Beckers2022`

@@ -372,5 +372,7 @@ Schematic of a cooling tower
 The principle if very similar to what happens when we mix too much sugar into coffee: some of it will dissolve in the liquid, giving it a sweeter taste, the rest will fall to the bottom of the cup. Nature tells us the process requires heat, hence the geofluid falling to the bottom of the tower will also cool down.
 
 ## Further Reading
+* "*Direct Utilization of Geothermal Energy - A Technical Handbook*" {cite}`Anderson1979`
+* "*Direct utilization of geothermal energy*" {cite}`Lund2021`
 * "*Geothermal Power Plants*" for further information on geothermal power plants {cite}`DiPippo2016`
 * "*Thermodynamics: Foundations and Applications*" for the underlying thermodynamical principles {cite}`Gyftopoulos2005`
