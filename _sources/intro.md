@@ -1,4 +1,4 @@
-# Welcome to Geothermal Energy
+# About
 
 As the global quest for decarbonization is underway, geothermal energy is poised to play a pivotal role in the 
 renewable energy transition of many countries worldwide. To harness its full potential, there is a pressing need for 
