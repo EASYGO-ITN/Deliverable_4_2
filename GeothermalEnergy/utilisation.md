@@ -14,7 +14,7 @@ In the summer months, already warm climates or where there are no consumers in t
 align: center
 name: applications
 ---
-The direct and indirect utilisations of geothermal energy with different in-situ temperatures. Figure provided by Martine Bloemendal {cite}`martine`.
+The direct and indirect utilisations of geothermal energy with different in-situ temperatures. Figure provided by Martin Bloemendal {cite}`martine`.
 ```
 
 ## Direct Use
@@ -34,7 +34,7 @@ So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have
 ---
 align: center
 ---
-Schematics of a GHP and ATES system. In the summer, water with temperature from 5 &deg; C to 10 &deg; C is extracted to cool the buldings down and the heated water with temperature from 15 &deg; C to 18 &deg; C is reinjected into the shallow subsurface. Vice visa, in the winter, water with temperature from 15 &deg;C to 18 &deg; C is extracted to warm the building with the help of heat pumps, and cooled water is reinjected. Figure provided by Martine Bloemendal {cite}`martine`
+Schematics of a GHP and ATES system. In the summer, water with temperature from 5 &deg; C to 10 &deg; C is extracted to cool the buldings down and the heated water with temperature from 15 &deg; C to 18 &deg; C is reinjected into the shallow subsurface. Vice visa, in the winter, water with temperature from 15 &deg;C to 18 &deg; C is extracted to warm the building with the help of heat pumps, and cooled water is reinjected. Figure provided by Martin Bloemendal {cite}`martine`
 ```
 
 Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
