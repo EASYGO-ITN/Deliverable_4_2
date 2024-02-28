@@ -208,3 +208,4 @@ The model shows the geologic map on top that was created with outcrop informatio
 
 The data is given by the Utah Forge Geothermal Database. {cite:p}`oedi_1034`
 Visualization is done by pyVista. {cite:p}`sullivan2019pyvista`
+

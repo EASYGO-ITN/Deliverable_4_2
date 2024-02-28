@@ -158,3 +158,4 @@ Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}`gi
 * "*Geothermal Well Test Analysis*" {cite}`Zarrouk2019`
 * "*An introduction to seismology, earthquakes, and earth structure*" {cite}`Seth2003`
 * "*Passive Seismic Monitoring of Induced Seismicity*" {cite}`Eaton2018`
+
