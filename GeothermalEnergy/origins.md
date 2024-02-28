@@ -67,3 +67,4 @@ More specifically, considering the density profile of continental crust, three l
 * "*Geothermal Energy Basics*" {cite}`NREL`
 * "*Energy 101: Geothermal Energy*" {cite}`energy_gov`
 
+

@@ -376,3 +376,4 @@ The principle if very similar to what happens when we mix too much sugar into co
 * "*Direct utilization of geothermal energy*" {cite}`Lund2021`
 * "*Geothermal Power Plants*" for further information on geothermal power plants {cite}`DiPippo2016`
 * "*Thermodynamics: Foundations and Applications*" for the underlying thermodynamical principles {cite}`Gyftopoulos2005`
+
