@@ -14,7 +14,7 @@ In the summer months, already warm climates or where there are no consumers in t
 align: center
 name: applications
 ---
-The direct and indirect utilisations of geothermal energy with different in-situ temperatures. Figure provided by Martine Bloemendal {cite}`martine`.
+The direct and indirect utilisations of geothermal energy with different in-situ temperatures. Figure provided by Martin Bloemendal {cite}`martine`.
 ```
 
 ## Direct Use
@@ -34,7 +34,7 @@ So far, geothermal heat pumps (GHPs), also called ground-source heat pumps, have
 ---
 align: center
 ---
-Schematics of a GHP and ATES system. In the summer, water with temperature from 5 &deg; C to 10 &deg; C is extracted to cool the buldings down and the heated water with temperature from 15 &deg; C to 18 &deg; C is reinjected into the shallow subsurface. Vice visa, in the winter, water with temperature from 15 &deg;C to 18 &deg; C is extracted to warm the building with the help of heat pumps, and cooled water is reinjected. Figure provided by Martine Bloemendal {cite}`martine`
+Schematics of a GHP and ATES system. In the summer, water with temperature from 5 &deg; C to 10 &deg; C is extracted to cool the buldings down and the heated water with temperature from 15 &deg; C to 18 &deg; C is reinjected into the shallow subsurface. Vice visa, in the winter, water with temperature from 15 &deg;C to 18 &deg; C is extracted to warm the building with the help of heat pumps, and cooled water is reinjected. Figure provided by Martin Bloemendal {cite}`martine`
 ```
 
 Space heating, including individual space heating and district heating, dates back from 14th century when inhabitants of French village, Chaudes-Aigues Cnatal, utilised geothermal heat via a district heating networks that is still in use today {cite}`stanford`. Wells or multiple wells, consisting of producer and injector, are used to circulate geo-fluids with a temperature ranging from 60 &deg;C - 90 &deg;C {cite}`spaceheating`. If high enough temperature can be reached at a depth of 20 m - 200 m, downhole exchangers can also be used. The leading countries in space heating are China, Iceland and Turkey, with a worldwide installed capacity reaching 12768 MWt by the end of 2019 {cite}`lund2021direct`.
@@ -372,5 +372,7 @@ Schematic of a cooling tower
 The principle if very similar to what happens when we mix too much sugar into coffee: some of it will dissolve in the liquid, giving it a sweeter taste, the rest will fall to the bottom of the cup. Nature tells us the process requires heat, hence the geofluid falling to the bottom of the tower will also cool down.
 
 ## Further Reading
+* "*Direct Utilization of Geothermal Energy - A Technical Handbook*" {cite}`Anderson1979`
+* "*Direct utilization of geothermal energy*" {cite}`Lund2021`
 * "*Geothermal Power Plants*" for further information on geothermal power plants {cite}`DiPippo2016`
 * "*Thermodynamics: Foundations and Applications*" for the underlying thermodynamical principles {cite}`Gyftopoulos2005`

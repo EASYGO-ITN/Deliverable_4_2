@@ -28,7 +28,7 @@ While existing conventional hydrothermal systems continue to produce vast amount
 
 ### Enhanced geothermal systems
 
-Considering that "the deeper we go, the hotter it gets", usually temperature is not the restricting variable for geothermal development. Permeability tends to be the most sought-after feature at great depths. When naturally-occurring permeability is not found, one can recurr to other ways of developing a geothermal reservoir.  Enhanced Geothermal Systems (EGS) refer to man-made reservoirs that are created by drilling wells into naturally impermeable rock formations, and then increasing their permeability through hydraulic stimulation techniques such as hydraulic fracturing (opening up new fractures in the rock) and/or hydro-shearing (displacing natural fractures in order to increase their conductivity). By stimulating the reservoir, the goal is to emulate the high productivity characteristics, meaning our ability to obtain high fluid flow rates, of hydrothermal systems. The concept of EGS was first proposed in the early 1970s by researchers at the Los Alamos National Laboratory in the United States {cite}`Armstead1987`. Since then, the technical feasibility of EGS has been demonstrated at several research sites worldwide {cite}`Breede2013, GTO2014`. However, no commercially viable EGS site currently exists that can produce heat or electricity at a competitive cost. 
+Considering that "the deeper we go, the hotter it gets", usually temperature is not the restricting variable for geothermal development. Permeability tends to be the most sought-after feature at great depths. When naturally-occurring permeability is not found, one can recurr to other ways of developing a geothermal reservoir.  Enhanced Geothermal Systems (EGS) refer to man-made reservoirs that are created by drilling wells into naturally impermeable rock formations, and then increasing their permeability through hydraulic stimulation techniques such as hydraulic fracturing (opening up new fractures in the rock) and/or hydro-shearing (displacing natural fractures in order to increase their conductivity). By stimulating the reservoir, the goal is to emulate the high productivity characteristics, meaning our ability to obtain high fluid flow rates, of hydrothermal systems. The concept of EGS was first proposed in the early 1970s by researchers at the Los Alamos National Laboratory in the United States {cite}`Armstead1987`. Since then, the technical feasibility of EGS has been demonstrated at several research sites worldwide {cite}`Breede2013`. However, no commercially viable EGS site currently exists that can produce heat or electricity at a competitive cost. 
 
 
 ```{figure} ../GeothermalEnergy/Production_images/EGS.png
@@ -65,7 +65,7 @@ Ongoing research efforts in AGS aim to improve the understanding of the commerci
    Meanwhile Ryan is working on optimization of coaxial borehole heat exchanger system in UK with a physics-based machine-learning method. Find out more <a href="https://easygo-itn.eu/ryan-santoso/">here</a> or <a href="https://scholar.google.co.id/citations?user=abGVFp8AAAAJ&hl=de&oi=ao">here</a>!
 </div>
 
-### CO2-based geothermal systems
+### CO<sub>2</sub>-based geothermal systems
 
 Traditionally, extracting geothermal energy has always involved using water or brine as the energy extraction fluid in the deep reservoir, as explained in the geothermal system types above. However, in the past two decades, scientific studies – both theoretical and numerical – have highlighted the potential of using supercritical CO<sub>2 </sub> (sCO<sub>2</sub>) instead of water. This is because sCO<sub>2</sub> has unique chemical, transport, and thermodynamic properties that make it an attractive alternative for geothermal energy extraction {cite}`Brown2000, Pruess2006, Randolph2011, Zhang2014`. As a result, for each of the three reservoir types previously discussed, a conceptual analog that utilizes sCO<sub>2</sub> as the subsurface working fluid has been proposed. In the literature, these systems are commonly referred to as CO<sub>2</sub>-Plume Geothermal (CPG) system, CO<sub>2</sub>-Enhanced Geothermal System (CO<sub>2</sub>-EGS), and CO<sub>2</sub>-Advanced Geothermal System (CO<sub>2</sub>-AGS), respectively.
 
@@ -255,3 +255,9 @@ The wellbore flowing pressure is related to the surface production rate by both 
 ![VLP2](../GeothermalEnergy/Production_images/selvi_VLP2_exp.png)
 
 The well deliverability, which expresses what a well will actually produce for a specific operating condition (Pr, PI, WC, GOR, THP, tubing size...), is produced by the intersection of the IPR and the VLP, also known as the operational point. 
+
+## Further Reading
+* "*Geothermal reservoir engineering*" {cite}`Grant2011`
+* "*Sustainable energy: choosing among options*" {cite}`Tester2012`
+* "*CO2 Plume Geothermal (CPG)*" {cite}`geg2021`
+* "*Closed-loop geothermal*" {cite}`Beckers2022`
