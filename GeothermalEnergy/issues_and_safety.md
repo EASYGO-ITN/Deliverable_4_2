@@ -10,8 +10,13 @@ While geothermal energy offers many benefits as a renewable and sustainable ener
 `````{admonition} Recap on how geothermal energy works
 :class: tip
 Geothermal power plants harness the heat stored beneath the Earth's surface to generate electricity. This heat comes from hot water or steam found in underground reservoirs. To access this heat, operators drill (deep) wells into the Earth to extract the hot fluids. After the heat is extracted and used to generate electricity, the cooled fluids are often reinjected into the reservoir to maintain pressure and sustain the resource.
-![Example image](../GeothermalEnergy/issues_pictures/dapwell.jpg)
-Figure 1: Schematic representation of the DAP-well [click here for more details](https://www.tudelft.nl/en/delft-outlook/articles/campus-switching-to-geothermal-energy).
+
+```{figure} ../GeothermalEnergy/issues_pictures/dapwell.jpg
+---
+align: center
+---
+Schematic representation of the DAP-well [click here for more details](https://www.tudelft.nl/en/delft-outlook/articles/campus-switching-to-geothermal-energy).
+```
 
 `````
 
@@ -49,7 +54,7 @@ In the context of geothermal operations, induced [light to moderate earthquakes]
 
 Analyzing the potential danger posed by earthquakes is not a trivial task. It is important to distinguish between hazard and risk. Hazard relates to the intrinsic natural occurrence of earthquakes and the resulting ground motion, whereas risk is the danger the hazard poses to life and property {cite}`stein2009introduction`. It is often said that "earthquakes do not kill people, but buildings do". For this reason, it is critical to quantify the potential for an earthquake to occur at particular geological sites due to fluid injection and study the risk it may pose. 
 
-If you would like to learn about the destructive geothermal-induced 2017 Pohang Earthquake, you can check out the following articles by [Shapiro et al., (2021)(https://www.nature.com/articles/s41467-021-26679-w) or [Grigoli et al., (2018)](https://www.science.org/doi/10.1126/science.aat2010).
+If you would like to learn about the destructive geothermal-induced 2017 Pohang Earthquake, you can check out the following articles by [Shapiro et al.,(2021)](https://www.nature.com/articles/s41467-021-26679-w) or [Grigoli et al., (2018)](https://www.science.org/doi/10.1126/science.aat2010).
 `````
 
 <div class="alert alert-block alert-info">
@@ -142,8 +147,14 @@ The injection of fluids into a reservoir can cause significant changes in temper
 width: 800px
 align: center
 ---
-Figure 4: Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}`gischig`.
+Difference between hydraulic fracturing (a) and hydraulic shearing (b) {cite}`gischig`.
 ```
 <div class="alert alert-block alert-info">
 <b>By the way:</b> One of our researchers is working on this topic. Josselin Ouf is conducting numerical modeling  on fault instability due to reservoir contraction and hydro-shearing stimulation. Learn more about his work <a href="https://easygo-itn.eu/josselin-ouf/">Learn more about his work</a> 
 </div>
+
+
+## Further Reading
+* "*Geothermal Well Test Analysis*" {cite}`Zarrouk2019`
+* "*An introduction to seismology, earthquakes, and earth structure*" {cite}`Seth2003`
+* "*Passive Seismic Monitoring of Induced Seismicity*" {cite}`Eaton2018`
