@@ -193,7 +193,7 @@ Convection is the transfer of heat through the movement of fluids. In geothermal
 Radiation is the transfer of heat through electromagnetic waves. In the case of geothermal steam production wells, radiation heat loss occurs as the steam interacts with the wellbore and the surrounding environment. The steam emits infrared radiation, which can escape through the wellbore and be absorbed by the surrounding formations or the atmosphere. This process leads to a loss of thermal energy from the steam, reducing its temperature.
 
 
-These heat loss mechanisms have a significant impact on the overall efficiency and productivity of geothermal steam production wells. The loss of heat from the steam results in a decrease in steam temperature, which affects the efficiency of power generation. Lower-temperature steam requires additional energy input for conversion into electricity, resulting in reduced power output and decreased overall plant efficiency.[Tester, J. W., et al. (2006).](HeatLossMechanisms)
+These heat loss mechanisms have a significant impact on the overall efficiency and productivity of geothermal steam production wells. The loss of heat from the steam results in a decrease in steam temperature, which affects the efficiency of power generation. Lower-temperature steam requires additional energy input for conversion into electricity, resulting in reduced power output and decreased overall plant efficiency.
 
 ### How to mitigate the heat loss effect in geothermal steam production wells?
 

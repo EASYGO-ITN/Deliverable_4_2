@@ -18,7 +18,8 @@ embark on this transformative journey!
 ```
 
 # License
-This work has been created under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+This work has been created under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). This
+means you can use, change and share this with anyone, including downloading the source files.
 
 # Citation
 We suggest the following citation:

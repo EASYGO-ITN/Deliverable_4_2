@@ -11,11 +11,11 @@ While geothermal energy offers many benefits as a renewable and sustainable ener
 :class: tip
 Geothermal power plants harness the heat stored beneath the Earth's surface to generate electricity. This heat comes from hot water or steam found in underground reservoirs. To access this heat, operators drill (deep) wells into the Earth to extract the hot fluids. After the heat is extracted and used to generate electricity, the cooled fluids are often reinjected into the reservoir to maintain pressure and sustain the resource.
 
-```{figure} ../GeothermalEnergy/issues_pictures/dapwell.jpg
+```{figure} ../GeothermalEnergy/issues_pictures/2019_08_Illustration_DAP_HR.jpeg
 ---
 align: center
 ---
-Schematic representation of the DAP-well [click here for more details](https://www.tudelft.nl/en/delft-outlook/articles/campus-switching-to-geothermal-energy).
+Schematic representation of the Delft University of Technology campus geothermal project [click here for more details](https://www.tudelft.nl/en/delft-outlook/articles/campus-switching-to-geothermal-energy).
 ```
 
 `````
@@ -25,15 +25,20 @@ Schematic representation of the DAP-well [click here for more details](https://w
 Geothermal energy is often considered an environmentally friendly energy source due to its low greenhouse gas emissions and renewability. However, it is essential to consider the potential environmental impacts associated with geothermal operations to ensure sustainable development and minimize adverse effects on the surrounding ecosystem. This section discusses some critical environmental concerns related to geothermal energy production, including greenhouse gas emissions, water pollution, and induced seismicity.
 
 ### Greenhouse Gas Emissions
-Let's begin by examining a recognized environmental concern related to geothermal energy production: greenhouse gas emissions. Geothermal power plants generally emit fewer greenhouse gases than conventional fossil fuel-based power plants. However, they do release greenhouse gases, such as carbon dioxide (CO<sub>2</sub>) and methane (CH<sub>4</sub>), during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of geothermal plants produce near-zero emissions [(Holm et al., 2012)](https://geothermal.org/sites/default/files/2021-02/Geothermal_Greenhouse_Emissions_2012_0.pdf).
+Let's begin by examining a recognized environmental concern related to geothermal energy production: greenhouse gas 
+emissions. Geothermal power plants generally emit fewer greenhouse gases than conventional fossil fuel-based power 
+plants. However, they do release greenhouse gases, such as carbon dioxide (CO<sub>2</sub>) and methane (CH<sub>4</sub>),
+during the extraction of geothermal fluids. Geothermal plants emit about 5% of the carbon dioxide, 1% of the sulfur 
+dioxide, and less than 1% of the nitrous oxide emitted by a coal-fired plant of equal size, and certain types of 
+geothermal plants produce near-zero emissions {cite}`Holm_et_al_2012`.
 While the volume of these emissions is relatively low compared to fossil fuel-based plants, they still pose a considerable concern. For this reason, it is important to monitor and minimize these emissions through the implementation of advanced technologies and best practices (see section [Processes during reinjection](section:reinjection)).
 
 `````{admonition} Are CO<sub>2</sub> emissions from solar energy lower than the ones from geothermal?
 :class: tip
 
-According to a study by [Chandrasekharam et al., (2020)](https://link.springer.com/article/10.1007/s40948-019-00135-y), geothermal energy exhibits lower greenhouse gas emissions when compared to solar PV (photovoltaic). This is because solar PV energy, which converts sunlight into electricity, involves a substantial amount of energy and materials during the manufacturing process of solar cells, resulting in higher emissions throughout the cells' lifecycle. As a result, geothermal energy stands out as a more environmentally friendly option with lower CO<sub>2</sub> emissions. 
+According to a study by {cite:t}`Chandrasekharam2020`, geothermal energy exhibits lower greenhouse gas emissions when compared to solar PV (photovoltaic). This is because solar PV energy, which converts sunlight into electricity, involves a substantial amount of energy and materials during the manufacturing process of solar cells, resulting in higher emissions throughout the cells' lifecycle. As a result, geothermal energy stands out as a more environmentally friendly option with lower CO<sub>2</sub> emissions. 
 
-Although this might be the case for most geothermal operations, it is important to note that some regions may have higher emissions. For example, Turkish geothermal plants have shown CO<sub>2</sub> emission factors significantly higher than the reported global average [(see Aksoy et al., 2015)](https://link.springer.com/article/10.1134/S0040601516050098).
+Although this might be the case for most geothermal operations, it is important to note that some regions may have higher emissions. For example, Turkish geothermal plants have shown CO<sub>2</sub> emission factors significantly higher than the reported global average see {cite:t}`Tomarov2016`.
 `````
 
 ### Water Pollution
@@ -43,7 +48,7 @@ Apart from the atmospheric considerations, geothermal operations may pose potent
 
 While the impact on air and water quality are significant, another environmental concern of geothermal energy production is induced seismicity. This kind of seismicity is caused by stress changes resulting from anthropogenic activities. In geothermal systems, pressure changes can occur due to the production and (re)injection of geothermal fluid {cite}`buijze_van2019`. This can lead to the creation of new fractures or the reactivation of existing faults (if the fluids migrate towards these).
 
-Induced seismicity associated with geothermal operations is generally minor in scale and often goes unnoticed by people living nearby. This shouldn't come as a surprise, as successively smaller earthquakes are more common, as shown by the [Gutenber-Richter frequency-magnitude distribution relation](https://doi.org/10.1016/B978-0-12-814580-7.00014-9). 
+Induced seismicity associated with geothermal operations is generally minor in scale and often goes unnoticed by people living nearby. This shouldn't come as a surprise, as successively smaller earthquakes are more common, as shown by the Gutenber-Richter frequency-magnitude distribution relation {cite}`Zalohar2018`. 
 
 Despite this general trend of minor seismic activity, there are instances where geothermal operations have induced earthquakes strong enough to cause damaging ground motions. These potentially damaging earthquakes cannot be confidently predicted before the start of operations {cite}`Atkinson2020`. This was the case in the destructive 2017 Pohang Earthquake in South Korea.
 
@@ -54,7 +59,7 @@ In the context of geothermal operations, induced [light to moderate earthquakes]
 
 Analyzing the potential danger posed by earthquakes is not a trivial task. It is important to distinguish between hazard and risk. Hazard relates to the intrinsic natural occurrence of earthquakes and the resulting ground motion, whereas risk is the danger the hazard poses to life and property {cite}`stein2009introduction`. It is often said that "earthquakes do not kill people, but buildings do". For this reason, it is critical to quantify the potential for an earthquake to occur at particular geological sites due to fluid injection and study the risk it may pose. 
 
-If you would like to learn about the destructive geothermal-induced 2017 Pohang Earthquake, you can check out the following articles by [Shapiro et al.,(2021)](https://www.nature.com/articles/s41467-021-26679-w) or [Grigoli et al., (2018)](https://www.science.org/doi/10.1126/science.aat2010).
+If you would like to learn about the destructive geothermal-induced 2017 Pohang Earthquake, you can check out the following articles by {cite:t}`Shapiro2021` or {cite:t}`Grigoli2018`.
 `````
 
 <div class="alert alert-block alert-info">
